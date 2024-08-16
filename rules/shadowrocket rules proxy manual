@@ -1,0 +1,2163 @@
+ # proxy manual (test)
+   # Ⓜ️ 微软服务
+    # . .1drv
+
+    .aadrm.com
+    .acompli.com
+    .acompli.net
+    .assets-yammer.com
+    .azurerms.com
+    .lync.com
+    .msappproxy.net
+    .msauthimages.net
+    .msftauthimages.net
+    .msftidentity.com
+    .msidentity.com
+    .msn.cn
+    .mstea.ms
+    .oaspapps.com
+    .officeppe.net
+    .outlookmobile.com
+    .phonefactor.net
+    .skypeforbusiness.com
+    .sway-extensions.com
+    .uservoice.com
+    .windows-ppe.net
+    .wunderlist.com
+    .yammerusercontent.com
+
+   # 🍎 苹果服务
+    .apple.comscoreresearch.com
+  
+    .appstore.com
+    .crashlytics.com
+    .icloud.com.cn
+
+   # 🌍 国外媒体
+    # .com.viu.pad
+    # .com.viu.phone
+    # .com.vuclip.viu
+
+    # . .-spotify-
+    # . ..hbogoasia.
+    # . .abematv.akamaized.net
+    # . .apiproxy-device-prod-nlb-
+    # . .avoddashs
+    # . .bbcfmt
+    # . .dualstack.apiproxy-
+    # . .hbogoasia
+    # . .japonx
+    # . .japronx
+    # . .jooxweb-api
+    # . .netflixdnstest
+    # . .nivod
+    # . .nowtv100
+    # . .olevod
+    # . .openai
+    # . .rthklive
+    # . .spotify.com
+    # . .tiktokcdn
+    # . .ttvnw
+    # . .uk-live
+    # . .voddazn
+
+    .44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+    .aod-dash-uk-live.akamaized.net
+    .aod-hls-uk-live.akamaized.net
+    .api-abematv.bucketeer.jp
+    .atv-ps.amazon.com
+    .avodmp4s3ww-a.akamaihd.net
+    .bahamut.akamaized.net
+    .bcbolt446c5271-a.akamaihd.net
+    .bcbolthboa-a.akamaihd.net
+    .cdn.registerdisney.go.com
+    .cf-images.ap-southeast-1.prod.boltdns.net
+    .content.jwplatform.com
+    .d1v5ir2lpwr8os.cloudfront.net
+    .d1xfray82862hr.cloudfront.net
+    .d3c7rimkq79yfu.cloudfront.net
+    .d22qjgkvxw22r6.cloudfront.net
+    .d25xi40x97liuc.cloudfront.net
+    .d27xxe7juh1us6.cloudfront.net
+    .d151l6v8er5bdm.cloudfront.net
+    .d349g9zuie06uo.cloudfront.net
+    .d3196yreox78o9.cloudfront.net
+    .dai3fd1oh325y.cloudfront.net
+    .dmqdd6hw24ucf.cloudfront.net
+    .edge.api.brightcove.com
+    .gspe1-ssl.ls.apple.com
+    .hamifans.emome.net
+    .hboasia1-i.akamaihd.net
+    .hboasia2-i.akamaihd.net
+    .hboasia3-i.akamaihd.net
+    .hboasia4-i.akamaihd.net
+    .hboasia5-i.akamaihd.net
+    .hboasialive.akamaized.net
+    .hbogoprod-vod.akamaized.net
+    .hbolb.onwardsmg.com
+    .hbounify-prod.evergent.com
+    .itvpnpmobile-a.akamaihd.net
+    .kktv-theater.kk.stream
+    .ktpx.amazon.com
+    .litvfreemobile-hichannel.cdn.hinet.net
+    .music.youtube.com
+    .mytvsuperlimited.hb.omtrdc.net
+    .mytvsuperlimited.sc.omtrdc.net
+    .np-edge.itunes.apple.com
+    .play-edge.itunes.apple.com
+    .players.brightcove.net
+    .s3-ap-southeast-1.amazonaws.com
+    .videos-f.jwpsrv.com
+    .yt3.ggpht.com
+  
+    .5itv.tv
+    .aiv-delivery.net
+    .amazontools.com
+    .amazontours.com
+    .amazonuniversity.jobs
+    .bam.nr-data.net
+    .bbcfmt.hs.llnwd.net
+    .bbci.co
+    .braze.com
+    .c4assets.com
+    .cdn.registerdisney.go.com
+    .challenges.cloudflare.com
+    .channel4.com
+    .channel5.com
+    .cognito-identity.us-east-1.amazonaws.com
+    .cws-hulu.conviva.com
+    .cws.conviva.com
+    .d1sgwhnao7452x.cloudfront.net
+    .d3c7rimkq79yfu.cloudfront.net
+    .d9.flashtalking.com
+    .d151l6v8er5bdm.cloudfront.net
+    .dcblivedazn.akamaized.net
+    .deezer.com
+    .dfp6rglgjqszk.cloudfront.net
+    .discovery.com
+    .dmc.nico
+    .dzcdn.net
+    .events.statsigapi.net
+    .execute-api.us-east-1.amazonaws.com
+    .featuregates.org
+    .happyon.jp
+    .hjholdings.jp
+    .hulu.hb.omtrdc.net
+    .hulu.sc.omtrdc.net
+    .ipstatp.com
+    .itvstatic.com
+    .japonx.com
+    .japonx.net
+    .japonx.tv
+    .japonx.vip
+    .japronx.com
+    .japronx.net
+    .japronx.tv
+    .japronx.vip
+    .js-agent.newrelic.com
+    .mobileanalytics.us-east-1.amazonaws.com
+    .my5.tv
+    .ocnttv.com
+    .openaiapi-site.azureedge.net
+    .p-cdn.us
+    .pandora.com
+    .prod.hjholdings.tv
+    .profile.line-scdn.net
+    .pv-cdn.net
+    .qobuz.com
+    .seattlespheres.com
+    .sentry.io
+    .skyking.com.tw
+    .streaks.jp
+    .tidal-cms.s3.amazonaws.com
+    .tv.apple.com
+    .twitch-ext.rootonline.de
+    .viu.now.com
+    .yb.uncn.jp
+
+   # 🚀 节点选择
+
+    # . .1drv
+    # . .1e100
+    # . .abema
+    # . .avtb
+    # . .beetalk
+    # . .blogspot
+    # . .dropbox
+    # . .facebook
+    # . .fbcdn
+    # . .github
+    # . .instagram
+    # . .onedrive
+    # . .sci-hub
+    # . .skydrive
+    # . .spotify
+    # . .telegram
+    # . .ttvnw
+    # . .uk-live
+    # . .whatsapp
+
+    # . .eu
+    # . .hk
+    # . .jp
+    # . .kr
+    # . .sg
+    # . .tw
+    # . .uk
+
+    .2mdn.net
+    .4sqi.net
+    .a248.e.akamai.net
+    .ahcdn.com
+    .amplitude.com
+    .aolcdn.com
+    .app-measurement.com
+    .app-measurement.net
+    .armorgames.com
+    .bbc.co
+    .bcvcdn.com
+    .bit.no.com
+    .bkrtx.com
+    .blogcdn.com
+    .blogsmithmedia.com
+    .btlibrary.me
+    .cachefly.net
+    .challenges.cloudflare.com
+    .deskconnect.com
+    .dubox.com
+    .edgecastcdn.net
+    .elastic.co
+    .elastic.com
+    .eurekavpt.com
+    .fastmail.com
+    .flipboard.com
+    .flzbcdn.xyz
+    .gameloft.com
+    .gongm.in
+    .gstatic.cn
+    .hockeyapp.net
+    .icntv.xyz
+    .id.heroku.com
+    .instagr.am
+    .io.io
+    .ip138.com
+    .issuu.com
+    .jitpack.io
+    .kat.cr
+    .kik.com
+    .kobo.com
+    .kobobooks.com
+    .maven.org
+    .megaupload.com
+    .mvnrepository.com
+    .myteamspeak.com
+    .netdna-cdn.com
+    .neulion.com
+    .nsstatic.net
+    .ocnttv.com
+    .oneclient.sfx.ms
+    .photos.live.com
+    .picjs.xyz
+    .potato.im
+    .prfct.co
+    .readdle.com
+    .resilio.com
+    .skydrive.wns.windows.com
+    .smartmailcloud.com
+    .sonatype.org
+    .sourcegraph.com
+    .spoprod-a.akamaihd.net
+    .spring.io
+    .spring.net
+    .steamstat.us
+    .storage.msn.com
+    .symauth.com
+    .tap.io
+    .taptap.tw
+    .teddysun.com
+    .terabox.com
+    .teraboxcdn.com
+    .textnow.com
+    .textnow.me
+    .trustasiassl.com
+    .tumbex.com
+    .twdvd.com
+    .twimg.org
+    .txmblr.com
+    .unsplash.com
+    .vikacg.com
+
+ # proxy manual
+
+  # #
+   # 1800 flowers
+    .1800flowers.com
+
+    .1800flowers.7ymy.net
+    .1800flowers.attn.tv
+    .z1800flowers3276921z.btttag.com
+    .zn8gre3bdrts5wjr3-1800flowers.siteintercept.qualtrics.com
+
+   # 14news
+    .14news.com
+  
+    .gray-wfie-prod.cdn.arcpublishing.com
+
+   # 2miners
+    .2miners.com
+
+   # 1password
+    .1password.com
+
+  # a
+   # aaos
+    .aaos.org
+
+   # aaro
+
+   # acast
+    .acast.com
+
+   # acipayonline
+    .acipayonline.com
+
+   # acuityscheduling
+    .acuityscheduling.com
+
+   # addepar
+    .addepar.com
+
+    .id.addepar.com
+    .matrixpcg.addepar.com
+
+   # adsrvr
+
+   # adtdp
+
+   # agkn
+
+   # agoda
+    .agoda.com
+
+    .pix6.agoda.net
+    .mtagm.agoda.com
+    .img.agoda.net
+    .cdn6.agoda.net
+    .cdn0.agoda.net
+    .bento.agoda.com
+
+   # ahalogy
+
+   # ai art
+    .craiyon.com
+    .hotpot.ai
+    .nightcafe.studio
+
+   # airasia
+    .airasia.ck123.io
+    .airasia.com
+    .airasia.gw-dv.vip
+    .payment.airasia.com
+    .payment.apiairasia.com
+    .sso-widget.airasia.com
+    .ssor.airasia.com
+    .static.airasia.com
+
+   # akamai technologies
+    # AS16625 - Akamai Technologies, Inc.
+
+   # alchemer.com
+    .alchemer.com
+
+   # alpineschools.org
+    .alpineschools.org
+
+   # amazon
+
+   # amc
+    .amc.com
+    .amcn.com
+    .amcnetworks.com
+    .amcplus.com
+    .e5a6ae085b6c43020dea230eb0c0ecc33a188227507da97b8ecc05eb8beace6.us-east-1.prod.service.minerva.devices.a2z.com
+
+   # annas-archive
+    .annas-archive.org
+
+   # apkpure
+    .apkpure.net
+
+   # apple
+    # . amp-api.podcasts.apple.com
+    # . api.spreaker.com
+    # . chrt.fm
+    # . dts.podtrac.com
+    # . pdst.fm
+    # . podcasts.apple.com
+    # . podtrac.com
+
+   # appledaily
+    .appledaily.tw
+
+   # applitrack.com
+    .applitrack.com
+
+   # appspot, Others
+    # .feelinsonice-hrd.appspot.com
+    # .feelinsonice.appspot.com
+    # .sc-analytics.appspot.com
+
+   # arkoselabs.com
+    .client-api.arkoselabs.com
+    .iframe.arkoselabs.com
+
+   # art19.com
+    .art19.com
+
+   # ashleymadison
+    .ashleymadison.com
+
+   # astrill
+    .astrill.com
+
+   # atmeta.com
+    .atmeta.com
+
+   # avg
+    .avcdn.com
+    .avg.com
+
+  # b
+   # badoo
+    .badoocdn.com
+    .badoo.com
+    .badoo.app
+
+   # bandwagonhost
+    # . .64clouds
+    .64clouds.com
+
+   # barnesandnoble
+    .barnesandnoble.com
+
+   # beats saber
+    .beatsaver.com
+    .bsaber.com
+    .scoresaber.com
+    .skystudioapps.com
+    .e-hentai.org
+
+   # beetalk
+    # . .beetalk
+
+   # beinsports
+    .connect-us.beinsports.com
+
+    .beinsports.com
+
+   # besd.net
+    .besd.net
+
+   # betterplan
+    .betterplan.cl
+
+   # bible
+    .youversion.com
+    .bible.com
+    .app.link
+
+   # bice
+    .bice.cl
+    .modyocdn.com
+
+   # bing
+    # Bing rules originates from this yaml file
+    # . global.bing.com
+
+   # bitmain
+    .bitmain.com
+
+   # bittorrent.com
+    .bittorrent.com
+
+   # blockscout
+    .blockscout.com
+
+   # blogspot
+
+   # bloomberg
+    .bloom.bg
+    .bloombergdfpcw4670778881.s.moatpixel.com
+    .compass.bloomberg.com
+    .coordinator.cm.bloomberg.com
+    .login.bloomberg.com
+    .personalization.bloomberg.com
+    .sourcepointcmp.bloomberg.com
+
+   # bluehost
+
+   # BMO
+    .bmo.com
+
+   # bmwusa
+    .idresgraph.bmwusa.com
+
+   # box.com
+    .box.com
+
+   # brazgovskaia
+
+   # broadbandgenie.co.uk
+    .broadbandgenie.co.uk
+
+  # c
+
+   # ca.gov
+    .dmv.ca.gov
+    .sa.dmv.ca.gov
+
+   # caliva
+    .caliva.com
+
+   # callannie.ai
+    .callannie.ai
+
+   # canyonsdistrict.org
+    .canyonsdistrict.org
+
+   # carneysandoe.com
+    .carneysandoe.com
+
+   # casalemedia
+
+   # cdnbasket
+
+   # cebupacificair.com
+    .cebupacificair.com
+
+    .soar.cebupacificair.com
+
+   # cedexis
+    .cedexis-test.com
+    .p29.cedexis-test.com
+
+   # celcius network
+    .celsius.network
+    .g9zdov47b9.execute-api.us-east-1.amazonaws.com
+
+   # celebsunmasked.com
+    .celebsunmasked.com
+
+   # character.ai
+    .beta.character.ai
+
+   # chartbeat.com
+
+   # chatgpt.com
+    .chatgpt.com
+
+   # charlestoncounty.org
+    .charlestoncounty.org
+
+   # chia
+    .chia.net
+    .chiacalculator.com
+
+   # chtbl.com
+
+   # cipc.co.za
+    .cipc.co.za
+
+   # civitai.com
+    .civitai.com
+
+   # clash
+    .clash.la
+
+   # cloudflare
+    .a.nel.cloudflare.com
+    # . ajax.cloudflare.com
+    # . api.ip.sb.cdn.cloudflare.net
+    # . cdnjs.cloudflare.com
+
+    # cloudflare IP-CIDR
+    # AS13335 - Cloudflare, Inc.
+
+   # cloudfront
+
+   # cnbeta
+    .cnbeta.com
+    .cnbeta.com.tw
+    .cnbetacdn.com
+
+   # cnn
+    .collector.cdp.cnn.com
+    .edition.cnn.com
+    .lightning.cnn.com
+    .media.cnn.com
+    .registry.api.cnn.io
+    .smetrics.cnn.com
+    .i.cdn.cnn.com
+    .z.cdp-dev.cnn.com
+
+    .collector.cdp.cnn.com
+    .edition.cnn.com
+    .lightning.cnn.com
+    .media.cnn.com
+    .registry.api.cnn.io
+    .smetrics.cnn.com
+    .i.cdn.cnn.com
+    .z.cdp-dev.cnn.com
+
+   # co.uk
+    .co.uk
+
+   # coinbase
+    .coinbasecdn.net
+
+    .as.coinbase.com
+    .assets.coinbase.com
+    .dynamic-assets.coinbase.com
+    .sessions.coinbase.com
+    .static-assets.coinbase.com
+
+   # coindesk
+    .coindesk.com
+
+   # coincodex.com
+    .coincodex.com
+
+   # coingecko
+    .coingecko.com
+
+    .assets.coingecko.com
+    .static.coingecko.com
+
+   # coinmarketcap.com
+    .coinwarz.com
+    .coinmarketcap.com
+
+   # complio.com
+    .complio.com
+
+    .liberty.complio.com
+
+   # cookcountyclerkil.gov
+    .cookcountyclerkil.gov
+
+   # cookielaw.org
+
+   # copilot.microsoft.com
+    .copilot.microsoft.com
+    .sydney.bing.com
+
+   # corehighered.com
+    .corehighered.com
+
+   # corelogic.com
+    .corelogic.com
+
+   # coze.com
+    .coze.com
+
+   # crazypool
+    .crazypool.org
+
+   # creditkarma.com
+    .creditkarma.com
+
+   # creditone.com
+    .creditone.com
+
+   # creditonebanks
+
+   # criteo.com
+
+   # crockblock
+    .crocoblock.com
+
+   # cryptocompare
+    .cryptocompare.com
+
+   # cryptotools.net
+    .cryptotools.net
+
+   # csl.edu
+    .csl.edu
+
+   # culturalvistas.org
+    .culturalvistas.org
+
+   # curtin university
+    .curtin.edu.au
+    .pcdn.co
+
+   # cvs
+    .cvs.com
+
+    .cdn.appdynamics.com
+    .images.ctfassets.net
+
+   # cwtv.com
+    .cwtv.com
+
+    .images.cwtv.com
+
+   # cyberspatial.com
+    .cyberspatial.com
+
+  # d
+   # dfas.mil
+    .dfas.mil
+    .mypay.dfas.mil
+
+   # diamondbackonline.com
+    .diamondbackonline.com
+
+   # dingdatech
+
+   # dirtrab.cl
+    .dirtrab.cl
+
+   # discomax.com
+    .discomax.com
+
+   # disneyplus
+    # (test)
+    .bam.nr-data.net
+    # . cdn.registerdisney.go.com
+    # . d9.flashtalking.com
+    # . dssott.com.akamaized.net
+    # . js-agent.newrelic.com
+    # . search-api-disney.bamgrid.com
+    # . starwave.com
+
+   # disney.demdex.net
+    .disney.demdex.net
+
+   # donacionesley21440.cl
+    .donacionesley21440.cl
+
+   # dpsk12.org
+    .dpsk12.org
+
+   # drsmoke
+
+   # dt.gob.cl
+    .dt.gob.cl
+
+  # e
+   # ecosia.org
+    .ecosia.org
+
+   # ed.gov
+    .eric.ed.gov
+
+   # elementor
+    .elementor.cloud
+    .elementor.com
+
+   # elitebabes.com
+    .afcdn.net
+    # . elitebabes.com
+    .exdynsrv.com
+    .hwcdn.net
+
+   # emol.com
+    .emol.com
+
+   # engadget.com
+    .engadget.com
+
+   # enterprise.com
+    .enterprise.com
+
+   # epicgames
+    .cdn2.unrealengine.com
+    .components.unrealengine.com
+    .graphql.unrealengine.com
+    .media.graphassets.com
+    .static-assets-prod.unrealengine.com
+    .tracking.unrealengine.com
+
+   # equator-network.org
+    .equator-network.org
+
+   # equifax.com
+    .equifax.com
+
+   # etsy
+    .etsy.com
+
+   # etherfair
+    .etherfair.org
+
+   # ethereumpow
+    .ethereumpow.org
+
+   # ethermine
+    .ethermine.org
+
+   # etherscan
+    .etherscan.io
+
+   # ethwscan
+    .ethwscan.com
+
+   # etoro.com
+    .etoro.com
+
+   # experian.com
+    .experian.com
+
+   # express-scripts.com
+    .express-scripts.com
+    .militaryrx.express-scripts.com
+
+   # express.co.uk
+    .express.co.uk
+
+    .cdn.images.express.co.uk
+    .premium.express.co.uk
+    .secure.insightexpressai.com
+
+  # f
+   # f2pool
+    .f2pool.com
+
+   # facebook
+
+   # farmers.com
+    .farmers.com
+
+   # fastly
+    # AS54113 - Fastly, Inc.
+
+   # firebase
+    .firebase-settings.crashlytics.com
+
+   # fiverr
+    .fiverrcdn.com
+
+   # footystats
+    .footystats.org
+
+    .cdn.footystats.org
+
+   # forc.mx
+    .forc.mx
+
+   # freedesktop.timedate1
+    .org.freedesktop.timedate1
+
+    .org.freedesktop.timedate1
+
+   # freemacsoft.net
+    .freemacsoft.net
+
+   # frontlineeducation.com
+    .frontlineeducation.com
+
+   # fullcompass
+    .fullcompass.com
+
+  # g
+   # gammaplatform.com
+    .cm-supply-web.gammaplatform.com
+
+   # genius.com
+    .genius.com
+
+   # getcourse.ru
+    .fs-thb01.getcourse.ru
+    .fs-thb02.getcourse.ru
+    .fs-thb03.getcourse.ru
+    .fs01.getcourse.ru
+    .fs02.getcourse.ru
+    .fs06.getcourse.ru
+    .fs07.getcourse.ru
+    .fs10.getcourse.ru
+    .fs12.getcourse.ru
+    .fs14.getcourse.ru
+    .fs15.getcourse.ru
+    .fs16.getcourse.ru
+    .fs17.getcourse.ru
+    .gcfs04.getcourse.ru
+
+   # ghostlifestyle.com
+    .ghostlifestyle.com
+
+   # giantfreakinrobot
+    .giantfreakinrobot.com
+
+   # github
+    # AS36459 - GitHub, Inc.
+
+    # . .github
+    # . gist.github.com
+    # . raw.githubusercontent.com
+    # . rawgithub.com
+
+   # goddessdelivers
+    .goddessdelivers.com
+
+   # google
+
+    # Others part2, Google
+    # google store
+    # . store.google.com
+
+    # google pay
+    # . pay.google.com
+    # . notifications.googleapis.com
+    # . families.google.com
+
+    # bunch of google rules
+    # . 265.com
+    # . about.google
+    # . accounts.google.com
+    # . agoogleaday.com
+    # . ai.google
+    # . alt1-mtalk.google.com
+    # . alt2-mtalk.google.com
+    # . alt3-mtalk.google.com
+    # . alt4-mtalk.google.com
+    # . alt5-mtalk.google.com
+    # . alt6-mtalk.google.com
+    # . alt7-mtalk.google.com
+    # . alt8-mtalk.google.com
+    # . app-measurement.net
+    # . blog.google
+    # . capitalg.com
+    # . chromeexperiments.com
+    # . chromestatus.com
+    # . com.google
+    # . crashlytics.com
+    # . creativelab5.com
+    # . crisisresponse.google
+    # . design.google
+    # . dns.google
+    # . domains.google
+    # . environment.google
+    # . getmdl.io
+    # . google.ac
+    # . google.af
+    # . google.com.nf
+    # . google.eu
+    # . google.gp
+    # . google.hk
+    # . google.it.ao
+    # . google.mx
+    # . google.tk
+    # . google.us
+    # . googleartproject.com
+    # . googlechinawebmaster.com
+    # . googlegroups.com
+    # . googlehosted.com
+    # . googleideas.com
+    # . googleinsidesearch.com
+    # . googlelabs.com
+    # . googlemashups.com
+    # . googlescholar.com
+    # . googlesile.com
+    # . googleweblight.com
+    # . googlezip.net
+    # . groups.google.cn
+    # . grow.google
+    # . gstatic.cn
+    # . gwtproject.org
+    # . imasdk.googleapis.com
+    # . lers.google
+    # . maps.google.com
+    # . mtalk.google.com
+    # . nic.google
+    # . opensource.google
+    # . partnerad.l.google.com
+    # . pride.google
+    # . safety.google
+    # . shattered.io
+    # . ssl-google-analytics.l.google.com
+    # . ssl.gstatic.com
+    # . stories.google
+    # . sustainability.google
+    # . telephony.goog
+    # . waveprotocol.org
+
+    # .youtubei.googleapis.com
+
+    # other rules
+    # . c.android.clients.google.com
+    # . cache.pack.google.com
+    # . clickserve.dartsearch.net
+    # . clientservices.googleapis.com
+    # . dl.google.com
+    # . dl.l.google.com
+    # . fonts.googleapis.com
+    # . fonts.gstatic.com
+    # . googleapis.cn
+    # . gtm.oasisfeng.com
+    # . safebrowsing-cache.google.com
+    # . safebrowsing.googleapis.com
+    # . settings.crashlytics.com
+    # . toolbarqueries.google.com
+    # . tools.google.com
+    # . tools.l.google.com
+    # . update.googleapis.com
+    # . www-google-analytics.l.google.com
+    # . www-googletagmanager.l.google.com
+    # . gstatic.com
+    # .dl.google.com
+    # .mtalk.google.com
+
+   # gotquestions.org
+    .gotquestions.org
+
+   # gov.co
+    .gov.co
+
+   # gov.in
+    .gov.in
+
+   # gov.ph
+    .edoc.ipophil.gov.ph
+    .gov.ph
+
+   # gov.sg
+    .gov.sg
+
+   # gov.tw
+    .gov.tw
+
+   # gptstore.ai
+    .gptstore.ai
+
+  # h
+   # happyaddons.com
+    .happyaddons.com
+
+   # hashrate
+    .hashrate.to
+
+   # hbomax
+    .max.com
+
+   # healthline
+    .healthline.com
+
+   # helloandroid.com
+    .helloandroid.com
+
+   # heygen.com
+    .heygen.com
+
+    .cdn.heygen.com
+    .app.heygen.com
+    .api2.heygen.com
+
+   # hhdcb3office
+    .hhdcb3office.org
+
+   # hiveos
+    .hiveon.com
+    .hiveos.farm
+
+   # homegoods.com
+    .homegoods.com
+
+   # hostinger
+    .hostinger.com
+    .hpanel.hostinger.com
+    .hostinger.com.hk
+
+   # hotjar.com
+    .hotjar.com
+
+   # hubspot
+    .hubspot.com
+
+   # hulu
+
+   # humana.com
+    .humana.com
+
+   # humanamilitary.com
+    .humanamilitary.com
+
+   # huraWatch
+    .hurawatch.at
+    .hurawatch.cc
+
+   # hymnal.net
+    .hymnal.net
+
+  # i
+   # id.me
+    .id.me
+
+   # id5-sync.com
+
+   # ign
+    .ign.com
+    .ignimgs.com
+
+    .assets1.ignimgs.com
+    .assets-prd.ignimgs.com
+    .kraken.ignimgs.com
+
+   # imgix.net
+
+   # imrworldwide.com (test)
+    .bkrmyqgwc3bl8hmmta5dl30ylhqrp1722436322.nuid.imrworldwide.com
+
+    .nuid.imrworldwide.com
+    .imrworldwide.com
+
+   # indeed.com
+    .t.indeed.com
+    .secure.indeed.com
+    .pxl.indeed.com
+    .kimoyo.indeed.com
+    .c03.s3.indeed.com
+    .autocomplete.indeed.com
+
+    .indeed.com
+
+   # indexa.cl
+    .indexa.cl
+
+   # indexexchange
+    .indexexchange.com
+
+   # indiatimes.com
+    .indiatimes.com
+
+   # indiatoday.in
+    .indiatoday.in
+
+   # instagram
+
+   # intercom.io
+
+   # intuit.com
+    .intuit.com
+
+   # ipinfo
+    .ipinfo.io
+
+   # iscooterglobal.co.uk
+    .iscooterglobal.co.uk
+
+   # istockphoto.com
+    .istockphoto.com
+
+   # itesonline.com
+    .itesonline.com
+
+   # itv.com
+    .itv.com
+
+    .app.10ft.itv.com
+    .assets.fe.itv.com
+    .cscript-cdn-irl.cassiecloud.com
+    .http-inputs-itv.splunkcloud.com
+    .tom.itv.com
+
+   # ivpn.net
+    .ivpn.net
+
+  # j
+   # jkforum.net
+    .jkforum.net
+
+   # jordandistrict.org
+    .jordandistrict.org
+    .employment.jordandistrict.org
+
+   # jsdelivr
+
+   # justanswer.com
+    .justanswer.com
+
+  # k
+   # k12jobspot.com
+    .k12jobspot.com
+
+   # kagyuoffice
+    .kagyuoffice.org
+    .kagyuoffice.org.tw
+
+   # kakao
+
+   # kapwing.com
+    .kapwing.com
+
+    .cdn-useast1.kapwing.com
+
+   # keepsolid
+    .keepsolid.com
+    .sentry.keepsolid.com
+
+   # kevinwilsonconnection.org
+    .kevinwilsonconnection.org
+
+   # kickasstorrents.to
+    .kickasstorrents.to
+    .thekickasstorrents.to
+
+   # kraken
+    .kraken.com
+
+   # kucoin
+
+  # l
+   # larrainvial.com
+    .larrainvial.com
+
+   # ledger live
+
+   # legkierody.ru
+    .legkierody.ru
+
+   # liadm.com
+
+   # libbyapp.com
+    .ic.od-cdn.com
+    .ntc.api.overdrive.com
+    .thunder.api.overdrive.com
+    .thunder.cdn.overdrive.com
+
+    .libbyapp.com
+
+   # liberty.edu
+    .liberty.edu
+
+   # lido
+    .lido.fi
+
+    .blog.lido.fi
+    .matomo.lido.fi
+
+   # lifemission.church
+    .lifemission.church
+
+   # lijit.com
+
+   # line
+    .line-apps.com
+    # . line-scdn.net
+    .tlanyan.me
+    .naver.jp
+
+   # linkedin
+    .lnkd.demdex.net
+    .static.licdn.com
+
+   # linktr
+    .linktr.ee
+
+    .website.linktr.ee
+    .assets.production.linktr.ee
+    .ingress.linktr.ee
+
+   # liquidweb.com
+    .liquidweb.com
+
+   # lofsolar
+    .lofsolar.com
+
+   # logisteed-america.com
+    .logisteed-america.com
+
+   # faithlife.com
+    .faithlife.com
+    .logos.com
+    .logoscdn.com
+
+   # lookah
+    .lookah.com
+
+   # luxor.tech
+    .luxor.tech
+
+  # m
+
+   # ma.ne
+    .hu.ma.ne
+
+   # maine.gov
+    .maine.gov
+
+   # makedreamwebsite.com
+    .makedreamwebsite.com
+
+   # matrix.one
+    .matrix.one
+
+   # matrixpcg
+    .matrixpcg.com
+
+   # mbusa.com
+    .mbusa.com
+
+   # memberpress
+     # url: memberpress.com
+
+    .memberpress.com
+
+   # metacareers.com
+    .metacareers.com
+
+   # mheducation.com
+    .mheducation.com
+
+   # microsoft
+    # AS8075 - Microsoft Corporation
+
+    # . .onedrive
+    # . aadrm.com
+    # . acompli.com
+    # . acompli.net
+    # . assets-yammer.com
+    # . azurerms.com
+    # . edgesuite.net
+    # . lync.com
+    # . mobile.pipe.aria.microsoft.com
+    # . msappproxy.net
+    # . msauthimages.net
+    # . msftauthimages.net
+    # . msftconnecttest.com
+    # . msftidentity.com
+    # . msidentity.com
+    # . mstea.ms
+    # . oaspapps.com
+    # . odc.officeapps.live.com
+    # . officeppe.net
+    # . outlookmobile.com
+    # . phonefactor.net
+    # . photos.live.com
+    # . skyapi.live.net
+    # . skydrive.wns.windows.com
+    # . skypeforbusiness.com
+    # . spoprod-a.akamaihd.net
+    # . sway-extensions.com
+    # . uservoice.com
+    # . vortex.data.microsoft.com
+    # . windows-ppe.net
+    # . wunderlist.com
+    # . yammerusercontent.com
+
+   # mintmobile.com
+    .mintmobile.com
+
+   # ml314.com
+
+   # mo.gov
+    .dese.mo.gov
+    .mo.gov
+
+   # mojim.com
+    .mojim.com
+
+   # msn
+    # msn rules originates from this yaml file
+    # . news.hk.msn.com
+    # . news.msn.com.tw
+
+   # mullvad
+    .mullvad.net
+
+   # mwcbarcelona.com
+    .register.mwcbarcelona.com
+
+   # mxptint.net
+
+   # myccpay
+
+   # myindigocard
+    .myindigocard.com
+    .myfinanceservice.com
+
+    .indigo.myfinanceservice.com
+
+   # mymainecertification.com
+    .mymainecertification.com
+
+  # n
+   # nanopool
+    .nanopool.org
+
+   # napster.com
+    .napster.com
+
+   # nasa.gov
+    .spaceplace.nasa.gov
+
+   # nationsreportcard.gov
+    .nationsreportcard.gov
+
+   # navyfederal
+    .navyfederal.org
+
+    .analytics.navyfederal.org
+    .dm-assets.navyfederal.org
+    .liveengage.navyfederal.org
+    .navyfederalcu.tt.omtrdc.net
+
+   # nces.ed.gov
+    .nces.ed.gov
+
+   # nelnet.com
+    .secure.nelnet.com
+    .extsvc.nelnet.net
+    .contentmma.guides.nelnet.com
+    .auth.nelnet.com
+    .nelnet.net
+    .nelnet.com
+
+   # netflix
+    # .Argo*
+
+    # . .dualstack.apiproxy-
+    # . .dualstack.ichnaea-web-
+    # . netflixdnstest0.com
+
+   # newcannabisventures
+    .newcannabisventures.com
+
+   # news18.com
+    .news18.com
+
+   # nexusmods.com
+    .data.nexusmods.com
+    .images.nexusmods.com
+    .pw.nexusmods.com
+    .staticdelivery.nexusmods.com
+    .staticstats.nexusmods.com
+    .unleash-edge.nexusmods.com
+
+   # nh.gov
+    .nh.gov
+
+   # nicusa.com
+    .nicusa.com
+
+   # nolej.io
+    .nolej.io
+
+   # northwest
+    .onlinebanking.northwest.bank
+
+   # notepad++
+    .notepad-plus-plus.org
+
+   # noviosfalabella.com
+    .noviosfalabella.com
+
+  # o
+   # oculus
+    .developer.oculus.com
+    .graph.oculus.com
+    .oculus.fbthirdpartypixel.com
+
+   # okcoin.com
+    .okcoin.com
+
+    .static.okcoin.com
+
+   # okx
+    .okx.com
+
+    .static.okx.com
+
+   # omny.fm
+    .omny.fm
+
+   # onedrive
+    # onedrive rules originates from this yaml file
+    # . blob.core.windows.net
+    # . storage.msn.com
+    # .oneclient.sfx.ms
+
+   # onehome.com
+    .onehome.com
+
+   # onenetglobal.com
+    .onenetglobal.com
+
+   # onetag-sys.com
+    .onetag-sys.com
+
+   # onlineaccount.net
+    .onlineaccount.net
+
+   # openai
+    .tcr9i.chat.openai.com
+
+   # opensea
+    .opensea.io
+
+   # optimizely.com
+    .optimizely.com
+
+    .a125375509.cdn.optimizely.com
+    .cdn.optimizely.com
+    .cdn3.optimizely.com
+    .logx.optimizely.com
+
+   # osd.mil
+    .osd.mil
+    .milconnect.dmdc.osd.mil
+
+   # ottcst.com
+    .ottcast.net
+    .ottcst.com
+
+    .line.ottcst.com
+
+   # otto.nl
+    .otto.nl
+
+   # outbrain.com
+
+   # outlookindia.com
+    .outlookindia.com
+
+  # p
+   # pancakeswap.finance
+    .pancakeswap.finance
+
+    .aptos.pancakeswap.finance
+    .assets.pancakeswap.finance
+    .nodes.pancakeswap.info
+    .pancake-trading-fee-rebate-api.pancakeswap.com
+    .strapi-cms.pancakeswap.ai
+
+   # paramount plus (test)
+    # . pplusstatic.com
+
+    .cws.conviva.com
+
+    .paramountplus.qflm.net
+
+   # patreon
+    .c15.patreon.com
+    .c5.patreon.com
+
+   # pay1040.com
+    .pay1040.com
+
+   # paycom.com
+    .paycom.com
+
+   # paycomonline.net
+    .paycomonline.net
+
+   # payusatax.com
+    .payusatax.com
+
+   # pbskids.org
+    .pbskids.org
+
+   # pexels.com
+    .pexels.com
+
+   # philippineairlines.com
+    .philippineairlines.com
+
+    .philippineairlinesprod.api.useinsider.com
+    .zn6euonij6xwfajg5-philippineairlines.site
+
+   # pixeldrain.com
+    .pixeldrain.com
+
+   # pmpmanage
+    .pmpmanage.com
+    .pmprollc.com
+
+   # podbean.com
+    .podbean.com
+
+   # pokerstarsVR
+    .backtrace.io
+    .luckyvr.net
+    .pokerstars.com
+    .pokerstars.net
+    .pokerstrategy.com
+
+    .api-01.luckyvr.net
+    .events.backtrace.io
+
+   # pool.space
+    .pool.space
+
+   # powerpackelements.com
+    .powerpackelements.com
+
+   # printmailsystems.com
+    .printmailsystems.com
+
+   # proshkola
+    .proshkola18.ru
+
+   # psi.org
+    .psi.org
+
+   # Psychz Networks
+
+  # q
+   # qflm.net (test)
+    .qflm.net
+
+   # qodeinteractive.com
+    .qodeinteractive.com
+    .qodethemes.com
+
+   # qsi
+    .qsishenzhen.org
+
+   # quantfury
+    .quantfury.com
+    .trdngbcknd.com
+    .appsflyersdk.com
+
+   # quantummetric.com
+    .quantummetric.com
+
+    .cdn.quantummetric.com
+    .ingest.quantummetric.com
+    .rl.quantummetric.com
+
+   # quora.com
+
+  # r
+   # rask.ai
+    .rask.ai
+
+    .dev.visualwebsiteoptimizer.com
+
+   # raspberrypi.org
+    .raspberrypi.org
+    .raspbian.org
+
+   # rbfcu
+    .rbfcu.org
+
+   # rblbank.com
+    .rblbank.com
+
+   # rcrwireless.com
+    .rcrwireless.com
+
+   # reelshort.com
+    .reelshort.com
+
+   # recaptcha
+    .recaptcha.net
+
+   # remove.bg
+    .remove.bg
+
+   # resi
+
+   # rfihub.com
+
+   # roblox
+    .roblox.com
+
+   # rubiconproject.com
+
+   # runescape
+    .cdn.runescape.com
+    .play.runescape.com
+
+   # rustylake
+    .rustylake.com
+
+    .blog.rustylake.com
+
+  # s
+   # s-onetag.com
+    .s-onetag.com
+
+   # salesforce
+    .trailhead.salesforce.com
+
+   # sandbox.game
+    .sandbox.game
+
+   # sandiego.gov
+    .sandiego.gov
+
+   # sandyliang.info
+    .sandyliang.info
+
+   # satelles.com
+    .satelles.com
+
+   # scdmvonline.com
+    .scdmvonline.com
+
+   # screenrant.com
+    .screenrant.com
+
+   # scribd.com
+    .scribd.com
+    .scribdassets.com
+
+    .wa.scribd.com
+
+   # sedl.org
+    .sedl.org
+
+   # seoab.io
+    .seoab.io
+
+   # sdge.com
+    .sdge.com
+
+   # sharepoint
+    # . blog.pathtosharepoint.com
+    # . pathtosharepoint.com
+    # . skqsi-my.sharepoint.com
+
+   # sharethrough.com
+
+   # shodan.io
+    .shodan.io
+
+   # simplemining
+    .simplemining.net
+
+   # smartdnsproxy.com
+    .smartdnsproxy.com
+
+   # smartiptv.dnsco.xyz
+    .more-itv.com
+    .more-itv.net
+    .smartiptv.dnsco.xyz
+
+   # sms-activate
+    .sms-activate.org
+
+   # socdm.com
+    .tg.socdm.com
+
+   # social-viral.com
+    .social-viral.com
+
+   # socratic.org
+    .socratic.org
+
+   # softLayer Technologies
+
+   # soundraw
+    .soundraw-storage.com
+
+   # special-ops.org
+    .special-ops.org
+
+   # spot.im
+    .spot.im
+
+    .static-cdn.spot.im
+    .publisher-assets.spot.im
+    .event-stream.spot.im
+
+   # spotxchange.com
+
+   # squarecdn.com
+
+   # starford.com
+    .starford.com
+    .ford.com
+
+    .smetrics.ford.com
+    .mtagateway.forddirectservices.com
+    .ford.tt.omtrdc.net
+    .ford.demdex.net
+    .fdccpaadaptor.forddirectservices.com
+    .api.pd01e.gcp.ford.com
+
+   # starz.com
+    .starz.com
+
+    .auth.starz.com
+    .playdata.starz.com
+
+   # stickyadstv.com
+
+   # stremio.com
+    .api.strem.io
+    .blog.stremio.com
+    .metahub.space
+    .strem.fun
+    .strem.io
+    .stremio.com
+    .stremio.net
+
+   # studentclearinghouse.org
+    .studentclearinghouse.org
+
+   # sugarfreemom.com
+    .sugarfreemom.com
+
+   # surfshark.com
+    .surfshark.com
+
+   # svc.ms
+    # . centralus1.mediap.svc.ms
+
+   # skype.com
+    # . twskype.com
+    # .skype.com
+
+   # synchronybank.com
+    .synchronybank.com
+
+  # t
+   # taboola.com
+
+   # teachers-teachers.com
+    .teachers-teachers.com
+
+   # teacherstestprep.com
+    # . teacherstestprep.com
+
+   # tealiumiq.com (test)
+    .uconnect.tealiumiq.com
+
+    .teamredminer.com
+
+   # teamredminer
+    .teamredminer.com
+
+   # techcrunch
+    # . .techcrunch
+    # . techcrunch.com
+
+   # tel.meet
+    .tel.meet
+
+   # telegram
+    # . .telegram
+    # . updates.tdesktop.com
+
+   # teleseer.com
+    .teleseer.com
+
+   # temu
+    .kwcdn.com
+    .temu.com
+
+   # tenor.com
+    .tenor.com
+
+    .media.tenor.com
+
+   # thedesk
+    .thedesk.net
+
+   # thechinaproject.com
+    .thechinaproject.com
+
+   # thedroidguy.com
+    .thedroidguy.com
+
+   # thepennyhoarder.com
+    .thepennyhoarder.com
+
+   # theplusaddons.com
+    .theplusaddons.com
+
+   # theseedsnetwork.com
+    .theseedsnetwork.com
+
+   # thetatoken.org
+    .thetatoken.org
+
+   # thetradedesk.com
+    .thetradedesk.com
+
+    .pages.thetradedesk.com
+
+   # threads
+    .threads.net
+
+   # threatconnect.com
+    .threatconnect.com
+
+    .gonow.threatconnect.com
+
+   # threatcrowd.org
+    .threatcrowd.org
+
+   # tianlawoffice
+    .tianlawoffice.com
+
+   # tibet office
+    .officeoftibet.com
+    .tibetoffice.ch
+    .tibetoffice.eu
+    .tibetoffice.org
+    .tibetoffice.com.au
+
+   # tidiochat.com
+
+   # tiktok
+
+   # tlsfingerprint
+    .tlsfingerprint.io
+
+    .client.tlsfingerprint.io
+    .tlsfingerprint.iocode.jquery.com
+    .tlsfingerprint.iomaxcdn.bootstrapcdn.com
+
+   # t-mobile.com
+    .t-mobile.com
+
+    .tmobile.tt.omtrdc.net
+  
+   # tokyo-hot
+    .tokyo-hot.com
+
+    .my.cdn.tokyo-hot.com
+
+   # tonkeeper.com
+    .ton.app
+    .tonkeeper.com
+
+   # tonwhales.com
+    .tonwhales.com
+
+   # tradestockfund.com
+    .tradestockfund.com
+
+   # trainingpeaks
+    .trainingpeaks.com
+
+    .assets.trainingpeaks.com
+    .tp-front-end.trainingpeaks.com
+    .tpapi.trainingpeaks.com
+    .wpassets.trainingpeaks.com
+
+   # transbank.cl
+    .transbank.cl
+
+   # transcend.io
+    .cdn.transcend.io
+    .sync.transcend.io
+
+   # transcendt.com
+    .transcendt.com
+
+   # travelerdoor.com
+    .travelerdoor.com
+
+   # travistidwell.com
+    .travistidwell.com
+
+   # trimirror.com
+    .trimirror.com
+
+   # trustwallet
+    .trustwallet.com
+
+   # tunein.com
+    # . tunein.com
+
+    # .api.tunein.com
+    # .cdn-cms.tunein.com
+    # .cdn-web.tunein.com
+    # .event.platform.tunein.com
+    # .gotie.tunein.com
+    # .reports.tunein.com
+
+   # turn.com
+
+   # turner.com
+    .s.cdn.turner.com
+
+   # tuya
+    .tuya.com
+    .tuyain.com
+
+   # tvlicensing.co.uk
+    .tvlicensing.co.uk
+
+   # tw.tomonews.ne
+    .tw.tomonews.net
+
+   # twiggstudios.com
+    .twiggstudios.com
+
+   # twitonmsn
+    .twitonmsn.com
+
+   # twitter
+
+  # u
+
+   # unir.net
+    .unir.net
+
+   # updraftplus
+    .updraftplus.com
+
+   # uspto.gov
+    .tmsearch.uspto.gov
+
+   # utorrent.com
+    .utorrent.com
+
+  # v
+   # v2fly.org
+    .v2fly.org
+
+   # vapezoo
+    .vapezoo.com
+
+   # vercel-insights.com
+
+   # veritaspress.com
+    .veritaspress.com
+
+   # viabtc
+    .viabtc.com
+
+   # viber
+    .viber.com
+
+   # visaguide.world
+    .visaguide.world
+
+   # vista.com
+    .vista.com
+
+   # vitalchek.com
+    .vitalchek.com
+
+   # vitalsource.com
+    .vitalsource.com
+
+   # volumio
+    .volumio.com
+
+  # w
+   # wakenbakery
+    .wakenbakery.net
+
+   # warnermediacdn.com
+    .warnermediacdn.com
+
+    .live-manifests-aka.warnermediacdn.com
+
+   # wd.bible
+    .endao.app
+    .sentry.yetell.net
+    .wd.bible
+
+   # webassign.com
+    .webassign.com
+
+   # webassign.net
+    .webassign.net
+
+   # weebly.com
+
+   # wes.org
+    .applications.wes.org
+
+   # westernalliancebancorporation.com
+    .westernalliancebancorporation.com
+
+   # whalestonpool.com
+    .whalestonpool.com
+
+   # whatsapp
+    # . .whatsapp
+
+   # whoer.net
+    .whoer.net
+
+   # wisconsindot.gov
+    .wisconsindot.gov
+
+   # wisconsinregisteredagent.net
+    .wisconsinregisteredagent.net
+
+   # worldcat.org
+    .worldcat.org
+
+   # worldwidephotowalk.com
+    .worldwidephotowalk.com
+
+   # wsimg.com
+    .img1.wsimg.com
+    .isteam.wsimg.com
+
+  # x
+   # xbox
+    .xboxab.net
+    .xboxservice.com
+    .gamepass.com
+
+  # y
+   # yandex
+    .yandex.com
+    .yandex.disk
+    .yandex.ru
+
+    .disk.yandex.ru
+    .frontend.vh.yandex.ru
+
+   # yahoo
+    # . .yahoo
+
+    # . blogs.yahoo.co.jp
+    # . buy.yahoo.com.tw
+    # . duckduckgo-owned-server.yahoo.net
+    # . hk.knowledge.yahoo.com
+    # . hk.myblog.yahoo.com
+    # . hk.news.yahoo.com
+    # . hk.rd.yahoo.com
+    # . hk.search.yahoo.com
+    # . hk.video.news.yahoo.com
+    # . hk.yahoo.com
+    # . meme.yahoo.com
+    # . news.yahoo.com
+    # . page.bid.yahoo.com
+    # . pulse.yahoo.com
+    # . search.yahoo.co.jp
+    # . search.yahoo.com
+    # . tw.answers.yahoo.com
+    # . tw.bid.yahoo.com
+    # . tw.knowledge.yahoo.com
+    # . tw.mall.yahoo.com
+    # . tw.mobi.yahoo.com
+    # . tw.money.yahoo.com
+    # . tw.myblog.yahoo.com
+    # . tw.news.yahoo.com
+    # . tw.yahoo.com
+    # . upcoming.yahoo.com
+    # . video.yahoo.com
+
+   # yotpo.com
+
+   # youtube
+    # . studio.youtube.com
+
+    # . yt3.ggpht.com
+    # .yt3.ggpht.com
+    # .com.google.ios.youtube*
+    # .com.google.ios.youtubemusic*
+    # .YouTube*
+    # .YouTubeMusic*
+
+  # z
+   # zemanta.com
+
+   # zillow
+    .zillow.com
+    .zillowstatic.com
+
+   # zoominfo
