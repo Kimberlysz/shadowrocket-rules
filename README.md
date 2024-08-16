@@ -5,10 +5,10 @@
 
   ### shadowrocket
   #### shadowrocket config with ads blockeddownload url: 
-    [https://tinyurl.com/shadowrocketBlacklistAlpha](https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/shadowrocket_blacklist.conf)
+    https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/shadowrocket_blacklist.conf
 
   #### shadowrocket config with ads not blocked download url: 
-    [https://tinyurl.com/shadowrocketBlacklistBeta (deprecated)](https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/shadowrocketBlacklistAds.conf)
+    https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/shadowrocketBlacklistAds.conf
 
   ### reference sources
     https://github.com/v2fly/domain-list-community
@@ -21,10 +21,10 @@
 
   ### shadowrocket
   #### Shadowrocket配置文件下载链接:
-    [https://tinyurl.com/shadowrocketBlacklistAlpha](https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/shadowrocket_blacklist.conf)
+    https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/shadowrocket_blacklist.conf
 
   #### Shadowrocket配置文件下载链接（未屏蔽广告版本）: 
-    [https://tinyurl.com/shadowrocketBlacklistBeta(已弃用）](https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/shadowrocketBlacklistAds.conf)
+    https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/shadowrocketBlacklistAds.conf
 
   ### 参考来源
     https://github.com/v2fly/domain-list-community
