@@ -37271,14 +37271,14 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
  # RULE-SET
   # DOMAIN-SET
-    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/rules/shadowrocket%20rules%20reject%20manual, reject
-    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/rules/shadowrocket%20rules%20direct%20manual, direct
-    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/rules/shadowrocket%20rules%20proxy%20manual, proxy, force-remote-dns
+    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/rejectDomainset.txt, reject
+    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directDomainset.txt, direct
+    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyDomainset.txt, proxy, force-remote-dns
 
   # RULE-SET
-    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/RULE-SET%20rules/shadowrocket%20rules%20reject%20RULE-SET%20manual, reject
-    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/RULE-SET%20rules/shadowrocket%20rules%20direct%20RULE-SET%20manual, direct
-    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/RULE-SET%20rules/shadowrocket%20rules%20proxy%20RULE-SET%20manual, proxy, force-remote-dns
+    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/rejectRulesetl.txt, reject
+    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directRuleset.txt, direct
+    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyRuleset.txt, proxy, force-remote-dns
 
  # GEOIP LAN
     # GEOIP, LAN, direct
