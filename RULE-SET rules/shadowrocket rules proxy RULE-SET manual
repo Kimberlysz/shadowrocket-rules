@@ -1823,7 +1823,7 @@
     DOMAIN-SUFFIX, teachers-teachers.com
 
    # teacherstestprep.com
-    # DOMAIN-SUFFIX, teacherstestprep.com
+    DOMAIN-SUFFIX, teacherstestprep.com
 
    # tealiumiq.com (test)
     DOMAIN, uconnect.tealiumiq.com
