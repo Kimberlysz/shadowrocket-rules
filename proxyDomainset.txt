@@ -1,8 +1,14 @@
-# rules:
+#  the following few lines is for creating clasassetsh rule-providers:
+# payload:
+# 
+#     - '+.'
+#     - ''
+
+payload:
 
  # proxy manual (test)
    # Ⓜ️ 微软服务
-    # . .1drv
+    # - DOMAIN-KEYWORD, .1drv
 
     .aadrm.com
     .acompli.com
@@ -36,32 +42,32 @@
     .icloud.com.cn
 
    # 🌍 国外媒体
-    # .com.viu.pad
-    # .com.viu.phone
-    # .com.vuclip.viu
+    # PROCESS-NAME, com.viu.pad
+    # PROCESS-NAME, com.viu.phone
+    # PROCESS-NAME, com.vuclip.viu
 
-    # . .-spotify-
-    # . ..hbogoasia.
-    # . .abematv.akamaized.net
-    # . .apiproxy-device-prod-nlb-
-    # . .avoddashs
-    # . .bbcfmt
-    # . .dualstack.apiproxy-
-    # . .hbogoasia
-    # . .japonx
-    # . .japronx
-    # . .jooxweb-api
-    # . .netflixdnstest
-    # . .nivod
-    # . .nowtv100
-    # . .olevod
-    # . .openai
-    # . .rthklive
-    # . .spotify.com
-    # . .tiktokcdn
-    # . .ttvnw
-    # . .uk-live
-    # . .voddazn
+    # - DOMAIN-KEYWORD, .-spotify-
+    # - DOMAIN-KEYWORD, ..hbogoasia.
+    # - DOMAIN-KEYWORD, .abematv.akamaized.net
+    # - DOMAIN-KEYWORD, .apiproxy-device-prod-nlb-
+    # - DOMAIN-KEYWORD, .avoddashs
+    # - DOMAIN-KEYWORD, .bbcfmt
+    # - DOMAIN-KEYWORD, .dualstack.apiproxy-
+    # - DOMAIN-KEYWORD, .hbogoasia
+    # - DOMAIN-KEYWORD, .japonx
+    # - DOMAIN-KEYWORD, .japronx
+    # - DOMAIN-KEYWORD, .jooxweb-api
+    # - DOMAIN-KEYWORD, .netflixdnstest
+    # - DOMAIN-KEYWORD, .nivod
+    # - DOMAIN-KEYWORD, .nowtv100
+    # - DOMAIN-KEYWORD, .olevod
+    # - DOMAIN-KEYWORD, .openai
+    # - DOMAIN-KEYWORD, .rthklive
+    # - DOMAIN-KEYWORD, .spotify.com
+    # - DOMAIN-KEYWORD, .tiktokcdn
+    # - DOMAIN-KEYWORD, .ttvnw
+    # - DOMAIN-KEYWORD, .uk-live
+    # - DOMAIN-KEYWORD, .voddazn
 
     .44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
     .aod-dash-uk-live.akamaized.net
@@ -179,33 +185,33 @@
 
    # 🚀 节点选择
 
-    # . .1drv
-    # . .1e100
-    # . .abema
-    # . .avtb
-    # . .beetalk
-    # . .blogspot
-    # . .dropbox
-    # . .facebook
-    # . .fbcdn
-    # . .github
-    # . .instagram
-    # . .onedrive
-    # . .sci-hub
-    # . .skydrive
-    # . .spotify
-    # . .telegram
-    # . .ttvnw
-    # . .uk-live
-    # . .whatsapp
+    # - DOMAIN-KEYWORD, .1drv
+    # - DOMAIN-KEYWORD, .1e100
+    # - DOMAIN-KEYWORD, .abema
+    # - DOMAIN-KEYWORD, .avtb
+    # - DOMAIN-KEYWORD, .beetalk
+    # - DOMAIN-KEYWORD, .blogspot
+    # - DOMAIN-KEYWORD, .dropbox
+    # - DOMAIN-KEYWORD, .facebook
+    # - DOMAIN-KEYWORD, .fbcdn
+    # - DOMAIN-KEYWORD, .github
+    # - DOMAIN-KEYWORD, .instagram
+    # - DOMAIN-KEYWORD, .onedrive
+    # - DOMAIN-KEYWORD, .sci-hub
+    # - DOMAIN-KEYWORD, .skydrive
+    # - DOMAIN-KEYWORD, .spotify
+    # - DOMAIN-KEYWORD, .telegram
+    # - DOMAIN-KEYWORD, .ttvnw
+    # - DOMAIN-KEYWORD, .uk-live
+    # - DOMAIN-KEYWORD, .whatsapp
 
-    # . .eu
-    # . .hk
-    # . .jp
-    # . .kr
-    # . .sg
-    # . .tw
-    # . .uk
+    # - DOMAIN-KEYWORD, .eu
+    # - DOMAIN-KEYWORD, .hk
+    # - DOMAIN-KEYWORD, .jp
+    # - DOMAIN-KEYWORD, .kr
+    # - DOMAIN-KEYWORD, .sg
+    # - DOMAIN-KEYWORD, .tw
+    # - DOMAIN-KEYWORD, .uk
 
     .2mdn.net
     .4sqi.net
@@ -390,13 +396,13 @@
     .apkpure.net
 
    # apple
-    # . amp-api.podcasts.apple.com
-    # . api.spreaker.com
-    # . chrt.fm
-    # . dts.podtrac.com
-    # . pdst.fm
-    # . podcasts.apple.com
-    # . podtrac.com
+    # .amp-api.podcasts.apple.com
+    # .api.spreaker.com
+    # .chrt.fm
+    # .dts.podtrac.com
+    # .pdst.fm
+    # .podcasts.apple.com
+    # .podtrac.com
 
    # appledaily
     .appledaily.tw
@@ -436,7 +442,7 @@
     .badoo.app
 
    # bandwagonhost
-    # . .64clouds
+    # - DOMAIN-KEYWORD, .64clouds
     .64clouds.com
 
    # barnesandnoble
@@ -450,7 +456,7 @@
     .e-hentai.org
 
    # beetalk
-    # . .beetalk
+    # - DOMAIN-KEYWORD, .beetalk
 
    # beinsports
     .connect-us.beinsports.com
@@ -474,7 +480,7 @@
 
    # bing
     # Bing rules originates from this yaml file
-    # . global.bing.com
+    # .global.bing.com
 
    # bitmain
     .bitmain.com
@@ -578,9 +584,9 @@
 
    # cloudflare
     .a.nel.cloudflare.com
-    # . ajax.cloudflare.com
-    # . api.ip.sb.cdn.cloudflare.net
-    # . cdnjs.cloudflare.com
+    # .ajax.cloudflare.com
+    # .api.ip.sb.cdn.cloudflare.net
+    # .cdnjs.cloudflare.com
 
     # cloudflare IP-CIDR
     # AS13335 - Cloudflare, Inc.
@@ -612,7 +618,7 @@
     .z.cdp-dev.cnn.com
 
    # co.uk
-    .co.uk
+    - DOMAIN-KEYWORD, .co.uk
 
    # coinbase
     .coinbasecdn.net
@@ -725,14 +731,13 @@
     .discomax.com
 
    # disneyplus
-    # (test)
-    .bam.nr-data.net
-    # . cdn.registerdisney.go.com
-    # . d9.flashtalking.com
-    # . dssott.com.akamaized.net
-    # . js-agent.newrelic.com
-    # . search-api-disney.bamgrid.com
-    # . starwave.com
+    # .bam.nr-data.net
+    # .cdn.registerdisney.go.com
+    # .d9.flashtalking.com
+    # .dssott.com.akamaized.net
+    # .js-agent.newrelic.com
+    # .search-api-disney.bamgrid.com
+    # .starwave.com
 
    # disney.demdex.net
     .disney.demdex.net
@@ -761,7 +766,7 @@
 
    # elitebabes.com
     .afcdn.net
-    # . elitebabes.com
+    # .elitebabes.com
     .exdynsrv.com
     .hwcdn.net
 
@@ -895,10 +900,10 @@
    # github
     # AS36459 - GitHub, Inc.
 
-    # . .github
-    # . gist.github.com
-    # . raw.githubusercontent.com
-    # . rawgithub.com
+    # - DOMAIN-KEYWORD, .github
+    # .gist.github.com
+    # .raw.githubusercontent.com
+    # .rawgithub.com
 
    # goddessdelivers
     .goddessdelivers.com
@@ -907,107 +912,107 @@
 
     # Others part2, Google
     # google store
-    # . store.google.com
+    # .store.google.com
 
     # google pay
-    # . pay.google.com
-    # . notifications.googleapis.com
-    # . families.google.com
+    # .pay.google.com
+    # .notifications.googleapis.com
+    # .families.google.com
 
     # bunch of google rules
-    # . 265.com
-    # . about.google
-    # . accounts.google.com
-    # . agoogleaday.com
-    # . ai.google
-    # . alt1-mtalk.google.com
-    # . alt2-mtalk.google.com
-    # . alt3-mtalk.google.com
-    # . alt4-mtalk.google.com
-    # . alt5-mtalk.google.com
-    # . alt6-mtalk.google.com
-    # . alt7-mtalk.google.com
-    # . alt8-mtalk.google.com
-    # . app-measurement.net
-    # . blog.google
-    # . capitalg.com
-    # . chromeexperiments.com
-    # . chromestatus.com
-    # . com.google
-    # . crashlytics.com
-    # . creativelab5.com
-    # . crisisresponse.google
-    # . design.google
-    # . dns.google
-    # . domains.google
-    # . environment.google
-    # . getmdl.io
-    # . google.ac
-    # . google.af
-    # . google.com.nf
-    # . google.eu
-    # . google.gp
-    # . google.hk
-    # . google.it.ao
-    # . google.mx
-    # . google.tk
-    # . google.us
-    # . googleartproject.com
-    # . googlechinawebmaster.com
-    # . googlegroups.com
-    # . googlehosted.com
-    # . googleideas.com
-    # . googleinsidesearch.com
-    # . googlelabs.com
-    # . googlemashups.com
-    # . googlescholar.com
-    # . googlesile.com
-    # . googleweblight.com
-    # . googlezip.net
-    # . groups.google.cn
-    # . grow.google
-    # . gstatic.cn
-    # . gwtproject.org
-    # . imasdk.googleapis.com
-    # . lers.google
-    # . maps.google.com
-    # . mtalk.google.com
-    # . nic.google
-    # . opensource.google
-    # . partnerad.l.google.com
-    # . pride.google
-    # . safety.google
-    # . shattered.io
-    # . ssl-google-analytics.l.google.com
-    # . ssl.gstatic.com
-    # . stories.google
-    # . sustainability.google
-    # . telephony.goog
-    # . waveprotocol.org
+    # .265.com
+    # .about.google
+    # .accounts.google.com
+    # .agoogleaday.com
+    # .ai.google
+    # .alt1-mtalk.google.com
+    # .alt2-mtalk.google.com
+    # .alt3-mtalk.google.com
+    # .alt4-mtalk.google.com
+    # .alt5-mtalk.google.com
+    # .alt6-mtalk.google.com
+    # .alt7-mtalk.google.com
+    # .alt8-mtalk.google.com
+    # .app-measurement.net
+    # .blog.google
+    # .capitalg.com
+    # .chromeexperiments.com
+    # .chromestatus.com
+    # .com.google
+    # .crashlytics.com
+    # .creativelab5.com
+    # .crisisresponse.google
+    # .design.google
+    # .dns.google
+    # .domains.google
+    # .environment.google
+    # .getmdl.io
+    # .google.ac
+    # .google.af
+    # .google.com.nf
+    # .google.eu
+    # .google.gp
+    # .google.hk
+    # .google.it.ao
+    # .google.mx
+    # .google.tk
+    # .google.us
+    # .googleartproject.com
+    # .googlechinawebmaster.com
+    # .googlegroups.com
+    # .googlehosted.com
+    # .googleideas.com
+    # .googleinsidesearch.com
+    # .googlelabs.com
+    # .googlemashups.com
+    # .googlescholar.com
+    # .googlesile.com
+    # .googleweblight.com
+    # .googlezip.net
+    # .groups.google.cn
+    # .grow.google
+    # .gstatic.cn
+    # .gwtproject.org
+    # .imasdk.googleapis.com
+    # .lers.google
+    # .maps.google.com
+    # .mtalk.google.com
+    # .nic.google
+    # .opensource.google
+    # .partnerad.l.google.com
+    # .pride.google
+    # .safety.google
+    # .shattered.io
+    # .ssl-google-analytics.l.google.com
+    # .ssl.gstatic.com
+    # .stories.google
+    # .sustainability.google
+    # .telephony.goog
+    # .waveprotocol.org
 
     # .youtubei.googleapis.com
 
     # other rules
-    # . c.android.clients.google.com
-    # . cache.pack.google.com
-    # . clickserve.dartsearch.net
-    # . clientservices.googleapis.com
-    # . dl.google.com
-    # . dl.l.google.com
-    # . fonts.googleapis.com
-    # . fonts.gstatic.com
-    # . googleapis.cn
-    # . gtm.oasisfeng.com
-    # . safebrowsing-cache.google.com
-    # . safebrowsing.googleapis.com
-    # . settings.crashlytics.com
-    # . toolbarqueries.google.com
-    # . tools.google.com
-    # . tools.l.google.com
-    # . update.googleapis.com
-    # . www-google-analytics.l.google.com
-    # . www-googletagmanager.l.google.com
-    # . gstatic.com
+    # .c.android.clients.google.com
+    # .cache.pack.google.com
+    # .clickserve.dartsearch.net
+    # .clientservices.googleapis.com
+    # .dl.google.com
+    # .dl.l.google.com
+    # .fonts.googleapis.com
+    # .fonts.gstatic.com
+    # .googleapis.cn
+    # .gtm.oasisfeng.com
+    # .safebrowsing-cache.google.com
+    # .safebrowsing.googleapis.com
+    # .settings.crashlytics.com
+    # .toolbarqueries.google.com
+    # .tools.google.com
+    # .tools.l.google.com
+    # .update.googleapis.com
+    # .www-google-analytics.l.google.com
+    # .www-googletagmanager.l.google.com
+    # .gstatic.com
     # .dl.google.com
     # .mtalk.google.com
 
@@ -1246,7 +1251,7 @@
 
    # line
     .line-apps.com
-    # . line-scdn.net
+    # .line-scdn.net
     .tlanyan.me
     .naver.jp
 
@@ -1315,38 +1320,38 @@
    # microsoft
     # AS8075 - Microsoft Corporation
 
-    # . .onedrive
-    # . aadrm.com
-    # . acompli.com
-    # . acompli.net
-    # . assets-yammer.com
-    # . azurerms.com
-    # . edgesuite.net
-    # . lync.com
-    # . mobile.pipe.aria.microsoft.com
-    # . msappproxy.net
-    # . msauthimages.net
-    # . msftauthimages.net
-    # . msftconnecttest.com
-    # . msftidentity.com
-    # . msidentity.com
-    # . mstea.ms
-    # . oaspapps.com
-    # . odc.officeapps.live.com
-    # . officeppe.net
-    # . outlookmobile.com
-    # . phonefactor.net
-    # . photos.live.com
-    # . skyapi.live.net
-    # . skydrive.wns.windows.com
-    # . skypeforbusiness.com
-    # . spoprod-a.akamaihd.net
-    # . sway-extensions.com
-    # . uservoice.com
-    # . vortex.data.microsoft.com
-    # . windows-ppe.net
-    # . wunderlist.com
-    # . yammerusercontent.com
+    # - DOMAIN-KEYWORD, .onedrive
+    # .aadrm.com
+    # .acompli.com
+    # .acompli.net
+    # .assets-yammer.com
+    # .azurerms.com
+    # .edgesuite.net
+    # .lync.com
+    # .mobile.pipe.aria.microsoft.com
+    # .msappproxy.net
+    # .msauthimages.net
+    # .msftauthimages.net
+    # .msftconnecttest.com
+    # .msftidentity.com
+    # .msidentity.com
+    # .mstea.ms
+    # .oaspapps.com
+    # .odc.officeapps.live.com
+    # .officeppe.net
+    # .outlookmobile.com
+    # .phonefactor.net
+    # .photos.live.com
+    # .skyapi.live.net
+    # .skydrive.wns.windows.com
+    # .skypeforbusiness.com
+    # .spoprod-a.akamaihd.net
+    # .sway-extensions.com
+    # .uservoice.com
+    # .vortex.data.microsoft.com
+    # .windows-ppe.net
+    # .wunderlist.com
+    # .yammerusercontent.com
 
    # mintmobile.com
     .mintmobile.com
@@ -1362,8 +1367,8 @@
 
    # msn
     # msn rules originates from this yaml file
-    # . news.hk.msn.com
-    # . news.msn.com.tw
+    # .news.hk.msn.com
+    # .news.msn.com.tw
 
    # mullvad
     .mullvad.net
@@ -1417,11 +1422,11 @@
     .nelnet.com
 
    # netflix
-    # .Argo*
+    # USER-AGENT, Argo*
 
-    # . .dualstack.apiproxy-
-    # . .dualstack.ichnaea-web-
-    # . netflixdnstest0.com
+    # - DOMAIN-KEYWORD, .dualstack.apiproxy-
+    # - DOMAIN-KEYWORD, .dualstack.ichnaea-web-
+    # .netflixdnstest0.com
 
    # newcannabisventures
     .newcannabisventures.com
@@ -1455,6 +1460,9 @@
    # noviosfalabella.com
     .noviosfalabella.com
 
+   # nr-data.net
+    .bam-cell.nr-data.net
+
   # o
    # oculus
     .developer.oculus.com
@@ -1476,8 +1484,8 @@
 
    # onedrive
     # onedrive rules originates from this yaml file
-    # . blob.core.windows.net
-    # . storage.msn.com
+    # .blob.core.windows.net
+    # .storage.msn.com
     # .oneclient.sfx.ms
 
    # onehome.com
@@ -1535,7 +1543,7 @@
     .strapi-cms.pancakeswap.ai
 
    # paramount plus (test)
-    # . pplusstatic.com
+    # .pplusstatic.com
 
     .cws.conviva.com
 
@@ -1718,9 +1726,9 @@
     .sdge.com
 
    # sharepoint
-    # . blog.pathtosharepoint.com
-    # . pathtosharepoint.com
-    # . skqsi-my.sharepoint.com
+    # .blog.pathtosharepoint.com
+    # .pathtosharepoint.com
+    # .skqsi-my.sharepoint.com
 
    # sharethrough.com
 
@@ -1807,10 +1815,10 @@
     .surfshark.com
 
    # svc.ms
-    # . centralus1.mediap.svc.ms
+    # .centralus1.mediap.svc.ms
 
    # skype.com
-    # . twskype.com
+    # .twskype.com
     # .skype.com
 
    # synchronybank.com
@@ -1823,7 +1831,7 @@
     .teachers-teachers.com
 
    # teacherstestprep.com
-    . teacherstestprep.com
+    .teacherstestprep.com
 
    # tealiumiq.com (test)
     .uconnect.tealiumiq.com
@@ -1834,15 +1842,15 @@
     .teamredminer.com
 
    # techcrunch
-    # . .techcrunch
-    # . techcrunch.com
+    # - DOMAIN-KEYWORD, .techcrunch
+    # .techcrunch.com
 
    # tel.meet
     .tel.meet
 
    # telegram
-    # . .telegram
-    # . updates.tdesktop.com
+    # - DOMAIN-KEYWORD, .telegram
+    # .updates.tdesktop.com
 
    # teleseer.com
     .teleseer.com
@@ -1965,7 +1973,7 @@
     .trustwallet.com
 
    # tunein.com
-    # . tunein.com
+    # .tunein.com
 
     # .api.tunein.com
     # .cdn-cms.tunein.com
@@ -2017,6 +2025,9 @@
 
    # vapezoo
     .vapezoo.com
+
+   # vegasinfinite.com (test)
+    .vegasinfinite.com
 
    # vercel-insights.com
 
@@ -2076,7 +2087,7 @@
     .whalestonpool.com
 
    # whatsapp
-    # . .whatsapp
+    # - DOMAIN-KEYWORD, .whatsapp
 
    # whoer.net
     .whoer.net
@@ -2113,42 +2124,42 @@
     .frontend.vh.yandex.ru
 
    # yahoo
-    # . .yahoo
+    # - DOMAIN-KEYWORD, .yahoo
 
-    # . blogs.yahoo.co.jp
-    # . buy.yahoo.com.tw
-    # . duckduckgo-owned-server.yahoo.net
-    # . hk.knowledge.yahoo.com
-    # . hk.myblog.yahoo.com
-    # . hk.news.yahoo.com
-    # . hk.rd.yahoo.com
-    # . hk.search.yahoo.com
-    # . hk.video.news.yahoo.com
-    # . hk.yahoo.com
-    # . meme.yahoo.com
-    # . news.yahoo.com
-    # . page.bid.yahoo.com
-    # . pulse.yahoo.com
-    # . search.yahoo.co.jp
-    # . search.yahoo.com
-    # . tw.answers.yahoo.com
-    # . tw.bid.yahoo.com
-    # . tw.knowledge.yahoo.com
-    # . tw.mall.yahoo.com
-    # . tw.mobi.yahoo.com
-    # . tw.money.yahoo.com
-    # . tw.myblog.yahoo.com
-    # . tw.news.yahoo.com
-    # . tw.yahoo.com
-    # . upcoming.yahoo.com
-    # . video.yahoo.com
+    # .blogs.yahoo.co.jp
+    # .buy.yahoo.com.tw
+    # .duckduckgo-owned-server.yahoo.net
+    # .hk.knowledge.yahoo.com
+    # .hk.myblog.yahoo.com
+    # .hk.news.yahoo.com
+    # .hk.rd.yahoo.com
+    # .hk.search.yahoo.com
+    # .hk.video.news.yahoo.com
+    # .hk.yahoo.com
+    # .meme.yahoo.com
+    # .news.yahoo.com
+    # .page.bid.yahoo.com
+    # .pulse.yahoo.com
+    # .search.yahoo.co.jp
+    # .search.yahoo.com
+    # .tw.answers.yahoo.com
+    # .tw.bid.yahoo.com
+    # .tw.knowledge.yahoo.com
+    # .tw.mall.yahoo.com
+    # .tw.mobi.yahoo.com
+    # .tw.money.yahoo.com
+    # .tw.myblog.yahoo.com
+    # .tw.news.yahoo.com
+    # .tw.yahoo.com
+    # .upcoming.yahoo.com
+    # .video.yahoo.com
 
    # yotpo.com
 
    # youtube
-    # . studio.youtube.com
+    # .studio.youtube.com
 
-    # . yt3.ggpht.com
+    # .yt3.ggpht.com
     # .yt3.ggpht.com
     # .com.google.ios.youtube*
     # .com.google.ios.youtubemusic*
