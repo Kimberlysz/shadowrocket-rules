@@ -4,11 +4,11 @@
   Project status: still undergoing now.
 
   ### shadowrocket
-  #### shadowrocket config with ads blockeddownload url: 
-    https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/shadowrocket_blacklist.conf
+  #### shadowrocket config with ads blocked download url: 
+    https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/blacklist.yaml
 
   #### shadowrocket config with ads not blocked download url: 
-    https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/shadowrocketBlacklistAds.conf
+    https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/blacklistAds.yaml
 
   ### reference sources
     https://github.com/v2fly/domain-list-community
@@ -21,10 +21,10 @@
 
   ### shadowrocket
   #### Shadowrocket配置文件下载链接:
-    https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/shadowrocket_blacklist.conf
+    https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/blacklist.yaml
 
   #### Shadowrocket配置文件下载链接（未屏蔽广告版本）: 
-    https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-domain-rules@main/shadowrocketBlacklistAds.conf
+    https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/blacklistAds.yaml
 
   ### 参考来源
     https://github.com/v2fly/domain-list-community
