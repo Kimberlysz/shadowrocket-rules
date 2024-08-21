@@ -1,4 +1,10 @@
-# rules:
+#  the following few lines is for creating clasassetsh rule-providers:
+# payload:
+# 
+#     - '+.'
+#     - ''
+
+payload:
 
  # proxy manual (test)
    # Ⓜ️ 微软服务
@@ -725,8 +731,7 @@
     DOMAIN-SUFFIX, discomax.com
 
    # disneyplus
-    # (test)
-    DOMAIN-SUFFIX, bam.nr-data.net
+    # DOMAIN-SUFFIX, bam.nr-data.net
     # DOMAIN-SUFFIX, cdn.registerdisney.go.com
     # DOMAIN-SUFFIX, d9.flashtalking.com
     # DOMAIN-SUFFIX, dssott.com.akamaized.net
@@ -1455,6 +1460,9 @@
    # noviosfalabella.com
     DOMAIN-SUFFIX, noviosfalabella.com
 
+   # nr-data.net
+    DOMAIN-SUFFIX, bam-cell.nr-data.net
+
   # o
    # oculus
     DOMAIN, developer.oculus.com
@@ -2017,6 +2025,9 @@
 
    # vapezoo
     DOMAIN-SUFFIX, vapezoo.com
+
+   # vegasinfinite.com (test)
+    DOMAIN-SUFFIX, vegasinfinite.com
 
    # vercel-insights.com
 
