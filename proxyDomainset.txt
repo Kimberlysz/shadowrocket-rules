@@ -4,6 +4,8 @@
 #     - '+.'
 #     - ''
 
+# rules:
+
 payload:
  # proxy manual (test)
    # Ⓜ️ 微软服务
@@ -565,6 +567,9 @@ payload:
 
    # charlestoncounty.org
     .charlestoncounty.org
+
+   # cherryvpn.net
+    .cherryvpn.net
 
    # chia
     .chia.net
@@ -1882,6 +1887,9 @@ payload:
    # theplusaddons.com
     .theplusaddons.com
 
+   # thesaurus.com
+    .thesaurus.com
+
    # theseedsnetwork.com
     .theseedsnetwork.com
 
@@ -2174,6 +2182,6 @@ payload:
 
    # zillow
     .zillow.com
-    .zillowstatic.com
+    .zillowstatic.com 
 
    # zoominfo
