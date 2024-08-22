@@ -299,6 +299,10 @@ payload:
  # proxy manual
 
   # #
+   # 123data.net
+    .123data.net
+    .check-sdp.123data.net
+
    # 1800 flowers
     .1800flowers.com
 
