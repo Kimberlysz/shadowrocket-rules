@@ -4,6 +4,8 @@
 #     - '+.'
 #     - ''
 
+# rules:
+
 payload:
  # proxy manual (test)
    # Ⓜ️ 微软服务
@@ -565,6 +567,9 @@ payload:
 
    # charlestoncounty.org
     DOMAIN-SUFFIX, charlestoncounty.org
+
+   # cherryvpn.net
+    DOMAIN-SUFFIX, cherryvpn.net
 
    # chia
     DOMAIN-SUFFIX, chia.net
@@ -1881,6 +1886,9 @@ payload:
 
    # theplusaddons.com
     DOMAIN-SUFFIX, theplusaddons.com
+
+   # thesaurus.com
+    DOMAIN-SUFFIX, thesaurus.com
 
    # theseedsnetwork.com
     DOMAIN-SUFFIX, theseedsnetwork.com
