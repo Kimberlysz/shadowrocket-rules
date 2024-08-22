@@ -299,6 +299,10 @@ payload:
  # proxy manual
 
   # #
+   # 123data.net
+    DOMAIN-SUFFIX, 123data.net
+    DOMAIN-SUFFIX, check-sdp.123data.net
+
    # 1800 flowers
     DOMAIN-SUFFIX, 1800flowers.com
 
