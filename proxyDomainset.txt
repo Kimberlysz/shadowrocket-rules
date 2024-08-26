@@ -9,7 +9,7 @@
 payload:
  # proxy manual (test)
    # Ⓜ️ 微软服务
-    # - DOMAIN-KEYWORD, .1drv
+    # . .1drv
 
     .aadrm.com
     .acompli.com
@@ -43,32 +43,32 @@ payload:
     .icloud.com.cn
 
    # 🌍 国外媒体
-    # - PROCESS-NAME, com.viu.pad
-    # - PROCESS-NAME, com.viu.phone
-    # - PROCESS-NAME, com.vuclip.viu
+    # .com.viu.pad
+    # .com.viu.phone
+    # .com.vuclip.viu
 
-    # - DOMAIN-KEYWORD, .-spotify-
-    # - DOMAIN-KEYWORD, ..hbogoasia.
-    # - DOMAIN-KEYWORD, .abematv.akamaized.net
-    # - DOMAIN-KEYWORD, .apiproxy-device-prod-nlb-
-    # - DOMAIN-KEYWORD, .avoddashs
-    # - DOMAIN-KEYWORD, .bbcfmt
-    # - DOMAIN-KEYWORD, .dualstack.apiproxy-
-    # - DOMAIN-KEYWORD, .hbogoasia
-    # - DOMAIN-KEYWORD, .japonx
-    # - DOMAIN-KEYWORD, .japronx
-    # - DOMAIN-KEYWORD, .jooxweb-api
-    # - DOMAIN-KEYWORD, .netflixdnstest
-    # - DOMAIN-KEYWORD, .nivod
-    # - DOMAIN-KEYWORD, .nowtv100
-    # - DOMAIN-KEYWORD, .olevod
-    # - DOMAIN-KEYWORD, .openai
-    # - DOMAIN-KEYWORD, .rthklive
-    # - DOMAIN-KEYWORD, .spotify.com
-    # - DOMAIN-KEYWORD, .tiktokcdn
-    # - DOMAIN-KEYWORD, .ttvnw
-    # - DOMAIN-KEYWORD, .uk-live
-    # - DOMAIN-KEYWORD, .voddazn
+    # . .-spotify-
+    # . ..hbogoasia.
+    # . .abematv.akamaized.net
+    # . .apiproxy-device-prod-nlb-
+    # . .avoddashs
+    # . .bbcfmt
+    # . .dualstack.apiproxy-
+    # . .hbogoasia
+    # . .japonx
+    # . .japronx
+    # . .jooxweb-api
+    # . .netflixdnstest
+    # . .nivod
+    # . .nowtv100
+    # . .olevod
+    # . .openai
+    # . .rthklive
+    # . .spotify.com
+    # . .tiktokcdn
+    # . .ttvnw
+    # . .uk-live
+    # . .voddazn
 
     .44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
     .aod-dash-uk-live.akamaized.net
@@ -186,33 +186,33 @@ payload:
 
    # 🚀 节点选择
 
-    # - DOMAIN-KEYWORD, .1drv
-    # - DOMAIN-KEYWORD, .1e100
-    # - DOMAIN-KEYWORD, .abema
-    # - DOMAIN-KEYWORD, .avtb
-    # - DOMAIN-KEYWORD, .beetalk
-    # - DOMAIN-KEYWORD, .blogspot
-    # - DOMAIN-KEYWORD, .dropbox
-    # - DOMAIN-KEYWORD, .facebook
-    # - DOMAIN-KEYWORD, .fbcdn
-    # - DOMAIN-KEYWORD, .github
-    # - DOMAIN-KEYWORD, .instagram
-    # - DOMAIN-KEYWORD, .onedrive
-    # - DOMAIN-KEYWORD, .sci-hub
-    # - DOMAIN-KEYWORD, .skydrive
-    # - DOMAIN-KEYWORD, .spotify
-    # - DOMAIN-KEYWORD, .telegram
-    # - DOMAIN-KEYWORD, .ttvnw
-    # - DOMAIN-KEYWORD, .uk-live
-    # - DOMAIN-KEYWORD, .whatsapp
+    # . .1drv
+    # . .1e100
+    # . .abema
+    # . .avtb
+    # . .beetalk
+    # . .blogspot
+    # . .dropbox
+    # . .facebook
+    # . .fbcdn
+    # . .github
+    # . .instagram
+    # . .onedrive
+    # . .sci-hub
+    # . .skydrive
+    # . .spotify
+    # . .telegram
+    # . .ttvnw
+    # . .uk-live
+    # . .whatsapp
 
-    # - DOMAIN-KEYWORD, .eu
-    # - DOMAIN-KEYWORD, .hk
-    # - DOMAIN-KEYWORD, .jp
-    # - DOMAIN-KEYWORD, .kr
-    # - DOMAIN-KEYWORD, .sg
-    # - DOMAIN-KEYWORD, .tw
-    # - DOMAIN-KEYWORD, .uk
+    # . .eu
+    # . .hk
+    # . .jp
+    # . .kr
+    # . .sg
+    # . .tw
+    # . .uk
 
     .2mdn.net
     .4sqi.net
@@ -299,9 +299,6 @@ payload:
  # proxy manual
 
   # #
-   # 123data.net
-    .123data.net
-    .check-sdp.123data.net
 
    # 1800 flowers
     .1800flowers.com
@@ -326,8 +323,6 @@ payload:
    # aaos
     .aaos.org
 
-   # aaro
-
    # acast
     .acast.com
 
@@ -343,12 +338,6 @@ payload:
     .id.addepar.com
     .matrixpcg.addepar.com
 
-   # adsrvr
-
-   # adtdp
-
-   # agkn
-
    # agoda
     .agoda.com
 
@@ -358,8 +347,6 @@ payload:
     .cdn6.agoda.net
     .cdn0.agoda.net
     .bento.agoda.com
-
-   # ahalogy
 
    # ai art
     .craiyon.com
@@ -385,8 +372,6 @@ payload:
    # alpineschools.org
     .alpineschools.org
 
-   # amazon
-
    # amc
     .amc.com
     .amcn.com
@@ -401,13 +386,13 @@ payload:
     .apkpure.net
 
    # apple
-    # - DOMAIN-SUFFIX, amp-api.podcasts.apple.com
-    # - DOMAIN-SUFFIX, api.spreaker.com
-    # - DOMAIN-SUFFIX, chrt.fm
-    # - DOMAIN-SUFFIX, dts.podtrac.com
-    # - DOMAIN-SUFFIX, pdst.fm
-    # - DOMAIN-SUFFIX, podcasts.apple.com
-    # - DOMAIN-SUFFIX, podtrac.com
+    # .amp-api.podcasts.apple.com
+    # .api.spreaker.com
+    # .chrt.fm
+    # .dts.podtrac.com
+    # .pdst.fm
+    # .podcasts.apple.com
+    # .podtrac.com
 
    # appledaily
     .appledaily.tw
@@ -416,9 +401,9 @@ payload:
     .applitrack.com
 
    # appspot, Others
-    # - DOMAIN, feelinsonice-hrd.appspot.com
-    # - DOMAIN, feelinsonice.appspot.com
-    # - DOMAIN, sc-analytics.appspot.com
+    # feelinsonice-hrd.appspot.com
+    # feelinsonice.appspot.com
+    # sc-analytics.appspot.com
 
    # arkoselabs.com
     .client-api.arkoselabs.com
@@ -447,7 +432,7 @@ payload:
     .badoo.app
 
    # bandwagonhost
-    # - DOMAIN-KEYWORD, .64clouds
+    # . .64clouds
     .64clouds.com
 
    # barnesandnoble
@@ -461,7 +446,7 @@ payload:
     .e-hentai.org
 
    # beetalk
-    # - DOMAIN-KEYWORD, .beetalk
+    # . .beetalk
 
    # beinsports
     .connect-us.beinsports.com
@@ -485,7 +470,7 @@ payload:
 
    # bing
     # Bing rules originates from this yaml file
-    # - DOMAIN-SUFFIX, global.bing.com
+    # .global.bing.com
 
    # bitmain
     .bitmain.com
@@ -496,8 +481,6 @@ payload:
    # blockscout
     .blockscout.com
 
-   # blogspot
-
    # bloomberg
     .bloom.bg
     .bloombergdfpcw4670778881.s.moatpixel.com
@@ -507,8 +490,6 @@ payload:
     .personalization.bloomberg.com
     .sourcepointcmp.bloomberg.com
 
-   # bluehost
-
    # BMO
     .bmo.com
 
@@ -517,8 +498,6 @@ payload:
 
    # box.com
     .box.com
-
-   # brazgovskaia
 
    # broadbandgenie.co.uk
     .broadbandgenie.co.uk
@@ -538,12 +517,11 @@ payload:
    # canyonsdistrict.org
     .canyonsdistrict.org
 
+   # cars.com
+    .cars.com
+
    # carneysandoe.com
     .carneysandoe.com
-
-   # casalemedia
-
-   # cdnbasket
 
    # cebupacificair.com
     .cebupacificair.com
@@ -564,8 +542,6 @@ payload:
    # character.ai
     .beta.character.ai
 
-   # chartbeat.com
-
    # chatgpt.com
     .chatgpt.com
 
@@ -579,8 +555,6 @@ payload:
     .chia.net
     .chiacalculator.com
 
-   # chtbl.com
-
    # cipc.co.za
     .cipc.co.za
 
@@ -592,14 +566,12 @@ payload:
 
    # cloudflare
     .a.nel.cloudflare.com
-    # - DOMAIN-SUFFIX, ajax.cloudflare.com
-    # - DOMAIN-SUFFIX, api.ip.sb.cdn.cloudflare.net
-    # - DOMAIN-SUFFIX, cdnjs.cloudflare.com
+    # .ajax.cloudflare.com
+    # .api.ip.sb.cdn.cloudflare.net
+    # .cdnjs.cloudflare.com
 
     # cloudflare IP-CIDR
     # AS13335 - Cloudflare, Inc.
-
-   # cloudfront
 
    # cnbeta
     .cnbeta.com
@@ -626,7 +598,7 @@ payload:
     .z.cdp-dev.cnn.com
 
    # co.uk
-    # .co.uk
+    # . .co.uk
 
    # coinbase
     .coinbasecdn.net
@@ -661,8 +633,6 @@ payload:
    # cookcountyclerkil.gov
     .cookcountyclerkil.gov
 
-   # cookielaw.org
-
    # copilot.microsoft.com
     .copilot.microsoft.com
     .sydney.bing.com
@@ -684,10 +654,6 @@ payload:
 
    # creditone.com
     .creditone.com
-
-   # creditonebanks
-
-   # criteo.com
 
    # crockblock
     .crocoblock.com
@@ -730,8 +696,6 @@ payload:
    # diamondbackonline.com
     .diamondbackonline.com
 
-   # dingdatech
-
    # dirtrab.cl
     .dirtrab.cl
 
@@ -739,13 +703,13 @@ payload:
     .discomax.com
 
    # disneyplus
-    # - DOMAIN-SUFFIX, bam.nr-data.net
-    # - DOMAIN-SUFFIX, cdn.registerdisney.go.com
-    # - DOMAIN-SUFFIX, d9.flashtalking.com
-    # - DOMAIN-SUFFIX, dssott.com.akamaized.net
-    # - DOMAIN-SUFFIX, js-agent.newrelic.com
-    # - DOMAIN-SUFFIX, search-api-disney.bamgrid.com
-    # - DOMAIN-SUFFIX, starwave.com
+    # .bam.nr-data.net
+    # .cdn.registerdisney.go.com
+    # .d9.flashtalking.com
+    # .dssott.com.akamaized.net
+    # .js-agent.newrelic.com
+    # .search-api-disney.bamgrid.com
+    # .starwave.com
 
    # disney.demdex.net
     .disney.demdex.net
@@ -755,8 +719,6 @@ payload:
 
    # dpsk12.org
     .dpsk12.org
-
-   # drsmoke
 
    # dt.gob.cl
     .dt.gob.cl
@@ -774,7 +736,7 @@ payload:
 
    # elitebabes.com
     .afcdn.net
-    # - DOMAIN-SUFFIX, elitebabes.com
+    # .elitebabes.com
     .exdynsrv.com
     .hwcdn.net
 
@@ -839,8 +801,6 @@ payload:
   # f
    # f2pool
     .f2pool.com
-
-   # facebook
 
    # farmers.com
     .farmers.com
@@ -908,10 +868,10 @@ payload:
    # github
     # AS36459 - GitHub, Inc.
 
-    # - DOMAIN-KEYWORD, .github
-    # - DOMAIN-SUFFIX, gist.github.com
-    # - DOMAIN-SUFFIX, raw.githubusercontent.com
-    # - DOMAIN-SUFFIX, rawgithub.com
+    # . .github
+    # .gist.github.com
+    # .raw.githubusercontent.com
+    # .rawgithub.com
 
    # goddessdelivers
     .goddessdelivers.com
@@ -920,109 +880,109 @@ payload:
 
     # Others part2, Google
     # google store
-    # - DOMAIN-SUFFIX, store.google.com
+    # .store.google.com
 
     # google pay
-    # - DOMAIN-SUFFIX, pay.google.com
-    # - DOMAIN-SUFFIX, notifications.googleapis.com
-    # - DOMAIN-SUFFIX, families.google.com
+    # .pay.google.com
+    # .notifications.googleapis.com
+    # .families.google.com
 
     # bunch of google rules
-    # - DOMAIN-SUFFIX, 265.com
-    # - DOMAIN-SUFFIX, about.google
-    # - DOMAIN-SUFFIX, accounts.google.com
-    # - DOMAIN-SUFFIX, agoogleaday.com
-    # - DOMAIN-SUFFIX, ai.google
-    # - DOMAIN-SUFFIX, alt1-mtalk.google.com
-    # - DOMAIN-SUFFIX, alt2-mtalk.google.com
-    # - DOMAIN-SUFFIX, alt3-mtalk.google.com
-    # - DOMAIN-SUFFIX, alt4-mtalk.google.com
-    # - DOMAIN-SUFFIX, alt5-mtalk.google.com
-    # - DOMAIN-SUFFIX, alt6-mtalk.google.com
-    # - DOMAIN-SUFFIX, alt7-mtalk.google.com
-    # - DOMAIN-SUFFIX, alt8-mtalk.google.com
-    # - DOMAIN-SUFFIX, app-measurement.net
-    # - DOMAIN-SUFFIX, blog.google
-    # - DOMAIN-SUFFIX, capitalg.com
-    # - DOMAIN-SUFFIX, chromeexperiments.com
-    # - DOMAIN-SUFFIX, chromestatus.com
-    # - DOMAIN-SUFFIX, com.google
-    # - DOMAIN-SUFFIX, crashlytics.com
-    # - DOMAIN-SUFFIX, creativelab5.com
-    # - DOMAIN-SUFFIX, crisisresponse.google
-    # - DOMAIN-SUFFIX, design.google
-    # - DOMAIN-SUFFIX, dns.google
-    # - DOMAIN-SUFFIX, domains.google
-    # - DOMAIN-SUFFIX, environment.google
-    # - DOMAIN-SUFFIX, getmdl.io
-    # - DOMAIN-SUFFIX, google.ac
-    # - DOMAIN-SUFFIX, google.af
-    # - DOMAIN-SUFFIX, google.com.nf
-    # - DOMAIN-SUFFIX, google.eu
-    # - DOMAIN-SUFFIX, google.gp
-    # - DOMAIN-SUFFIX, google.hk
-    # - DOMAIN-SUFFIX, google.it.ao
-    # - DOMAIN-SUFFIX, google.mx
-    # - DOMAIN-SUFFIX, google.tk
-    # - DOMAIN-SUFFIX, google.us
-    # - DOMAIN-SUFFIX, googleartproject.com
-    # - DOMAIN-SUFFIX, googlechinawebmaster.com
-    # - DOMAIN-SUFFIX, googlegroups.com
-    # - DOMAIN-SUFFIX, googlehosted.com
-    # - DOMAIN-SUFFIX, googleideas.com
-    # - DOMAIN-SUFFIX, googleinsidesearch.com
-    # - DOMAIN-SUFFIX, googlelabs.com
-    # - DOMAIN-SUFFIX, googlemashups.com
-    # - DOMAIN-SUFFIX, googlescholar.com
-    # - DOMAIN-SUFFIX, googlesile.com
-    # - DOMAIN-SUFFIX, googleweblight.com
-    # - DOMAIN-SUFFIX, googlezip.net
-    # - DOMAIN-SUFFIX, groups.google.cn
-    # - DOMAIN-SUFFIX, grow.google
-    # - DOMAIN-SUFFIX, gstatic.cn
-    # - DOMAIN-SUFFIX, gwtproject.org
-    # - DOMAIN-SUFFIX, imasdk.googleapis.com
-    # - DOMAIN-SUFFIX, lers.google
-    # - DOMAIN-SUFFIX, maps.google.com
-    # - DOMAIN-SUFFIX, mtalk.google.com
-    # - DOMAIN-SUFFIX, nic.google
-    # - DOMAIN-SUFFIX, opensource.google
-    # - DOMAIN-SUFFIX, partnerad.l.google.com
-    # - DOMAIN-SUFFIX, pride.google
-    # - DOMAIN-SUFFIX, safety.google
-    # - DOMAIN-SUFFIX, shattered.io
-    # - DOMAIN-SUFFIX, ssl-google-analytics.l.google.com
-    # - DOMAIN-SUFFIX, ssl.gstatic.com
-    # - DOMAIN-SUFFIX, stories.google
-    # - DOMAIN-SUFFIX, sustainability.google
-    # - DOMAIN-SUFFIX, telephony.goog
-    # - DOMAIN-SUFFIX, waveprotocol.org
+    # .265.com
+    # .about.google
+    # .accounts.google.com
+    # .agoogleaday.com
+    # .ai.google
+    # .alt1-mtalk.google.com
+    # .alt2-mtalk.google.com
+    # .alt3-mtalk.google.com
+    # .alt4-mtalk.google.com
+    # .alt5-mtalk.google.com
+    # .alt6-mtalk.google.com
+    # .alt7-mtalk.google.com
+    # .alt8-mtalk.google.com
+    # .app-measurement.net
+    # .blog.google
+    # .capitalg.com
+    # .chromeexperiments.com
+    # .chromestatus.com
+    # .com.google
+    # .crashlytics.com
+    # .creativelab5.com
+    # .crisisresponse.google
+    # .design.google
+    # .dns.google
+    # .domains.google
+    # .environment.google
+    # .getmdl.io
+    # .google.ac
+    # .google.af
+    # .google.com.nf
+    # .google.eu
+    # .google.gp
+    # .google.hk
+    # .google.it.ao
+    # .google.mx
+    # .google.tk
+    # .google.us
+    # .googleartproject.com
+    # .googlechinawebmaster.com
+    # .googlegroups.com
+    # .googlehosted.com
+    # .googleideas.com
+    # .googleinsidesearch.com
+    # .googlelabs.com
+    # .googlemashups.com
+    # .googlescholar.com
+    # .googlesile.com
+    # .googleweblight.com
+    # .googlezip.net
+    # .groups.google.cn
+    # .grow.google
+    # .gstatic.cn
+    # .gwtproject.org
+    # .imasdk.googleapis.com
+    # .lers.google
+    # .maps.google.com
+    # .mtalk.google.com
+    # .nic.google
+    # .opensource.google
+    # .partnerad.l.google.com
+    # .pride.google
+    # .safety.google
+    # .shattered.io
+    # .ssl-google-analytics.l.google.com
+    # .ssl.gstatic.com
+    # .stories.google
+    # .sustainability.google
+    # .telephony.goog
+    # .waveprotocol.org
 
-    # - DOMAIN, youtubei.googleapis.com
+    # youtubei.googleapis.com
 
     # other rules
-    # - DOMAIN-SUFFIX, c.android.clients.google.com
-    # - DOMAIN-SUFFIX, cache.pack.google.com
-    # - DOMAIN-SUFFIX, clickserve.dartsearch.net
-    # - DOMAIN-SUFFIX, clientservices.googleapis.com
-    # - DOMAIN-SUFFIX, dl.google.com
-    # - DOMAIN-SUFFIX, dl.l.google.com
-    # - DOMAIN-SUFFIX, fonts.googleapis.com
-    # - DOMAIN-SUFFIX, fonts.gstatic.com
-    # - DOMAIN-SUFFIX, googleapis.cn
-    # - DOMAIN-SUFFIX, gtm.oasisfeng.com
-    # - DOMAIN-SUFFIX, safebrowsing-cache.google.com
-    # - DOMAIN-SUFFIX, safebrowsing.googleapis.com
-    # - DOMAIN-SUFFIX, settings.crashlytics.com
-    # - DOMAIN-SUFFIX, toolbarqueries.google.com
-    # - DOMAIN-SUFFIX, tools.google.com
-    # - DOMAIN-SUFFIX, tools.l.google.com
-    # - DOMAIN-SUFFIX, update.googleapis.com
-    # - DOMAIN-SUFFIX, www-google-analytics.l.google.com
-    # - DOMAIN-SUFFIX, www-googletagmanager.l.google.com
-    # - DOMAIN-SUFFIX, gstatic.com
-    # - DOMAIN, dl.google.com
-    # - DOMAIN, mtalk.google.com
+    # .c.android.clients.google.com
+    # .cache.pack.google.com
+    # .clickserve.dartsearch.net
+    # .clientservices.googleapis.com
+    # .dl.google.com
+    # .dl.l.google.com
+    # .fonts.googleapis.com
+    # .fonts.gstatic.com
+    # .googleapis.cn
+    # .gtm.oasisfeng.com
+    # .safebrowsing-cache.google.com
+    # .safebrowsing.googleapis.com
+    # .settings.crashlytics.com
+    # .toolbarqueries.google.com
+    # .tools.google.com
+    # .tools.l.google.com
+    # .update.googleapis.com
+    # .www-google-analytics.l.google.com
+    # .www-googletagmanager.l.google.com
+    # .gstatic.com
+    # dl.google.com
+    # mtalk.google.com
 
    # gotquestions.org
     .gotquestions.org
@@ -1090,8 +1050,6 @@ payload:
    # hubspot
     .hubspot.com
 
-   # hulu
-
    # humana.com
     .humana.com
 
@@ -1109,8 +1067,6 @@ payload:
    # id.me
     .id.me
 
-   # id5-sync.com
-
    # ign
     .ign.com
     .ignimgs.com
@@ -1118,14 +1074,6 @@ payload:
     .assets1.ignimgs.com
     .assets-prd.ignimgs.com
     .kraken.ignimgs.com
-
-   # imgix.net
-
-   # imrworldwide.com (test)
-    .bkrmyqgwc3bl8hmmta5dl30ylhqrp1722436322.nuid.imrworldwide.com
-
-    .nuid.imrworldwide.com
-    .imrworldwide.com
 
    # indeed.com
     .t.indeed.com
@@ -1149,9 +1097,8 @@ payload:
    # indiatoday.in
     .indiatoday.in
 
-   # instagram
-
-   # intercom.io
+   # interactivebrokers.com.hk
+    .interactivebrokers.com.hk
 
    # intuit.com
     .intuit.com
@@ -1188,8 +1135,6 @@ payload:
     .jordandistrict.org
     .employment.jordandistrict.org
 
-   # jsdelivr
-
    # justanswer.com
     .justanswer.com
 
@@ -1200,8 +1145,6 @@ payload:
    # kagyuoffice
     .kagyuoffice.org
     .kagyuoffice.org.tw
-
-   # kakao
 
    # kapwing.com
     .kapwing.com
@@ -1222,18 +1165,12 @@ payload:
    # kraken
     .kraken.com
 
-   # kucoin
-
   # l
    # larrainvial.com
     .larrainvial.com
 
-   # ledger live
-
    # legkierody.ru
     .legkierody.ru
-
-   # liadm.com
 
    # libbyapp.com
     .ic.od-cdn.com
@@ -1255,11 +1192,9 @@ payload:
    # lifemission.church
     .lifemission.church
 
-   # lijit.com
-
    # line
     .line-apps.com
-    # - DOMAIN-SUFFIX, line-scdn.net
+    # .line-scdn.net
     .tlanyan.me
     .naver.jp
 
@@ -1328,43 +1263,43 @@ payload:
    # microsoft
     # AS8075 - Microsoft Corporation
 
-    # - DOMAIN-KEYWORD, .onedrive
-    # - DOMAIN-SUFFIX, aadrm.com
-    # - DOMAIN-SUFFIX, acompli.com
-    # - DOMAIN-SUFFIX, acompli.net
-    # - DOMAIN-SUFFIX, assets-yammer.com
-    # - DOMAIN-SUFFIX, azurerms.com
-    # - DOMAIN-SUFFIX, edgesuite.net
-    # - DOMAIN-SUFFIX, lync.com
-    # - DOMAIN-SUFFIX, mobile.pipe.aria.microsoft.com
-    # - DOMAIN-SUFFIX, msappproxy.net
-    # - DOMAIN-SUFFIX, msauthimages.net
-    # - DOMAIN-SUFFIX, msftauthimages.net
-    # - DOMAIN-SUFFIX, msftconnecttest.com
-    # - DOMAIN-SUFFIX, msftidentity.com
-    # - DOMAIN-SUFFIX, msidentity.com
-    # - DOMAIN-SUFFIX, mstea.ms
-    # - DOMAIN-SUFFIX, oaspapps.com
-    # - DOMAIN-SUFFIX, odc.officeapps.live.com
-    # - DOMAIN-SUFFIX, officeppe.net
-    # - DOMAIN-SUFFIX, outlookmobile.com
-    # - DOMAIN-SUFFIX, phonefactor.net
-    # - DOMAIN-SUFFIX, photos.live.com
-    # - DOMAIN-SUFFIX, skyapi.live.net
-    # - DOMAIN-SUFFIX, skydrive.wns.windows.com
-    # - DOMAIN-SUFFIX, skypeforbusiness.com
-    # - DOMAIN-SUFFIX, spoprod-a.akamaihd.net
-    # - DOMAIN-SUFFIX, sway-extensions.com
-    # - DOMAIN-SUFFIX, uservoice.com
-    # - DOMAIN-SUFFIX, vortex.data.microsoft.com
-    # - DOMAIN-SUFFIX, windows-ppe.net
-    # - DOMAIN-SUFFIX, wunderlist.com
-    # - DOMAIN-SUFFIX, yammerusercontent.com
+    # . .onedrive
+    # .aadrm.com
+    # .acompli.com
+    # .acompli.net
+    # .assets-yammer.com
+    # .azurerms.com
+    # .edgesuite.net
+    # .lync.com
+    # .mobile.pipe.aria.microsoft.com
+    # .msappproxy.net
+    # .msauthimages.net
+    # .msftauthimages.net
+    # .msftconnecttest.com
+    # .msftidentity.com
+    # .msidentity.com
+    # .mstea.ms
+    # .oaspapps.com
+    # .odc.officeapps.live.com
+    # .officeppe.net
+    # .outlookmobile.com
+    # .phonefactor.net
+    # .photos.live.com
+    # .skyapi.live.net
+    # .skydrive.wns.windows.com
+    # .skypeforbusiness.com
+    # .spoprod-a.akamaihd.net
+    # .sway-extensions.com
+    # .uservoice.com
+    # .vortex.data.microsoft.com
+    # .windows-ppe.net
+    # .wunderlist.com
+    # .yammerusercontent.com
+
+    .storeedgefd.dsx.mp.microsoft.com
 
    # mintmobile.com
     .mintmobile.com
-
-   # ml314.com
 
    # mo.gov
     .dese.mo.gov
@@ -1375,18 +1310,14 @@ payload:
 
    # msn
     # msn rules originates from this yaml file
-    # - DOMAIN-SUFFIX, news.hk.msn.com
-    # - DOMAIN-SUFFIX, news.msn.com.tw
+    # .news.hk.msn.com
+    # .news.msn.com.tw
 
    # mullvad
     .mullvad.net
 
    # mwcbarcelona.com
     .register.mwcbarcelona.com
-
-   # mxptint.net
-
-   # myccpay
 
    # myindigocard
     .myindigocard.com
@@ -1432,9 +1363,9 @@ payload:
    # netflix
     # USER-AGENT, Argo*
 
-    # - DOMAIN-KEYWORD, .dualstack.apiproxy-
-    # - DOMAIN-KEYWORD, .dualstack.ichnaea-web-
-    # - DOMAIN-SUFFIX, netflixdnstest0.com
+    # . .dualstack.apiproxy-
+    # . .dualstack.ichnaea-web-
+    # .netflixdnstest0.com
 
    # newcannabisventures
     .newcannabisventures.com
@@ -1494,9 +1425,9 @@ payload:
 
    # onedrive
     # onedrive rules originates from this yaml file
-    # - DOMAIN-SUFFIX, blob.core.windows.net
-    # - DOMAIN-SUFFIX, storage.msn.com
-    # - DOMAIN, oneclient.sfx.ms
+    # .blob.core.windows.net
+    # .storage.msn.com
+    # oneclient.sfx.ms
 
    # onehome.com
     .onehome.com
@@ -1537,8 +1468,6 @@ payload:
    # otto.nl
     .otto.nl
 
-   # outbrain.com
-
    # outlookindia.com
     .outlookindia.com
 
@@ -1553,7 +1482,7 @@ payload:
     .strapi-cms.pancakeswap.ai
 
    # paramount plus (test)
-    # - DOMAIN-SUFFIX, pplusstatic.com
+    # .pplusstatic.com
 
     .cbsi.live.ott.irdeto.com
     .cws.conviva.com
@@ -1588,6 +1517,9 @@ payload:
 
     .philippineairlinesprod.api.useinsider.com
     .zn6euonij6xwfajg5-philippineairlines.site
+
+   # philo.com
+    .philo.com
 
    # pixeldrain.com
     .pixeldrain.com
@@ -1624,8 +1556,6 @@ payload:
    # psi.org
     .psi.org
 
-   # Psychz Networks
-
   # q
    # qflm.net (test)
     .qflm.net
@@ -1648,8 +1578,6 @@ payload:
     .cdn.quantummetric.com
     .ingest.quantummetric.com
     .rl.quantummetric.com
-
-   # quora.com
 
   # r
    # rask.ai
@@ -1679,14 +1607,8 @@ payload:
    # remove.bg
     .remove.bg
 
-   # resi
-
-   # rfihub.com
-
    # roblox
     .roblox.com
-
-   # rubiconproject.com
 
    # runescape
     .cdn.runescape.com
@@ -1738,11 +1660,9 @@ payload:
     .sdge.com
 
    # sharepoint
-    # - DOMAIN-SUFFIX, blog.pathtosharepoint.com
-    # - DOMAIN-SUFFIX, pathtosharepoint.com
-    # - DOMAIN-SUFFIX, skqsi-my.sharepoint.com
-
-   # sharethrough.com
+    # .blog.pathtosharepoint.com
+    # .pathtosharepoint.com
+    # .skqsi-my.sharepoint.com
 
    # shodan.io
     .shodan.io
@@ -1770,8 +1690,6 @@ payload:
    # socratic.org
     .socratic.org
 
-   # softLayer Technologies
-
    # soundraw
     .soundraw-storage.com
 
@@ -1784,10 +1702,6 @@ payload:
     .static-cdn.spot.im
     .publisher-assets.spot.im
     .event-stream.spot.im
-
-   # spotxchange.com
-
-   # squarecdn.com
 
    # starford.com
     .starford.com
@@ -1805,8 +1719,6 @@ payload:
 
     .auth.starz.com
     .playdata.starz.com
-
-   # stickyadstv.com
 
    # stremio.com
     .api.strem.io
@@ -1827,18 +1739,16 @@ payload:
     .surfshark.com
 
    # svc.ms
-    # - DOMAIN-SUFFIX, centralus1.mediap.svc.ms
+    # .centralus1.mediap.svc.ms
 
    # skype.com
-    # - DOMAIN-SUFFIX, twskype.com
-    # - DOMAIN, skype.com
+    # .twskype.com
+    # skype.com
 
    # synchronybank.com
     .synchronybank.com
 
   # t
-   # taboola.com
-
    # teachers-teachers.com
     .teachers-teachers.com
 
@@ -1854,15 +1764,15 @@ payload:
     .teamredminer.com
 
    # techcrunch
-    # - DOMAIN-KEYWORD, .techcrunch
-    # - DOMAIN-SUFFIX, techcrunch.com
+    # . .techcrunch
+    # .techcrunch.com
 
    # tel.meet
     .tel.meet
 
    # telegram
-    # - DOMAIN-KEYWORD, .telegram
-    # - DOMAIN-SUFFIX, updates.tdesktop.com
+    # . .telegram
+    # .updates.tdesktop.com
 
    # teleseer.com
     .teleseer.com
@@ -1926,10 +1836,6 @@ payload:
     .tibetoffice.org
     .tibetoffice.com.au
 
-   # tidiochat.com
-
-   # tiktok
-
    # tlsfingerprint
     .tlsfingerprint.io
 
@@ -1988,16 +1894,14 @@ payload:
     .trustwallet.com
 
    # tunein.com
-    # - DOMAIN-SUFFIX, tunein.com
+    # .tunein.com
 
-    # - DOMAIN, api.tunein.com
-    # - DOMAIN, cdn-cms.tunein.com
-    # - DOMAIN, cdn-web.tunein.com
-    # - DOMAIN, event.platform.tunein.com
-    # - DOMAIN, gotie.tunein.com
-    # - DOMAIN, reports.tunein.com
-
-   # turn.com
+    # api.tunein.com
+    # cdn-cms.tunein.com
+    # cdn-web.tunein.com
+    # event.platform.tunein.com
+    # gotie.tunein.com
+    # reports.tunein.com
 
    # turner.com
     .s.cdn.turner.com
@@ -2005,6 +1909,9 @@ payload:
    # tuya
     .tuya.com
     .tuyain.com
+
+   # tvbanywhereplus.com
+    .tvbanywhereplus.com
 
    # tvlicensing.co.uk
     .tvlicensing.co.uk
@@ -2017,8 +1924,6 @@ payload:
 
    # twitonmsn
     .twitonmsn.com
-
-   # twitter
 
   # u
 
@@ -2038,13 +1943,11 @@ payload:
    # v2fly.org
     .v2fly.org
 
+   # vantagemarkets.com
+    .vantagemarkets.com
+
    # vapezoo
     .vapezoo.com
-
-   # vegasinfinite.com (test)
-    .vegasinfinite.com
-
-   # vercel-insights.com
 
    # veritaspress.com
     .veritaspress.com
@@ -2090,8 +1993,6 @@ payload:
    # webassign.net
     .webassign.net
 
-   # weebly.com
-
    # wes.org
     .applications.wes.org
 
@@ -2102,7 +2003,7 @@ payload:
     .whalestonpool.com
 
    # whatsapp
-    # - DOMAIN-KEYWORD, .whatsapp
+    # . .whatsapp
 
    # whoer.net
     .whoer.net
@@ -2139,53 +2040,47 @@ payload:
     .frontend.vh.yandex.ru
 
    # yahoo
-    # - DOMAIN-KEYWORD, .yahoo
+    # . .yahoo
 
-    # - DOMAIN-SUFFIX, blogs.yahoo.co.jp
-    # - DOMAIN-SUFFIX, buy.yahoo.com.tw
-    # - DOMAIN-SUFFIX, duckduckgo-owned-server.yahoo.net
-    # - DOMAIN-SUFFIX, hk.knowledge.yahoo.com
-    # - DOMAIN-SUFFIX, hk.myblog.yahoo.com
-    # - DOMAIN-SUFFIX, hk.news.yahoo.com
-    # - DOMAIN-SUFFIX, hk.rd.yahoo.com
-    # - DOMAIN-SUFFIX, hk.search.yahoo.com
-    # - DOMAIN-SUFFIX, hk.video.news.yahoo.com
-    # - DOMAIN-SUFFIX, hk.yahoo.com
-    # - DOMAIN-SUFFIX, meme.yahoo.com
-    # - DOMAIN-SUFFIX, news.yahoo.com
-    # - DOMAIN-SUFFIX, page.bid.yahoo.com
-    # - DOMAIN-SUFFIX, pulse.yahoo.com
-    # - DOMAIN-SUFFIX, search.yahoo.co.jp
-    # - DOMAIN-SUFFIX, search.yahoo.com
-    # - DOMAIN-SUFFIX, tw.answers.yahoo.com
-    # - DOMAIN-SUFFIX, tw.bid.yahoo.com
-    # - DOMAIN-SUFFIX, tw.knowledge.yahoo.com
-    # - DOMAIN-SUFFIX, tw.mall.yahoo.com
-    # - DOMAIN-SUFFIX, tw.mobi.yahoo.com
-    # - DOMAIN-SUFFIX, tw.money.yahoo.com
-    # - DOMAIN-SUFFIX, tw.myblog.yahoo.com
-    # - DOMAIN-SUFFIX, tw.news.yahoo.com
-    # - DOMAIN-SUFFIX, tw.yahoo.com
-    # - DOMAIN-SUFFIX, upcoming.yahoo.com
-    # - DOMAIN-SUFFIX, video.yahoo.com
-
-   # yotpo.com
+    # .blogs.yahoo.co.jp
+    # .buy.yahoo.com.tw
+    # .duckduckgo-owned-server.yahoo.net
+    # .hk.knowledge.yahoo.com
+    # .hk.myblog.yahoo.com
+    # .hk.news.yahoo.com
+    # .hk.rd.yahoo.com
+    # .hk.search.yahoo.com
+    # .hk.video.news.yahoo.com
+    # .hk.yahoo.com
+    # .meme.yahoo.com
+    # .news.yahoo.com
+    # .page.bid.yahoo.com
+    # .pulse.yahoo.com
+    # .search.yahoo.co.jp
+    # .search.yahoo.com
+    # .tw.answers.yahoo.com
+    # .tw.bid.yahoo.com
+    # .tw.knowledge.yahoo.com
+    # .tw.mall.yahoo.com
+    # .tw.mobi.yahoo.com
+    # .tw.money.yahoo.com
+    # .tw.myblog.yahoo.com
+    # .tw.news.yahoo.com
+    # .tw.yahoo.com
+    # .upcoming.yahoo.com
+    # .video.yahoo.com
 
    # youtube
-    # - DOMAIN-SUFFIX, studio.youtube.com
+    # .studio.youtube.com
 
-    # - DOMAIN-SUFFIX, yt3.ggpht.com
-    # - DOMAIN, yt3.ggpht.com
-    # - USER-AGENT, com.google.ios.youtube*
-    # - USER-AGENT, com.google.ios.youtubemusic*
-    # - USER-AGENT, YouTube*
-    # - USER-AGENT, YouTubeMusic*
+    # .yt3.ggpht.com
+    # yt3.ggpht.com
+    # .com.google.ios.youtube*
+    # .com.google.ios.youtubemusic*
+    # .YouTube*
+    # .YouTubeMusic*
 
   # z
-   # zemanta.com
-
    # zillow
     .zillow.com
-    .zillowstatic.com 
-
-   # zoominfo
+    .zillowstatic.com
