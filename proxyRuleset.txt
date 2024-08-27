@@ -426,6 +426,9 @@ payload:
     DOMAIN-SUFFIX, avg.com
 
   # b
+   # b-cdn.net
+    DOMAIN-SUFFIX, b-cdn.net
+
    # badoo
     DOMAIN-SUFFIX, badoocdn.com
     DOMAIN-SUFFIX, badoo.com
@@ -1257,6 +1260,9 @@ payload:
    # metacareers.com
     DOMAIN-SUFFIX, metacareers.com
 
+   # mgmplus.com
+    DOMAIN-SUFFIX, mgmplus.com
+
    # mheducation.com
     DOMAIN-SUFFIX, mheducation.com
 
@@ -1296,8 +1302,9 @@ payload:
     # DOMAIN-SUFFIX, wunderlist.com
     # DOMAIN-SUFFIX, yammerusercontent.com
 
-    DOMAIN, storeedgefd.dsx.mp.microsoft.com
-
+    DOMAIN-SUFFIX, images-eds-ssl.xboxlive.com
+    DOMAIN-SUFFIX, storeedgefd.dsx.mp.microsoft.com
+    
    # mintmobile.com
     DOMAIN-SUFFIX, mintmobile.com
 
@@ -1909,9 +1916,6 @@ payload:
    # tuya
     DOMAIN-SUFFIX, tuya.com
     DOMAIN-SUFFIX, tuyain.com
-
-   # tvbanywhereplus.com
-    DOMAIN-SUFFIX, tvbanywhereplus.com
 
    # tvlicensing.co.uk
     DOMAIN-SUFFIX, tvlicensing.co.uk
