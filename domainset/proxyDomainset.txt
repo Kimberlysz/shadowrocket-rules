@@ -426,6 +426,9 @@ payload:
     .avg.com
 
   # b
+   # b-cdn.net
+    .b-cdn.net
+
    # badoo
     .badoocdn.com
     .badoo.com
@@ -1257,6 +1260,9 @@ payload:
    # metacareers.com
     .metacareers.com
 
+   # mgmplus.com
+    .mgmplus.com
+
    # mheducation.com
     .mheducation.com
 
@@ -1296,6 +1302,7 @@ payload:
     # .wunderlist.com
     # .yammerusercontent.com
 
+    .images-eds-ssl.xboxlive.com
     .storeedgefd.dsx.mp.microsoft.com
 
    # mintmobile.com
@@ -1909,9 +1916,6 @@ payload:
    # tuya
     .tuya.com
     .tuyain.com
-
-   # tvbanywhereplus.com
-    .tvbanywhereplus.com
 
    # tvlicensing.co.uk
     .tvlicensing.co.uk
