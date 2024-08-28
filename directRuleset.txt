@@ -1,5 +1,7 @@
 # rules:
 
+payload:
+
  # direct manual (test)
     # DOMAIN-KEYWORD, .appzapp
     # DOMAIN-KEYWORD, .ccgslb
