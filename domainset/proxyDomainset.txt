@@ -1,301 +1,6 @@
-#  the following few lines is for creating clasassetsh rule-providers:
-# payload:
-# 
-#     - '+.'
-#     - ''
-
 # rules:
 
 payload:
- # proxy manual (test)
-   # Ⓜ️ 微软服务
-    # . .1drv
-
-    .aadrm.com
-    .acompli.com
-    .acompli.net
-    .assets-yammer.com
-    .azurerms.com
-    .lync.com
-    .msappproxy.net
-    .msauthimages.net
-    .msftauthimages.net
-    .msftidentity.com
-    .msidentity.com
-    .msn.cn
-    .mstea.ms
-    .oaspapps.com
-    .officeppe.net
-    .outlookmobile.com
-    .phonefactor.net
-    .skypeforbusiness.com
-    .sway-extensions.com
-    .uservoice.com
-    .windows-ppe.net
-    .wunderlist.com
-    .yammerusercontent.com
-
-   # 🍎 苹果服务
-    .apple.comscoreresearch.com
-  
-    .appstore.com
-    .crashlytics.com
-    .icloud.com.cn
-
-   # 🌍 国外媒体
-    # .com.viu.pad
-    # .com.viu.phone
-    # .com.vuclip.viu
-
-    # . .-spotify-
-    # . ..hbogoasia.
-    # . .abematv.akamaized.net
-    # . .apiproxy-device-prod-nlb-
-    # . .avoddashs
-    # . .bbcfmt
-    # . .dualstack.apiproxy-
-    # . .hbogoasia
-    # . .japonx
-    # . .japronx
-    # . .jooxweb-api
-    # . .netflixdnstest
-    # . .nivod
-    # . .nowtv100
-    # . .olevod
-    # . .openai
-    # . .rthklive
-    # . .spotify.com
-    # . .tiktokcdn
-    # . .ttvnw
-    # . .uk-live
-    # . .voddazn
-
-    .44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
-    .aod-dash-uk-live.akamaized.net
-    .aod-hls-uk-live.akamaized.net
-    .api-abematv.bucketeer.jp
-    .atv-ps.amazon.com
-    .avodmp4s3ww-a.akamaihd.net
-    .bahamut.akamaized.net
-    .bcbolt446c5271-a.akamaihd.net
-    .bcbolthboa-a.akamaihd.net
-    .cdn.registerdisney.go.com
-    .cf-images.ap-southeast-1.prod.boltdns.net
-    .content.jwplatform.com
-    .d1v5ir2lpwr8os.cloudfront.net
-    .d1xfray82862hr.cloudfront.net
-    .d3c7rimkq79yfu.cloudfront.net
-    .d22qjgkvxw22r6.cloudfront.net
-    .d25xi40x97liuc.cloudfront.net
-    .d27xxe7juh1us6.cloudfront.net
-    .d151l6v8er5bdm.cloudfront.net
-    .d349g9zuie06uo.cloudfront.net
-    .d3196yreox78o9.cloudfront.net
-    .dai3fd1oh325y.cloudfront.net
-    .dmqdd6hw24ucf.cloudfront.net
-    .edge.api.brightcove.com
-    .gspe1-ssl.ls.apple.com
-    .hamifans.emome.net
-    .hboasia1-i.akamaihd.net
-    .hboasia2-i.akamaihd.net
-    .hboasia3-i.akamaihd.net
-    .hboasia4-i.akamaihd.net
-    .hboasia5-i.akamaihd.net
-    .hboasialive.akamaized.net
-    .hbogoprod-vod.akamaized.net
-    .hbolb.onwardsmg.com
-    .hbounify-prod.evergent.com
-    .itvpnpmobile-a.akamaihd.net
-    .kktv-theater.kk.stream
-    .ktpx.amazon.com
-    .litvfreemobile-hichannel.cdn.hinet.net
-    .music.youtube.com
-    .mytvsuperlimited.hb.omtrdc.net
-    .mytvsuperlimited.sc.omtrdc.net
-    .np-edge.itunes.apple.com
-    .play-edge.itunes.apple.com
-    .players.brightcove.net
-    .s3-ap-southeast-1.amazonaws.com
-    .videos-f.jwpsrv.com
-    .yt3.ggpht.com
-  
-    .5itv.tv
-    .aiv-delivery.net
-    .amazontools.com
-    .amazontours.com
-    .amazonuniversity.jobs
-    .bam.nr-data.net
-    .bbcfmt.hs.llnwd.net
-    .bbci.co
-    .braze.com
-    .c4assets.com
-    .cdn.registerdisney.go.com
-    .challenges.cloudflare.com
-    .channel4.com
-    .channel5.com
-    .cognito-identity.us-east-1.amazonaws.com
-    .cws-hulu.conviva.com
-    .cws.conviva.com
-    .d1sgwhnao7452x.cloudfront.net
-    .d3c7rimkq79yfu.cloudfront.net
-    .d9.flashtalking.com
-    .d151l6v8er5bdm.cloudfront.net
-    .dcblivedazn.akamaized.net
-    .deezer.com
-    .dfp6rglgjqszk.cloudfront.net
-    .discovery.com
-    .dmc.nico
-    .dzcdn.net
-    .events.statsigapi.net
-    .execute-api.us-east-1.amazonaws.com
-    .featuregates.org
-    .happyon.jp
-    .hjholdings.jp
-    .hulu.hb.omtrdc.net
-    .hulu.sc.omtrdc.net
-    .ipstatp.com
-    .itvstatic.com
-    .japonx.com
-    .japonx.net
-    .japonx.tv
-    .japonx.vip
-    .japronx.com
-    .japronx.net
-    .japronx.tv
-    .japronx.vip
-    .js-agent.newrelic.com
-    .mobileanalytics.us-east-1.amazonaws.com
-    .my5.tv
-    .ocnttv.com
-    .openaiapi-site.azureedge.net
-    .p-cdn.us
-    .pandora.com
-    .prod.hjholdings.tv
-    .profile.line-scdn.net
-    .pv-cdn.net
-    .qobuz.com
-    .seattlespheres.com
-    .sentry.io
-    .skyking.com.tw
-    .streaks.jp
-    .tidal-cms.s3.amazonaws.com
-    .tv.apple.com
-    .twitch-ext.rootonline.de
-    .viu.now.com
-    .yb.uncn.jp
-
-   # 🚀 节点选择
-
-    # . .1drv
-    # . .1e100
-    # . .abema
-    # . .avtb
-    # . .beetalk
-    # . .blogspot
-    # . .dropbox
-    # . .facebook
-    # . .fbcdn
-    # . .github
-    # . .instagram
-    # . .onedrive
-    # . .sci-hub
-    # . .skydrive
-    # . .spotify
-    # . .telegram
-    # . .ttvnw
-    # . .uk-live
-    # . .whatsapp
-
-    # . .eu
-    # . .hk
-    # . .jp
-    # . .kr
-    # . .sg
-    # . .tw
-    # . .uk
-
-    .2mdn.net
-    .4sqi.net
-    .a248.e.akamai.net
-    .ahcdn.com
-    .amplitude.com
-    .aolcdn.com
-    .app-measurement.com
-    .app-measurement.net
-    .armorgames.com
-    .bbc.co
-    .bcvcdn.com
-    .bit.no.com
-    .bkrtx.com
-    .blogcdn.com
-    .blogsmithmedia.com
-    .btlibrary.me
-    .cachefly.net
-    .challenges.cloudflare.com
-    .deskconnect.com
-    .dubox.com
-    .edgecastcdn.net
-    .elastic.co
-    .elastic.com
-    .eurekavpt.com
-    .fastmail.com
-    .flipboard.com
-    .flzbcdn.xyz
-    .gameloft.com
-    .gongm.in
-    .gstatic.cn
-    .hockeyapp.net
-    .icntv.xyz
-    .id.heroku.com
-    .instagr.am
-    .io.io
-    .ip138.com
-    .issuu.com
-    .jitpack.io
-    .kat.cr
-    .kik.com
-    .kobo.com
-    .kobobooks.com
-    .maven.org
-    .megaupload.com
-    .mvnrepository.com
-    .myteamspeak.com
-    .netdna-cdn.com
-    .neulion.com
-    .nsstatic.net
-    .ocnttv.com
-    .oneclient.sfx.ms
-    .photos.live.com
-    .picjs.xyz
-    .potato.im
-    .prfct.co
-    .readdle.com
-    .resilio.com
-    .skydrive.wns.windows.com
-    .smartmailcloud.com
-    .sonatype.org
-    .sourcegraph.com
-    .spoprod-a.akamaihd.net
-    .spring.io
-    .spring.net
-    .steamstat.us
-    .storage.msn.com
-    .symauth.com
-    .tap.io
-    .taptap.tw
-    .teddysun.com
-    .terabox.com
-    .teraboxcdn.com
-    .textnow.com
-    .textnow.me
-    .trustasiassl.com
-    .tumbex.com
-    .twdvd.com
-    .twimg.org
-    .txmblr.com
-    .unsplash.com
-    .vikacg.com
-
  # proxy manual
 
   # #
@@ -426,9 +131,6 @@ payload:
     .avg.com
 
   # b
-   # b-cdn.net
-    .b-cdn.net
-
    # badoo
     .badoocdn.com
     .badoo.com
@@ -1034,6 +736,9 @@ payload:
 
    # hhdcb3office
     .hhdcb3office.org
+
+   # hhdcb3office
+    .hhdcb3office
 
    # hiveos
     .hiveon.com
@@ -1854,10 +1559,13 @@ payload:
     .t-mobile.com
 
     .tmobile.tt.omtrdc.net
-  
+
+   # todoist.com
+    .todoist.com
+    .todoist.b-cdn.net
+
    # tokyo-hot
     .tokyo-hot.com
-
     .my.cdn.tokyo-hot.com
 
    # tonkeeper.com
