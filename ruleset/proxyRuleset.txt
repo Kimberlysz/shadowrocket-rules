@@ -517,6 +517,7 @@ payload:
     DOMAIN, firebase-settings.crashlytics.com
 
    # fiverr
+    DOMAIN-SUFFIX, fiverr.com
     DOMAIN-SUFFIX, fiverrcdn.com
 
    # footystats
