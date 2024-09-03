@@ -401,6 +401,9 @@ payload:
    # diamondbackonline.com
     DOMAIN-SUFFIX, diamondbackonline.com
 
+   # directenergy.com
+    DOMAIN-SUFFIX, directenergy.com
+
    # dirtrab.cl
     DOMAIN-SUFFIX, dirtrab.cl
 
@@ -1376,6 +1379,9 @@ payload:
 
    # shodan.io
     DOMAIN-SUFFIX, shodan.io
+
+   # siena.edu
+    DOMAIN-SUFFIX, siena.edu
 
    # simplemining
     DOMAIN-SUFFIX, simplemining.net
