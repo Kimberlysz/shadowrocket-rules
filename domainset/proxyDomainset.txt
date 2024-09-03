@@ -401,6 +401,9 @@ payload:
    # diamondbackonline.com
     .diamondbackonline.com
 
+   # directenergy.com
+    .directenergy.com
+
    # dirtrab.cl
     .dirtrab.cl
 
@@ -1379,6 +1382,9 @@ payload:
 
    # shodan.io
     .shodan.io
+
+   # siena.edu
+    .siena.edu
 
    # simplemining
     .simplemining.net
