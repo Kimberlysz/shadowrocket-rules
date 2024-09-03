@@ -48,11 +48,17 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 [Rule]
 # rules: // note: please don't paste this "rules:" title to github repository
 
- # RULE-SET
-  # DOMAIN-SET
-    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/rejectDomainset.txt, reject
-  # RULE-SET
-    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/rejectRuleset.txt, reject
+ # RULE-SET-clash
+    RULE-SET rejectmanual, reject
+    RULE-SET rejectmanualrouter, reject
+
+ # DOMAIN-SET-shadowrocket
+    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directDomainset.txt, direct
+    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyDomainset.txt, proxy, force-remote-dns
+
+ # RULE-SET-shadowrocket
+    # RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directRuleset.txt, direct
+    # RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyRuleset.txt, proxy, force-remote-dns
 
  # 🛑 AdBlock (domain-list-community)
   # #
@@ -1082,14 +1088,20 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, zynga.com, reject
     DOMAIN-SUFFIX, zyngaplayersupport.com, reject
 
- # RULE-SET
-  # DOMAIN-SET
+ # RULE-SET-clash
+    RULE-SET directmanual, direct
+    RULE-SET proxymanual, proxy
+
+    RULE-SET directmanualrouter, direct
+    RULE-SET proxymanualrouter, proxy
+
+ # DOMAIN-SET-shadowrocket
     # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directDomainset.txt, direct
     # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyDomainset.txt, proxy, force-remote-dns
 
-  # RULE-SET
-    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directRuleset.txt, direct
-    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyRuleset.txt, proxy, force-remote-dns
+ # RULE-SET-shadowrocket
+    # RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directRuleset.txt, direct
+    # RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyRuleset.txt, proxy, force-remote-dns
 
  # DIRECT (domain-list-community)
   # #
@@ -1579,61 +1591,86 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, apifox.com, direct
 
    # apple
-    DOMAIN-SUFFIX, apple.cn, direct
-    DOMAIN-SUFFIX, apple.com.cn, direct
+    DOMAIN, apple.cn, direct
+    DOMAIN, apple.com.cn, direct
 
     # Apple Store
-    DOMAIN-SUFFIX, apple-store.cn, direct
-    DOMAIN-SUFFIX, applestore.cn, direct
-    DOMAIN-SUFFIX, applestore.com.cn, direct
+    DOMAIN, apple-store.cn, direct
+    DOMAIN, applestore.cn, direct
+    DOMAIN, applestore.com.cn, direct
 
     # App Store
-    DOMAIN-SUFFIX, apple-appstore.cn, direct
-    DOMAIN-SUFFIX, appleappstore.cn, direct
-    DOMAIN-SUFFIX, appstoreapple.cn, direct
+    DOMAIN, apple-appstore.cn, direct
+    DOMAIN, appleappstore.cn, direct
+    DOMAIN, appstoreapple.cn, direct
+
+    # iMac
+
+    # iPad
 
     # iPhone
-    DOMAIN-SUFFIX, iphone-8.com.cn, direct
+    DOMAIN, iphone-8.com.cn, direct
 
     # iPod
-    DOMAIN-SUFFIX, ipod.com.cn, direct
+    DOMAIN, ipod.com.cn, direct
 
     # MacBook
-    DOMAIN-SUFFIX, macbookair.cn, direct
-    DOMAIN-SUFFIX, macbookair.com.cn, direct
+    DOMAIN, macbookair.cn, direct
+    DOMAIN, macbookair.com.cn, direct
+
+    # Apple Watch
+
+    # Apple Music
+
+    # Apple News
 
     # Apple Pay
-    DOMAIN-SUFFIX, applepaycash.cn, direct
-    DOMAIN-SUFFIX, applepaycash.com.cn, direct
-    DOMAIN-SUFFIX, applepaysupplies.cn, direct
-    DOMAIN-SUFFIX, applepaysupplies.com.cn, direct
+    DOMAIN, applepaycash.cn, direct
+    DOMAIN, applepaycash.com.cn, direct
+    DOMAIN, applepaysupplies.cn, direct
+    DOMAIN, applepaysupplies.com.cn, direct
+
+    # iBook
+
+    # iPhoto
+
+    # iMovie
+
+    # Apple Care
+
+    # macOS
+
+    # Apple ID
 
     # Apple TV
-    DOMAIN-SUFFIX, appletv4.cn, direct
-    DOMAIN-SUFFIX, appletv4.com.cn, direct
+    DOMAIN, appletv4.cn, direct
+    DOMAIN, appletv4.com.cn, direct
+
+    # Apple One
+
+    # Shazam
 
     # Others
-    DOMAIN-SUFFIX, apple-dns.cn, direct
-    DOMAIN-SUFFIX, apple-dns.com.cn, direct
-    DOMAIN-SUFFIX, apple-ibooks.cn, direct
-    DOMAIN-SUFFIX, apple-maps.cn, direct
-    DOMAIN-SUFFIX, applecenter.cn, direct
-    DOMAIN-SUFFIX, applecenter.com.cn, direct
-    DOMAIN-SUFFIX, applecomputer.cn, direct
-    DOMAIN-SUFFIX, applecomputer.com.cn, direct
-    DOMAIN-SUFFIX, appledns.cn, direct
-    DOMAIN-SUFFIX, appledns.com.cn, direct
-    DOMAIN-SUFFIX, applesiri.cn, direct
-    DOMAIN-SUFFIX, ecgapp.com.cn, direct
-    DOMAIN-SUFFIX, faceshift.cn, direct
-    DOMAIN-SUFFIX, homepod.cn, direct
-    DOMAIN-SUFFIX, insidear.cn, direct
-    DOMAIN-SUFFIX, livephotos.cn, direct
-    DOMAIN-SUFFIX, livephotos.com.cn, direct
-    
-    DOMAIN-SUFFIX, xn--czrs0t4phtr3a.cn, direct # 苹果商店.cn
-    DOMAIN-SUFFIX, xn--fiqs8sxootzz.cn, direct # 苹果中国.cn
-    DOMAIN-SUFFIX, xn--ohq11k7pl25iyo8a.cn, direct # 苹果专卖店.cn
+    DOMAIN, apple-dns.cn, direct
+    DOMAIN, apple-dns.com.cn, direct
+    DOMAIN, apple-ibooks.cn, direct
+    DOMAIN, apple-maps.cn, direct
+    DOMAIN, applecenter.cn, direct
+    DOMAIN, applecenter.com.cn, direct
+    DOMAIN, applecomputer.cn, direct
+    DOMAIN, applecomputer.com.cn, direct
+    DOMAIN, appledns.cn, direct
+    DOMAIN, appledns.com.cn, direct
+    DOMAIN, applesiri.cn, direct
+    DOMAIN, ecgapp.com.cn, direct
+    DOMAIN, faceshift.cn, direct
+    DOMAIN, homepod.cn, direct
+    DOMAIN, insidear.cn, direct
+    DOMAIN, livephotos.cn, direct
+    DOMAIN, livephotos.com.cn, direct
+    DOMAIN, xn--czrs0t4phtr3a.cn, direct # 苹果商店.cn
+    DOMAIN, xn--fiqs8sxootzz.cn, direct # 苹果中国.cn
+    DOMAIN, xn--ohq11k7pl25iyo8a.cn, direct # 苹果专卖店.cn
 
     # Domains and services below are available in China mainland
     # Use in config file like this: "geosite:apple@cn"
@@ -1642,9 +1679,11 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN, amp-api-edge.apps.apple.com, direct
     DOMAIN, amp-api-search-edge.apps.apple.com, direct
     DOMAIN, amp-api.apps.apple.com, direct
+    DOMAIN, amp-api.music.apple.com, direct
     DOMAIN, aod.itunes.apple.com, direct
     DOMAIN, api-edge.apps.apple.com, direct
     DOMAIN, apptrailers.itunes.apple.com, direct
+    DOMAIN, auth.music.apple.com, direct
     DOMAIN, bag.itunes.apple.com, direct
     DOMAIN, bookkeeper.itunes.apple.com, direct
     DOMAIN, client-api.itunes.apple.com, direct
@@ -1659,16 +1698,21 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN, inappcheck-cn.itunes-apple.com.akadns.net, direct
     DOMAIN, inappcheck-lb.itunes-apple.com.akadns.net, direct
     DOMAIN, inappcheck.itunes.apple.com, direct
-    DOMAIN, init.itunes.apple.com, direct
     DOMAIN, init.gc-lb.apple.com.akadns.net, direct
     DOMAIN, init.gc.apple.com, direct
+    DOMAIN, init.itunes.apple.com, direct
     DOMAIN, iosapps.itunes.apple.com, direct
     DOMAIN, js-cdn.music.apple.com, direct
     DOMAIN, km.support.apple.com, direct
     DOMAIN, maps.apple.com, direct
+    DOMAIN, misc-assets.itunes.apple.com, direct
+    DOMAIN, myapp.itunes.apple.com, direct
+    DOMAIN, np-edge.itunes.apple.com, direct
     DOMAIN, osxapps.itunes.apple.com, direct
+    DOMAIN, pd-nk.itunes.apple.com, direct
     DOMAIN, pd.itunes.apple.com, direct
     DOMAIN, play.itunes.apple.com, direct
+    DOMAIN, play.music.apple.com, direct
     DOMAIN, se-edge.itunes.apple.com, direct
     DOMAIN, se2.itunes.apple.com, direct
     DOMAIN, search.itunes.apple.com, direct
@@ -1677,9 +1721,10 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN, streamingaudio.itunes.apple.com, direct
     DOMAIN, su.itunes.apple.com, direct
     DOMAIN, sync.itunes.apple.com, direct
+    DOMAIN, tf-feedback.itunes.apple.com, direct
     DOMAIN, upp.itunes.apple.com, direct
-    
-    # below are for match rules
+    DOMAIN, www.support.apple.com, direct
+
     # regexp:^a[1-5]\.mzstatic\.com$ @cn
     # regexp:^cdn(-cn)?[1-4]?\.apple-mapkit\.com$ @cn
     # regexp:^cl[1-5]-cdn\.origin-apple\.com\.akadns\.net$ @cn
@@ -1688,16 +1733,15 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # regexp:^s[1-5]?\.mzstatic\.com$ @cn
 
     # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/apple.china.conf
-    # Revision: 8def8312efc8b0c22ca35658614fd63388ff56c7
+    # Revision: e54aa75ca9c6567ac5b67093e5471eb1c8041e86
     # Use in config file like this: "geosite:apple@cn"
-    # According to the consensus in #503, do not include the domain name apps.apple.com directly.
     DOMAIN, a1.mzstatic.com, direct
     DOMAIN, a2.mzstatic.com, direct
     DOMAIN, a3.mzstatic.com, direct
     DOMAIN, a4.mzstatic.com, direct
     DOMAIN, a5.mzstatic.com, direct
-    DOMAIN, adcdownload.apple.com.akadns.net, direct
     DOMAIN, adcdownload.apple.com, direct
+    DOMAIN, adcdownload.apple.com.akadns.net, direct
     DOMAIN, amp-api.media.apple.com, direct
     DOMAIN, api-p-ap-c.smoot.apple.com, direct
     DOMAIN, api-p-ap-d.smoot.apple.com, direct
@@ -1706,6 +1750,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN, appldnld.apple.com, direct
     DOMAIN, appldnld.g.aaplimg.com, direct
     DOMAIN, appleid.cdn-apple.com, direct
+    # According to the consensus in #503, do not include the domain name apps.apple.com directly.
     DOMAIN, apps.mzstatic.com, direct
     DOMAIN, cdn-cn1.apple-mapkit.com, direct
     DOMAIN, cdn-cn2.apple-mapkit.com, direct
@@ -1717,8 +1762,8 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN, cdn3.apple-mapkit.com, direct
     DOMAIN, cdn4.apple-mapkit.com, direct
     DOMAIN, cds-cdn.v.aaplimg.com, direct
-    DOMAIN, cds.apple.com.akadns.net, direct
     DOMAIN, cds.apple.com, direct
+    DOMAIN, cds.apple.com.akadns.net, direct
     DOMAIN, cdsassets.apple.com, direct
     DOMAIN, cl1-cdn.origin-apple.com.akadns.net, direct
     DOMAIN, cl1.apple.com, direct
@@ -1731,11 +1776,11 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN, cl4.apple.com, direct
     DOMAIN, cl5-cdn.origin-apple.com.akadns.net, direct
     DOMAIN, cl5.apple.com, direct
-    DOMAIN, clientflow.apple.com.akadns.net, direct
     DOMAIN, clientflow.apple.com, direct
+    DOMAIN, clientflow.apple.com.akadns.net, direct
     DOMAIN, cn-smp-paymentservices.apple.com, direct
-    DOMAIN, configuration.apple.com.akadns.net, direct
     DOMAIN, configuration.apple.com, direct
+    DOMAIN, configuration.apple.com.akadns.net, direct
     DOMAIN, cstat.apple.com, direct
     DOMAIN, cstat.cdn-apple.com, direct
     DOMAIN, dd-cdn.origin-apple.com.akadns.net, direct
@@ -1747,9 +1792,9 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN, gsp10-ssl-cn.ls.apple.com, direct
     DOMAIN, gsp12-cn.ls.apple.com, direct
     DOMAIN, gsp13-cn.ls.apple.com, direct
-    DOMAIN, gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net, direct
-    DOMAIN, gsp4-cn.ls.apple.com.edgekey.net, direct
     DOMAIN, gsp4-cn.ls.apple.com, direct
+    DOMAIN, gsp4-cn.ls.apple.com.edgekey.net, direct
+    DOMAIN, gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net, direct
     DOMAIN, gsp5-cn.ls.apple.com, direct
     DOMAIN, gsp85-cn-ssl.ls.apple.com, direct
     DOMAIN, gspe19-2-cn-ssl.ls.apple.com, direct
@@ -1763,12 +1808,12 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN, guzzoni-apple-com.v.aaplimg.com, direct
     DOMAIN, guzzoni.apple.com, direct
     DOMAIN, guzzoni.smoot.apple.com, direct
-    DOMAIN, iadsdk.apple.com, direct
+    #     DOMAIN, iadsdk.apple.com has already been defined in apple-ads
     DOMAIN, icloud-cdn.icloud.com.akadns.net, direct
     DOMAIN, icloud.cdn-apple.com, direct
+    DOMAIN, images.apple.com, direct
     DOMAIN, images.apple.com.akadns.net, direct
     DOMAIN, images.apple.com.edgekey.net.globalredir.akadns.net, direct
-    DOMAIN, images.apple.com, direct
     DOMAIN, init-kt.apple.com, direct
     DOMAIN, init-p01md-lb.push-apple.com.akadns.net, direct
     DOMAIN, init-p01md.apple.com, direct
@@ -1801,6 +1846,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN, music.apple.com, direct
     DOMAIN, ocsp-lb.apple.com.akadns.net, direct
     DOMAIN, ocsp.apple.com, direct
+    DOMAIN, ocsp2-lb.apple.com.akadns.net, direct
     DOMAIN, ocsp2.apple.com, direct
     DOMAIN, oscdn.apple.com, direct
     DOMAIN, oscdn.origin-apple.com.akadns.net, direct
@@ -1823,9 +1869,9 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN, static.gc.apple.com, direct
     DOMAIN, stocks-sparkline-lb.apple.com.akadns.net, direct
     DOMAIN, stocks-sparkline.apple.com, direct
-    DOMAIN, store.apple.com.edgekey.net.globalredir.akadns.net, direct
-    DOMAIN, store.apple.com.edgekey.net, direct
     DOMAIN, store.apple.com, direct
+    DOMAIN, store.apple.com.edgekey.net, direct
+    DOMAIN, store.apple.com.edgekey.net.globalredir.akadns.net, direct
     DOMAIN, store.storeimages.apple.com.akadns.net, direct
     DOMAIN, store.storeimages.cdn-apple.com, direct
     DOMAIN, support-china.apple-support.akadns.net, direct
@@ -1836,25 +1882,25 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN, swcatalog.apple.com, direct
     DOMAIN, swcdn.apple.com, direct
     DOMAIN, swcdn.g.aaplimg.com, direct
-    DOMAIN, swdist.apple.com.akadns.net, direct
     DOMAIN, swdist.apple.com, direct
+    DOMAIN, swdist.apple.com.akadns.net, direct
     DOMAIN, swscan-cdn.apple.com.akadns.net, direct
     DOMAIN, swscan.apple.com, direct
     DOMAIN, sylvan.apple.com, direct
     DOMAIN, tj-pod1-smp-device.apple.com, direct
-    DOMAIN, updates-http.cdn-apple.com.akadns.net, direct
     DOMAIN, updates-http.cdn-apple.com, direct
+    DOMAIN, updates-http.cdn-apple.com.akadns.net, direct
     DOMAIN, updates.cdn-apple.com, direct
     DOMAIN, valid.apple.com, direct
     DOMAIN, valid.origin-apple.com.akadns.net, direct
-    DOMAIN, weather-data.apple.com.akadns.net, direct
     DOMAIN, weather-data.apple.com, direct
+    DOMAIN, weather-data.apple.com.akadns.net, direct
     DOMAIN, weather-map.apple.com, direct
     DOMAIN, weather-map2.apple.com, direct
     DOMAIN, weatherkit.apple.com, direct
-    DOMAIN, www.apple.com.edgekey.net.globalredir.akadns.net, direct
-    DOMAIN, www.apple.com.edgekey.net, direct
     DOMAIN, www.apple.com, direct
+    DOMAIN, www.apple.com.edgekey.net, direct
+    DOMAIN, www.apple.com.edgekey.net.globalredir.akadns.net, direct
     DOMAIN, xp.apple.com, direct
 
    # apple-dev
@@ -3373,7 +3419,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # Use to make them direct connections so they open inside Iran
 
     # Iran TLDs
-    DOMAIN-KEYWORD, .ir, direct
+    # DOMAIN-KEYWORD, .ir, direct
     DOMAIN-SUFFIX, xn--mgba3a4f16a, direct # .ایران
     DOMAIN-SUFFIX, xn--mgba3a4fra, direct # .ايران
 
@@ -6840,6 +6886,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, abhouses.com, direct
     DOMAIN-SUFFIX, agconnect.link, direct
     DOMAIN-SUFFIX, dbank.com, direct
+    DOMAIN-SUFFIX, dbankcdn.cn, direct
     DOMAIN-SUFFIX, dbankcdn.com, direct
     DOMAIN-SUFFIX, dbankcloud.com, direct
     # DOMAIN-SUFFIX, harmonyos.com, direct
@@ -10580,6 +10627,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, abema.io, proxy
     DOMAIN-SUFFIX, abema.tv, proxy
     DOMAIN-SUFFIX, abema-tv.com, proxy
+    DOMAIN-SUFFIX, abematv.co.jp, proxy
     DOMAIN-SUFFIX, adx.promo, proxy
     DOMAIN-SUFFIX, ameba.jp, proxy
     DOMAIN-SUFFIX, amebame.com, proxy
@@ -11364,6 +11412,8 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:swift
 
     # All .apple domains
+    # DOMAIN-KEYWORD, .apple, proxy
+
     DOMAIN-SUFFIX, apple.ae, proxy
     DOMAIN-SUFFIX, apple.at, proxy
     DOMAIN-SUFFIX, apple.be, proxy
@@ -11452,14 +11502,8 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, apple.tw, proxy
     DOMAIN-SUFFIX, apple.uk, proxy
     DOMAIN-SUFFIX, apple.us, proxy
-
-    # DOMAIN-KEYWORD, .apple, proxy
-
-    # apple.商标
-    DOMAIN-SUFFIX, apple.xn--czr694b, proxy
-    
-    # apple.中国
-    DOMAIN-SUFFIX, apple.xn--fiqs8s, proxy
+    DOMAIN-SUFFIX, apple.xn--czr694b, proxy # apple.商标
+    DOMAIN-SUFFIX, apple.xn--fiqs8s, proxy # apple.中国
     DOMAIN-SUFFIX, apple.xyz, proxy
 
     # Apple Store
@@ -11819,7 +11863,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # Shazam
     DOMAIN-SUFFIX, shazam.com, proxy
 
-    # Apple Others
+    # Others
     DOMAIN-SUFFIX, 1to1computing.com.au, proxy
     DOMAIN-SUFFIX, 1to1conference.com.au, proxy
     DOMAIN-SUFFIX, 5lml.com, proxy
@@ -11852,7 +11896,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, apple-expo.eu, proxy
     DOMAIN-SUFFIX, apple-hk.com, proxy
     DOMAIN-SUFFIX, apple-inc.net, proxy
-    # DOMAIN-SUFFIX, apple-livephotoskit.com, proxy
+    DOMAIN-SUFFIX, apple-livephotoskit.com, proxy
     DOMAIN-SUFFIX, apple-online.com, proxy
     DOMAIN-SUFFIX, apple-usa.net, proxy
     DOMAIN-SUFFIX, appleafrica.com, proxy
@@ -12053,21 +12097,13 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, wwwapple.com, proxy
     DOMAIN-SUFFIX, wwwapple.net, proxy
     DOMAIN-SUFFIX, wwwlapple.com, proxy
-
-    # 苹果中国.网店
-    DOMAIN-SUFFIX, xn--fiqs8sxootzz.xn--hxt814e, proxy
-    # 苹果电脑.网店
-    DOMAIN-SUFFIX, xn--gtvq61aiijy0b.xn--hxt814e, proxy
-    # 苹果.wang
-    DOMAIN-SUFFIX, xn--gtvz22d.wang, proxy
-    # 苹果.网店
-    DOMAIN-SUFFIX, xn--gtvz22d.xn--hxt814e, proxy
-    # 苹果店.商标
-    DOMAIN-SUFFIX, xn--hxtr4rozx.xn--czr694b, proxy
-    # 苹果手机.网店
-    DOMAIN-SUFFIX, xn--kput3imi374g.xn--hxt814e, proxy
-    # 苹果保修.网店
-    DOMAIN-SUFFIX, xn--ruq8a011kt6y.xn--hxt814e, proxy
+    DOMAIN-SUFFIX, xn--fiqs8sxootzz.xn--hxt814e, proxy # 苹果中国.网店
+    DOMAIN-SUFFIX, xn--gtvq61aiijy0b.xn--hxt814e, proxy # 苹果电脑.网店
+    DOMAIN-SUFFIX, xn--gtvz22d.wang, proxy # 苹果.wang
+    DOMAIN-SUFFIX, xn--gtvz22d.xn--hxt814e, proxy # 苹果.网店
+    DOMAIN-SUFFIX, xn--hxtr4rozx.xn--czr694b, proxy # 苹果店.商标
+    DOMAIN-SUFFIX, xn--kput3imi374g.xn--hxt814e, proxy # 苹果手机.网店
+    DOMAIN-SUFFIX, xn--ruq8a011kt6y.xn--hxt814e, proxy # 苹果保修.网店
 
     DOMAIN, apple.com.akadns.net, proxy
     DOMAIN, courier-push-apple.com.akadns.net, proxy
@@ -15219,6 +15255,27 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # Resource sharing
     DOMAIN-SUFFIX, bowlroll.net, proxy
 
+   # category-ai-chat-!cn
+    # include:anthropic
+    # include:google-gemini
+    # include:openai
+    # include:perplexity
+    # include:poe
+    # include:xai
+
+    # Jasper
+    DOMAIN-SUFFIX, clipdrop.co, proxy
+    DOMAIN-SUFFIX, jasper.ai, proxy
+
+    # NotebookLM
+    DOMAIN-SUFFIX, notebooklm.google, proxy
+    DOMAIN-SUFFIX, notebooklm.google.com, proxy
+
+    DOMAIN-SUFFIX, dify.ai, proxy
+    DOMAIN-SUFFIX, gateway.ai.cloudflare.com, proxy
+    DOMAIN-SUFFIX, meta.ai, proxy
+    DOMAIN-SUFFIX, openart.ai, proxy
+
    # category-anticensorship
     # include:category-ipfs
     # include:ceno
@@ -15389,6 +15446,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:alibabacloud
     # include:amazon
     # include:amd
+    # include:anthropic
     # include:apple
     # include:asus
     # include:atlassian
@@ -15459,6 +15517,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:vultr
     # include:westerndigital
     # include:wisekey
+    # include:xai
     # include:yahoo
     # include:yandex
 
@@ -22256,7 +22315,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:mongodb
     # include:nginx
     # include:nixos
-    # include:openai
     # include:openwrt
     # include:osdn
     # include:perl
@@ -25875,6 +25933,9 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
    # geolocation-!cn
     # This list contains domains that don't have access point in China mainland. This is opposite to geolocation-cn.
 
+    # AI Chat
+      # include:category-ai-chat-!cn
+
     # Anime, Comics & Games
       # include:category-acg
 
@@ -26346,7 +26407,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:flutter
     # include:golang
     # include:google-ads
-    # include:google-gemini
+    # include:google-deepmind
     # include:google-registry
     # include:google-scholar
     # include:google-trust-services
@@ -26652,7 +26713,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, dataliberation.org, proxy
     DOMAIN-SUFFIX, debug.com, proxy
     DOMAIN-SUFFIX, debugproject.com, proxy
-    DOMAIN-SUFFIX, deepmind.com, proxy
     DOMAIN-SUFFIX, devsitetest.how, proxy
     DOMAIN-SUFFIX, dialogflow.com, proxy
     DOMAIN-SUFFIX, digitalassetlinks.org, proxy
@@ -26872,14 +26932,31 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, xplr.co, proxy
     DOMAIN-SUFFIX, zukunftswerkstatt.de, proxy
 
-   # google-gemini
-    # A list of domains for Google Gemini(or Google AI).
+   # google-deepmind
+    # Google DeepMind
+    DOMAIN-SUFFIX, deepmind.com, proxy
+    DOMAIN-SUFFIX, deepmind.google, proxy
 
-    DOMAIN-SUFFIX, gemini.google.com, proxy
-    DOMAIN-SUFFIX, ai.google.dev, proxy
-    DOMAIN-SUFFIX, aistudio.google.com, proxy
+    # Google Generative Language API
+    DOMAIN-SUFFIX, geller-pa.googleapis.com, proxy
     DOMAIN-SUFFIX, generativelanguage.googleapis.com, proxy
-    DOMAIN-SUFFIX, alkalimakersuite-pa.clients6.google.com, proxy
+    DOMAIN-SUFFIX, proactivebackend-pa.googleapis.com, proxy
+
+    # Google AI Studio
+    DOMAIN, ai.google.dev, proxy
+    DOMAIN, alkalicore-pa.clients6.google.com, proxy
+    DOMAIN, alkalimakersuite-pa.clients6.google.com, proxy
+    DOMAIN-SUFFIX, generativeai.google, proxy
+    DOMAIN-SUFFIX, makersuite.google.com, proxy
+
+    DOMAIN-SUFFIX, aistudio.google.com, proxy
+    DOMAIN-SUFFIX, bard.google.com, proxy
+    DOMAIN-SUFFIX, gemini.google.com, proxy
+
+   # google-gemini
+    # This list is for backward compatibility
+
+    # include:google-deepmind
 
    # google-registry
     DOMAIN-SUFFIX, charlestonroadregistry.com, proxy
@@ -27676,7 +27753,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-KEYWORD, .weatherchannel, proxy
 
     # All .weather domains
-    DOMAIN-KEYWORD, .weather, proxy
+    # DOMAIN-KEYWORD, .weather, proxy
 
     DOMAIN-SUFFIX, appdomain.cloud, proxy
     DOMAIN-SUFFIX, bluemix.com, proxy
@@ -31090,6 +31167,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
    # openai
     # Main domain
+    DOMAIN-SUFFIX, ai.com, proxy
     DOMAIN-SUFFIX, chatgpt.com, proxy
     DOMAIN-SUFFIX, oaistatic.com, proxy
     DOMAIN-SUFFIX, oaiusercontent.com, proxy
@@ -31820,6 +31898,10 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, pca.st, proxy
     DOMAIN-SUFFIX, pocketcasts.com, proxy
 
+   # poe
+    DOMAIN-SUFFIX, poe.com, proxy
+    DOMAIN-SUFFIX, poecdn.net, proxy
+
    # polymer
     DOMAIN-SUFFIX, polymer-project.org, proxy
     DOMAIN-SUFFIX, polymerproject.org, proxy
@@ -32060,8 +32142,8 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, quipelements.com, proxy
 
    # quora
-    DOMAIN-SUFFIX, poe.com, proxy
-    DOMAIN-SUFFIX, poecdn.net, proxy
+    # include:poe
+
     DOMAIN-SUFFIX, qr.ae, proxy
     DOMAIN-SUFFIX, quora.com, proxy
     DOMAIN-SUFFIX, quoracdn.net, proxy
@@ -33783,15 +33865,30 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # https://icannwiki.org/Country_code_top-level_domain
     # https://www.101domain.com/branded_domains.htm
     
+    ## DO NOT RE-INTRODUCE!
+    ## refer to: https://domain.miit.gov.cn/managerdns/index
+    ## credit to @mayampi01
+    # asia  # Asia-Pacific region
+    # baby  # Baby
+    # chase  # JPMorgan Chase & Co.
+    # chat  # Chat
+    # hk  # Hong Kong
+    # jpmorgan  # JPMorgan Chase & Co.
+    # poker  # Poker
+    # quest  # Quest ION Limited
+    # saxo  # Saxo Bank A/S
+    # tv  # Tuvalu
+    # xn--j6w193g  # 香港 Hong Kong SAR, People's Republic of China
+
     # include:google-registry-tld
-    
+
     # Used by U.S. federal government
-    # DOMAIN-KEYWORD, gov
+    # DOMAIN-KEYWORD, .gov
     # Used by U.S. DoD.
-    # DOMAIN-KEYWORD, mil
+    # DOMAIN-KEYWORD, .mil
     # Used by U.S. Higher Education.
-    # DOMAIN-KEYWORD, edu
-    
+    # DOMAIN-KEYWORD, .edu
+
     # ccTLD
     # DOMAIN-KEYWORD, .ac # Ascension Island
     # DOMAIN-KEYWORD, .ad # Andorra
@@ -33882,7 +33979,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .gu # Guam
     # DOMAIN-KEYWORD, .gw # Guinea-Bissau
     # DOMAIN-KEYWORD, .gy # Guyana
-    # DOMAIN-KEYWORD, .hk # Hong Kong
     # DOMAIN-KEYWORD, .hm # Heard Island and McDonald Islands
     # DOMAIN-KEYWORD, .hn # Honduras
     # DOMAIN-KEYWORD, .hr # Croatia
@@ -34014,7 +34110,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .to # Tonga
     # DOMAIN-KEYWORD, .tr # Turkey
     # DOMAIN-KEYWORD, .tt # Trinidad & Tobago
-    # DOMAIN-KEYWORD, .tv # Tuvalu
     # DOMAIN-KEYWORD, .tw # Taiwan (Republic of China)
     # DOMAIN-KEYWORD, .tz # Tanzania
     # DOMAIN-KEYWORD, .ua # Ukraine
@@ -34037,14 +34132,14 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .za # South Africa
     # DOMAIN-KEYWORD, .zm # Zambia
     # DOMAIN-KEYWORD, .zw # Zimbabwe
-    
+
     # Athletics Domains
     # DOMAIN-KEYWORD, .afl # Australian Football League
     # DOMAIN-KEYWORD, .mlb # MLB Advanced Media DH, LLC
     # DOMAIN-KEYWORD, .nba # National Basketball Association
     # DOMAIN-KEYWORD, .nfl # National Football League
     # DOMAIN-KEYWORD, .nra # National Rifle Association
-    
+
     # Business Products & Services Domains
     # DOMAIN-KEYWORD, .crs # Federated Co operatives Limited
     # DOMAIN-KEYWORD, .dnp # Dai Nippon Printing Co., Ltd.
@@ -34060,7 +34155,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .seek # Seek Limited
     # DOMAIN-KEYWORD, .wtc # World Trade Centers Association, Inc.
     # DOMAIN-KEYWORD, .xerox # Business Products Services Domains
-    
+
     # Fashion Domains
     # DOMAIN-KEYWORD, .athleta # The Gap, Inc.
     # DOMAIN-KEYWORD, .bloomberg # Bloomberg IP Holdings LLC
@@ -34077,19 +34172,18 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .omega # The Swatch Group Ltd
     # DOMAIN-KEYWORD, .redstone # Redstone Haute Couture Co., Ltd.
     # DOMAIN-KEYWORD, .swatch # The Swatch Group Ltd
-    
+
     # Geographic top-level domains
-    
+
     ## Africa
     # DOMAIN-KEYWORD, .africa     # Africa
     # DOMAIN-KEYWORD, .capetown   # Cape Town, South Africa
     # DOMAIN-KEYWORD, .durban     # Durban, South Africa
     # DOMAIN-KEYWORD, .joburg     # Johannesburg, South Africa
-    
+
     ## Asia
     # DOMAIN-KEYWORD, .abudhabi   # Abu Dhabi
     # DOMAIN-KEYWORD, .arab       # Leagueof Arab States
-    # DOMAIN-KEYWORD, .asia       # Asia-Pacific region
     # DOMAIN-KEYWORD, .dubai      # Dubai
     # DOMAIN-KEYWORD, .krd        # Kurdistan
     # DOMAIN-KEYWORD, .kyoto      # Kyoto, Japan
@@ -34101,7 +34195,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .tatar      # Tatar peoples and places
     # DOMAIN-KEYWORD, .tokyo      # Tokyo, Japan
     # DOMAIN-KEYWORD, .yokohama   # Yokohama, Japan
-    
+
     ## Europe
     # DOMAIN-KEYWORD, .alsace     # Alsace, France
     # DOMAIN-KEYWORD, .amsterdam  # Amsterdam, Netherlands
@@ -34140,23 +34234,23 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .wales      # Wales, United Kingdom
     # DOMAIN-KEYWORD, .wien       # Vienna, Austria
     # DOMAIN-KEYWORD, .zuerich    # Zurich, Switzerland
-    
+
     ## North America
     # DOMAIN-KEYWORD, .boston     # Boston, Massachusetts, United States of America
     # DOMAIN-KEYWORD, .miami      # Miami, Florida, United States of America
     # DOMAIN-KEYWORD, .nyc        # New York City, New York, United States of America
     # DOMAIN-KEYWORD, .quebec     # Quebec, Canada
     # DOMAIN-KEYWORD, .vegas      # Las Vegas, Nevada, United States of America
-    
+
     ## Oceania
     # DOMAIN-KEYWORD, .kiwi       # New Zealanders
     # DOMAIN-KEYWORD, .melbourne  # Melbourne, Australia
     # DOMAIN-KEYWORD, .sydney     # Sydney, Australia
-    
+
     ## South America
     # DOMAIN-KEYWORD, .lat        # Latin America
     # DOMAIN-KEYWORD, .rio        # Rio de Janeiro, Brazil
-    
+
     # Health & Wellness Domains
     # DOMAIN-KEYWORD, .aarp # Health Wellness Domains
     # DOMAIN-KEYWORD, .abbott # Abbott Laboratories
@@ -34168,7 +34262,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .fresenius # Fresenius Immobilien-Verwaltungs-GmbH
     # DOMAIN-KEYWORD, .jnj # Johnson & Johnson Services, Inc.
     # DOMAIN-KEYWORD, .sanofi # Health Wellness Domains
-    
+
     # Industrial Domains
     # DOMAIN-KEYWORD, .aeg # Aktiebolaget Electrolux
     # DOMAIN-KEYWORD, .airbus # Airbus S.A.S.
@@ -34209,18 +34303,16 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .weir # Weir Group IP Limited
     # DOMAIN-KEYWORD, .woodside # Woodside Petroleum Limited
     # DOMAIN-KEYWORD, .zara # Inditex, SA
-    
+
     # Miscellaneous Domains
     # DOMAIN-KEYWORD, .africamagic # Electronic Media Network Limited
     # DOMAIN-KEYWORD, .agakhan # Aga Khan Foundation
     # DOMAIN-KEYWORD, .akdn # Aga Khan Foundation
-    # DOMAIN-KEYWORD, .baby # Baby
     # DOMAIN-KEYWORD, .bar # A place which provide liquor
     # DOMAIN-KEYWORD, .bharti # Bharti Enterprises
     # DOMAIN-KEYWORD, .bingo # Bingo
     # DOMAIN-KEYWORD, .casa # Casa (Home)
     # DOMAIN-KEYWORD, .casino # Online Casino
-    # DOMAIN-KEYWORD, .chat # Chat
     # DOMAIN-KEYWORD, .dating # Dating
     # DOMAIN-KEYWORD, .domains # Domain Name Register
     # DOMAIN-KEYWORD, .extraspace # Extra Space Storage LLC
@@ -34233,7 +34325,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .maif # Mutuelle Assurance Instituteur France (MAIF)
     # DOMAIN-KEYWORD, .mattel # Mattel Sites, Inc.
     # DOMAIN-KEYWORD, .moe # Japanese slang
-    # DOMAIN-KEYWORD, .poker # Poker
     # DOMAIN-KEYWORD, .sas # SAS institute
     # DOMAIN-KEYWORD, .shell # Shell Information Technology International Inc
     # DOMAIN-KEYWORD, .shia # Shia Muslim community
@@ -34247,13 +34338,13 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .wine # Alcohol
     # DOMAIN-KEYWORD, .wme # William Morris Endeavor Entertainment, LLC
     # DOMAIN-KEYWORD, .wtf # What the fuck
-    
+
     # Religion
     # DOMAIN-KEYWORD, .bible # Bible
     # DOMAIN-KEYWORD, .catholic # Catholic
     # DOMAIN-KEYWORD, .ismaili # a Shiite sect
     # DOMAIN-KEYWORD, .xn--mgbi4ecexp # Arabic for Catholic
-    
+
     # Research & Science Domains
     # DOMAIN-KEYWORD, .cern # European Organization for Nuclear Research
     # DOMAIN-KEYWORD, .emerck # Merck
@@ -34268,21 +34359,21 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .teva # Teva Pharmaceutical Industries Limited
     # DOMAIN-KEYWORD, .toray # Toray Industries, Inc.
     # DOMAIN-KEYWORD, .weather # The Weather Channel LLC
-    
+
     # Sex & Porn
     # DOMAIN-KEYWORD, .adult # Adult content
     # DOMAIN-KEYWORD, .porn # Pornographic website
     # DOMAIN-KEYWORD, .sex # Sex
     # DOMAIN-KEYWORD, .sexy # Sexy
     # DOMAIN-KEYWORD, .xxx # Pornographic website
-    
+
     # Shipping & Delivery Domains
     # DOMAIN-KEYWORD, .auspost # Australian Postal Corporation
     # DOMAIN-KEYWORD, .dhl # Deutsche Post AG
     # DOMAIN-KEYWORD, .fedex # Federal Express Corporation
-    
+
     # Top domain of Country or Region (Internationalized Domain Name)
-    
+
     # DOMAIN-KEYWORD, .xn--lgbbat1ad8j  #  الجزائر Algeria
     # DOMAIN-KEYWORD, .xn--y9a3aq  #  հայ Armenia
     # DOMAIN-KEYWORD, .xn--mgbcpq6gpa1a  #  البحرين Bahrain
@@ -34294,7 +34385,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .xn--qxa6a  #  ευ European Union
     # DOMAIN-KEYWORD, .xn--node  #  გე Georgia
     # DOMAIN-KEYWORD, .xn--qxam  #  ελ Greece
-    # DOMAIN-KEYWORD, .xn--j6w193g  #  香港 Hong Kong SAR, People's Republic of China
     # DOMAIN-KEYWORD, .xn--4dbrk0ce  #  ישראל Israel
     # DOMAIN-KEYWORD, .xn--h2brj9c  #  भारत India
     # DOMAIN-KEYWORD, .xn--mgbbh1a71e  #  بھارت India
@@ -34349,7 +34439,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .xn--j1amh  #  укр Ukraine
     # DOMAIN-KEYWORD, .xn--mgbaam7a8h  #  امارات United Arab Emirates
     # DOMAIN-KEYWORD, .xn--mgb2ddes  #  اليمن Yemen
-    
+
     # Automotive Domains
     # DOMAIN-KEYWORD, .aaa # American Automobile Association
     # DOMAIN-KEYWORD, .audi # Automotive Domains
@@ -34382,7 +34472,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .toyota # Automotive Domains
     # DOMAIN-KEYWORD, .tvs # T V Sundram Iyengar & Sons Limited
     # DOMAIN-KEYWORD, .volvo # Volvo Cars
-    
+
     # Computers & Electronics Domains
     # DOMAIN-KEYWORD, .android # Google
     # DOMAIN-KEYWORD, .apple # Apple Inc.
@@ -34403,7 +34493,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .sony # Computers Electronics Domains
     # DOMAIN-KEYWORD, .toshiba # Toshiba Corporation
     # DOMAIN-KEYWORD, .yodobashi # Yodobashi Camera Co., LTD
-    
+
     # Financial Services Domains
     # DOMAIN-KEYWORD, .allfinanz # Allfinanz Deutsche Vermögensberatung Aktiengesellschaft
     # DOMAIN-KEYWORD, .ally # Ally Financial Inc.
@@ -34421,7 +34511,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .capitalone # Capital One Financial Corporation
     # DOMAIN-KEYWORD, .cba # Commonwealth Bank of Australia
     # DOMAIN-KEYWORD, .cfa # CFA Institute
-    # DOMAIN-KEYWORD, .chase # JPMorgan Chase & Co.
     # DOMAIN-KEYWORD, .citadel # Citadel, LLC
     # DOMAIN-KEYWORD, .citi # Citigroup Inc.
     # DOMAIN-KEYWORD, .commbank # Commonwealth Bank of Australia
@@ -34434,7 +34523,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .itau # Itau Unibanco Holding S.A.
     # DOMAIN-KEYWORD, .jcb # JCB Co., Ltd.
     # DOMAIN-KEYWORD, .jll # Jones Lang LaSalle Incorporated
-    # DOMAIN-KEYWORD, .jpmorgan # JPMorgan Chase & Co.
     # DOMAIN-KEYWORD, .kfh # Kuwait Finance House
     # DOMAIN-KEYWORD, .kpmg # KPMG International Cooperative
     # DOMAIN-KEYWORD, .lacaixa # La Caixa
@@ -34451,7 +34539,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .prudential # Prudential Financial, Inc.
     # DOMAIN-KEYWORD, .pru # Prudential Financial, Inc.
     # DOMAIN-KEYWORD, .pwc # PwC Business Trust
-    # DOMAIN-KEYWORD, .saxo # Saxo Bank A/S
     # DOMAIN-KEYWORD, .sbi # State Bank of India
     # DOMAIN-KEYWORD, .scb # The Siam Commercial Bank Public Company Limited
     # DOMAIN-KEYWORD, .softbank # Softbank Corporation
@@ -34462,13 +34549,13 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .vanguard # The Vanguard Group, Inc.
     # DOMAIN-KEYWORD, .visa # Visa International Service Association
     # DOMAIN-KEYWORD, .wolterskluwer # Wolters Kluwer N.V.
-    
+
     # Home & Garden Domains
     # DOMAIN-KEYWORD, .aquarelle # Aquarelle.com
     # DOMAIN-KEYWORD, .diy # Lifestyle Domain Holdings, Inc
     # DOMAIN-KEYWORD, .homedepot # Homer TLC, Inc.
     # DOMAIN-KEYWORD, .homegoods # The TJX Companies, Inc.
-    
+
     # Insurance Domains
     # DOMAIN-KEYWORD, .aig # American International Group, Inc.
     # DOMAIN-KEYWORD, .allstate # Allstate Fire and Casualty Insurance Company
@@ -34487,7 +34574,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .travelers # Travelers TLD, LLC
     # DOMAIN-KEYWORD, .trv # Travelers TLD, LLC
     # DOMAIN-KEYWORD, .vig # Vienna Insurance Group
-    
+
     # Music & Entertainment Domains
     # DOMAIN-KEYWORD, .beats # Beats Electronics, LLC
     # DOMAIN-KEYWORD, .blockbuster # Dish DBS Corporation
@@ -34496,7 +34583,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .tab # Tabcorp Holdings Limited
     # DOMAIN-KEYWORD, .williamhill # William Hill Organization Limited
     # DOMAIN-KEYWORD, .xbox # Microsoft
-    
+
     # Retail Domains
     # DOMAIN-KEYWORD, .asda # Wal-Mart Stores, Inc.
     # DOMAIN-KEYWORD, .george # Wal-Mart Stores, Inc.
@@ -34512,7 +34599,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .tjx # The TJX Companies, Inc.
     # DOMAIN-KEYWORD, .tkmaxx # The TJX Companies, Inc.
     # DOMAIN-KEYWORD, .walmart # Wal-Mart Stores, Inc.
-    
+
     # Tech Domains
     # DOMAIN-KEYWORD, .abb # ABB Ltd.
     # DOMAIN-KEYWORD, .accenture # Accenture Global Services Limited
@@ -34578,7 +34665,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .orange # Orange Brand Services Limited
     # DOMAIN-KEYWORD, .ovh # OVH SAS
     # DOMAIN-KEYWORD, .pccw # PCCW Enterprises Limited
-    # DOMAIN-KEYWORD, .quest # Quest ION Limited
     # DOMAIN-KEYWORD, .richardli # Pacific Century Asset Management (HK) Limited
     # DOMAIN-KEYWORD, .ricoh # Ricoh Company, Ltd.
     # DOMAIN-KEYWORD, .rogers # Rogers Communications Partnership
@@ -34608,7 +34694,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .lamer # ELC Online Inc.
     # DOMAIN-KEYWORD, .natura # Natura Cosmeticos S.A.
     # DOMAIN-KEYWORD, .origins # ELC Online Inc.
-    
+
     # Consumables Domains
     # DOMAIN-KEYWORD, .barefoot # Gallo Vineyards, Inc.
     # DOMAIN-KEYWORD, .cuisinella # SALM S.A.S.
@@ -34617,7 +34703,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .ferrero # Ferrero Trading Lux S.A.
     # DOMAIN-KEYWORD, .food # Scripps Networks Interactive, Inc
     # DOMAIN-KEYWORD, .gallo # Gallo Vineyards, Inc.
-    
+
     # Full - IDN Domains
     # DOMAIN-KEYWORD, .xn--5su34j936bgsg # .香格里拉 Shangri-La International Hotel Management Limited
     # DOMAIN-KEYWORD, .xn--b4w605ferd # .淡马锡 Temasek Holdings Limtied
@@ -34633,7 +34719,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .xn--qcka1pmc # .グーグル Google
     # DOMAIN-KEYWORD, .xn--w4r85el8fhu5dnra # .嘉里大酒店 Kerry Trading Co. Limited
     # DOMAIN-KEYWORD, .xn--w4rs40l # .嘉里 Kerry Trading Co. Limited
-    
+
     # Hotel & Travel Domains
     # DOMAIN-KEYWORD, .caravan # Caravan International, Inc.
     # DOMAIN-KEYWORD, .cipriani # Hotel Cipriani
@@ -34648,13 +34734,13 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .tui # TUI AG
     # DOMAIN-KEYWORD, .viking # Viking River Cruises
     # DOMAIN-KEYWORD, .virgin # Virgin Enterprises Limited
-    
+
     # Land & Buildings Domains
     # DOMAIN-KEYWORD, .able # Able Inc.
     # DOMAIN-KEYWORD, .cbre # CBRE, Inc.
     # DOMAIN-KEYWORD, .chintai # Chintai Corporation
     # DOMAIN-KEYWORD, .lefrak # LeFrak Organization, Inc.
-    
+
     # News & Media Domains
     # DOMAIN-KEYWORD, .abc #  American Broadcasting Companies, Inc.
     # DOMAIN-KEYWORD, .arte #  Association Relative à la Télévision Européenne
@@ -34673,7 +34759,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # DOMAIN-KEYWORD, .seven #  Seven West Media Ltd
     # DOMAIN-KEYWORD, .sky #  Sky IP International Ltd
     # DOMAIN-KEYWORD, .weatherchannel #  The Weather Channel, LLC
-    
+
     # School & Training Domains
     # DOMAIN-KEYWORD, .bauhaus # Werkhaus GmbH
     # DOMAIN-KEYWORD, .latrobe # La Trobe University
@@ -37287,7 +37373,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
  # GEOIP LAN
     # GEOIP, LAN, direct
 
- # GeoIP China
+ # GeoIP CN
     GEOIP, CN, direct
 
  # GEOIP !CN
@@ -37295,6 +37381,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
  # MATCH rules
     FINAL, direct
+
 
 # Appendix
  # WARNING: the following keyword might conflict with relevant websites
