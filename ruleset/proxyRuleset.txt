@@ -776,6 +776,9 @@ payload:
    # id.me
     DOMAIN-SUFFIX, id.me
 
+   # ideogram.ai
+    DOMAIN-SUFFIX, ideogram.ai
+
    # ign
     DOMAIN-SUFFIX, ign.com
     DOMAIN-SUFFIX, ignimgs.com
