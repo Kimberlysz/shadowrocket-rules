@@ -779,6 +779,9 @@ payload:
    # id.me
     .id.me
 
+   # ideogram.ai
+    .ideogram.ai
+
    # ign
     .ign.com
     .ignimgs.com
