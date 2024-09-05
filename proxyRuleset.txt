@@ -1555,6 +1555,18 @@ payload:
     DOMAIN-SUFFIX, tibetoffice.org
     DOMAIN-SUFFIX, tibetoffice.com.au
 
+   # tiktok
+    DOMAIN-SUFFIX, appsflyer.com
+    DOMAIN-SUFFIX, bytegecko-i18n.com
+    DOMAIN-SUFFIX, ipstatp.com
+    DOMAIN-SUFFIX, pitaya-clientai.com
+    DOMAIN-SUFFIX, sgpstatp.com
+    DOMAIN-SUFFIX, snapkit.com
+
+    # DOMAIN-KEYWORD, -tiktokcdn-com, PROXY
+
+    # USER-AGENT, TikTok*, PROXY
+
    # tlsfingerprint
     DOMAIN-SUFFIX, tlsfingerprint.io
 
