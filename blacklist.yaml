@@ -49,16 +49,16 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 # rules: // note: please don't paste this "rules:" title to github repository
 
  # RULE-SET-clash
-    RULE-SET rejectmanual, reject
-    RULE-SET rejectmanualrouter, reject
+    # RULE-SET rejectmanual, reject
+    # RULE-SET rejectmanualrouter, reject
 
  # DOMAIN-SET-shadowrocket
     # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directDomainset.txt, direct
     # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyDomainset.txt, proxy, force-remote-dns
 
  # RULE-SET-shadowrocket
-    # RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directRuleset.txt, direct
-    # RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyRuleset.txt, proxy, force-remote-dns
+    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directRuleset.txt, direct
+    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyRuleset.txt, proxy, force-remote-dns
 
  # 🛑 AdBlock (domain-list-community)
   # #
@@ -1089,19 +1089,19 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, zyngaplayersupport.com, reject
 
  # RULE-SET-clash
-    RULE-SET directmanual, direct
-    RULE-SET proxymanual, proxy
+    # RULE-SET directmanual, direct
+    # RULE-SET proxymanual, proxy
 
-    RULE-SET directmanualrouter, direct
-    RULE-SET proxymanualrouter, proxy
+    # RULE-SET directmanualrouter, direct
+    # RULE-SET proxymanualrouter, proxy
 
  # DOMAIN-SET-shadowrocket
     # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directDomainset.txt, direct
     # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyDomainset.txt, proxy, force-remote-dns
 
  # RULE-SET-shadowrocket
-    # RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directRuleset.txt, direct
-    # RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyRuleset.txt, proxy, force-remote-dns
+    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directRuleset.txt, direct
+    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyRuleset.txt, proxy, force-remote-dns
 
  # DIRECT (domain-list-community)
   # #
