@@ -1558,6 +1558,14 @@ payload:
     .tibetoffice.org
     .tibetoffice.com.au
 
+   # tiktok
+    .appsflyer.com
+    .bytegecko-i18n.com
+    .ipstatp.com
+    .pitaya-clientai.com
+    .sgpstatp.com
+    .snapkit.com
+
    # tlsfingerprint
     .tlsfingerprint.io
 
