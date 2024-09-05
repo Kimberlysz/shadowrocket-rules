@@ -49,16 +49,14 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 # rules: // note: please don't paste this "rules:" title to github repository
 
  # RULE-SET-clash
-    # RULE-SET rejectmanual, reject
-    # RULE-SET rejectmanualrouter, reject
+    # - RULE-SET, rejectmanual, 🛑 AdBlock rules
+    # - RULE-SET, rejectmanualrouter, 🛑 AdBlock rules
 
  # DOMAIN-SET-shadowrocket
-    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directDomainset.txt, direct
-    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyDomainset.txt, proxy, force-remote-dns
+    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/rejectDomainset.txt, reject
 
  # RULE-SET-shadowrocket
-    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directRuleset.txt, direct
-    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyRuleset.txt, proxy, force-remote-dns
+    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/rejectRuleset.txt, reject
 
  # 🛑 AdBlock (domain-list-community)
   # #
