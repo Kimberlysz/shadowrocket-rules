@@ -219,6 +219,9 @@ payload:
    # callannie.ai
     .callannie.ai
 
+   # canva.com
+    .canva.com
+
    # canyonsdistrict.org
     .canyonsdistrict.org
 

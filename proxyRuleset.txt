@@ -219,6 +219,9 @@ payload:
    # callannie.ai
     DOMAIN-SUFFIX, callannie.ai
 
+   # canva.com
+    DOMAIN-SUFFIX, canva.com
+
    # canyonsdistrict.org
     DOMAIN-SUFFIX, canyonsdistrict.org
 
