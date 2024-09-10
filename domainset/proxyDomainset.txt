@@ -734,6 +734,9 @@ payload:
    # helloandroid.com
     .helloandroid.com
 
+   # hermes.com
+    .hermes.com
+
    # heygen.com
     .heygen.com
 
@@ -868,6 +871,9 @@ payload:
     .kapwing.com
 
     .cdn-useast1.kapwing.com
+
+   # keatinggroup.com
+    .keatinggroup.com
 
    # keepsolid
     .keepsolid.com
