@@ -734,6 +734,9 @@ payload:
    # helloandroid.com
     DOMAIN-SUFFIX, helloandroid.com
 
+   # hermes.com
+    DOMAIN-SUFFIX, hermes.com
+
    # heygen.com
     DOMAIN-SUFFIX, heygen.com
 
@@ -865,6 +868,9 @@ payload:
     DOMAIN-SUFFIX, kapwing.com
 
     DOMAIN, cdn-useast1.kapwing.com
+
+   # keatinggroup.com
+    DOMAIN-SUFFIX, keatinggroup.com
 
    # keepsolid
     DOMAIN-SUFFIX, keepsolid.com
