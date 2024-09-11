@@ -1095,11 +1095,11 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
  # DOMAIN-SET-shadowrocket
     # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directDomainset.txt, direct
-    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyDomainset.txt, proxy, force-remote-dns
+    # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyDomainset.txt, proxy
 
  # RULE-SET-shadowrocket
     RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directRuleset.txt, direct
-    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyRuleset.txt, proxy, force-remote-dns
+    RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyRuleset.txt, proxy
 
  # DIRECT (domain-list-community)
   # #
