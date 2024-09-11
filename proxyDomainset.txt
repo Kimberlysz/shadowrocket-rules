@@ -726,7 +726,9 @@ payload:
     .hashrate.to
 
    # hbomax
-    .max.com
+    .warnermediacdn.com
+
+    .live-manifests-aka.warnermediacdn.com
 
    # healthline
     .healthline.com
@@ -1672,6 +1674,9 @@ payload:
    # unir.net
     .unir.net
 
+   # unitedbmw.com
+    .unitedbmw.com
+
    # updraftplus
     .updraftplus.com
 
@@ -1718,11 +1723,6 @@ payload:
   # w
    # wakenbakery
     .wakenbakery.net
-
-   # warnermediacdn.com
-    .warnermediacdn.com
-
-    .live-manifests-aka.warnermediacdn.com
 
    # wd.bible
     .endao.app
