@@ -726,7 +726,9 @@ payload:
     DOMAIN-SUFFIX, hashrate.to
 
    # hbomax
-    DOMAIN-SUFFIX, max.com
+    DOMAIN-SUFFIX, warnermediacdn.com
+
+    DOMAIN, live-manifests-aka.warnermediacdn.com
 
    # healthline
     DOMAIN-SUFFIX, healthline.com
@@ -1674,6 +1676,9 @@ payload:
    # unir.net
     DOMAIN-SUFFIX, unir.net
 
+   # unitedbmw.com
+    DOMAIN-SUFFIX, unitedbmw.com
+
    # updraftplus
     DOMAIN-SUFFIX, updraftplus.com
 
@@ -1720,11 +1725,6 @@ payload:
   # w
    # wakenbakery
     DOMAIN-SUFFIX, wakenbakery.net
-
-   # warnermediacdn.com
-    DOMAIN-SUFFIX, warnermediacdn.com
-
-    DOMAIN, live-manifests-aka.warnermediacdn.com
 
    # wd.bible
     DOMAIN-SUFFIX, endao.app
