@@ -1664,6 +1664,9 @@ payload:
    # twitonmsn
     .twitonmsn.com
 
+   # tymebank.co.za
+    .tymebank.co.za
+
   # u
 
    # unir.net
