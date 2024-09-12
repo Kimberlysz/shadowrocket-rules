@@ -1286,8 +1286,8 @@ payload:
     DOMAIN-SUFFIX, psi.org
 
   # q
-   # qflm.net (test)
-    DOMAIN-SUFFIX, qflm.net
+   # qiangwaikan.com
+    DOMAIN-SUFFIX, qiangwaikan.com
 
    # qodeinteractive.com
     DOMAIN-SUFFIX, qodeinteractive.com
@@ -1487,11 +1487,6 @@ payload:
    # teacherstestprep.com
     DOMAIN-SUFFIX, teacherstestprep.com
 
-   # tealiumiq.com (test)
-    DOMAIN, uconnect.tealiumiq.com
-
-    DOMAIN-SUFFIX, teamredminer.com
-
    # teamredminer
     DOMAIN-SUFFIX, teamredminer.com
 
@@ -1592,7 +1587,7 @@ payload:
 
     DOMAIN, tmobile.tt.omtrdc.net
 
-   # todoist.com (test)
+   # todoist.com
     DOMAIN-SUFFIX, todoist.com
     DOMAIN, todoist.b-cdn.net
 
