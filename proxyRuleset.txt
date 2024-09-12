@@ -726,9 +726,8 @@ payload:
     DOMAIN-SUFFIX, hashrate.to
 
    # hbomax
+    DOMAIN-SUFFIX, h264.io
     DOMAIN-SUFFIX, warnermediacdn.com
-
-    DOMAIN, live-manifests-aka.warnermediacdn.com
 
    # healthline
     DOMAIN-SUFFIX, healthline.com
@@ -1280,6 +1279,9 @@ payload:
    # proshkola
     DOMAIN-SUFFIX, proshkola18.ru
 
+   # proxyium.com
+    DOMAIN-SUFFIX, proxyium.com
+
    # psi.org
     DOMAIN-SUFFIX, psi.org
 
@@ -1669,7 +1671,8 @@ payload:
     DOMAIN-SUFFIX, twitonmsn.com
 
    # tymebank.co.za
-    - DOMAIN-SUFFIX, tymebank.co.za
+    DOMAIN-SUFFIX, tymebank.co.za
+    DOMAIN-SUFFIX, tymedigital.co.za
 
   # u
 
@@ -1721,6 +1724,9 @@ payload:
 
    # volumio
     DOMAIN-SUFFIX, volumio.com
+
+   # vpnmentor.com
+    DOMAIN-SUFFIX, vpnmentor.com
 
   # w
    # wakenbakery
