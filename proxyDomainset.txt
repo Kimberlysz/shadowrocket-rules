@@ -726,9 +726,8 @@ payload:
     .hashrate.to
 
    # hbomax
+    .h264.io
     .warnermediacdn.com
-
-    .live-manifests-aka.warnermediacdn.com
 
    # healthline
     .healthline.com
@@ -1283,6 +1282,9 @@ payload:
    # proshkola
     .proshkola18.ru
 
+   # proxyium.com
+    .proxyium.com
+
    # psi.org
     .psi.org
 
@@ -1668,6 +1670,7 @@ payload:
 
    # tymebank.co.za
     .tymebank.co.za
+    .tymedigital.co.za
 
   # u
 
@@ -1719,6 +1722,9 @@ payload:
 
    # volumio
     .volumio.com
+
+   # vpnmentor.com
+    .vpnmentor.com
 
   # w
    # wakenbakery
