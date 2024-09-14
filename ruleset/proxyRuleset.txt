@@ -1825,6 +1825,9 @@ payload:
     # USER-AGENT, YouTube*
     # USER-AGENT, YouTubeMusic*
 
+   # yts.mx
+    DOMAIN-SUFFIX, yts.mx
+
   # z
    # zillow
     DOMAIN-SUFFIX, zillow.com
