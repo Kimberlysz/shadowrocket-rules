@@ -1823,6 +1823,9 @@ payload:
     # .YouTube*
     # .YouTubeMusic*
 
+   # yts.mx
+    .yts.mx
+
   # z
    # zillow
     .zillow.com
