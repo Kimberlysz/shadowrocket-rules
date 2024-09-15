@@ -451,6 +451,11 @@ payload:
     DOMAIN-SUFFIX, exdynsrv.com
     DOMAIN-SUFFIX, hwcdn.net
 
+   # elmbrook.org
+    DOMAIN-SUFFIX, cdn.pendo.io
+    DOMAIN-SUFFIX, onrealm.org
+    DOMAIN-SUFFIX, pay.acst.com
+
    # emol.com
     DOMAIN-SUFFIX, emol.com
 
