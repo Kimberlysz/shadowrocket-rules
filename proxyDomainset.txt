@@ -451,6 +451,11 @@ payload:
     .exdynsrv.com
     .hwcdn.net
 
+   # elmbrook.org
+    .cdn.pendo.io
+    .onrealm.org
+    .pay.acst.com
+
    # emol.com
     .emol.com
 
