@@ -970,6 +970,9 @@ payload:
    # makedreamwebsite.com
     .makedreamwebsite.com
 
+   # makeuseof.com
+    .makeuseof.com
+
    # matrix.one
     .matrix.one
 
@@ -1578,6 +1581,8 @@ payload:
     .pitaya-clientai.com
     .sgpstatp.com
     .snapkit.com
+
+    .tokopediax.com
 
    # tlsfingerprint
     .tlsfingerprint.io
