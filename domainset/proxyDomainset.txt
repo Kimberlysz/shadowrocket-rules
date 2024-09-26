@@ -723,6 +723,9 @@ payload:
    # gptstore.ai
     .gptstore.ai
 
+   # gtk.pw
+    .gtk.pw
+
   # h
    # happyaddons.com
     .happyaddons.com
