@@ -723,6 +723,9 @@ payload:
    # gptstore.ai
     DOMAIN-SUFFIX, gptstore.ai
 
+   # gtk.pw
+    DOMAIN-SUFFIX, gtk.pw
+
   # h
    # happyaddons.com
     DOMAIN-SUFFIX, happyaddons.com
@@ -964,8 +967,11 @@ payload:
    # maine.gov
     DOMAIN-SUFFIX, maine.gov
 
-   # makedreamwebsite.com
-    DOMAIN-SUFFIX, makedreamwebsite.com
+   # makeuseof.com
+    DOMAIN-SUFFIX, makeuseof.com
+
+   # matrix.one
+    DOMAIN-SUFFIX, matrix.one
 
    # matrix.one
     DOMAIN-SUFFIX, matrix.one
@@ -1575,6 +1581,8 @@ payload:
     DOMAIN-SUFFIX, pitaya-clientai.com
     DOMAIN-SUFFIX, sgpstatp.com
     DOMAIN-SUFFIX, snapkit.com
+
+    DOMAIN-SUFFIX, tokopediax.com
 
     # DOMAIN-KEYWORD, -tiktokcdn-com, PROXY
 
