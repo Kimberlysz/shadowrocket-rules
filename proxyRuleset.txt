@@ -902,6 +902,9 @@ payload:
    # legkierody.ru
     DOMAIN-SUFFIX, legkierody.ru
 
+   # letsvpn.world
+    DOMAIN-SUFFIX, letsvpn.world
+
    # libbyapp.com
     DOMAIN, ic.od-cdn.com
     DOMAIN, ntc.api.overdrive.com
@@ -969,6 +972,7 @@ payload:
 
    # makeuseof.com
     DOMAIN-SUFFIX, makeuseof.com
+    DOMAIN-SUFFIX, makeuseofimages.com
 
    # matrix.one
     DOMAIN-SUFFIX, matrix.one
@@ -1582,6 +1586,7 @@ payload:
     DOMAIN-SUFFIX, sgpstatp.com
     DOMAIN-SUFFIX, snapkit.com
 
+    DOMAIN-SUFFIX, tiktokcdn-eu.com
     DOMAIN-SUFFIX, tokopediax.com
 
     # DOMAIN-KEYWORD, -tiktokcdn-com, PROXY
