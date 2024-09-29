@@ -48,14 +48,21 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 [Rule]
 # rules: // note: please don't paste this "rules:" title to github repository
 
- # RULE-SET-clash
+ # RULE-SET (-clash)
+
+  # jsdelivr
+    - DOMAIN-SUFFIX, jsdelivr.net, proxy
+
+  # RULE-SET-clash
     # - RULE-SET, rejectmanual, 🛑 AdBlock rules
+
+  # RULE-SET-merlinclash
     # - RULE-SET, rejectmanualrouter, 🛑 AdBlock rules
 
- # DOMAIN-SET-shadowrocket
+  # DOMAIN-SET-shadowrocket
     # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/rejectDomainset.txt, reject
 
- # RULE-SET-shadowrocket
+  # RULE-SET-shadowrocket
     RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/rejectRuleset.txt, reject
 
  # 🛑 AdBlock (domain-list-community)
@@ -1086,18 +1093,20 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, zynga.com, reject
     DOMAIN-SUFFIX, zyngaplayersupport.com, reject
 
- # RULE-SET-clash
-    # RULE-SET directmanual, direct
-    # RULE-SET proxymanual, proxy
+ # RULE-SET (-clash)
+  # RULE-SET-clash
+    # - RULE-SET, directmanual, DIRECT
+    # - RULE-SET, proxymanual, PROXY
 
-    # RULE-SET directmanualrouter, direct
-    # RULE-SET proxymanualrouter, proxy
+  # RULE-SET-merlinclash
+    # - RULE-SET, directmanualrouter, DIRECT
+    # - RULE-SET, proxymanualrouter, PROXY
 
- # DOMAIN-SET-shadowrocket
+  # DOMAIN-SET-shadowrocket
     # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directDomainset.txt, direct
     # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyDomainset.txt, proxy
 
- # RULE-SET-shadowrocket
+  # RULE-SET-shadowrocket
     RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/directRuleset.txt, direct
     RULE-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@release/proxyRuleset.txt, proxy
 
