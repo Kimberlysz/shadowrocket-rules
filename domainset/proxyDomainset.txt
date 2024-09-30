@@ -518,6 +518,11 @@ payload:
    # f2pool
     .f2pool.com
 
+   # faithlife.com
+    .faithlife.com
+    .logos.com
+    .logoscdn.com
+
    # farmers.com
     .farmers.com
 
@@ -530,6 +535,9 @@ payload:
    # fiverr
     .fiverr.com
     .fiverrcdn.com
+
+   # findladders.com
+    .findladders.com
 
    # footystats
     .footystats.org
@@ -948,16 +956,14 @@ payload:
    # liquidweb.com
     .liquidweb.com
 
+   # lnks.gd
+    .lnks.gd
+
    # lofsolar
     .lofsolar.com
 
    # logisteed-america.com
     .logisteed-america.com
-
-   # faithlife.com
-    .faithlife.com
-    .logos.com
-    .logoscdn.com
 
    # lookah
     .lookah.com
@@ -1442,6 +1448,9 @@ payload:
 
    # soundraw
     .soundraw-storage.com
+
+   # soutong.men
+    .soutong.men
 
    # special-ops.org
     .special-ops.org
