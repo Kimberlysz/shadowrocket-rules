@@ -518,6 +518,11 @@ payload:
    # f2pool
     DOMAIN-SUFFIX, f2pool.com
 
+   # faithlife.com
+    DOMAIN-SUFFIX, faithlife.com
+    DOMAIN-SUFFIX, logos.com
+    DOMAIN-SUFFIX, logoscdn.com
+
    # farmers.com
     DOMAIN-SUFFIX, farmers.com
 
@@ -530,6 +535,9 @@ payload:
    # fiverr
     DOMAIN-SUFFIX, fiverr.com
     DOMAIN-SUFFIX, fiverrcdn.com
+
+   # findladders.com
+    DOMAIN-SUFFIX, findladders.com
 
    # footystats
     DOMAIN-SUFFIX, footystats.org
@@ -945,16 +953,14 @@ payload:
    # liquidweb.com
     DOMAIN-SUFFIX, liquidweb.com
 
+   # lnks.gd
+    DOMAIN-SUFFIX, lnks.gd
+
    # lofsolar
     DOMAIN-SUFFIX, lofsolar.com
 
    # logisteed-america.com
     DOMAIN-SUFFIX, logisteed-america.com
-
-   # faithlife.com
-    DOMAIN-SUFFIX, faithlife.com
-    DOMAIN-SUFFIX, logos.com
-    DOMAIN-SUFFIX, logoscdn.com
 
    # lookah
     DOMAIN-SUFFIX, lookah.com
@@ -1439,6 +1445,9 @@ payload:
 
    # soundraw
     DOMAIN-SUFFIX, soundraw-storage.com
+
+   # soutong.men
+    DOMAIN-SUFFIX, soutong.men
 
    # special-ops.org
     DOMAIN-SUFFIX, special-ops.org
