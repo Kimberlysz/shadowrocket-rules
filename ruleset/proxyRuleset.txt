@@ -263,6 +263,9 @@ payload:
     DOMAIN-SUFFIX, chia.net
     DOMAIN-SUFFIX, chiacalculator.com
 
+   # chunman4.com
+    DOMAIN-SUFFIX, chunman4.com
+
    # cipc.co.za
     DOMAIN-SUFFIX, cipc.co.za
 
