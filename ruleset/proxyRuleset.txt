@@ -290,23 +290,23 @@ payload:
     DOMAIN-SUFFIX, cnbetacdn.com
 
    # cnn
-    DOMAIN-SUFFIX, collector.cdp.cnn.com
-    DOMAIN-SUFFIX, edition.cnn.com
-    DOMAIN-SUFFIX, lightning.cnn.com
-    DOMAIN-SUFFIX, media.cnn.com
-    DOMAIN-SUFFIX, registry.api.cnn.io
-    DOMAIN-SUFFIX, smetrics.cnn.com
-    DOMAIN-SUFFIX, i.cdn.cnn.com
-    DOMAIN-SUFFIX, z.cdp-dev.cnn.com
+    # DOMAIN-SUFFIX, collector.cdp.cnn.com
+    # DOMAIN-SUFFIX, edition.cnn.com
+    # DOMAIN-SUFFIX, lightning.cnn.com
+    # DOMAIN-SUFFIX, media.cnn.com
+    # DOMAIN-SUFFIX, registry.api.cnn.io
+    # DOMAIN-SUFFIX, smetrics.cnn.com
+    # DOMAIN-SUFFIX, i.cdn.cnn.com
+    # DOMAIN-SUFFIX, z.cdp-dev.cnn.com
 
-    DOMAIN, collector.cdp.cnn.com
-    DOMAIN, edition.cnn.com
-    DOMAIN, lightning.cnn.com
-    DOMAIN, media.cnn.com
-    DOMAIN, registry.api.cnn.io
-    DOMAIN, smetrics.cnn.com
-    DOMAIN, i.cdn.cnn.com
-    DOMAIN, z.cdp-dev.cnn.com
+    # DOMAIN, collector.cdp.cnn.com
+    # DOMAIN, edition.cnn.com
+    # DOMAIN, lightning.cnn.com
+    # DOMAIN, media.cnn.com
+    # DOMAIN, registry.api.cnn.io
+    # DOMAIN, smetrics.cnn.com
+    # DOMAIN, i.cdn.cnn.com
+    # DOMAIN, z.cdp-dev.cnn.com
 
    # co.uk
     DOMAIN-KEYWORD, .co.uk
@@ -979,6 +979,10 @@ payload:
    # maine.gov
     DOMAIN-SUFFIX, maine.gov
 
+   # makedreamwebsite.com
+    DOMAIN-SUFFIX, makedreamwebsite.com
+    DOMAIN-SUFFIX, makedreamwebsite.gumroad.com
+
    # makeuseof.com
     DOMAIN-SUFFIX, makeuseof.com
     DOMAIN-SUFFIX, makeuseofimages.com
@@ -1068,6 +1072,9 @@ payload:
 
    # mwcbarcelona.com
     DOMAIN, register.mwcbarcelona.com
+
+   # mycustomsoftware.com
+    DOMAIN-SUFFIX, mycustomsoftware.com
 
    # myindigocard
     DOMAIN-SUFFIX, myindigocard.com
@@ -1462,6 +1469,9 @@ payload:
     DOMAIN, publisher-assets.spot.im
     DOMAIN, event-stream.spot.im
 
+   # squarespace.com
+    DOMAIN-SUFFIX, squarespace.com
+
    # starford.com
     DOMAIN-SUFFIX, starford.com
     DOMAIN-SUFFIX, ford.com
@@ -1598,10 +1608,12 @@ payload:
     DOMAIN-SUFFIX, sgpstatp.com
     DOMAIN-SUFFIX, snapkit.com
 
+    DOMAIN-KEYWORD, -att.com
+    DOMAIN-KEYWORD, -tiktokcdn-com
+    DOMAIN-SUFFIX, app-analytics-services-att.com
+    DOMAIN-SUFFIX, app-analytics-services.com
     DOMAIN-SUFFIX, tiktokcdn-eu.com
     DOMAIN-SUFFIX, tokopediax.com
-
-    # DOMAIN-KEYWORD, -tiktokcdn-com, PROXY
 
     # USER-AGENT, TikTok*, PROXY
 
@@ -1632,6 +1644,9 @@ payload:
 
    # tonwhales.com
     DOMAIN-SUFFIX, tonwhales.com
+
+   # tools.keycdn.com
+    DOMAIN-SUFFIX, tools.keycdn.com
 
    # tradestockfund.com
     DOMAIN-SUFFIX, tradestockfund.com
