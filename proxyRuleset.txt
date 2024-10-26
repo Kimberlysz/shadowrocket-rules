@@ -123,6 +123,9 @@ payload:
    # astrill
     DOMAIN-SUFFIX, astrill.com
 
+   # at-tps.org
+    DOMAIN-SUFFIX, at-tps.org
+
    # atmeta.com
     DOMAIN-SUFFIX, atmeta.com
 
@@ -1509,9 +1512,6 @@ payload:
 
    # sugarfreemom.com
     DOMAIN-SUFFIX, sugarfreemom.com
-
-   # support.at-tps.org
-    DOMAIN-SUFFIX, support.at-tps.org
 
    # surfshark.com
     DOMAIN-SUFFIX, surfshark.com

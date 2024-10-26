@@ -123,6 +123,9 @@ payload:
    # astrill
     .astrill.com
 
+   # at-tps.org
+    .at-tps.org
+
    # atmeta.com
     .atmeta.com
 
@@ -1509,9 +1512,6 @@ payload:
 
    # sugarfreemom.com
     .sugarfreemom.com
-
-   # support.at-tps.org
-    .support.at-tps.org
 
    # surfshark.com
     .surfshark.com
