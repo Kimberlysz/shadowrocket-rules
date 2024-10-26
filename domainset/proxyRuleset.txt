@@ -1,0 +1,1888 @@
+# rules:
+
+payload:
+ # proxy manual
+
+  # #
+
+   # 1800 flowers
+    DOMAIN-SUFFIX, 1800flowers.com
+
+    DOMAIN, 1800flowers.7ymy.net
+    DOMAIN, 1800flowers.attn.tv
+    DOMAIN, z1800flowers3276921z.btttag.com
+    DOMAIN, zn8gre3bdrts5wjr3-1800flowers.siteintercept.qualtrics.com
+
+   # 14news
+    DOMAIN-SUFFIX, 14news.com
+  
+    DOMAIN, gray-wfie-prod.cdn.arcpublishing.com
+
+   # 2miners
+    DOMAIN-SUFFIX, 2miners.com
+
+   # 1password
+    DOMAIN-SUFFIX, 1password.com
+
+  # a
+   # aaos
+    DOMAIN-SUFFIX, aaos.org
+
+   # acast
+    DOMAIN-SUFFIX, acast.com
+
+   # acipayonline
+    DOMAIN-SUFFIX, acipayonline.com
+
+   # acuityscheduling
+    DOMAIN-SUFFIX, acuityscheduling.com
+
+   # addepar
+    DOMAIN-SUFFIX, addepar.com
+
+    DOMAIN, id.addepar.com
+    DOMAIN, matrixpcg.addepar.com
+
+   # agoda
+    DOMAIN-SUFFIX, agoda.com
+
+    DOMAIN, pix6.agoda.net
+    DOMAIN, mtagm.agoda.com
+    DOMAIN, img.agoda.net
+    DOMAIN, cdn6.agoda.net
+    DOMAIN, cdn0.agoda.net
+    DOMAIN, bento.agoda.com
+
+   # ai art
+    DOMAIN-SUFFIX, craiyon.com
+    DOMAIN-SUFFIX, hotpot.ai
+    DOMAIN-SUFFIX, nightcafe.studio
+
+   # airasia
+    DOMAIN-SUFFIX, airasia.ck123.io
+    DOMAIN-SUFFIX, airasia.com
+    DOMAIN-SUFFIX, airasia.gw-dv.vip
+    DOMAIN, payment.airasia.com
+    DOMAIN, payment.apiairasia.com
+    DOMAIN, sso-widget.airasia.com
+    DOMAIN, ssor.airasia.com
+    DOMAIN, static.airasia.com
+
+   # akamai technologies
+    # AS16625 - Akamai Technologies, Inc.
+
+   # alchemer.com
+    DOMAIN-SUFFIX, alchemer.com
+
+   # alpineschools.org
+    DOMAIN-SUFFIX, alpineschools.org
+
+   # amc
+    DOMAIN-SUFFIX, amc.com
+    DOMAIN-SUFFIX, amcn.com
+    DOMAIN-SUFFIX, amcnetworks.com
+    DOMAIN-SUFFIX, amcplus.com
+    DOMAIN-SUFFIX, e5a6ae085b6c43020dea230eb0c0ecc33a188227507da97b8ecc05eb8beace6.us-east-1.prod.service.minerva.devices.a2z.com
+
+   # annas-archive
+    DOMAIN-SUFFIX, annas-archive.org
+
+   # apkpure
+    DOMAIN-SUFFIX, apkpure.net
+
+   # apple
+    # DOMAIN-SUFFIX, amp-api.podcasts.apple.com
+    # DOMAIN-SUFFIX, api.spreaker.com
+    # DOMAIN-SUFFIX, chrt.fm
+    # DOMAIN-SUFFIX, dts.podtrac.com
+    # DOMAIN-SUFFIX, pdst.fm
+    # DOMAIN-SUFFIX, podcasts.apple.com
+    # DOMAIN-SUFFIX, podtrac.com
+
+   # appledaily
+    DOMAIN-SUFFIX, appledaily.tw
+
+   # applitrack.com
+    DOMAIN-SUFFIX, applitrack.com
+
+   # appspot, Others
+    # DOMAIN, feelinsonice-hrd.appspot.com
+    # DOMAIN, feelinsonice.appspot.com
+    # DOMAIN, sc-analytics.appspot.com
+
+   # arkoselabs.com
+    DOMAIN, client-api.arkoselabs.com
+    DOMAIN, iframe.arkoselabs.com
+
+   # art19.com
+    DOMAIN-SUFFIX, art19.com
+
+   # ashleymadison
+    DOMAIN-SUFFIX, ashleymadison.com
+
+   # astrill
+    DOMAIN-SUFFIX, astrill.com
+
+   # atmeta.com
+    DOMAIN-SUFFIX, atmeta.com
+
+   # avg
+    DOMAIN-SUFFIX, avcdn.com
+    DOMAIN-SUFFIX, avg.com
+
+  # b
+   # badoo
+    DOMAIN-SUFFIX, badoocdn.com
+    DOMAIN-SUFFIX, badoo.com
+    DOMAIN-SUFFIX, badoo.app
+
+   # bandwagonhost
+    # DOMAIN-KEYWORD, .64clouds
+    DOMAIN-SUFFIX, 64clouds.com
+
+   # barnesandnoble
+    DOMAIN-SUFFIX, barnesandnoble.com
+
+   # beats saber
+    DOMAIN-SUFFIX, beatsaver.com
+    DOMAIN-SUFFIX, bsaber.com
+    DOMAIN-SUFFIX, scoresaber.com
+    DOMAIN-SUFFIX, skystudioapps.com
+    DOMAIN-SUFFIX, e-hentai.org
+
+   # beetalk
+    # DOMAIN-KEYWORD, .beetalk
+
+   # beinsports
+    DOMAIN, connect-us.beinsports.com
+
+    DOMAIN-SUFFIX, beinsports.com
+
+   # besd.net
+    DOMAIN-SUFFIX, besd.net
+
+   # betterplan
+    DOMAIN-SUFFIX, betterplan.cl
+
+   # bible
+    DOMAIN-SUFFIX, youversion.com
+    DOMAIN-SUFFIX, bible.com
+    DOMAIN-SUFFIX, app.link
+
+   # bice
+    DOMAIN-SUFFIX, bice.cl
+    DOMAIN-SUFFIX, modyocdn.com
+
+   # bing
+    # Bing rules originates from this yaml file
+    # DOMAIN-SUFFIX, global.bing.com
+
+   # bisepinnovations.com
+    DOMAIN-SUFFIX, bisepinnovations.com
+
+   # bitmain
+    DOMAIN-SUFFIX, bitmain.com
+
+   # bittorrent.com
+    DOMAIN-SUFFIX, bittorrent.com
+
+   # blockscout
+    DOMAIN-SUFFIX, blockscout.com
+
+   # bloomberg
+    DOMAIN-SUFFIX, bloom.bg
+    DOMAIN-SUFFIX, bloombergdfpcw4670778881.s.moatpixel.com
+    DOMAIN-SUFFIX, compass.bloomberg.com
+    DOMAIN-SUFFIX, coordinator.cm.bloomberg.com
+    DOMAIN-SUFFIX, login.bloomberg.com
+    DOMAIN-SUFFIX, personalization.bloomberg.com
+    DOMAIN-SUFFIX, sourcepointcmp.bloomberg.com
+
+   # BMO
+    DOMAIN-SUFFIX, bmo.com
+
+   # bmwusa
+    DOMAIN, idresgraph.bmwusa.com
+
+   # box.com
+    DOMAIN-SUFFIX, box.com
+
+   # broadbandgenie.co.uk
+    DOMAIN-SUFFIX, broadbandgenie.co.uk
+
+  # c
+
+   # ca.gov
+    DOMAIN-SUFFIX, dmv.ca.gov
+    DOMAIN-SUFFIX, sa.dmv.ca.gov
+
+   # caliva
+    DOMAIN-SUFFIX, caliva.com
+
+   # callannie.ai
+    DOMAIN-SUFFIX, callannie.ai
+
+   # canva.com
+    DOMAIN-SUFFIX, canva.com
+
+   # canyonsdistrict.org
+    DOMAIN-SUFFIX, canyonsdistrict.org
+
+   # cars.com
+    DOMAIN-SUFFIX, cars.com
+
+   # carneysandoe.com
+    DOMAIN-SUFFIX, carneysandoe.com
+
+   # cebupacificair.com
+    DOMAIN-SUFFIX, cebupacificair.com
+
+    DOMAIN, soar.cebupacificair.com
+
+   # cedexis
+    DOMAIN-SUFFIX, cedexis-test.com
+    DOMAIN, p29.cedexis-test.com
+
+   # celcius network
+    DOMAIN-SUFFIX, celsius.network
+    DOMAIN, g9zdov47b9.execute-api.us-east-1.amazonaws.com
+
+   # celebsunmasked.com
+    DOMAIN-SUFFIX, celebsunmasked.com
+
+   # character.ai
+    DOMAIN, beta.character.ai
+
+   # chatgpt.com
+    DOMAIN-SUFFIX, chatgpt.com
+
+   # charlestoncounty.org
+    DOMAIN-SUFFIX, charlestoncounty.org
+
+   # cherryvpn.net
+    DOMAIN-SUFFIX, cherryvpn.net
+
+   # chia
+    DOMAIN-SUFFIX, chia.net
+    DOMAIN-SUFFIX, chiacalculator.com
+
+   # chunman4.com
+    DOMAIN-SUFFIX, chunman4.com
+
+   # cipc.co.za
+    DOMAIN-SUFFIX, cipc.co.za
+
+   # civitai.com
+    DOMAIN-SUFFIX, civitai.com
+
+   # clash
+    DOMAIN-SUFFIX, clash.la
+
+   # cloudflare
+    DOMAIN, a.nel.cloudflare.com
+    # DOMAIN-SUFFIX, ajax.cloudflare.com
+    # DOMAIN-SUFFIX, api.ip.sb.cdn.cloudflare.net
+    # DOMAIN-SUFFIX, cdnjs.cloudflare.com
+
+    # cloudflare IP-CIDR
+    # AS13335 - Cloudflare, Inc.
+
+   # cnbeta
+    DOMAIN-SUFFIX, cnbeta.com
+    DOMAIN-SUFFIX, cnbeta.com.tw
+    DOMAIN-SUFFIX, cnbetacdn.com
+
+   # cnn
+    # DOMAIN-SUFFIX, collector.cdp.cnn.com
+    # DOMAIN-SUFFIX, edition.cnn.com
+    # DOMAIN-SUFFIX, lightning.cnn.com
+    # DOMAIN-SUFFIX, media.cnn.com
+    # DOMAIN-SUFFIX, registry.api.cnn.io
+    # DOMAIN-SUFFIX, smetrics.cnn.com
+    # DOMAIN-SUFFIX, i.cdn.cnn.com
+    # DOMAIN-SUFFIX, z.cdp-dev.cnn.com
+
+    # DOMAIN, collector.cdp.cnn.com
+    # DOMAIN, edition.cnn.com
+    # DOMAIN, lightning.cnn.com
+    # DOMAIN, media.cnn.com
+    # DOMAIN, registry.api.cnn.io
+    # DOMAIN, smetrics.cnn.com
+    # DOMAIN, i.cdn.cnn.com
+    # DOMAIN, z.cdp-dev.cnn.com
+
+   # co.uk
+    DOMAIN-KEYWORD, .co.uk
+
+   # coinbase
+    DOMAIN-SUFFIX, coinbasecdn.net
+
+    DOMAIN, as.coinbase.com
+    DOMAIN, assets.coinbase.com
+    DOMAIN, dynamic-assets.coinbase.com
+    DOMAIN, sessions.coinbase.com
+    DOMAIN, static-assets.coinbase.com
+
+   # coindesk
+    DOMAIN-SUFFIX, coindesk.com
+
+   # coincodex.com
+    DOMAIN-SUFFIX, coincodex.com
+
+   # coingecko
+    DOMAIN-SUFFIX, coingecko.com
+
+    DOMAIN, assets.coingecko.com
+    DOMAIN, static.coingecko.com
+
+   # coinmarketcap.com
+    DOMAIN-SUFFIX, coinwarz.com
+    DOMAIN-SUFFIX, coinmarketcap.com
+
+   # complio.com
+    DOMAIN-SUFFIX, complio.com
+
+    DOMAIN, liberty.complio.com
+
+   # cookcountyclerkil.gov
+    DOMAIN-SUFFIX, cookcountyclerkil.gov
+
+   # copilot.microsoft.com
+    DOMAIN-SUFFIX, copilot.microsoft.com
+    DOMAIN-SUFFIX, sydney.bing.com
+
+   # corehighered.com
+    DOMAIN-SUFFIX, corehighered.com
+
+   # corelogic.com
+    DOMAIN-SUFFIX, corelogic.com
+
+   # coze.com
+    DOMAIN-SUFFIX, coze.com
+
+   # crazypool
+    DOMAIN-SUFFIX, crazypool.org
+
+   # creditkarma.com
+    DOMAIN-SUFFIX, creditkarma.com
+
+   # creditone.com
+    DOMAIN-SUFFIX, creditone.com
+
+   # crockblock
+    DOMAIN-SUFFIX, crocoblock.com
+
+   # cryptocompare
+    DOMAIN-SUFFIX, cryptocompare.com
+
+   # cryptotools.net
+    DOMAIN-SUFFIX, cryptotools.net
+
+   # csl.edu
+    DOMAIN-SUFFIX, csl.edu
+
+   # culturalvistas.org
+    DOMAIN-SUFFIX, culturalvistas.org
+
+   # curtin university
+    DOMAIN-SUFFIX, curtin.edu.au
+    DOMAIN-SUFFIX, pcdn.co
+
+   # cvs
+    DOMAIN-SUFFIX, cvs.com
+
+    DOMAIN, cdn.appdynamics.com
+    DOMAIN, images.ctfassets.net
+
+   # cwtv.com
+    DOMAIN-SUFFIX, cwtv.com
+
+    DOMAIN, images.cwtv.com
+
+   # cyberspatial.com
+    DOMAIN-SUFFIX, cyberspatial.com
+
+  # d
+   # dfas.mil
+    DOMAIN-SUFFIX, dfas.mil
+    DOMAIN-SUFFIX, mypay.dfas.mil
+
+   # diamondbackonline.com
+    DOMAIN-SUFFIX, diamondbackonline.com
+
+   # directenergy.com
+    DOMAIN-SUFFIX, directenergy.com
+
+   # dirtrab.cl
+    DOMAIN-SUFFIX, dirtrab.cl
+
+   # discomax.com
+    DOMAIN-SUFFIX, discomax.com
+
+   # disneyplus
+    # DOMAIN-SUFFIX, bam.nr-data.net
+    # DOMAIN-SUFFIX, cdn.registerdisney.go.com
+    # DOMAIN-SUFFIX, d9.flashtalking.com
+    # DOMAIN-SUFFIX, dssott.com.akamaized.net
+    # DOMAIN-SUFFIX, js-agent.newrelic.com
+    # DOMAIN-SUFFIX, search-api-disney.bamgrid.com
+    # DOMAIN-SUFFIX, starwave.com
+
+   # disney.demdex.net
+    DOMAIN-SUFFIX, disney.demdex.net
+
+   # donacionesley21440.cl
+    DOMAIN-SUFFIX, donacionesley21440.cl
+
+   # dpsk12.org
+    DOMAIN-SUFFIX, dpsk12.org
+
+   # dt.gob.cl
+    DOMAIN-SUFFIX, dt.gob.cl
+
+  # e
+   # ecosia.org
+    DOMAIN-SUFFIX, ecosia.org
+
+   # ed.gov
+    DOMAIN-SUFFIX, eric.ed.gov
+
+   # elementor
+    DOMAIN-SUFFIX, elementor.cloud
+    DOMAIN-SUFFIX, elementor.com
+
+   # elitebabes.com
+    DOMAIN-SUFFIX, afcdn.net
+    # DOMAIN-SUFFIX, elitebabes.com
+    DOMAIN-SUFFIX, exdynsrv.com
+    DOMAIN-SUFFIX, hwcdn.net
+
+   # elmbrook.org
+    DOMAIN-SUFFIX, cdn.pendo.io
+    DOMAIN-SUFFIX, onrealm.org
+    DOMAIN-SUFFIX, pay.acst.com
+
+   # emol.com
+    DOMAIN-SUFFIX, emol.com
+
+   # engadget.com
+    DOMAIN-SUFFIX, engadget.com
+
+   # enterprise.com
+    DOMAIN-SUFFIX, enterprise.com
+
+   # epicgames
+    DOMAIN, cdn2.unrealengine.com
+    DOMAIN, components.unrealengine.com
+    DOMAIN, graphql.unrealengine.com
+    DOMAIN, media.graphassets.com
+    DOMAIN, static-assets-prod.unrealengine.com
+    DOMAIN, tracking.unrealengine.com
+
+   # equator-network.org
+    DOMAIN-SUFFIX, equator-network.org
+
+   # equifax.com
+    DOMAIN-SUFFIX, equifax.com
+
+   # etsy
+    DOMAIN-SUFFIX, etsy.com
+
+   # etherfair
+    DOMAIN-SUFFIX, etherfair.org
+
+   # ethereumpow
+    DOMAIN-SUFFIX, ethereumpow.org
+
+   # ethermine
+    DOMAIN-SUFFIX, ethermine.org
+
+   # etherscan
+    DOMAIN-SUFFIX, etherscan.io
+
+   # ethwscan
+    DOMAIN-SUFFIX, ethwscan.com
+
+   # etoro.com
+    DOMAIN-SUFFIX, etoro.com
+
+   # experian.com
+    DOMAIN-SUFFIX, experian.com
+
+   # express-scripts.com
+    DOMAIN-SUFFIX, express-scripts.com
+    DOMAIN-SUFFIX, militaryrx.express-scripts.com
+
+   # express.co.uk
+    DOMAIN-SUFFIX, express.co.uk
+
+    DOMAIN, cdn.images.express.co.uk
+    DOMAIN, premium.express.co.uk
+    DOMAIN, secure.insightexpressai.com
+
+  # f
+   # f2pool
+    DOMAIN-SUFFIX, f2pool.com
+
+   # faithlife.com
+    DOMAIN-SUFFIX, faithlife.com
+    DOMAIN-SUFFIX, logos.com
+    DOMAIN-SUFFIX, logoscdn.com
+
+   # farmers.com
+    DOMAIN-SUFFIX, farmers.com
+
+   # fastly
+    # AS54113 - Fastly, Inc.
+
+   # firebase
+    DOMAIN, firebase-settings.crashlytics.com
+
+   # fiverr
+    DOMAIN-SUFFIX, fiverr.com
+    DOMAIN-SUFFIX, fiverrcdn.com
+
+   # findladders.com
+    DOMAIN-SUFFIX, findladders.com
+
+   # footystats
+    DOMAIN-SUFFIX, footystats.org
+
+    DOMAIN, cdn.footystats.org
+
+   # forc.mx
+    DOMAIN-SUFFIX, forc.mx
+
+   # freedesktop.timedate1
+    DOMAIN-SUFFIX, org.freedesktop.timedate1
+
+    DOMAIN, org.freedesktop.timedate1
+
+   # freemacsoft.net
+    DOMAIN-SUFFIX, freemacsoft.net
+
+   # frontlineeducation.com
+    DOMAIN-SUFFIX, frontlineeducation.com
+
+   # fullcompass
+    DOMAIN-SUFFIX, fullcompass.com
+
+  # g
+   # gammaplatform.com
+    DOMAIN, cm-supply-web.gammaplatform.com
+
+   # genius.com
+    DOMAIN-SUFFIX, genius.com
+
+   # getcourse.ru
+    DOMAIN, fs-thb01.getcourse.ru
+    DOMAIN, fs-thb02.getcourse.ru
+    DOMAIN, fs-thb03.getcourse.ru
+    DOMAIN, fs01.getcourse.ru
+    DOMAIN, fs02.getcourse.ru
+    DOMAIN, fs06.getcourse.ru
+    DOMAIN, fs07.getcourse.ru
+    DOMAIN, fs10.getcourse.ru
+    DOMAIN, fs12.getcourse.ru
+    DOMAIN, fs14.getcourse.ru
+    DOMAIN, fs15.getcourse.ru
+    DOMAIN, fs16.getcourse.ru
+    DOMAIN, fs17.getcourse.ru
+    DOMAIN, gcfs04.getcourse.ru
+
+   # ghostlifestyle.com
+    DOMAIN-SUFFIX, ghostlifestyle.com
+
+   # giantfreakinrobot
+    DOMAIN-SUFFIX, giantfreakinrobot.com
+
+   # github
+    # AS36459 - GitHub, Inc.
+
+    # DOMAIN-KEYWORD, .github
+    # DOMAIN-SUFFIX, gist.github.com
+    # DOMAIN-SUFFIX, raw.githubusercontent.com
+    # DOMAIN-SUFFIX, rawgithub.com
+
+   # goddessdelivers
+    DOMAIN-SUFFIX, goddessdelivers.com
+
+   # google
+
+    # Others part2, Google
+    # google store
+    # DOMAIN-SUFFIX, store.google.com
+
+    # google pay
+    # DOMAIN-SUFFIX, pay.google.com
+    # DOMAIN-SUFFIX, notifications.googleapis.com
+    # DOMAIN-SUFFIX, families.google.com
+
+    # bunch of google rules
+    # DOMAIN-SUFFIX, 265.com
+    # DOMAIN-SUFFIX, about.google
+    # DOMAIN-SUFFIX, accounts.google.com
+    # DOMAIN-SUFFIX, agoogleaday.com
+    # DOMAIN-SUFFIX, ai.google
+    # DOMAIN-SUFFIX, alt1-mtalk.google.com
+    # DOMAIN-SUFFIX, alt2-mtalk.google.com
+    # DOMAIN-SUFFIX, alt3-mtalk.google.com
+    # DOMAIN-SUFFIX, alt4-mtalk.google.com
+    # DOMAIN-SUFFIX, alt5-mtalk.google.com
+    # DOMAIN-SUFFIX, alt6-mtalk.google.com
+    # DOMAIN-SUFFIX, alt7-mtalk.google.com
+    # DOMAIN-SUFFIX, alt8-mtalk.google.com
+    # DOMAIN-SUFFIX, app-measurement.net
+    # DOMAIN-SUFFIX, blog.google
+    # DOMAIN-SUFFIX, capitalg.com
+    # DOMAIN-SUFFIX, chromeexperiments.com
+    # DOMAIN-SUFFIX, chromestatus.com
+    # DOMAIN-SUFFIX, com.google
+    # DOMAIN-SUFFIX, crashlytics.com
+    # DOMAIN-SUFFIX, creativelab5.com
+    # DOMAIN-SUFFIX, crisisresponse.google
+    # DOMAIN-SUFFIX, design.google
+    # DOMAIN-SUFFIX, dns.google
+    # DOMAIN-SUFFIX, domains.google
+    # DOMAIN-SUFFIX, environment.google
+    # DOMAIN-SUFFIX, getmdl.io
+    # DOMAIN-SUFFIX, google.ac
+    # DOMAIN-SUFFIX, google.af
+    # DOMAIN-SUFFIX, google.com.nf
+    # DOMAIN-SUFFIX, google.eu
+    # DOMAIN-SUFFIX, google.gp
+    # DOMAIN-SUFFIX, google.hk
+    # DOMAIN-SUFFIX, google.it.ao
+    # DOMAIN-SUFFIX, google.mx
+    # DOMAIN-SUFFIX, google.tk
+    # DOMAIN-SUFFIX, google.us
+    # DOMAIN-SUFFIX, googleartproject.com
+    # DOMAIN-SUFFIX, googlechinawebmaster.com
+    # DOMAIN-SUFFIX, googlegroups.com
+    # DOMAIN-SUFFIX, googlehosted.com
+    # DOMAIN-SUFFIX, googleideas.com
+    # DOMAIN-SUFFIX, googleinsidesearch.com
+    # DOMAIN-SUFFIX, googlelabs.com
+    # DOMAIN-SUFFIX, googlemashups.com
+    # DOMAIN-SUFFIX, googlescholar.com
+    # DOMAIN-SUFFIX, googlesile.com
+    # DOMAIN-SUFFIX, googleweblight.com
+    # DOMAIN-SUFFIX, googlezip.net
+    # DOMAIN-SUFFIX, groups.google.cn
+    # DOMAIN-SUFFIX, grow.google
+    # DOMAIN-SUFFIX, gstatic.cn
+    # DOMAIN-SUFFIX, gwtproject.org
+    # DOMAIN-SUFFIX, imasdk.googleapis.com
+    # DOMAIN-SUFFIX, lers.google
+    # DOMAIN-SUFFIX, maps.google.com
+    # DOMAIN-SUFFIX, mtalk.google.com
+    # DOMAIN-SUFFIX, nic.google
+    # DOMAIN-SUFFIX, opensource.google
+    # DOMAIN-SUFFIX, partnerad.l.google.com
+    # DOMAIN-SUFFIX, pride.google
+    # DOMAIN-SUFFIX, safety.google
+    # DOMAIN-SUFFIX, shattered.io
+    # DOMAIN-SUFFIX, ssl-google-analytics.l.google.com
+    # DOMAIN-SUFFIX, ssl.gstatic.com
+    # DOMAIN-SUFFIX, stories.google
+    # DOMAIN-SUFFIX, sustainability.google
+    # DOMAIN-SUFFIX, telephony.goog
+    # DOMAIN-SUFFIX, waveprotocol.org
+
+    # DOMAIN, youtubei.googleapis.com
+
+    # other rules
+    # DOMAIN-SUFFIX, c.android.clients.google.com
+    # DOMAIN-SUFFIX, cache.pack.google.com
+    # DOMAIN-SUFFIX, clickserve.dartsearch.net
+    # DOMAIN-SUFFIX, clientservices.googleapis.com
+    # DOMAIN-SUFFIX, dl.google.com
+    # DOMAIN-SUFFIX, dl.l.google.com
+    # DOMAIN-SUFFIX, fonts.googleapis.com
+    # DOMAIN-SUFFIX, fonts.gstatic.com
+    # DOMAIN-SUFFIX, googleapis.cn
+    # DOMAIN-SUFFIX, gtm.oasisfeng.com
+    # DOMAIN-SUFFIX, safebrowsing-cache.google.com
+    # DOMAIN-SUFFIX, safebrowsing.googleapis.com
+    # DOMAIN-SUFFIX, settings.crashlytics.com
+    # DOMAIN-SUFFIX, toolbarqueries.google.com
+    # DOMAIN-SUFFIX, tools.google.com
+    # DOMAIN-SUFFIX, tools.l.google.com
+    # DOMAIN-SUFFIX, update.googleapis.com
+    # DOMAIN-SUFFIX, www-google-analytics.l.google.com
+    # DOMAIN-SUFFIX, www-googletagmanager.l.google.com
+    # DOMAIN-SUFFIX, gstatic.com
+    # DOMAIN, dl.google.com
+    # DOMAIN, mtalk.google.com
+
+   # gotquestions.org
+    DOMAIN-SUFFIX, gotquestions.org
+
+   # gov.co
+    DOMAIN-SUFFIX, gov.co
+
+   # gov.in
+    DOMAIN-SUFFIX, gov.in
+
+   # gov.ph
+    DOMAIN, edoc.ipophil.gov.ph
+    DOMAIN-SUFFIX, gov.ph
+
+   # gov.sg
+    DOMAIN-SUFFIX, gov.sg
+
+   # gov.tw
+    DOMAIN-SUFFIX, gov.tw
+
+   # gptstore.ai
+    DOMAIN-SUFFIX, gptstore.ai
+
+   # gtk.pw
+    DOMAIN-SUFFIX, gtk.pw
+
+   # gumroad.com
+    DOMAIN-SUFFIX, gumroad.com
+
+  # h
+   # happyaddons.com
+    DOMAIN-SUFFIX, happyaddons.com
+
+   # hashrate
+    DOMAIN-SUFFIX, hashrate.to
+
+   # hbomax
+    DOMAIN-SUFFIX, h264.io
+    DOMAIN-SUFFIX, warnermediacdn.com
+
+   # healthline
+    DOMAIN-SUFFIX, healthline.com
+
+   # helloandroid.com
+    DOMAIN-SUFFIX, helloandroid.com
+
+   # hermes.com
+    DOMAIN-SUFFIX, hermes.com
+
+   # heygen.com
+    DOMAIN-SUFFIX, heygen.com
+
+    DOMAIN, cdn.heygen.com
+    DOMAIN, app.heygen.com
+    DOMAIN, api2.heygen.com
+
+   # hhdcb3office
+    DOMAIN-SUFFIX, hhdcb3office.org
+
+   # hiveos
+    DOMAIN-SUFFIX, hiveon.com
+    DOMAIN-SUFFIX, hiveos.farm
+
+   # homegoods.com
+    DOMAIN-SUFFIX, homegoods.com
+
+   # hostinger
+    DOMAIN-SUFFIX, hostinger.com
+    DOMAIN-SUFFIX, hpanel.hostinger.com
+    DOMAIN-SUFFIX, hostinger.com.hk
+
+   # hotjar.com
+    DOMAIN-SUFFIX, hotjar.com
+
+   # hubspot
+    DOMAIN-SUFFIX, hubspot.com
+
+   # humana.com
+    DOMAIN-SUFFIX, humana.com
+
+   # humanamilitary.com
+    DOMAIN-SUFFIX, humanamilitary.com
+
+   # huraWatch
+    DOMAIN-SUFFIX, hurawatch.at
+    DOMAIN-SUFFIX, hurawatch.cc
+
+   # hymnal.net
+    DOMAIN-SUFFIX, hymnal.net
+
+  # i
+   # id.me
+    DOMAIN-SUFFIX, id.me
+
+   # ideogram.ai
+    DOMAIN-SUFFIX, ideogram.ai
+
+   # ign
+    DOMAIN-SUFFIX, ign.com
+    DOMAIN-SUFFIX, ignimgs.com
+
+    DOMAIN, assets1.ignimgs.com
+    DOMAIN, assets-prd.ignimgs.com
+    DOMAIN, kraken.ignimgs.com
+
+   # indeed.com
+    DOMAIN, t.indeed.com
+    DOMAIN, secure.indeed.com
+    DOMAIN, pxl.indeed.com
+    DOMAIN, kimoyo.indeed.com
+    DOMAIN, c03.s3.indeed.com
+    DOMAIN, autocomplete.indeed.com
+
+    DOMAIN-SUFFIX, indeed.com
+
+   # indexa.cl
+    DOMAIN-SUFFIX, indexa.cl
+
+   # indexexchange
+    DOMAIN-SUFFIX, indexexchange.com
+
+   # indiatimes.com
+    DOMAIN-SUFFIX, indiatimes.com
+
+   # indiatoday.in
+    DOMAIN-SUFFIX, indiatoday.in
+
+   # interactivebrokers.com.hk
+    DOMAIN-SUFFIX, interactivebrokers.com.hk
+
+   # intuit.com
+    DOMAIN-SUFFIX, intuit.com
+
+   # ipinfo
+    DOMAIN-SUFFIX, ipinfo.io
+
+   # iscooterglobal.co.uk
+    DOMAIN-SUFFIX, iscooterglobal.co.uk
+
+   # istockphoto.com
+    DOMAIN-SUFFIX, istockphoto.com
+
+   # itesonline.com
+    DOMAIN-SUFFIX, itesonline.com
+
+   # itv.com
+    DOMAIN-SUFFIX, itv.com
+
+    DOMAIN, app.10ft.itv.com
+    DOMAIN, assets.fe.itv.com
+    DOMAIN, cscript-cdn-irl.cassiecloud.com
+    DOMAIN, http-inputs-itv.splunkcloud.com
+    DOMAIN, tom.itv.com
+
+   # ivpn.net
+    DOMAIN-SUFFIX, ivpn.net
+
+  # j
+   # jkforum.net
+    DOMAIN-SUFFIX, jkforum.net
+
+   # jordandistrict.org
+    DOMAIN-SUFFIX, jordandistrict.org
+    DOMAIN-SUFFIX, employment.jordandistrict.org
+
+   # justanswer.com
+    DOMAIN-SUFFIX, justanswer.com
+
+  # k
+   # k12jobspot.com
+    DOMAIN-SUFFIX, k12jobspot.com
+
+   # kagyuoffice
+    DOMAIN-SUFFIX, kagyuoffice.org
+    DOMAIN-SUFFIX, kagyuoffice.org.tw
+
+   # kapwing.com
+    DOMAIN-SUFFIX, kapwing.com
+
+    DOMAIN, cdn-useast1.kapwing.com
+
+   # keatinggroup.com
+    DOMAIN-SUFFIX, keatinggroup.com
+
+   # keepsolid
+    DOMAIN-SUFFIX, keepsolid.com
+    DOMAIN, sentry.keepsolid.com
+
+   # kevinwilsonconnection.org
+    DOMAIN-SUFFIX, kevinwilsonconnection.org
+
+   # kickasstorrents.to
+    DOMAIN-SUFFIX, kickasstorrents.to
+    DOMAIN-SUFFIX, thekickasstorrents.to
+
+   # kraken
+    DOMAIN-SUFFIX, kraken.com
+
+  # l
+   # larrainvial.com
+    DOMAIN-SUFFIX, larrainvial.com
+
+   # legkierody.ru
+    DOMAIN-SUFFIX, legkierody.ru
+
+   # letsvpn.world
+    DOMAIN-SUFFIX, letsvpn.world
+
+   # libbyapp.com
+    DOMAIN, ic.od-cdn.com
+    DOMAIN, ntc.api.overdrive.com
+    DOMAIN, thunder.api.overdrive.com
+    DOMAIN, thunder.cdn.overdrive.com
+
+    DOMAIN-SUFFIX, libbyapp.com
+
+   # liberty.edu
+    DOMAIN-SUFFIX, liberty.edu
+
+   # lido
+    DOMAIN-SUFFIX, lido.fi
+
+    DOMAIN, blog.lido.fi
+    DOMAIN, matomo.lido.fi
+
+   # lifemission.church
+    DOMAIN-SUFFIX, lifemission.church
+
+   # line
+    DOMAIN-SUFFIX, line-apps.com
+    # DOMAIN-SUFFIX, line-scdn.net
+    DOMAIN-SUFFIX, tlanyan.me
+    DOMAIN-SUFFIX, naver.jp
+
+   # linkedin
+    DOMAIN, lnkd.demdex.net
+    DOMAIN, static.licdn.com
+
+   # linktr
+    DOMAIN-SUFFIX, linktr.ee
+
+    DOMAIN, website.linktr.ee
+    DOMAIN, assets.production.linktr.ee
+    DOMAIN, ingress.linktr.ee
+
+   # liquidweb.com
+    DOMAIN-SUFFIX, liquidweb.com
+
+   # lnks.gd
+    DOMAIN-SUFFIX, lnks.gd
+
+   # lofsolar
+    DOMAIN-SUFFIX, lofsolar.com
+
+   # logisteed-america.com
+    DOMAIN-SUFFIX, logisteed-america.com
+
+   # lookah
+    DOMAIN-SUFFIX, lookah.com
+
+   # luxor.tech
+    DOMAIN-SUFFIX, luxor.tech
+
+  # m
+
+   # ma.ne
+    DOMAIN-SUFFIX, hu.ma.ne
+
+   # maine.gov
+    DOMAIN-SUFFIX, maine.gov
+
+   # makedreamwebsite.com
+    DOMAIN-SUFFIX, makedreamwebsite.com
+    DOMAIN-SUFFIX, makedreamwebsite.gumroad.com
+
+   # makeuseof.com
+    DOMAIN-SUFFIX, makeuseof.com
+    DOMAIN-SUFFIX, makeuseofimages.com
+
+   # matrix.one
+    DOMAIN-SUFFIX, matrix.one
+
+   # matrix.one
+    DOMAIN-SUFFIX, matrix.one
+
+   # matrixpcg
+    DOMAIN-SUFFIX, matrixpcg.com
+
+   # mbusa.com
+    DOMAIN-SUFFIX, mbusa.com
+
+   # memberpress
+     # url: memberpress.com
+
+    DOMAIN-SUFFIX, memberpress.com
+
+   # metacareers.com
+    DOMAIN-SUFFIX, metacareers.com
+
+   # mgmplus.com
+    DOMAIN-SUFFIX, mgmplus.com
+
+   # mheducation.com
+    DOMAIN-SUFFIX, mheducation.com
+
+   # microsoft
+    # AS8075 - Microsoft Corporation
+
+    # DOMAIN-KEYWORD, .onedrive
+    # DOMAIN-SUFFIX, aadrm.com
+    # DOMAIN-SUFFIX, acompli.com
+    # DOMAIN-SUFFIX, acompli.net
+    # DOMAIN-SUFFIX, assets-yammer.com
+    # DOMAIN-SUFFIX, azurerms.com
+    # DOMAIN-SUFFIX, edgesuite.net
+    # DOMAIN-SUFFIX, lync.com
+    # DOMAIN-SUFFIX, mobile.pipe.aria.microsoft.com
+    # DOMAIN-SUFFIX, msappproxy.net
+    # DOMAIN-SUFFIX, msauthimages.net
+    # DOMAIN-SUFFIX, msftauthimages.net
+    # DOMAIN-SUFFIX, msftconnecttest.com
+    # DOMAIN-SUFFIX, msftidentity.com
+    # DOMAIN-SUFFIX, msidentity.com
+    # DOMAIN-SUFFIX, mstea.ms
+    # DOMAIN-SUFFIX, oaspapps.com
+    # DOMAIN-SUFFIX, odc.officeapps.live.com
+    # DOMAIN-SUFFIX, officeppe.net
+    # DOMAIN-SUFFIX, outlookmobile.com
+    # DOMAIN-SUFFIX, phonefactor.net
+    # DOMAIN-SUFFIX, photos.live.com
+    # DOMAIN-SUFFIX, skyapi.live.net
+    # DOMAIN-SUFFIX, skydrive.wns.windows.com
+    # DOMAIN-SUFFIX, skypeforbusiness.com
+    # DOMAIN-SUFFIX, spoprod-a.akamaihd.net
+    # DOMAIN-SUFFIX, sway-extensions.com
+    # DOMAIN-SUFFIX, uservoice.com
+    # DOMAIN-SUFFIX, vortex.data.microsoft.com
+    # DOMAIN-SUFFIX, windows-ppe.net
+    # DOMAIN-SUFFIX, wunderlist.com
+    # DOMAIN-SUFFIX, yammerusercontent.com
+
+    DOMAIN-SUFFIX, images-eds-ssl.xboxlive.com
+    DOMAIN-SUFFIX, storeedgefd.dsx.mp.microsoft.com
+    
+   # mintmobile.com
+    DOMAIN-SUFFIX, mintmobile.com
+
+   # mo.gov
+    DOMAIN-SUFFIX, dese.mo.gov
+    DOMAIN-SUFFIX, mo.gov
+
+   # mojim.com
+    DOMAIN-SUFFIX, mojim.com
+
+   # msn
+    # msn rules originates from this yaml file
+    # DOMAIN-SUFFIX, news.hk.msn.com
+    # DOMAIN-SUFFIX, news.msn.com.tw
+
+   # mullvad
+    DOMAIN-SUFFIX, mullvad.net
+
+   # mwcbarcelona.com
+    DOMAIN, register.mwcbarcelona.com
+
+   # mycustomsoftware.com
+    DOMAIN-SUFFIX, mycustomsoftware.com
+
+   # myindigocard
+    DOMAIN-SUFFIX, myindigocard.com
+    DOMAIN-SUFFIX, myfinanceservice.com
+
+    DOMAIN, indigo.myfinanceservice.com
+
+   # mymainecertification.com
+    DOMAIN-SUFFIX, mymainecertification.com
+
+  # n
+   # nanopool
+    DOMAIN-SUFFIX, nanopool.org
+
+   # napster.com
+    DOMAIN-SUFFIX, napster.com
+
+   # nasa.gov
+    DOMAIN-SUFFIX, spaceplace.nasa.gov
+
+   # nationsreportcard.gov
+    DOMAIN-SUFFIX, nationsreportcard.gov
+
+   # navyfederal
+    DOMAIN-SUFFIX, navyfederal.org
+
+    DOMAIN, analytics.navyfederal.org
+    DOMAIN, dm-assets.navyfederal.org
+    DOMAIN, liveengage.navyfederal.org
+    DOMAIN, navyfederalcu.tt.omtrdc.net
+
+   # nces.ed.gov
+    DOMAIN-SUFFIX, nces.ed.gov
+
+   # nelnet.com
+    DOMAIN, secure.nelnet.com
+    DOMAIN, extsvc.nelnet.net
+    DOMAIN, contentmma.guides.nelnet.com
+    DOMAIN, auth.nelnet.com
+    DOMAIN-SUFFIX, nelnet.net
+    DOMAIN-SUFFIX, nelnet.com
+
+   # netflix
+    # USER-AGENT, Argo*
+
+    # DOMAIN-KEYWORD, .dualstack.apiproxy-
+    # DOMAIN-KEYWORD, .dualstack.ichnaea-web-
+    # DOMAIN-SUFFIX, netflixdnstest0.com
+
+   # newcannabisventures
+    DOMAIN-SUFFIX, newcannabisventures.com
+
+   # news18.com
+    DOMAIN-SUFFIX, news18.com
+
+   # nexusmods.com
+    DOMAIN, data.nexusmods.com
+    DOMAIN, images.nexusmods.com
+    DOMAIN, pw.nexusmods.com
+    DOMAIN, staticdelivery.nexusmods.com
+    DOMAIN, staticstats.nexusmods.com
+    DOMAIN, unleash-edge.nexusmods.com
+
+   # nh.gov
+    DOMAIN-SUFFIX, nh.gov
+
+   # nicusa.com
+    DOMAIN-SUFFIX, nicusa.com
+
+   # nolej.io
+    DOMAIN-SUFFIX, nolej.io
+
+   # northwest
+    DOMAIN-SUFFIX, onlinebanking.northwest.bank
+
+   # notepad++
+    DOMAIN-SUFFIX, notepad-plus-plus.org
+
+   # noviosfalabella.com
+    DOMAIN-SUFFIX, noviosfalabella.com
+
+   # nr-data.net
+    DOMAIN, bam-cell.nr-data.net
+
+    DOMAIN-SUFFIX, bam-cell.nr-data.net
+
+  # o
+   # oculus
+    DOMAIN, developer.oculus.com
+    DOMAIN, graph.oculus.com
+    DOMAIN, oculus.fbthirdpartypixel.com
+
+   # okcoin.com
+    DOMAIN-SUFFIX, okcoin.com
+
+    DOMAIN, static.okcoin.com
+
+   # okx
+    DOMAIN-SUFFIX, okx.com
+
+    DOMAIN, static.okx.com
+
+   # omny.fm
+    DOMAIN-SUFFIX, omny.fm
+
+   # onedrive
+    # onedrive rules originates from this yaml file
+    # DOMAIN-SUFFIX, blob.core.windows.net
+    # DOMAIN-SUFFIX, storage.msn.com
+    # DOMAIN, oneclient.sfx.ms
+
+   # onehome.com
+    DOMAIN-SUFFIX, onehome.com
+
+   # onenetglobal.com
+    DOMAIN-SUFFIX, onenetglobal.com
+
+   # onetag-sys.com
+    DOMAIN-SUFFIX, onetag-sys.com
+
+   # onlineaccount.net
+    DOMAIN-SUFFIX, onlineaccount.net
+
+   # openai
+    DOMAIN, tcr9i.chat.openai.com
+
+   # opensea
+    DOMAIN-SUFFIX, opensea.io
+
+   # optimizely.com
+    DOMAIN-SUFFIX, optimizely.com
+
+    DOMAIN, a125375509.cdn.optimizely.com
+    DOMAIN, cdn.optimizely.com
+    DOMAIN, cdn3.optimizely.com
+    DOMAIN, logx.optimizely.com
+
+   # osd.mil
+    DOMAIN-SUFFIX, osd.mil
+    DOMAIN-SUFFIX, milconnect.dmdc.osd.mil
+
+   # ottcst.com
+    DOMAIN-SUFFIX, ottcast.net
+    DOMAIN-SUFFIX, ottcst.com
+
+    DOMAIN, line.ottcst.com
+
+   # otto.nl
+    DOMAIN-SUFFIX, otto.nl
+
+   # outlookindia.com
+    DOMAIN-SUFFIX, outlookindia.com
+
+  # p
+   # pancakeswap.finance
+    DOMAIN-SUFFIX, pancakeswap.finance
+
+    DOMAIN, aptos.pancakeswap.finance
+    DOMAIN, assets.pancakeswap.finance
+    DOMAIN, nodes.pancakeswap.info
+    DOMAIN, pancake-trading-fee-rebate-api.pancakeswap.com
+    DOMAIN, strapi-cms.pancakeswap.ai
+
+   # paramount plus (test)
+    # DOMAIN-SUFFIX, pplusstatic.com
+
+    DOMAIN-SUFFIX, cbsi.live.ott.irdeto.com
+    DOMAIN-SUFFIX, cws.conviva.com
+    DOMAIN-SUFFIX, js.appboycdn.com
+    DOMAIN-SUFFIX, paramountplus.qflm.net
+    DOMAIN-SUFFIX, polyfill-fastly.io
+
+   # patreon
+    DOMAIN, c15.patreon.com
+    DOMAIN, c5.patreon.com
+
+   # pay1040.com
+    DOMAIN-SUFFIX, pay1040.com
+
+   # paycom.com
+    DOMAIN-SUFFIX, paycom.com
+
+   # paycomonline.net
+    DOMAIN-SUFFIX, paycomonline.net
+
+   # payusatax.com
+    DOMAIN-SUFFIX, payusatax.com
+
+   # pbskids.org
+    DOMAIN-SUFFIX, pbskids.org
+
+   # pexels.com
+    DOMAIN-SUFFIX, pexels.com
+
+   # philippineairlines.com
+    DOMAIN-SUFFIX, philippineairlines.com
+
+    DOMAIN, philippineairlinesprod.api.useinsider.com
+    DOMAIN, zn6euonij6xwfajg5-philippineairlines.site
+
+   # philo.com
+    DOMAIN-SUFFIX, philo.com
+
+   # pixeldrain.com
+    DOMAIN-SUFFIX, pixeldrain.com
+
+   # pmpmanage
+    DOMAIN-SUFFIX, pmpmanage.com
+    DOMAIN-SUFFIX, pmprollc.com
+
+   # podbean.com
+    DOMAIN-SUFFIX, podbean.com
+
+   # pokerstarsVR
+    DOMAIN-SUFFIX, backtrace.io
+    DOMAIN-SUFFIX, luckyvr.net
+    DOMAIN-SUFFIX, pokerstars.com
+    DOMAIN-SUFFIX, pokerstars.net
+    DOMAIN-SUFFIX, pokerstrategy.com
+
+    DOMAIN, api-01.luckyvr.net
+    DOMAIN, events.backtrace.io
+
+   # pool.space
+    DOMAIN-SUFFIX, pool.space
+
+   # powerpackelements.com
+    DOMAIN-SUFFIX, powerpackelements.com
+
+   # printmailsystems.com
+    DOMAIN-SUFFIX, printmailsystems.com
+
+   # proshkola
+    DOMAIN-SUFFIX, proshkola18.ru
+
+   # proxyium.com
+    DOMAIN-SUFFIX, proxyium.com
+
+   # psi.org
+    DOMAIN-SUFFIX, psi.org
+
+  # q
+   # qiangwaikan.com
+    DOMAIN-SUFFIX, qiangwaikan.com
+
+   # qodeinteractive.com
+    DOMAIN-SUFFIX, qodeinteractive.com
+    DOMAIN-SUFFIX, qodethemes.com
+
+   # qsi
+    DOMAIN-SUFFIX, qsishenzhen.org
+
+   # quantfury
+    DOMAIN-SUFFIX, quantfury.com
+    DOMAIN-SUFFIX, trdngbcknd.com
+    DOMAIN-SUFFIX, appsflyersdk.com
+
+   # quantummetric.com
+    DOMAIN-SUFFIX, quantummetric.com
+
+    DOMAIN, cdn.quantummetric.com
+    DOMAIN, ingest.quantummetric.com
+    DOMAIN, rl.quantummetric.com
+
+  # r
+   # rask.ai
+    DOMAIN-SUFFIX, rask.ai
+
+    DOMAIN, dev.visualwebsiteoptimizer.com
+
+   # raspberrypi.org
+    DOMAIN-SUFFIX, raspberrypi.org
+    DOMAIN-SUFFIX, raspbian.org
+
+   # rbfcu
+    DOMAIN-SUFFIX, rbfcu.org
+
+   # rblbank.com
+    DOMAIN-SUFFIX, rblbank.com
+
+   # rcrwireless.com
+    DOMAIN-SUFFIX, rcrwireless.com
+
+   # reelshort.com
+    DOMAIN-SUFFIX, reelshort.com
+
+   # recaptcha
+    DOMAIN-SUFFIX, recaptcha.net
+
+   # remove.bg
+    DOMAIN-SUFFIX, remove.bg
+
+   # roblox
+    DOMAIN-SUFFIX, roblox.com
+
+   # runescape
+    DOMAIN, cdn.runescape.com
+    DOMAIN, play.runescape.com
+
+   # rustylake
+    DOMAIN-SUFFIX, rustylake.com
+
+    DOMAIN, blog.rustylake.com
+
+  # s
+   # s-onetag.com
+    DOMAIN-SUFFIX, s-onetag.com
+
+   # salesforce
+    DOMAIN-SUFFIX, trailhead.salesforce.com
+
+   # sandbox.game
+    DOMAIN-SUFFIX, sandbox.game
+
+   # sandiego.gov
+    DOMAIN-SUFFIX, sandiego.gov
+
+   # sandyliang.info
+    DOMAIN-SUFFIX, sandyliang.info
+
+   # satelles.com
+    DOMAIN-SUFFIX, satelles.com
+
+   # scdmvonline.com
+    DOMAIN-SUFFIX, scdmvonline.com
+
+   # screenrant.com
+    DOMAIN-SUFFIX, screenrant.com
+
+   # scribd.com
+    DOMAIN-SUFFIX, scribd.com
+    DOMAIN-SUFFIX, scribdassets.com
+
+    DOMAIN, wa.scribd.com
+
+   # sedl.org
+    DOMAIN-SUFFIX, sedl.org
+
+   # seoab.io
+    DOMAIN-SUFFIX, seoab.io
+
+   # sdge.com
+    DOMAIN-SUFFIX, sdge.com
+
+   # sharepoint
+    # DOMAIN-SUFFIX, blog.pathtosharepoint.com
+    # DOMAIN-SUFFIX, pathtosharepoint.com
+    # DOMAIN-SUFFIX, skqsi-my.sharepoint.com
+
+   # shodan.io
+    DOMAIN-SUFFIX, shodan.io
+
+   # siena.edu
+    DOMAIN-SUFFIX, siena.edu
+
+   # simplemining
+    DOMAIN-SUFFIX, simplemining.net
+
+   # smartdnsproxy.com
+    DOMAIN-SUFFIX, smartdnsproxy.com
+
+   # smartiptv.dnsco.xyz
+    DOMAIN-SUFFIX, more-itv.com
+    DOMAIN-SUFFIX, more-itv.net
+    DOMAIN-SUFFIX, smartiptv.dnsco.xyz
+
+   # sms-activate
+    DOMAIN-SUFFIX, sms-activate.org
+
+   # socdm.com
+    DOMAIN, tg.socdm.com
+
+   # social-viral.com
+    DOMAIN-SUFFIX, social-viral.com
+
+   # socratic.org
+    DOMAIN-SUFFIX, socratic.org
+
+   # soundraw
+    DOMAIN-SUFFIX, soundraw-storage.com
+
+   # soutong.men
+    DOMAIN-SUFFIX, soutong.men
+
+   # special-ops.org
+    DOMAIN-SUFFIX, special-ops.org
+
+   # spot.im
+    DOMAIN-SUFFIX, spot.im
+
+    DOMAIN, static-cdn.spot.im
+    DOMAIN, publisher-assets.spot.im
+    DOMAIN, event-stream.spot.im
+
+   # squarespace.com
+    DOMAIN-SUFFIX, squarespace.com
+
+   # starford.com
+    DOMAIN-SUFFIX, starford.com
+    DOMAIN-SUFFIX, ford.com
+
+    DOMAIN, smetrics.ford.com
+    DOMAIN, mtagateway.forddirectservices.com
+    DOMAIN, ford.tt.omtrdc.net
+    DOMAIN, ford.demdex.net
+    DOMAIN, fdccpaadaptor.forddirectservices.com
+    DOMAIN, api.pd01e.gcp.ford.com
+
+   # starz.com
+    DOMAIN-SUFFIX, starz.com
+
+    DOMAIN, auth.starz.com
+    DOMAIN, playdata.starz.com
+
+   # stremio.com
+    DOMAIN-SUFFIX, api.strem.io
+    DOMAIN-SUFFIX, blog.stremio.com
+    DOMAIN-SUFFIX, metahub.space
+    DOMAIN-SUFFIX, strem.fun
+    DOMAIN-SUFFIX, strem.io
+    DOMAIN-SUFFIX, stremio.com
+    DOMAIN-SUFFIX, stremio.net
+
+   # studentclearinghouse.org
+    DOMAIN-SUFFIX, studentclearinghouse.org
+
+   # sugarfreemom.com
+    DOMAIN-SUFFIX, sugarfreemom.com
+
+   # support.at-tps.org
+    DOMAIN-SUFFIX, support.at-tps.org
+
+   # surfshark.com
+    DOMAIN-SUFFIX, surfshark.com
+
+   # svc.ms
+    # DOMAIN-SUFFIX, centralus1.mediap.svc.ms
+
+   # skype.com
+    # DOMAIN-SUFFIX, twskype.com
+    # DOMAIN, skype.com
+
+   # synchronybank.com
+    DOMAIN-SUFFIX, synchronybank.com
+
+  # t
+   # teachers-teachers.com
+    DOMAIN-SUFFIX, teachers-teachers.com
+
+   # teacherstestprep.com
+    DOMAIN-SUFFIX, teacherstestprep.com
+
+   # teamredminer
+    DOMAIN-SUFFIX, teamredminer.com
+
+   # techcrunch
+    # DOMAIN-KEYWORD, .techcrunch
+    # DOMAIN-SUFFIX, techcrunch.com
+
+   # tel.meet
+    DOMAIN-SUFFIX, tel.meet
+
+   # telegram
+    # DOMAIN-KEYWORD, .telegram
+    # DOMAIN-SUFFIX, updates.tdesktop.com
+
+   # teleseer.com
+    DOMAIN-SUFFIX, teleseer.com
+
+   # temu
+    DOMAIN-SUFFIX, kwcdn.com
+    DOMAIN-SUFFIX, temu.com
+
+   # tenor.com
+    DOMAIN-SUFFIX, tenor.com
+
+    DOMAIN, media.tenor.com
+
+   # thedesk
+    DOMAIN-SUFFIX, thedesk.net
+
+   # thechinaproject.com
+    DOMAIN-SUFFIX, thechinaproject.com
+
+   # thedroidguy.com
+    DOMAIN-SUFFIX, thedroidguy.com
+
+   # thepennyhoarder.com
+    DOMAIN-SUFFIX, thepennyhoarder.com
+
+   # theplusaddons.com
+    DOMAIN-SUFFIX, theplusaddons.com
+
+   # thesaurus.com
+    DOMAIN-SUFFIX, thesaurus.com
+
+   # theseedsnetwork.com
+    DOMAIN-SUFFIX, theseedsnetwork.com
+
+   # thetatoken.org
+    DOMAIN-SUFFIX, thetatoken.org
+
+   # thetradedesk.com
+    DOMAIN-SUFFIX, thetradedesk.com
+
+    DOMAIN, pages.thetradedesk.com
+
+   # threads
+    DOMAIN-SUFFIX, threads.net
+
+   # threatconnect.com
+    DOMAIN-SUFFIX, threatconnect.com
+
+    DOMAIN, gonow.threatconnect.com
+
+   # threatcrowd.org
+    DOMAIN-SUFFIX, threatcrowd.org
+
+   # tianlawoffice
+    DOMAIN-SUFFIX, tianlawoffice.com
+
+   # tibet office
+    DOMAIN-SUFFIX, officeoftibet.com
+    DOMAIN-SUFFIX, tibetoffice.ch
+    DOMAIN-SUFFIX, tibetoffice.eu
+    DOMAIN-SUFFIX, tibetoffice.org
+    DOMAIN-SUFFIX, tibetoffice.com.au
+
+   # tiktok
+    DOMAIN-SUFFIX, appsflyer.com
+    DOMAIN-SUFFIX, bytegecko-i18n.com
+    DOMAIN-SUFFIX, ipstatp.com
+    DOMAIN-SUFFIX, pitaya-clientai.com
+    DOMAIN-SUFFIX, sgpstatp.com
+    DOMAIN-SUFFIX, snapkit.com
+
+    DOMAIN-KEYWORD, -att.com
+    DOMAIN-KEYWORD, -tiktokcdn-com
+    DOMAIN-SUFFIX, app-analytics-services-att.com
+    DOMAIN-SUFFIX, app-analytics-services.com
+    DOMAIN-SUFFIX, tiktokcdn-eu.com
+    DOMAIN-SUFFIX, tokopediax.com
+
+    # USER-AGENT, TikTok*, PROXY
+
+   # tlsfingerprint
+    DOMAIN-SUFFIX, tlsfingerprint.io
+
+    DOMAIN, client.tlsfingerprint.io
+    DOMAIN, tlsfingerprint.iocode.jquery.com
+    DOMAIN, tlsfingerprint.iomaxcdn.bootstrapcdn.com
+
+   # t-mobile.com
+    DOMAIN-SUFFIX, t-mobile.com
+
+    DOMAIN, tmobile.tt.omtrdc.net
+
+   # todoist.com
+    DOMAIN-SUFFIX, todoist.com
+    DOMAIN, todoist.b-cdn.net
+
+   # tokyo-hot
+    DOMAIN-SUFFIX, tokyo-hot.com
+
+    DOMAIN, my.cdn.tokyo-hot.com
+
+   # tonkeeper.com
+    DOMAIN-SUFFIX, ton.app
+    DOMAIN-SUFFIX, tonkeeper.com
+
+   # tonwhales.com
+    DOMAIN-SUFFIX, tonwhales.com
+
+   # tools.keycdn.com
+    DOMAIN-SUFFIX, tools.keycdn.com
+
+   # tradestockfund.com
+    DOMAIN-SUFFIX, tradestockfund.com
+
+   # trainingpeaks
+    DOMAIN-SUFFIX, trainingpeaks.com
+
+    DOMAIN, assets.trainingpeaks.com
+    DOMAIN, tp-front-end.trainingpeaks.com
+    DOMAIN, tpapi.trainingpeaks.com
+    DOMAIN, wpassets.trainingpeaks.com
+
+   # transbank.cl
+    DOMAIN-SUFFIX, transbank.cl
+
+   # transcend.io
+    DOMAIN, cdn.transcend.io
+    DOMAIN, sync.transcend.io
+
+   # transcendt.com
+    DOMAIN-SUFFIX, transcendt.com
+
+   # travelerdoor.com
+    DOMAIN-SUFFIX, travelerdoor.com
+
+   # travistidwell.com
+    DOMAIN-SUFFIX, travistidwell.com
+
+   # trimirror.com
+    DOMAIN-SUFFIX, trimirror.com
+
+   # trustwallet
+    DOMAIN-SUFFIX, trustwallet.com
+
+   # tunein.com
+    # DOMAIN-SUFFIX, tunein.com
+
+    # DOMAIN, api.tunein.com
+    # DOMAIN, cdn-cms.tunein.com
+    # DOMAIN, cdn-web.tunein.com
+    # DOMAIN, event.platform.tunein.com
+    # DOMAIN, gotie.tunein.com
+    # DOMAIN, reports.tunein.com
+
+   # turner.com
+    DOMAIN, s.cdn.turner.com
+
+   # tuya
+    DOMAIN-SUFFIX, tuya.com
+    DOMAIN-SUFFIX, tuyain.com
+
+   # tvlicensing.co.uk
+    DOMAIN-SUFFIX, tvlicensing.co.uk
+
+   # tw.tomonews.ne
+    DOMAIN-SUFFIX, tw.tomonews.net
+
+   # twiggstudios.com
+    DOMAIN-SUFFIX, twiggstudios.com
+
+   # twitonmsn
+    DOMAIN-SUFFIX, twitonmsn.com
+
+   # tymebank.co.za
+    DOMAIN-SUFFIX, tymebank.co.za
+    DOMAIN-SUFFIX, tymedigital.co.za
+
+  # u
+
+   # unir.net
+    DOMAIN-SUFFIX, unir.net
+
+   # unitedbmw.com
+    DOMAIN-SUFFIX, unitedbmw.com
+
+   # updraftplus
+    DOMAIN-SUFFIX, updraftplus.com
+
+   # uspto.gov
+    DOMAIN, tmsearch.uspto.gov
+
+   # utorrent.com
+    DOMAIN-SUFFIX, utorrent.com
+
+  # v
+   # v2fly.org
+    DOMAIN-SUFFIX, v2fly.org
+
+   # vantagemarkets.com
+    DOMAIN-SUFFIX, vantagemarkets.com
+
+   # vapezoo
+    DOMAIN-SUFFIX, vapezoo.com
+
+   # veritaspress.com
+    DOMAIN-SUFFIX, veritaspress.com
+
+   # viabtc
+    DOMAIN-SUFFIX, viabtc.com
+
+   # viber
+    DOMAIN-SUFFIX, viber.com
+
+   # visaguide.world
+    DOMAIN-SUFFIX, visaguide.world
+
+   # vista.com
+    DOMAIN-SUFFIX, vista.com
+
+   # vitalchek.com
+    DOMAIN-SUFFIX, vitalchek.com
+
+   # vitalsource.com
+    DOMAIN-SUFFIX, vitalsource.com
+
+   # volumio
+    DOMAIN-SUFFIX, volumio.com
+
+   # vpnmentor.com
+    DOMAIN-SUFFIX, vpnmentor.com
+
+  # w
+   # wakenbakery
+    DOMAIN-SUFFIX, wakenbakery.net
+
+   # wd.bible
+    DOMAIN-SUFFIX, endao.app
+    DOMAIN-SUFFIX, sentry.yetell.net
+    DOMAIN-SUFFIX, wd.bible
+
+   # webassign.com
+    DOMAIN, webassign.com
+
+   # webassign.net
+    DOMAIN-SUFFIX, webassign.net
+
+   # wes.org
+    DOMAIN-SUFFIX, applications.wes.org
+
+   # westernalliancebancorporation.com
+    DOMAIN-SUFFIX, westernalliancebancorporation.com
+
+   # whalestonpool.com
+    DOMAIN-SUFFIX, whalestonpool.com
+
+   # whatsapp
+    # DOMAIN-KEYWORD, .whatsapp
+
+   # whoer.net
+    DOMAIN-SUFFIX, whoer.net
+
+   # wisconsindot.gov
+    DOMAIN-SUFFIX, wisconsindot.gov
+
+   # wisconsinregisteredagent.net
+    DOMAIN-SUFFIX, wisconsinregisteredagent.net
+
+   # worldcat.org
+    DOMAIN-SUFFIX, worldcat.org
+
+   # worldwidephotowalk.com
+    DOMAIN-SUFFIX, worldwidephotowalk.com
+
+   # wsimg.com
+    DOMAIN, img1.wsimg.com
+    DOMAIN, isteam.wsimg.com
+
+  # x
+   # xbox
+    DOMAIN-SUFFIX, xboxab.net
+    DOMAIN-SUFFIX, xboxservice.com
+    DOMAIN-SUFFIX, gamepass.com
+
+  # y
+   # yandex
+    DOMAIN-SUFFIX, yandex.com
+    DOMAIN-SUFFIX, yandex.disk
+    DOMAIN-SUFFIX, yandex.ru
+
+    DOMAIN, disk.yandex.ru
+    DOMAIN, frontend.vh.yandex.ru
+
+   # yahoo
+    # DOMAIN-KEYWORD, .yahoo
+
+    # DOMAIN-SUFFIX, blogs.yahoo.co.jp
+    # DOMAIN-SUFFIX, buy.yahoo.com.tw
+    # DOMAIN-SUFFIX, duckduckgo-owned-server.yahoo.net
+    # DOMAIN-SUFFIX, hk.knowledge.yahoo.com
+    # DOMAIN-SUFFIX, hk.myblog.yahoo.com
+    # DOMAIN-SUFFIX, hk.news.yahoo.com
+    # DOMAIN-SUFFIX, hk.rd.yahoo.com
+    # DOMAIN-SUFFIX, hk.search.yahoo.com
+    # DOMAIN-SUFFIX, hk.video.news.yahoo.com
+    # DOMAIN-SUFFIX, hk.yahoo.com
+    # DOMAIN-SUFFIX, meme.yahoo.com
+    # DOMAIN-SUFFIX, news.yahoo.com
+    # DOMAIN-SUFFIX, page.bid.yahoo.com
+    # DOMAIN-SUFFIX, pulse.yahoo.com
+    # DOMAIN-SUFFIX, search.yahoo.co.jp
+    # DOMAIN-SUFFIX, search.yahoo.com
+    # DOMAIN-SUFFIX, tw.answers.yahoo.com
+    # DOMAIN-SUFFIX, tw.bid.yahoo.com
+    # DOMAIN-SUFFIX, tw.knowledge.yahoo.com
+    # DOMAIN-SUFFIX, tw.mall.yahoo.com
+    # DOMAIN-SUFFIX, tw.mobi.yahoo.com
+    # DOMAIN-SUFFIX, tw.money.yahoo.com
+    # DOMAIN-SUFFIX, tw.myblog.yahoo.com
+    # DOMAIN-SUFFIX, tw.news.yahoo.com
+    # DOMAIN-SUFFIX, tw.yahoo.com
+    # DOMAIN-SUFFIX, upcoming.yahoo.com
+    # DOMAIN-SUFFIX, video.yahoo.com
+
+   # youtube
+    # DOMAIN-SUFFIX, studio.youtube.com
+
+    # DOMAIN-SUFFIX, yt3.ggpht.com
+    # DOMAIN, yt3.ggpht.com
+    # USER-AGENT, com.google.ios.youtube*
+    # USER-AGENT, com.google.ios.youtubemusic*
+    # USER-AGENT, YouTube*
+    # USER-AGENT, YouTubeMusic*
+
+   # yts.mx
+    DOMAIN-SUFFIX, yts.mx
+
+  # z
+   # zillow
+    DOMAIN-SUFFIX, zillow.com
+    DOMAIN-SUFFIX, zillowstatic.com
