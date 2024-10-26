@@ -177,6 +177,9 @@ payload:
     # Bing rules originates from this yaml file
     # .global.bing.com
 
+   # bisepinnovations.com
+    .bisepinnovations.com
+
    # bitmain
     .bitmain.com
 
@@ -736,6 +739,9 @@ payload:
 
    # gtk.pw
     .gtk.pw
+
+   # gumroad.com
+    .gumroad.com
 
   # h
    # happyaddons.com
@@ -1503,6 +1509,9 @@ payload:
 
    # sugarfreemom.com
     .sugarfreemom.com
+
+   # support.at-tps.org
+    .support.at-tps.org
 
    # surfshark.com
     .surfshark.com

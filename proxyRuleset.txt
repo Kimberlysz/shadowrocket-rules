@@ -177,6 +177,9 @@ payload:
     # Bing rules originates from this yaml file
     # DOMAIN-SUFFIX, global.bing.com
 
+   # bisepinnovations.com
+    DOMAIN-SUFFIX, bisepinnovations.com
+
    # bitmain
     DOMAIN-SUFFIX, bitmain.com
 
@@ -736,6 +739,9 @@ payload:
 
    # gtk.pw
     DOMAIN-SUFFIX, gtk.pw
+
+   # gumroad.com
+    DOMAIN-SUFFIX, gumroad.com
 
   # h
    # happyaddons.com
@@ -1503,6 +1509,9 @@ payload:
 
    # sugarfreemom.com
     DOMAIN-SUFFIX, sugarfreemom.com
+
+   # support.at-tps.org
+    DOMAIN-SUFFIX, support.at-tps.org
 
    # surfshark.com
     DOMAIN-SUFFIX, surfshark.com
