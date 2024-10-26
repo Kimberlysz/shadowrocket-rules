@@ -123,6 +123,9 @@ payload:
    # astrill
     .astrill.com
 
+   # at-tps.org
+    .at-tps.org
+
    # atmeta.com
     .atmeta.com
 
@@ -176,6 +179,9 @@ payload:
    # bing
     # Bing rules originates from this yaml file
     # .global.bing.com
+
+   # bisepinnovations.com
+    .bisepinnovations.com
 
    # bitmain
     .bitmain.com
@@ -736,6 +742,9 @@ payload:
 
    # gtk.pw
     .gtk.pw
+
+   # gumroad.com
+    .gumroad.com
 
   # h
    # happyaddons.com
