@@ -125,7 +125,7 @@ payload:
 
    # at-tps.org
     DOMAIN-SUFFIX, at-tps.org
-    DOMAIN-SUFFIX, b-cdn.net
+    DOMAIN-SUFFIX, tps-support.b-cdn.net
 
    # atmeta.com
     DOMAIN-SUFFIX, atmeta.com
@@ -135,6 +135,9 @@ payload:
     DOMAIN-SUFFIX, avg.com
 
   # b
+   # b-cdn.net
+    DOMAIN-SUFFIX, b-cdn.net
+
    # badoo
     DOMAIN-SUFFIX, badoocdn.com
     DOMAIN-SUFFIX, badoo.com
