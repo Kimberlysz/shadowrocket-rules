@@ -125,6 +125,7 @@ payload:
 
    # at-tps.org
     DOMAIN-SUFFIX, at-tps.org
+    DOMAIN-SUFFIX, b-cdn.net
 
    # atmeta.com
     DOMAIN-SUFFIX, atmeta.com
