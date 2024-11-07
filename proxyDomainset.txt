@@ -28,6 +28,9 @@ payload:
    # aaos
     .aaos.org
 
+   # abeka.com
+    .abeka.com
+
    # acast
     .acast.com
 
@@ -526,6 +529,9 @@ payload:
     .cdn.images.express.co.uk
     .premium.express.co.uk
     .secure.insightexpressai.com
+
+   # expressvpn.com
+    .expressvpn.com
 
   # f
    # f2pool
@@ -1314,8 +1320,14 @@ payload:
    # pool.space
     .pool.space
 
+   # pottersschool.org
+    .pottersschool.org
+
    # powerpackelements.com
     .powerpackelements.com
+
+   # previred.com
+    .previred.com
 
    # printmailsystems.com
     .printmailsystems.com
@@ -1781,6 +1793,9 @@ payload:
   # w
    # wakenbakery
     .wakenbakery.net
+
+   # washoecountylibrary.us
+    .washoecountylibrary.us
 
    # wd.bible
     .endao.app
