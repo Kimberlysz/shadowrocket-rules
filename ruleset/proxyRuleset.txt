@@ -28,6 +28,9 @@ payload:
    # aaos
     DOMAIN-SUFFIX, aaos.org
 
+   # abeka.com
+    DOMAIN-SUFFIX, abeka.com
+
    # acast
     DOMAIN-SUFFIX, acast.com
 
@@ -125,7 +128,7 @@ payload:
 
    # at-tps.org
     DOMAIN-SUFFIX, at-tps.org
-    DOMAIN-SUFFIX, b-cdn.net
+    DOMAIN-SUFFIX, tps-support.b-cdn.net
 
    # atmeta.com
     DOMAIN-SUFFIX, atmeta.com
@@ -135,6 +138,9 @@ payload:
     DOMAIN-SUFFIX, avg.com
 
   # b
+   # b-cdn.net
+    DOMAIN-SUFFIX, b-cdn.net
+
    # badoo
     DOMAIN-SUFFIX, badoocdn.com
     DOMAIN-SUFFIX, badoo.com
@@ -523,6 +529,9 @@ payload:
     DOMAIN, cdn.images.express.co.uk
     DOMAIN, premium.express.co.uk
     DOMAIN, secure.insightexpressai.com
+
+   # expressvpn.com
+    DOMAIN-SUFFIX, expressvpn.com
 
   # f
    # f2pool
@@ -1311,8 +1320,14 @@ payload:
    # pool.space
     DOMAIN-SUFFIX, pool.space
 
+   # pottersschool.org
+    DOMAIN-SUFFIX, pottersschool.org
+
    # powerpackelements.com
     DOMAIN-SUFFIX, powerpackelements.com
+
+   # previred.com
+    DOMAIN-SUFFIX, previred.com
 
    # printmailsystems.com
     DOMAIN-SUFFIX, printmailsystems.com
@@ -1781,6 +1796,9 @@ payload:
   # w
    # wakenbakery
     DOMAIN-SUFFIX, wakenbakery.net
+
+   # washoecountylibrary.us
+    DOMAIN-SUFFIX, washoecountylibrary.us
 
    # wd.bible
     DOMAIN-SUFFIX, endao.app
