@@ -150,6 +150,9 @@ payload:
     # DOMAIN-KEYWORD, .64clouds
     DOMAIN-SUFFIX, 64clouds.com
 
+   # bankaool.com
+    DOMAIN-SUFFIX, bankaool.com
+
    # barnesandnoble
     DOMAIN-SUFFIX, barnesandnoble.com
 
@@ -1219,6 +1222,9 @@ payload:
 
    # openai
     DOMAIN, tcr9i.chat.openai.com
+
+   # openinventionnetwork.com
+    DOMAIN-SUFFIX, openinventionnetwork.com
 
    # opensea
     DOMAIN-SUFFIX, opensea.io
