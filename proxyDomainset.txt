@@ -150,6 +150,9 @@ payload:
     # . .64clouds
     .64clouds.com
 
+   # bankaool.com
+    .bankaool.com
+
    # barnesandnoble
     .barnesandnoble.com
 
@@ -1219,6 +1222,9 @@ payload:
 
    # openai
     .tcr9i.chat.openai.com
+
+   # openinventionnetwork.com
+    .openinventionnetwork.com
 
    # opensea
     .opensea.io
