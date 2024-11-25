@@ -166,6 +166,9 @@ payload:
    # beetalk
     # DOMAIN-KEYWORD, .beetalk
 
+   # behance.com
+    DOMAIN-SUFFIX, behance.com
+
    # beinsports
     DOMAIN, connect-us.beinsports.com
 
@@ -568,6 +571,9 @@ payload:
 
    # forc.mx
     DOMAIN-SUFFIX, forc.mx
+
+   # foresters.com
+    DOMAIN-SUFFIX, foresters.com
 
    # freedesktop.timedate1
     DOMAIN-SUFFIX, org.freedesktop.timedate1
@@ -1908,6 +1914,9 @@ payload:
     DOMAIN-SUFFIX, yts.mx
 
   # z
+   # z-lib.io
+    DOMAIN-SUFFIX, z-lib.io
+
    # zillow
     DOMAIN-SUFFIX, zillow.com
     DOMAIN-SUFFIX, zillowstatic.com

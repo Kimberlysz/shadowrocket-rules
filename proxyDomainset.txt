@@ -166,6 +166,9 @@ payload:
    # beetalk
     # . .beetalk
 
+   # behance.com
+    .behance.com
+
    # beinsports
     .connect-us.beinsports.com
 
@@ -568,6 +571,9 @@ payload:
 
    # forc.mx
     .forc.mx
+
+   # foresters.com
+    .foresters.com
 
    # freedesktop.timedate1
     .org.freedesktop.timedate1
@@ -1905,6 +1911,9 @@ payload:
     .yts.mx
 
   # z
+   # z-lib.io
+    .z-lib.io
+
    # zillow
     .zillow.com
     .zillowstatic.com
