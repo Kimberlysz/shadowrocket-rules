@@ -756,7 +756,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # regexp:^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$ @ads
 
    # growingio-ads
-    DOMAIN-SUFFIX, assets.growingio.com, proxy
+    DOMAIN-SUFFIX, assets.growingio.com, reject
 
   # h
    # hetzner
