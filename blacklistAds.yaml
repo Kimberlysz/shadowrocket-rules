@@ -756,7 +756,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # regexp:^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$ @ads
 
    # growingio-ads
-    DOMAIN-SUFFIX, assets.growingio.com, reject
+    DOMAIN-SUFFIX, assets.growingio.com, proxy
 
   # h
    # hetzner
@@ -12493,8 +12493,12 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
     # Developer
     DOMAIN-SUFFIX, developer.apple.com, proxy
+    DOMAIN-SUFFIX, developerservices2.apple.com, proxy
     DOMAIN-SUFFIX, devimages-cdn.apple.com, proxy
     DOMAIN-SUFFIX, devstreaming-cdn.apple.com, proxy
+    DOMAIN-SUFFIX, timestamp.apple.com, proxy
+    DOMAIN, notary-submissions-prod.s3-accelerate.amazonaws.com, proxy
+    DOMAIN, notary-submissions-prod.s3.us-west-2.amazonaws.com, proxy
 
     # FoundationDB
     DOMAIN-SUFFIX, foundationdb.org, proxy
@@ -28355,6 +28359,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, applemx-icloud.com, proxy
     DOMAIN-SUFFIX, icloud-content.com, proxy
     DOMAIN-SUFFIX, icloud-isupport.com, proxy
+    DOMAIN-SUFFIX, icloud-sandbox.com, proxy
     DOMAIN-SUFFIX, icloud.ch, proxy
     DOMAIN-SUFFIX, icloud.com, proxy
     DOMAIN-SUFFIX, icloud.de, proxy
@@ -31722,9 +31727,11 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # Main domain
     DOMAIN-SUFFIX, ai.com, proxy
     DOMAIN-SUFFIX, chatgpt.com, proxy
+    DOMAIN-SUFFIX, chat.com, proxy
     DOMAIN-SUFFIX, oaistatic.com, proxy
     DOMAIN-SUFFIX, oaiusercontent.com, proxy
     DOMAIN-SUFFIX, openai.com, proxy
+    DOMAIN-SUFFIX, sora.com, proxy
 
     # CDN & API
     DOMAIN-SUFFIX, openai.com.cdn.cloudflare.net, proxy
