@@ -1,8 +1,6 @@
 # rules:
 
 payload:
- # proxy manual
-
   # #
 
    # 1800 flowers
@@ -308,7 +306,7 @@ payload:
     .cnbeta.com.tw
     .cnbetacdn.com
 
-   # cnn
+   # cnn (test)
     # .collector.cdp.cnn.com
     # .edition.cnn.com
     # .lightning.cnn.com
@@ -318,14 +316,14 @@ payload:
     # .i.cdn.cnn.com
     # .z.cdp-dev.cnn.com
 
-    # .collector.cdp.cnn.com
-    # .edition.cnn.com
-    # .lightning.cnn.com
-    # .media.cnn.com
-    # .registry.api.cnn.io
-    # .smetrics.cnn.com
-    # .i.cdn.cnn.com
-    # .z.cdp-dev.cnn.com
+    # collector.cdp.cnn.com
+    # edition.cnn.com
+    # lightning.cnn.com
+    # media.cnn.com
+    # registry.api.cnn.io
+    # smetrics.cnn.com
+    # i.cdn.cnn.com
+    # z.cdp-dev.cnn.com
 
    # co.uk
     # . .co.uk
@@ -432,9 +430,6 @@ payload:
    # dirtrab.cl
     .dirtrab.cl
 
-   # discomax.com
-    .discomax.com
-
    # disneyplus
     # .bam.nr-data.net
     # .cdn.registerdisney.go.com
@@ -473,7 +468,7 @@ payload:
     .exdynsrv.com
     .hwcdn.net
 
-   # elmbrook.org
+   # elmbrook.org (test)
     .cdn.pendo.io
     .onrealm.org
     .pay.acst.com
@@ -596,6 +591,9 @@ payload:
    # genius.com
     .genius.com
 
+   # getcomics.info
+    .getcomics.info
+
    # getcourse.ru
     .fs-thb01.getcourse.ru
     .fs-thb02.getcourse.ru
@@ -628,6 +626,9 @@ payload:
 
    # goddessdelivers
     .goddessdelivers.com
+
+   # gomovie.sx
+    .gomovie.sx
 
    # google
 
@@ -772,8 +773,9 @@ payload:
    # hashrate
     .hashrate.to
 
-   # hbomax
+   # hbomax (test)
     .h264.io
+    .prd.api.max.com
     .warnermediacdn.com
 
    # healthline
@@ -795,8 +797,8 @@ payload:
    # hhdcb3office
     .hhdcb3office.org
 
-   # hhdcb3office
-    .hhdcb3office
+   # hindustantimes.com
+    .hindustantimes.com
 
    # hiveos
     .hiveon.com
@@ -934,6 +936,9 @@ payload:
     .kickasstorrents.to
     .thekickasstorrents.to
 
+   # koinly.io
+    .koinly.io
+
    # kraken
     .kraken.com
 
@@ -957,6 +962,9 @@ payload:
 
    # liberty.edu
     .liberty.edu
+
+   # libgen.rs
+    .libgen.rs
 
    # lido
     .lido.fi
@@ -1348,14 +1356,14 @@ payload:
     .proshkola18.ru
 
    # proxyium.com
-    .proxyium.com
+    - DOMAIN-SUFFIXium.com
 
    # psi.org
     .psi.org
 
   # q
    # qiangwaikan.com
-    .qiangwaikan.com
+    .qiangwaikan.com 
 
    # qodeinteractive.com
     .qodeinteractive.com
@@ -1506,7 +1514,7 @@ payload:
     .publisher-assets.spot.im
     .event-stream.spot.im
 
-   # squarespace.com
+   # squarespace.com (test)
     .squarespace.com
 
    # starford.com
@@ -1637,20 +1645,24 @@ payload:
     .tibetoffice.org
     .tibetoffice.com.au
 
-   # tiktok
+   # tiktok (test)
     .appsflyer.com
     .bytegecko-i18n.com
     .ipstatp.com
     .pitaya-clientai.com
     .sgpstatp.com
     .snapkit.com
-
-    .-att.com
-    .-tiktokcdn-com
+    
+    # (test)
+    # . -att.com
+    # . -tiktokcdn-com
     .app-analytics-services-att.com
     .app-analytics-services.com
+    .starling.tiktokv.eu
     .tiktokcdn-eu.com
     .tokopediax.com
+
+    # USER-AGENT, TikTok*
 
    # tlsfingerprint
     .tlsfingerprint.io
@@ -1670,6 +1682,7 @@ payload:
 
    # tokyo-hot
     .tokyo-hot.com
+
     .my.cdn.tokyo-hot.com
 
    # tonkeeper.com
@@ -1907,7 +1920,7 @@ payload:
     # .YouTube*
     # .YouTubeMusic*
 
-   # yts.mx
+   # yts.mx (test 2024-09-14)
     .yts.mx
 
   # z

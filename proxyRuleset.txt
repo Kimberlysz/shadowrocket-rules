@@ -308,7 +308,7 @@ payload:
     DOMAIN-SUFFIX, cnbeta.com.tw
     DOMAIN-SUFFIX, cnbetacdn.com
 
-   # cnn
+   # cnn (test)
     # DOMAIN-SUFFIX, collector.cdp.cnn.com
     # DOMAIN-SUFFIX, edition.cnn.com
     # DOMAIN-SUFFIX, lightning.cnn.com
@@ -432,9 +432,6 @@ payload:
    # dirtrab.cl
     DOMAIN-SUFFIX, dirtrab.cl
 
-   # discomax.com
-    DOMAIN-SUFFIX, discomax.com
-
    # disneyplus
     # DOMAIN-SUFFIX, bam.nr-data.net
     # DOMAIN-SUFFIX, cdn.registerdisney.go.com
@@ -473,7 +470,7 @@ payload:
     DOMAIN-SUFFIX, exdynsrv.com
     DOMAIN-SUFFIX, hwcdn.net
 
-   # elmbrook.org
+   # elmbrook.org (test)
     DOMAIN-SUFFIX, cdn.pendo.io
     DOMAIN-SUFFIX, onrealm.org
     DOMAIN-SUFFIX, pay.acst.com
@@ -596,6 +593,9 @@ payload:
    # genius.com
     DOMAIN-SUFFIX, genius.com
 
+   # getcomics.info
+    DOMAIN-SUFFIX, getcomics.info
+
    # getcourse.ru
     DOMAIN, fs-thb01.getcourse.ru
     DOMAIN, fs-thb02.getcourse.ru
@@ -628,6 +628,9 @@ payload:
 
    # goddessdelivers
     DOMAIN-SUFFIX, goddessdelivers.com
+
+   # gomovie.sx
+    DOMAIN-SUFFIX, gomovie.sx
 
    # google
 
@@ -772,8 +775,9 @@ payload:
    # hashrate
     DOMAIN-SUFFIX, hashrate.to
 
-   # hbomax
+   # hbomax (test)
     DOMAIN-SUFFIX, h264.io
+    DOMAIN-SUFFIX, prd.api.max.com
     DOMAIN-SUFFIX, warnermediacdn.com
 
    # healthline
@@ -794,6 +798,9 @@ payload:
 
    # hhdcb3office
     DOMAIN-SUFFIX, hhdcb3office.org
+
+   # hindustantimes.com
+    DOMAIN-SUFFIX, hindustantimes.com
 
    # hiveos
     DOMAIN-SUFFIX, hiveon.com
@@ -931,6 +938,9 @@ payload:
     DOMAIN-SUFFIX, kickasstorrents.to
     DOMAIN-SUFFIX, thekickasstorrents.to
 
+   # koinly.io
+    DOMAIN-SUFFIX, koinly.io
+
    # kraken
     DOMAIN-SUFFIX, kraken.com
 
@@ -942,7 +952,7 @@ payload:
     DOMAIN-SUFFIX, legkierody.ru
 
    # letsvpn.world
-    DOMAIN-SUFFIX, letsvpn.world
+    DOMAIN, letsvpn.world
 
    # libbyapp.com
     DOMAIN, ic.od-cdn.com
@@ -954,6 +964,9 @@ payload:
 
    # liberty.edu
     DOMAIN-SUFFIX, liberty.edu
+
+   # libgen.rs
+    DOMAIN-SUFFIX, libgen.rs
 
    # lido
     DOMAIN-SUFFIX, lido.fi
@@ -1018,9 +1031,6 @@ payload:
    # matrix.one
     DOMAIN-SUFFIX, matrix.one
 
-   # matrix.one
-    DOMAIN-SUFFIX, matrix.one
-
    # matrixpcg
     DOMAIN-SUFFIX, matrixpcg.com
 
@@ -1079,7 +1089,7 @@ payload:
 
     DOMAIN-SUFFIX, images-eds-ssl.xboxlive.com
     DOMAIN-SUFFIX, storeedgefd.dsx.mp.microsoft.com
-    
+
    # mintmobile.com
     DOMAIN-SUFFIX, mintmobile.com
 
@@ -1348,14 +1358,14 @@ payload:
     DOMAIN-SUFFIX, proshkola18.ru
 
    # proxyium.com
-    DOMAIN-SUFFIX, proxyium.com
+    - DOMAIN-SUFFIXium.com
 
    # psi.org
     DOMAIN-SUFFIX, psi.org
 
   # q
    # qiangwaikan.com
-    DOMAIN-SUFFIX, qiangwaikan.com
+    DOMAIN-SUFFIX, qiangwaikan.com 
 
    # qodeinteractive.com
     DOMAIN-SUFFIX, qodeinteractive.com
@@ -1506,7 +1516,7 @@ payload:
     DOMAIN, publisher-assets.spot.im
     DOMAIN, event-stream.spot.im
 
-   # squarespace.com
+   # squarespace.com (test)
     DOMAIN-SUFFIX, squarespace.com
 
    # starford.com
@@ -1637,22 +1647,24 @@ payload:
     DOMAIN-SUFFIX, tibetoffice.org
     DOMAIN-SUFFIX, tibetoffice.com.au
 
-   # tiktok
+   # tiktok (test)
     DOMAIN-SUFFIX, appsflyer.com
     DOMAIN-SUFFIX, bytegecko-i18n.com
     DOMAIN-SUFFIX, ipstatp.com
     DOMAIN-SUFFIX, pitaya-clientai.com
     DOMAIN-SUFFIX, sgpstatp.com
     DOMAIN-SUFFIX, snapkit.com
-
+    
+    # (test)
     DOMAIN-KEYWORD, -att.com
     DOMAIN-KEYWORD, -tiktokcdn-com
     DOMAIN-SUFFIX, app-analytics-services-att.com
     DOMAIN-SUFFIX, app-analytics-services.com
+    DOMAIN-SUFFIX, starling.tiktokv.eu
     DOMAIN-SUFFIX, tiktokcdn-eu.com
     DOMAIN-SUFFIX, tokopediax.com
 
-    # USER-AGENT, TikTok*, PROXY
+    # USER-AGENT, TikTok*
 
    # tlsfingerprint
     DOMAIN-SUFFIX, tlsfingerprint.io
@@ -1910,7 +1922,7 @@ payload:
     # USER-AGENT, YouTube*
     # USER-AGENT, YouTubeMusic*
 
-   # yts.mx
+   # yts.mx (test 2024-09-14)
     DOMAIN-SUFFIX, yts.mx
 
   # z
