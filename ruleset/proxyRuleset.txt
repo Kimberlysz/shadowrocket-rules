@@ -391,12 +391,6 @@ payload:
    # crockblock
     DOMAIN-SUFFIX, crocoblock.com
 
-   # crunchyroll.com (test)
-    DOMAIN-SUFFIX, api64.ipify.org
-    DOMAIN-SUFFIX, e0vemjple0l1luii7h5vlu5no.litix.io
-    DOMAIN-SUFFIX, pbs.getpublica.com
-    DOMAIN-SUFFIX, vid.springserve.com
-
    # cryptocompare
     DOMAIN-SUFFIX, cryptocompare.com
 
@@ -717,7 +711,7 @@ payload:
     # DOMAIN-SUFFIX, safety.google
     # DOMAIN-SUFFIX, shattered.io
     # DOMAIN-SUFFIX, ssl-google-analytics.l.google.com
-    # DOMAIN-SUFFIX, ssl.gstatic.com
+    DOMAIN-SUFFIX, ssl.gstatic.com
     # DOMAIN-SUFFIX, stories.google
     # DOMAIN-SUFFIX, sustainability.google
     # DOMAIN-SUFFIX, telephony.goog
@@ -748,6 +742,10 @@ payload:
     # DOMAIN-SUFFIX, gstatic.com
     # DOMAIN, dl.google.com
     # DOMAIN, mtalk.google.com
+
+    # other rules kimberlysz
+    DOMAIN-SUFFIX, redirector.gvt1.com
+    DOMAIN-SUFFIX, beacons.gcp.gvt2.com
 
    # gotquestions.org
     DOMAIN-SUFFIX, gotquestions.org

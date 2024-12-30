@@ -391,12 +391,6 @@ payload:
    # crockblock
     .crocoblock.com
 
-   # crunchyroll.com (test)
-    .api64.ipify.org
-    .e0vemjple0l1luii7h5vlu5no.litix.io
-    .pbs.getpublica.com
-    .vid.springserve.com
-
    # cryptocompare
     .cryptocompare.com
 
@@ -717,7 +711,7 @@ payload:
     # .safety.google
     # .shattered.io
     # .ssl-google-analytics.l.google.com
-    # .ssl.gstatic.com
+    .ssl.gstatic.com
     # .stories.google
     # .sustainability.google
     # .telephony.goog
@@ -748,6 +742,10 @@ payload:
     # .gstatic.com
     # dl.google.com
     # mtalk.google.com
+
+    # other rules kimberlysz
+    .redirector.gvt1.com
+    .beacons.gcp.gvt2.com
 
    # gotquestions.org
     .gotquestions.org
