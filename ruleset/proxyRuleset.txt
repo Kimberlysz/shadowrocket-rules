@@ -391,8 +391,11 @@ payload:
    # crockblock
     DOMAIN-SUFFIX, crocoblock.com
 
-   # crunchyroll.com
-    DOMAIN-SUFFIX, crunchyroll.com
+   # crunchyroll.com (test)
+    DOMAIN-SUFFIX, api64.ipify.org
+    DOMAIN-SUFFIX, e0vemjple0l1luii7h5vlu5no.litix.io
+    DOMAIN-SUFFIX, pbs.getpublica.com
+    DOMAIN-SUFFIX, vid.springserve.com
 
    # cryptocompare
     DOMAIN-SUFFIX, cryptocompare.com

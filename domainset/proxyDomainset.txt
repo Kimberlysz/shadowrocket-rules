@@ -391,8 +391,11 @@ payload:
    # crockblock
     .crocoblock.com
 
-   # crunchyroll.com
-    .crunchyroll.com
+   # crunchyroll.com (test)
+    .api64.ipify.org
+    .e0vemjple0l1luii7h5vlu5no.litix.io
+    .pbs.getpublica.com
+    .vid.springserve.com
 
    # cryptocompare
     .cryptocompare.com
