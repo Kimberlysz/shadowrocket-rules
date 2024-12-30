@@ -726,7 +726,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, doubleclick-cn.net, reject
     DOMAIN-SUFFIX, doubleclick.cn, reject
     DOMAIN-SUFFIX, doubleclick.com, reject
-    DOMAIN-SUFFIX, doubleclick.net, reject
+    # DOMAIN-SUFFIX, doubleclick.net, reject
     DOMAIN-SUFFIX, google-analytics-cn.com, reject
     DOMAIN-SUFFIX, google-analytics.com, reject
     DOMAIN-SUFFIX, googleadapis.com, reject
@@ -754,6 +754,9 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN, analytics.google.com, reject
 
     # regexp:^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$ @ads
+
+    # google-ads-test
+    DOMAIN-SUFFIX, doubleclick.net, proxy
 
    # growingio-ads
     DOMAIN-SUFFIX, assets.growingio.com, reject

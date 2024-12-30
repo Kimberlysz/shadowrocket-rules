@@ -707,53 +707,56 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
   # g
    # google-ads
-    DOMAIN-SUFFIX, 2mdn-cn.net, proxy
-    DOMAIN-SUFFIX, 2mdn.net, proxy
-    DOMAIN-SUFFIX, admob-cn.com, proxy
-    DOMAIN-SUFFIX, admob.com, proxy
-    DOMAIN-SUFFIX, ads.youtube.com, proxy
-    DOMAIN-SUFFIX, adsense.com, proxy
-    DOMAIN-SUFFIX, adsensecustomsearchads.com, proxy
-    DOMAIN-SUFFIX, adsenseformobileapps.com, proxy
-    DOMAIN-SUFFIX, adservice.google.com, proxy
-    DOMAIN-SUFFIX, advertisercommunity.com, proxy
-    DOMAIN-SUFFIX, advertiserscommunity.com, proxy
-    DOMAIN-SUFFIX, adwords-community.com, proxy
-    DOMAIN-SUFFIX, adwords.com, proxy
-    DOMAIN-SUFFIX, adwordsexpress.com, proxy
-    DOMAIN-SUFFIX, app-measurement-cn.com, proxy
-    DOMAIN-SUFFIX, app-measurement.com, proxy
-    DOMAIN-SUFFIX, doubleclick-cn.net, proxy
-    DOMAIN-SUFFIX, doubleclick.cn, proxy
-    DOMAIN-SUFFIX, doubleclick.com, proxy
-    DOMAIN-SUFFIX, doubleclick.net, proxy
-    DOMAIN-SUFFIX, google-analytics-cn.com, proxy
-    DOMAIN-SUFFIX, google-analytics.com, proxy
-    DOMAIN-SUFFIX, googleadapis.com, proxy
-    DOMAIN-SUFFIX, googleads-cn.com, proxy
-    DOMAIN-SUFFIX, googleads.com, proxy
-    DOMAIN-SUFFIX, googleadservices-cn.com, proxy
-    DOMAIN-SUFFIX, googleadservices.com, proxy
-    DOMAIN-SUFFIX, googleadsserving.cn, proxy
-    DOMAIN-SUFFIX, googleanalytics.com, proxy
-    DOMAIN-SUFFIX, googleoptimize-cn.com, proxy
-    DOMAIN-SUFFIX, googleoptimize.com, proxy
-    DOMAIN-SUFFIX, googlesyndication-cn.com, proxy
-    DOMAIN-SUFFIX, googlesyndication.com, proxy
-    DOMAIN-SUFFIX, googletagmanager-cn.com, proxy
-    DOMAIN-SUFFIX, googletagmanager.com, proxy
-    DOMAIN-SUFFIX, googletagservices-cn.com, proxy
-    DOMAIN-SUFFIX, googletagservices.com, proxy
-    DOMAIN-SUFFIX, googletraveladservices-cn.com, proxy
-    DOMAIN-SUFFIX, googletraveladservices.com, proxy
-    DOMAIN-SUFFIX, googlevads-cn.com, proxy
-    DOMAIN-SUFFIX, mail-ads.google.com, proxy
-    DOMAIN-SUFFIX, marketingplatform.google.com, proxy
-    DOMAIN-SUFFIX, urchin.com, proxy
+    DOMAIN-SUFFIX, 2mdn-cn.net, reject
+    DOMAIN-SUFFIX, 2mdn.net, reject
+    DOMAIN-SUFFIX, admob-cn.com, reject
+    DOMAIN-SUFFIX, admob.com, reject
+    DOMAIN-SUFFIX, ads.youtube.com, reject
+    DOMAIN-SUFFIX, adsense.com, reject
+    DOMAIN-SUFFIX, adsensecustomsearchads.com, reject
+    DOMAIN-SUFFIX, adsenseformobileapps.com, reject
+    DOMAIN-SUFFIX, adservice.google.com, reject
+    DOMAIN-SUFFIX, advertisercommunity.com, reject
+    DOMAIN-SUFFIX, advertiserscommunity.com, reject
+    DOMAIN-SUFFIX, adwords-community.com, reject
+    DOMAIN-SUFFIX, adwords.com, reject
+    DOMAIN-SUFFIX, adwordsexpress.com, reject
+    DOMAIN-SUFFIX, app-measurement-cn.com, reject
+    DOMAIN-SUFFIX, app-measurement.com, reject
+    DOMAIN-SUFFIX, doubleclick-cn.net, reject
+    DOMAIN-SUFFIX, doubleclick.cn, reject
+    DOMAIN-SUFFIX, doubleclick.com, reject
+    # DOMAIN-SUFFIX, doubleclick.net, reject
+    DOMAIN-SUFFIX, google-analytics-cn.com, reject
+    DOMAIN-SUFFIX, google-analytics.com, reject
+    DOMAIN-SUFFIX, googleadapis.com, reject
+    DOMAIN-SUFFIX, googleads-cn.com, reject
+    DOMAIN-SUFFIX, googleads.com, reject
+    DOMAIN-SUFFIX, googleadservices-cn.com, reject
+    DOMAIN-SUFFIX, googleadservices.com, reject
+    DOMAIN-SUFFIX, googleadsserving.cn, reject
+    DOMAIN-SUFFIX, googleanalytics.com, reject
+    DOMAIN-SUFFIX, googleoptimize-cn.com, reject
+    DOMAIN-SUFFIX, googleoptimize.com, reject
+    DOMAIN-SUFFIX, googlesyndication-cn.com, reject
+    DOMAIN-SUFFIX, googlesyndication.com, reject
+    DOMAIN-SUFFIX, googletagmanager-cn.com, reject
+    DOMAIN-SUFFIX, googletagmanager.com, reject
+    DOMAIN-SUFFIX, googletagservices-cn.com, reject
+    DOMAIN-SUFFIX, googletagservices.com, reject
+    DOMAIN-SUFFIX, googletraveladservices-cn.com, reject
+    DOMAIN-SUFFIX, googletraveladservices.com, reject
+    DOMAIN-SUFFIX, googlevads-cn.com, reject
+    DOMAIN-SUFFIX, mail-ads.google.com, reject
+    DOMAIN-SUFFIX, marketingplatform.google.com, reject
+    DOMAIN-SUFFIX, urchin.com, reject
 
-    DOMAIN, analytics.google.com, proxy
+    DOMAIN, analytics.google.com, reject
 
     # regexp:^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$ @ads
+
+    # google-ads-test
+    DOMAIN-SUFFIX, doubleclick.net, proxy
 
    # growingio-ads
     DOMAIN-SUFFIX, assets.growingio.com, reject
