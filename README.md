@@ -1,5 +1,5 @@
 # domain rules xray:
-  This repository is mainly for people who use applications related to clash core, example: shadowrocket. This is a domain rule repository.
+  This repository is mainly contains rules for iOS shadowrocket application. This is a domain rule repository.
   Start date: 2023-05-30; 
   Project status: still undergoing now.
 
