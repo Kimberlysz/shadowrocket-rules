@@ -1,6 +1,8 @@
 # rules:
 
 payload:
+ # proxy manual
+
   # #
 
    # 1800 flowers
@@ -84,6 +86,9 @@ payload:
     .amcnetworks.com
     .amcplus.com
     .e5a6ae085b6c43020dea230eb0c0ecc33a188227507da97b8ecc05eb8beace6.us-east-1.prod.service.minerva.devices.a2z.com
+
+   # aniview.com
+    .aniview.com
 
    # annas-archive
     .annas-archive.org
@@ -385,6 +390,9 @@ payload:
 
    # crockblock
     .crocoblock.com
+
+   # crunchyroll.com
+    .crunchyroll.com
 
    # cryptocompare
     .cryptocompare.com
@@ -942,6 +950,9 @@ payload:
    # kraken
     .kraken.com
 
+   # ktar.com
+    .ktar.com
+
   # l
    # larrainvial.com
     .larrainvial.com
@@ -1305,6 +1316,9 @@ payload:
    # pbskids.org
     .pbskids.org
 
+   # pcgamesn.com
+    .pcgamesn.com
+
    # pexels.com
     .pexels.com
 
@@ -1478,6 +1492,10 @@ payload:
    # simplemining
     .simplemining.net
 
+   # skype.com
+    # .twskype.com
+    # skype.com
+
    # smartdnsproxy.com
     .smartdnsproxy.com
 
@@ -1555,9 +1573,8 @@ payload:
    # svc.ms
     # .centralus1.mediap.svc.ms
 
-   # skype.com
-    # .twskype.com
-    # skype.com
+   # swarovski.com
+    .swarovski.com
 
    # synchronybank.com
     .synchronybank.com

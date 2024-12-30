@@ -87,6 +87,9 @@ payload:
     DOMAIN-SUFFIX, amcplus.com
     DOMAIN-SUFFIX, e5a6ae085b6c43020dea230eb0c0ecc33a188227507da97b8ecc05eb8beace6.us-east-1.prod.service.minerva.devices.a2z.com
 
+   # aniview.com
+    DOMAIN-SUFFIX, aniview.com
+
    # annas-archive
     DOMAIN-SUFFIX, annas-archive.org
 
@@ -387,6 +390,9 @@ payload:
 
    # crockblock
     DOMAIN-SUFFIX, crocoblock.com
+
+   # crunchyroll.com
+    DOMAIN-SUFFIX, crunchyroll.com
 
    # cryptocompare
     DOMAIN-SUFFIX, cryptocompare.com
@@ -944,6 +950,9 @@ payload:
    # kraken
     DOMAIN-SUFFIX, kraken.com
 
+   # ktar.com
+    DOMAIN-SUFFIX, ktar.com
+
   # l
    # larrainvial.com
     DOMAIN-SUFFIX, larrainvial.com
@@ -1307,6 +1316,9 @@ payload:
    # pbskids.org
     DOMAIN-SUFFIX, pbskids.org
 
+   # pcgamesn.com
+    DOMAIN-SUFFIX, pcgamesn.com
+
    # pexels.com
     DOMAIN-SUFFIX, pexels.com
 
@@ -1480,6 +1492,10 @@ payload:
    # simplemining
     DOMAIN-SUFFIX, simplemining.net
 
+   # skype.com
+    # DOMAIN-SUFFIX, twskype.com
+    # DOMAIN, skype.com
+
    # smartdnsproxy.com
     DOMAIN-SUFFIX, smartdnsproxy.com
 
@@ -1557,9 +1573,8 @@ payload:
    # svc.ms
     # DOMAIN-SUFFIX, centralus1.mediap.svc.ms
 
-   # skype.com
-    # DOMAIN-SUFFIX, twskype.com
-    # DOMAIN, skype.com
+   # swarovski.com
+    DOMAIN-SUFFIX, swarovski.com
 
    # synchronybank.com
     DOMAIN-SUFFIX, synchronybank.com
