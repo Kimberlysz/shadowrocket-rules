@@ -1,0 +1,101 @@
+#  the following few lines is for creating clash rule-providers:
+# payload:
+# 
+#     - '+.'
+#     - ''
+
+# rules:
+
+payload:
+ # direct manual
+
+  # a
+   # agoda.cn
+    - '+.agoda.cn'
+
+   # afdian
+    - '+.afdian.net'
+    - '+.afdiancdn.com'
+
+  # b
+
+  # c
+
+  # d
+
+  # e
+
+  # f
+ 
+  # g
+   # geetest
+    - '+.geetest.com'
+
+   # github
+    # - '+.github.com'
+    # - '+.github.io'
+    # - '+.raw.githubusercontent.com'
+
+   # goodwe.com
+    - '+.goodwe.com'
+
+  # h
+
+  # i
+   # iCloud
+    # - '+.*.icloud.com.cn'
+
+   # ikea
+    # - '+.srv.app.ikea.cn'
+
+  # j
+
+  # k
+ 
+  # l
+
+  # m
+   # microsoft
+    # - '+.msn.cn'
+    # - 'microsoft.com'
+
+  # n
+
+  # o
+   # okcis
+    # - '+.okcis.cn'
+    # - '+.okcis'
+
+  # p
+   # pingan bank
+    - 'auth.orangebank.com.cn'
+    - 'cdn.sdb.com.cn'
+
+  # q
+
+  # r
+   # resi
+    - '+.resi.io'
+    - '+.resi.media'
+ 
+  # s
+   # steam
+    - '+.steamcontent.com'
+
+  # t
+
+  # u
+ 
+  # v
+ 
+  # w
+   # walmart
+    - '+.walmartmobile.cn'
+
+    - 'api-sams.walmartmobile.cn'
+
+  # x
+ 
+  # y
+ 
+  # Z

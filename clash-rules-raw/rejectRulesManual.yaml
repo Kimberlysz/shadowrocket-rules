@@ -1,0 +1,8 @@
+#  the following few lines is for creating clash rule-providers:
+# payload:
+# 
+#     - '+.'
+#     - ''
+
+rules:
+ # 🛑 AdBlock manual
