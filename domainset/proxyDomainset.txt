@@ -711,7 +711,7 @@ payload:
     # .safety.google
     # .shattered.io
     # .ssl-google-analytics.l.google.com
-    .ssl.gstatic.com
+    # .ssl.gstatic.com
     # .stories.google
     # .sustainability.google
     # .telephony.goog
@@ -743,9 +743,8 @@ payload:
     # dl.google.com
     # mtalk.google.com
 
-    # other rules kimberlysz
+    # other rules - test
     .redirector.gvt1.com
-    .beacons.gcp.gvt2.com
 
    # gotquestions.org
     .gotquestions.org

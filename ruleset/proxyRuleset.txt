@@ -711,7 +711,7 @@ payload:
     # DOMAIN-SUFFIX, safety.google
     # DOMAIN-SUFFIX, shattered.io
     # DOMAIN-SUFFIX, ssl-google-analytics.l.google.com
-    DOMAIN-SUFFIX, ssl.gstatic.com
+    # DOMAIN-SUFFIX, ssl.gstatic.com
     # DOMAIN-SUFFIX, stories.google
     # DOMAIN-SUFFIX, sustainability.google
     # DOMAIN-SUFFIX, telephony.goog
@@ -743,9 +743,8 @@ payload:
     # DOMAIN, dl.google.com
     # DOMAIN, mtalk.google.com
 
-    # other rules kimberlysz
+    # other rules - test
     DOMAIN-SUFFIX, redirector.gvt1.com
-    DOMAIN-SUFFIX, beacons.gcp.gvt2.com
 
    # gotquestions.org
     DOMAIN-SUFFIX, gotquestions.org
