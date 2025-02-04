@@ -2,9 +2,7 @@
 
 payload:
  # proxy manual
-
   # #
-
    # 1800 flowers
     .1800flowers.com
 
@@ -60,6 +58,9 @@ payload:
     .craiyon.com
     .hotpot.ai
     .nightcafe.studio
+
+   # aicoin.com
+    .aicoin.com
 
    # airasia
     .airasia.ck123.io
@@ -311,25 +312,6 @@ payload:
     .cnbeta.com.tw
     .cnbetacdn.com
 
-   # cnn (test)
-    # .collector.cdp.cnn.com
-    # .edition.cnn.com
-    # .lightning.cnn.com
-    # .media.cnn.com
-    # .registry.api.cnn.io
-    # .smetrics.cnn.com
-    # .i.cdn.cnn.com
-    # .z.cdp-dev.cnn.com
-
-    # collector.cdp.cnn.com
-    # edition.cnn.com
-    # lightning.cnn.com
-    # media.cnn.com
-    # registry.api.cnn.io
-    # smetrics.cnn.com
-    # i.cdn.cnn.com
-    # z.cdp-dev.cnn.com
-
    # co.uk
     # . .co.uk
 
@@ -390,6 +372,24 @@ payload:
 
    # crockblock
     .crocoblock.com
+
+   # crunchyroll (test)
+    .crunchyrollcdn.com
+    .5af10.v.fwmrm.net
+    .a-vrv.akamaized.net
+    .api64.ipify.org
+    .e0vemjple0l1luii7h5vlu5no.litix.io
+    .p.placed.com
+    .p.tvpixel.com
+    .pbs.getpublica.com
+    .pi.ispot.tv
+    .secure.adnxs.com
+    .tapestry.tapad.com
+    .v.vrv.co
+    .vid.springserve.com
+    .adsrvr.org
+    .adsafeprotected.com
+    .trustarc.com
 
    # cryptocompare
     .cryptocompare.com
@@ -563,6 +563,11 @@ payload:
 
    # findladders.com
     .findladders.com
+
+   # flixtor (test - partial works)
+    .flixtor.nu
+    .flixtor.se
+    .flixtor.st
 
    # footystats
     .footystats.org
@@ -743,8 +748,17 @@ payload:
     # dl.google.com
     # mtalk.google.com
 
-    # other rules - test
+   # google-ads-test
+    .beacons.gcp.gvt2.com
+    # .csi.gstatic.com
+    .doubleclick.net
+    # .googleadservices.com
+    .googlesyndication.com
+    # .googletagmanager.com
+    # .imasdk.googleapis.com
     .redirector.gvt1.com
+    # .ssl.gstatic.com
+    # .gstatic.com
 
    # gotquestions.org
     .gotquestions.org
@@ -914,6 +928,9 @@ payload:
     .jordandistrict.org
     .employment.jordandistrict.org
 
+   # jotform.com  (test)
+    .jotform.com 
+
    # justanswer.com
     .justanswer.com
 
@@ -956,6 +973,9 @@ payload:
   # l
    # larrainvial.com
     .larrainvial.com
+
+   # latestly.com (test)
+    .latestly.com
 
    # legkierody.ru
     .legkierody.ru
@@ -1177,6 +1197,9 @@ payload:
    # news18.com
     .news18.com
 
+   # news9live.com (test)
+    .news9live.com
+
    # nexusmods.com
     .data.nexusmods.com
     .images.nexusmods.com
@@ -1366,11 +1389,14 @@ payload:
    # printmailsystems.com
     .printmailsystems.com
 
+   # promeai.pro (test)
+    .promeai.pro
+
    # proshkola
     .proshkola18.ru
 
    # proxyium.com
-    - DOMAIN-SUFFIXium.com
+    .proxyium.com
 
    # psi.org
     .psi.org
@@ -1870,6 +1896,9 @@ payload:
 
    # wisconsinregisteredagent.net
     .wisconsinregisteredagent.net
+
+   # workspace.com(test)
+    .workspace.com
 
    # worldcat.org
     .worldcat.org

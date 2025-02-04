@@ -2,9 +2,7 @@
 
 payload:
  # proxy manual
-
   # #
-
    # 1800 flowers
     DOMAIN-SUFFIX, 1800flowers.com
 
@@ -60,6 +58,9 @@ payload:
     DOMAIN-SUFFIX, craiyon.com
     DOMAIN-SUFFIX, hotpot.ai
     DOMAIN-SUFFIX, nightcafe.studio
+
+   # aicoin.com
+    DOMAIN-SUFFIX, aicoin.com
 
    # airasia
     DOMAIN-SUFFIX, airasia.ck123.io
@@ -311,25 +312,6 @@ payload:
     DOMAIN-SUFFIX, cnbeta.com.tw
     DOMAIN-SUFFIX, cnbetacdn.com
 
-   # cnn (test)
-    # DOMAIN-SUFFIX, collector.cdp.cnn.com
-    # DOMAIN-SUFFIX, edition.cnn.com
-    # DOMAIN-SUFFIX, lightning.cnn.com
-    # DOMAIN-SUFFIX, media.cnn.com
-    # DOMAIN-SUFFIX, registry.api.cnn.io
-    # DOMAIN-SUFFIX, smetrics.cnn.com
-    # DOMAIN-SUFFIX, i.cdn.cnn.com
-    # DOMAIN-SUFFIX, z.cdp-dev.cnn.com
-
-    # DOMAIN, collector.cdp.cnn.com
-    # DOMAIN, edition.cnn.com
-    # DOMAIN, lightning.cnn.com
-    # DOMAIN, media.cnn.com
-    # DOMAIN, registry.api.cnn.io
-    # DOMAIN, smetrics.cnn.com
-    # DOMAIN, i.cdn.cnn.com
-    # DOMAIN, z.cdp-dev.cnn.com
-
    # co.uk
     DOMAIN-KEYWORD, .co.uk
 
@@ -390,6 +372,24 @@ payload:
 
    # crockblock
     DOMAIN-SUFFIX, crocoblock.com
+
+   # crunchyroll (test)
+    DOMAIN-SUFFIX, crunchyrollcdn.com
+    DOMAIN-SUFFIX, 5af10.v.fwmrm.net
+    DOMAIN-SUFFIX, a-vrv.akamaized.net
+    DOMAIN-SUFFIX, api64.ipify.org
+    DOMAIN-SUFFIX, e0vemjple0l1luii7h5vlu5no.litix.io
+    DOMAIN-SUFFIX, p.placed.com
+    DOMAIN-SUFFIX, p.tvpixel.com
+    DOMAIN-SUFFIX, pbs.getpublica.com
+    DOMAIN-SUFFIX, pi.ispot.tv
+    DOMAIN-SUFFIX, secure.adnxs.com
+    DOMAIN-SUFFIX, tapestry.tapad.com
+    DOMAIN-SUFFIX, v.vrv.co
+    DOMAIN-SUFFIX, vid.springserve.com
+    DOMAIN-SUFFIX, adsrvr.org
+    DOMAIN-SUFFIX, adsafeprotected.com
+    DOMAIN-SUFFIX, trustarc.com
 
    # cryptocompare
     DOMAIN-SUFFIX, cryptocompare.com
@@ -563,6 +563,11 @@ payload:
 
    # findladders.com
     DOMAIN-SUFFIX, findladders.com
+
+   # flixtor (test - partial works)
+    DOMAIN-SUFFIX, flixtor.nu
+    DOMAIN-SUFFIX, flixtor.se
+    DOMAIN-SUFFIX, flixtor.st
 
    # footystats
     DOMAIN-SUFFIX, footystats.org
@@ -743,8 +748,17 @@ payload:
     # DOMAIN, dl.google.com
     # DOMAIN, mtalk.google.com
 
-    # other rules - test
+   # google-ads-test
+    DOMAIN-SUFFIX, beacons.gcp.gvt2.com
+    # DOMAIN-SUFFIX, csi.gstatic.com
+    DOMAIN-SUFFIX, doubleclick.net
+    # DOMAIN-SUFFIX, googleadservices.com
+    DOMAIN-SUFFIX, googlesyndication.com
+    # DOMAIN-SUFFIX, googletagmanager.com
+    # DOMAIN-SUFFIX, imasdk.googleapis.com
     DOMAIN-SUFFIX, redirector.gvt1.com
+    # DOMAIN-SUFFIX, ssl.gstatic.com
+    # DOMAIN-SUFFIX, gstatic.com
 
    # gotquestions.org
     DOMAIN-SUFFIX, gotquestions.org
@@ -914,6 +928,9 @@ payload:
     DOMAIN-SUFFIX, jordandistrict.org
     DOMAIN-SUFFIX, employment.jordandistrict.org
 
+   # jotform.com  (test)
+    DOMAIN-SUFFIX, jotform.com 
+
    # justanswer.com
     DOMAIN-SUFFIX, justanswer.com
 
@@ -956,6 +973,9 @@ payload:
   # l
    # larrainvial.com
     DOMAIN-SUFFIX, larrainvial.com
+
+   # latestly.com (test)
+    DOMAIN-SUFFIX, latestly.com
 
    # legkierody.ru
     DOMAIN-SUFFIX, legkierody.ru
@@ -1177,6 +1197,9 @@ payload:
    # news18.com
     DOMAIN-SUFFIX, news18.com
 
+   # news9live.com (test)
+    DOMAIN-SUFFIX, news9live.com
+
    # nexusmods.com
     DOMAIN, data.nexusmods.com
     DOMAIN, images.nexusmods.com
@@ -1366,11 +1389,14 @@ payload:
    # printmailsystems.com
     DOMAIN-SUFFIX, printmailsystems.com
 
+   # promeai.pro (test)
+    DOMAIN-SUFFIX, promeai.pro
+
    # proshkola
     DOMAIN-SUFFIX, proshkola18.ru
 
    # proxyium.com
-    - DOMAIN-SUFFIXium.com
+    DOMAIN-SUFFIX, proxyium.com
 
    # psi.org
     DOMAIN-SUFFIX, psi.org
@@ -1871,6 +1897,9 @@ payload:
    # wisconsinregisteredagent.net
     DOMAIN-SUFFIX, wisconsinregisteredagent.net
 
+   # workspace.com(test)
+    DOMAIN-SUFFIX, workspace.com
+
    # worldcat.org
     DOMAIN-SUFFIX, worldcat.org
 
@@ -1932,10 +1961,10 @@ payload:
 
     # DOMAIN-SUFFIX, yt3.ggpht.com
     # DOMAIN, yt3.ggpht.com
-    # USER-AGENT, com.google.ios.youtube*
-    # USER-AGENT, com.google.ios.youtubemusic*
-    # USER-AGENT, YouTube*
-    # USER-AGENT, YouTubeMusic*
+    # - USER-AGENT, com.google.ios.youtube*
+    # - USER-AGENT, com.google.ios.youtubemusic*
+    # - USER-AGENT, YouTube*
+    # - USER-AGENT, YouTubeMusic*
 
    # yts.mx (test 2024-09-14)
     DOMAIN-SUFFIX, yts.mx
