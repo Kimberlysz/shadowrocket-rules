@@ -48,7 +48,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 [Rule]
 # rules: // note: please don't paste this "rules:" title to github repository
 
- # RULE-SET (-clash)
+ # RULE-SET (reject)
   # jsdelivr
     DOMAIN-SUFFIX, jsdelivr.net, proxy
 
@@ -56,7 +56,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # RULE-SET rejectmanual, reject
 
   # RULE-SET-merlinclash
-    # RULE-SET rejectmanualrouter, reject
+  # RULE-SET rejectmanualrouter, reject
 
   # DOMAIN-SET-shadowrocket
     # DOMAIN-SET, https://cdn.jsdelivr.net/gh/Kimberlysz/shadowrocket-rules@refs/heads/release/domainset/rejectDomainset.txt, reject
@@ -377,6 +377,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
    # bytedance-ads
     DOMAIN-SUFFIX, bds.snssdk.com, reject
+    DOMAIN-SUFFIX, byteadverts.com, reject
     DOMAIN-SUFFIX, ctobsnssdk.com, reject
     DOMAIN-SUFFIX, dig.bdurl.net, reject
     DOMAIN-SUFFIX, extlog.snssdk.com, reject
@@ -549,6 +550,9 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # 数字联盟(device ad id)
     DOMAIN-SUFFIX, shuzilm.cn, reject
 
+    # 卓信id
+    DOMAIN-SUFFIX, zxid-api.mobileservice.cn, reject
+
    # category-ads-all
     # This file contains domains of all ads providers, including both the domains that serves ads, and the domains of providers themselves.
 
@@ -707,56 +711,53 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
   # g
    # google-ads
-    DOMAIN-SUFFIX, 2mdn-cn.net, reject
-    DOMAIN-SUFFIX, 2mdn.net, reject
-    DOMAIN-SUFFIX, admob-cn.com, reject
-    DOMAIN-SUFFIX, admob.com, reject
-    DOMAIN-SUFFIX, ads.youtube.com, reject
-    DOMAIN-SUFFIX, adsense.com, reject
-    DOMAIN-SUFFIX, adsensecustomsearchads.com, reject
-    DOMAIN-SUFFIX, adsenseformobileapps.com, reject
-    DOMAIN-SUFFIX, adservice.google.com, reject
-    DOMAIN-SUFFIX, advertisercommunity.com, reject
-    DOMAIN-SUFFIX, advertiserscommunity.com, reject
-    DOMAIN-SUFFIX, adwords-community.com, reject
-    DOMAIN-SUFFIX, adwords.com, reject
-    DOMAIN-SUFFIX, adwordsexpress.com, reject
-    DOMAIN-SUFFIX, app-measurement-cn.com, reject
-    DOMAIN-SUFFIX, app-measurement.com, reject
-    DOMAIN-SUFFIX, doubleclick-cn.net, reject
-    DOMAIN-SUFFIX, doubleclick.cn, reject
-    DOMAIN-SUFFIX, doubleclick.com, reject
-    # DOMAIN-SUFFIX, doubleclick.net, reject
-    DOMAIN-SUFFIX, google-analytics-cn.com, reject
-    DOMAIN-SUFFIX, google-analytics.com, reject
-    DOMAIN-SUFFIX, googleadapis.com, reject
-    DOMAIN-SUFFIX, googleads-cn.com, reject
-    DOMAIN-SUFFIX, googleads.com, reject
-    DOMAIN-SUFFIX, googleadservices-cn.com, reject
-    DOMAIN-SUFFIX, googleadservices.com, reject
-    DOMAIN-SUFFIX, googleadsserving.cn, reject
-    DOMAIN-SUFFIX, googleanalytics.com, reject
-    DOMAIN-SUFFIX, googleoptimize-cn.com, reject
-    DOMAIN-SUFFIX, googleoptimize.com, reject
-    DOMAIN-SUFFIX, googlesyndication-cn.com, reject
-    DOMAIN-SUFFIX, googlesyndication.com, reject
-    DOMAIN-SUFFIX, googletagmanager-cn.com, reject
-    DOMAIN-SUFFIX, googletagmanager.com, reject
-    DOMAIN-SUFFIX, googletagservices-cn.com, reject
-    DOMAIN-SUFFIX, googletagservices.com, reject
-    DOMAIN-SUFFIX, googletraveladservices-cn.com, reject
-    DOMAIN-SUFFIX, googletraveladservices.com, reject
-    DOMAIN-SUFFIX, googlevads-cn.com, reject
-    DOMAIN-SUFFIX, mail-ads.google.com, reject
-    DOMAIN-SUFFIX, marketingplatform.google.com, reject
-    DOMAIN-SUFFIX, urchin.com, reject
+    DOMAIN-SUFFIX, 2mdn-cn.net, proxy
+    DOMAIN-SUFFIX, 2mdn.net, proxy
+    DOMAIN-SUFFIX, admob-cn.com, proxy
+    DOMAIN-SUFFIX, admob.com, proxy
+    DOMAIN-SUFFIX, ads.youtube.com, proxy
+    DOMAIN-SUFFIX, adsense.com, proxy
+    DOMAIN-SUFFIX, adsensecustomsearchads.com, proxy
+    DOMAIN-SUFFIX, adsenseformobileapps.com, proxy
+    DOMAIN-SUFFIX, adservice.google.com, proxy
+    DOMAIN-SUFFIX, advertisercommunity.com, proxy
+    DOMAIN-SUFFIX, advertiserscommunity.com, proxy
+    DOMAIN-SUFFIX, adwords-community.com, proxy
+    DOMAIN-SUFFIX, adwords.com, proxy
+    DOMAIN-SUFFIX, adwordsexpress.com, proxy
+    DOMAIN-SUFFIX, app-measurement-cn.com, proxy
+    DOMAIN-SUFFIX, app-measurement.com, proxy
+    DOMAIN-SUFFIX, doubleclick-cn.net, proxy
+    DOMAIN-SUFFIX, doubleclick.cn, proxy
+    DOMAIN-SUFFIX, doubleclick.com, proxy
+    DOMAIN-SUFFIX, doubleclick.net, proxy
+    DOMAIN-SUFFIX, google-analytics-cn.com, proxy
+    DOMAIN-SUFFIX, google-analytics.com, proxy
+    DOMAIN-SUFFIX, googleadapis.com, proxy
+    DOMAIN-SUFFIX, googleads-cn.com, proxy
+    DOMAIN-SUFFIX, googleads.com, proxy
+    DOMAIN-SUFFIX, googleadservices-cn.com, proxy
+    DOMAIN-SUFFIX, googleadservices.com, proxy
+    DOMAIN-SUFFIX, googleadsserving.cn, proxy
+    DOMAIN-SUFFIX, googleanalytics.com, proxy
+    DOMAIN-SUFFIX, googleoptimize-cn.com, proxy
+    DOMAIN-SUFFIX, googleoptimize.com, proxy
+    DOMAIN-SUFFIX, googlesyndication-cn.com, proxy
+    DOMAIN-SUFFIX, googlesyndication.com, proxy
+    DOMAIN-SUFFIX, googletagmanager-cn.com, proxy
+    DOMAIN-SUFFIX, googletagmanager.com, proxy
+    DOMAIN-SUFFIX, googletagservices-cn.com, proxy
+    DOMAIN-SUFFIX, googletagservices.com, proxy
+    DOMAIN-SUFFIX, googletraveladservices-cn.com, proxy
+    DOMAIN-SUFFIX, googletraveladservices.com, proxy
+    DOMAIN-SUFFIX, googlevads-cn.com, proxy
+    DOMAIN-SUFFIX, mail-ads.google.com, proxy
+    DOMAIN-SUFFIX, marketingplatform.google.com, proxy
+    DOMAIN-SUFFIX, urchin.com, proxy
 
-    DOMAIN, analytics.google.com, reject
+    DOMAIN, analytics.google.com, proxy
 
     # regexp:^adservice\.google\.([a-z]{2}|com?)(\.[a-z]{2})?$ @ads
-
-    # google-ads-test
-    DOMAIN-SUFFIX, doubleclick.net, proxy
 
    # growingio-ads
     DOMAIN-SUFFIX, assets.growingio.com, reject
@@ -819,6 +820,12 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
   # k
    # kuaishou-ads
+    DOMAIN-SUFFIX, adbkwai.com, reject
+    DOMAIN-SUFFIX, adkwai.com, reject
+    DOMAIN-SUFFIX, adukwai.com, reject
+    DOMAIN-SUFFIX, e.kuaishou.cn, reject
+    DOMAIN-SUFFIX, e.kuaishou.com, reject
+
     DOMAIN, log-sdk.gifshow.com, reject
     DOMAIN, wlog.kuaishou.com, reject
 
@@ -863,10 +870,18 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
   # n
    # netease-ads
+    DOMAIN-SUFFIX, a.youdao.com, reject
+    DOMAIN-SUFFIX, admusicpic.music.126.net, reject
+    DOMAIN-SUFFIX, ads.music.126.net, reject
     DOMAIN-SUFFIX, analytics.163.com, reject
     DOMAIN-SUFFIX, crash.163.com, reject
     DOMAIN-SUFFIX, crashlytics.163.com, reject
     DOMAIN-SUFFIX, g.163.com, reject
+    DOMAIN-SUFFIX, iadmat.nosdn.127.net, reject
+    DOMAIN-SUFFIX, iadmatapk.nosdn.127.net, reject
+    DOMAIN-SUFFIX, iadmusicmat.music.126.net, reject
+    DOMAIN-SUFFIX, iadmusicmatvideo.music.126.net, reject
+    DOMAIN-SUFFIX, sentry.music.163.com, reject
 
    # newrelic-ads
     DOMAIN-SUFFIX, js-agent.newrelic.com, reject
@@ -887,6 +902,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # tracking
     DOMAIN, o33249.ingest.sentry.io, reject
     DOMAIN, openaicom.imgix.net, reject
+    DOMAIN, browser-intake-datadoghq.com, reject
 
    # openx-ads
     DOMAIN-SUFFIX, openx.net, reject
@@ -1010,6 +1026,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, aty.sohu.com, reject
     DOMAIN-SUFFIX, data.vod.itc.cn, reject
     DOMAIN-SUFFIX, epro.sogou.com, reject
+    DOMAIN-SUFFIX, fpb.sohu.com, reject
     DOMAIN-SUFFIX, go.sohu.com, reject
     DOMAIN-SUFFIX, golden1.sogou.com, reject
     DOMAIN-SUFFIX, imp.optaim.com, reject
@@ -1017,6 +1034,8 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, inte.sogoucdn.com, reject
     DOMAIN-SUFFIX, lu.sogoucdn.com, reject
     DOMAIN-SUFFIX, pv.sohu.com, reject
+    DOMAIN-SUFFIX, qpb.sohu.com, reject
+    DOMAIN-SUFFIX, qpb1.sohu.com, reject
     DOMAIN-SUFFIX, theta.sogoucdn.com, reject
     DOMAIN-SUFFIX, track.sohu.com, reject
     DOMAIN-SUFFIX, uranus.sogou.com, reject
@@ -1207,7 +1226,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, zynga.com, reject
     DOMAIN-SUFFIX, zyngaplayersupport.com, reject
 
- # RULE-SET (-clash)
+ # RULE-SET (direct + proxy)
   # RULE-SET-clash
     # RULE-SET directmanual, direct
     # RULE-SET proxymanual, proxy
@@ -1325,6 +1344,17 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, spaceexplored.com, direct
 
   # a
+   # aamgame
+    # 广州市艾美娱乐设备有限公司
+    # 粤ICP备09210476号
+    DOMAIN-SUFFIX, aamgame.net, direct
+    DOMAIN-SUFFIX, aamgame.com, direct
+    DOMAIN-SUFFIX, aamgame.mobi, direct
+    DOMAIN-SUFFIX, aamsmart.com, direct
+
+    # 舞推 (E舞成名)
+    DOMAIN-SUFFIX, singworld.net, direct
+
    # accuweather
 
    # acer
@@ -1397,6 +1427,11 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, janrainservices.com, direct
     DOMAIN-SUFFIX, skycdn.com.cn, direct
 
+   # akiko
+    DOMAIN-SUFFIX, akikocorp.cn, direct
+    DOMAIN-SUFFIX, emoriko.com, direct
+    DOMAIN-SUFFIX, sukasuka.cn, direct
+    
    # ali213.net
     DOMAIN-SUFFIX, ali213.net, direct
 
@@ -2163,35 +2198,53 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, aipage.com, direct
     DOMAIN-SUFFIX, antpcdn.com, direct
     DOMAIN-SUFFIX, apollo.auto, direct
+    DOMAIN-SUFFIX, baidu-cdn.cn, direct
+    DOMAIN-SUFFIX, baidu-cdn.com, direct
+    DOMAIN-SUFFIX, baidu-cdn.net, direct
     DOMAIN-SUFFIX, baidu.cn, direct
     DOMAIN-SUFFIX, baidu.com, direct
     DOMAIN-SUFFIX, baidu.com.cn, direct
     DOMAIN-SUFFIX, baiduapp.com, direct
     DOMAIN-SUFFIX, baidubce.com, direct
+    DOMAIN-SUFFIX, baidubcr.com, direct
     DOMAIN-SUFFIX, baiducontent.com, direct
     DOMAIN-SUFFIX, baidupcs.com, direct
     DOMAIN-SUFFIX, baidustatic.com, direct
+    DOMAIN-SUFFIX, baiduyuncdn.cn, direct
+    DOMAIN-SUFFIX, baiduyuncdn.com, direct
+    DOMAIN-SUFFIX, baiduyuncdn.net, direct
     DOMAIN-SUFFIX, baifae.com, direct
     DOMAIN-SUFFIX, baifubao.com, direct
+    DOMAIN-SUFFIX, bce-cdn.cn, direct
+    DOMAIN-SUFFIX, bce-cdn.com, direct
+    DOMAIN-SUFFIX, bce-cdn.net, direct
     DOMAIN-SUFFIX, bcebos.com, direct
     DOMAIN-SUFFIX, bdcloudapi.com, direct
     DOMAIN-SUFFIX, bdimg.com, direct
     DOMAIN-SUFFIX, bdstatic.com, direct
     DOMAIN-SUFFIX, bdtjrcv.com, direct
+    DOMAIN-SUFFIX, bdurl.net, direct
+    DOMAIN-SUFFIX, bdycdn.cn, direct
+    DOMAIN-SUFFIX, bdycdn.net, direct
     DOMAIN-SUFFIX, bdydns.cn, direct
     DOMAIN-SUFFIX, bdydns.com, direct
     DOMAIN-SUFFIX, bdydns.net, direct
     DOMAIN-SUFFIX, chuanke.com, direct
     DOMAIN-SUFFIX, dlnel.com, direct
     DOMAIN-SUFFIX, dlnel.org, direct
+    DOMAIN-SUFFIX, duapp.net, direct
     DOMAIN-SUFFIX, duapps.com, direct
+    DOMAIN-SUFFIX, duurl.cn, direct
     DOMAIN-SUFFIX, dwz.cn, direct
     DOMAIN-SUFFIX, hao123.com, direct
     DOMAIN-SUFFIX, hao123img.com, direct
     DOMAIN-SUFFIX, hao222.com, direct
     DOMAIN-SUFFIX, haokan.com, direct
+    DOMAIN-SUFFIX, jomocdn.cn, direct
     DOMAIN-SUFFIX, jomocdn.net, direct
+    DOMAIN-SUFFIX, jomodns.cn, direct
     DOMAIN-SUFFIX, jomodns.com, direct
+    DOMAIN-SUFFIX, jomodns.net, direct
     DOMAIN-SUFFIX, mipcdn.com, direct
     DOMAIN-SUFFIX, nuomi.com, direct
     DOMAIN-SUFFIX, quyaoya.com, direct
@@ -2474,7 +2527,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, byteactivity15.com, direct
     DOMAIN-SUFFIX, byteactivity16.com, direct
     DOMAIN-SUFFIX, byteactivity.com, direct
-    DOMAIN-SUFFIX, byteadverts.com, direct
     DOMAIN-SUFFIX, byteapi.com, direct
     DOMAIN-SUFFIX, bytecdn.cn, direct
     DOMAIN-SUFFIX, bytecdn.com, direct
@@ -2868,6 +2920,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
    # category-bank-cn
     # include:boc
     # include:ccb
+    # include:citic
     # include:cmb
     # include:hsbc-cn
     # include:icbc
@@ -3049,6 +3102,11 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # Tower 团队协作
     DOMAIN-SUFFIX, tower.im, direct
 
+    # 秀米编辑器
+    DOMAIN-SUFFIX, tritoninfo.net, direct
+    DOMAIN-SUFFIX, xiumi.us, direct
+    DOMAIN-SUFFIX, xiumius.com, direct
+
     DOMAIN-SUFFIX, shimo.im, direct
     DOMAIN-SUFFIX, yuque.com, direct
 
@@ -3184,6 +3242,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:dmzj
     # include:douyu
     # include:duitang
+    # include:fqnovel
     # include:gamersky
     # include:gcores
     # include:gitv
@@ -3203,6 +3262,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:mihoyo-cn
     # include:muwai
     # include:pptv
+    # include:qimao
     # include:qingtingfm
     # include:sfacg
     # include:taomee
@@ -3853,10 +3913,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # 封面新闻
     DOMAIN-SUFFIX, thecover.cn, direct
 
-    # 凤凰网
-    DOMAIN-SUFFIX, ifeng.com, direct
-    DOMAIN-SUFFIX, ifengimg.com, direct
-
     # 超能网
     DOMAIN-SUFFIX, expreview.com, direct
 
@@ -3870,6 +3926,9 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # PConline - 太平洋科技
     DOMAIN-SUFFIX, 3conline.com, direct
     DOMAIN-SUFFIX, pconline.com.cn, direct
+
+    # ZEALER
+    DOMAIN-SUFFIX, zealer.com, proxy
 
     # 中关村在线
     DOMAIN-SUFFIX, zol-img.com.cn, direct
@@ -4099,6 +4158,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, lemonhd.club, direct
     DOMAIN-SUFFIX, ilovelemonhd.me, direct
     DOMAIN-SUFFIX, pttime.org, direct
+    DOMAIN-SUFFIX, pttime.top, direct
     DOMAIN-SUFFIX, ianon.app, direct
     DOMAIN-SUFFIX, hdatmos.club, direct
     DOMAIN-SUFFIX, ptchina.org, direct
@@ -4109,6 +4169,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, carpt.net, direct
     DOMAIN-SUFFIX, hdvideo.one, direct
     DOMAIN-SUFFIX, pt.0ff.cc, direct
+
     DOMAIN-SUFFIX, morethantv.me, direct
     DOMAIN-SUFFIX, open.cd, direct
     DOMAIN-SUFFIX, passthepopcorn.me, direct
@@ -4124,6 +4185,13 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, sharkpt.net, direct
     DOMAIN-SUFFIX, uhdbits.org, direct
     DOMAIN-SUFFIX, zhuque.in, direct
+    DOMAIN-SUFFIX, kufei.org, direct
+    DOMAIN-SUFFIX, kufei.com, direct
+    DOMAIN-SUFFIX, rousi.zip, direct
+    DOMAIN-SUFFIX, haidan.video, direct
+    DOMAIN-SUFFIX, hhan.club, direct
+    DOMAIN-SUFFIX, hdarea.club, direct
+    DOMAIN-SUFFIX, 52pt.site, direct
 
     # To the Chinese Users:
     #    The following domains are supposed not to go through the proxy
@@ -4136,8 +4204,19 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, tju.pt, direct
     DOMAIN-SUFFIX, tjupt.org, direct
 
-    DOMAIN-SUFFIX, bitpt.cn, direct
+    # CHD
     DOMAIN-SUFFIX, chdbits.co, direct
+    DOMAIN-SUFFIX, chdbits.xyz, direct
+    DOMAIN-SUFFIX, ptchdbits.co, direct
+    DOMAIN-SUFFIX, chddiy.xyz, direct
+    DOMAIN-SUFFIX, rainbowisland.co, direct
+
+    # HDKylin
+    DOMAIN-SUFFIX, hdkyl.in, direct
+    DOMAIN-SUFFIX, hdkylin.top, direct
+    DOMAIN-SUFFIX, hdkylin.work, direct
+
+    DOMAIN-SUFFIX, bitpt.cn, direct
     DOMAIN-SUFFIX, hdchina.org, direct
     DOMAIN-SUFFIX, hdhome.org, direct
     DOMAIN-SUFFIX, hdsky.me, direct
@@ -4578,6 +4657,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, hiweb.ir, direct
     DOMAIN-SUFFIX, ipnumberia.com, direct
     DOMAIN-SUFFIX, irancell.ir, direct
+    DOMAIN-SUFFIX, iranmobile.org, direct
     DOMAIN-SUFFIX, iranserver.com, direct
     DOMAIN-SUFFIX, mci.ir, direct
     DOMAIN-SUFFIX, mihanwebhost.com, direct
@@ -4619,6 +4699,23 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, snapp.taxi, direct
     DOMAIN-SUFFIX, snapp.tech, direct
     DOMAIN-SUFFIX, tapsi.ir, direct
+
+   # category-number-verification-cn
+    # SDKs provided by Chinese ISP are used by apps to determine the phone number through celluar network. 
+
+    # China Telecom
+    DOMAIN, id6.me, direct
+
+    # China Mobile
+    DOMAIN-SUFFIX, cmpassport.com, direct
+
+    # China Unicom
+    DOMAIN, opencloud.wostore.cn, direct
+    DOMAIN, hs.wosms.cn, direct
+    DOMAIN, enrichgw.10010.com, direct
+    DOMAIN, hap.10010.com, direct
+
+    # regexp:^nis.+\.10010\.com$
 
    # category-wiki-cn
     DOMAIN-SUFFIX, fgo.wiki, direct
@@ -4713,6 +4810,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, chaoxing.com, direct
     DOMAIN-SUFFIX, chaoxingv.com, direct
     DOMAIN-SUFFIX, cxbiji.com, direct
+    DOMAIN-SUFFIX, dayainfo.com, direct
     DOMAIN-SUFFIX, hongbo100.com, direct
     DOMAIN-SUFFIX, lnlib.net, direct
     DOMAIN-SUFFIX, mndqlib.net, direct
@@ -5380,8 +5478,15 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, luckyair.net, direct # 祥鹏航空
     DOMAIN-SUFFIX, sichuanair.com, direct # 四川航空
     DOMAIN-SUFFIX, tibetairlines.com.cn, direct # 西藏航空
+    DOMAIN-SUFFIX, travelskymobile.cn, direct # 信天游（航空电子客票验真）
     DOMAIN-SUFFIX, variflight.com, direct # 飞常准
     DOMAIN-SUFFIX, xiamenair.com, direct # 厦门航空
+
+    # 航旅纵横
+    DOMAIN-SUFFIX, umetrip.com, direct
+    DOMAIN-SUFFIX, umetrip.com.cn, direct
+    DOMAIN-SUFFIX, umetrip.net.cn, direct
+    DOMAIN-SUFFIX, ume-trip.cn, direct
 
     # Railway
     DOMAIN-SUFFIX, 12306.cn, direct
@@ -5492,6 +5597,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
     DOMAIN-SUFFIX, ip138.com, direct
     DOMAIN-SUFFIX, ipplus360.com, direct # 豫ICP备17017462号-1 埃文科技
+    DOMAIN-SUFFIX, onedns.net, direct # OneDNS（微步在线）
 
     # 423Down
     DOMAIN-SUFFIX, 423down.com, direct
@@ -5557,6 +5663,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:hanyi
     # include:jianshu
     # include:jinshuju
+    # include:jlc
     # include:keep
     # include:lagou
     # include:ldmnq
@@ -5615,7 +5722,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:meizu
     # include:netease
     # include:oppo
-    # include:oneplus
     # include:qihoo360
     # include:sina
     # include:sogou
@@ -5624,6 +5730,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:vivo
     # include:xiaomi
     # include:xunlei
+    # include:ymtc
     # include:zte
 
     DOMAIN-SUFFIX, 51togic.com, direct # 泰捷WEBOX
@@ -5651,6 +5758,9 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, guoxuedashi.com, direct
     DOMAIN-SUFFIX, guoxuemi.com, direct
     DOMAIN-SUFFIX, mojidict.com, direct
+
+    # 街机
+    # include:aamgame
 
     # Others
     # include:8btc
@@ -5710,6 +5820,8 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:aisiku
     # 上海圆贝信息科技有限公司
     # include:yuanbei
+    # 秋子酱科技
+    # include:akiko
 
 
     # The following domains are carried over from geosite:cn.
@@ -5773,7 +5885,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, 365dmp.com, direct
     DOMAIN-SUFFIX, 37.com, direct
     DOMAIN-SUFFIX, 3733.com, direct
-    DOMAIN-SUFFIX, 3839.com, direct
     DOMAIN-SUFFIX, 39.net, direct
     DOMAIN-SUFFIX, 3d66.com, direct
     DOMAIN-SUFFIX, 3elife.net, direct
@@ -5960,7 +6071,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, clouddn.com, direct
     DOMAIN-SUFFIX, cloudxns.com, direct
     DOMAIN-SUFFIX, cnanzhi.com, direct
-    DOMAIN-SUFFIX, cnblogs.com, direct
     DOMAIN-SUFFIX, cnepub.com, direct
     DOMAIN-SUFFIX, cnlaw.net, direct
     DOMAIN-SUFFIX, cnzz.com, direct
@@ -6179,7 +6289,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, ikafan.com, direct
     DOMAIN-SUFFIX, im2maker.com, direct
     DOMAIN-SUFFIX, im-cc.com, direct
-    DOMAIN-SUFFIX, imedao.com, direct
     DOMAIN-SUFFIX, imooc.com, direct
     DOMAIN-SUFFIX, indienova.com, direct
     DOMAIN-SUFFIX, infoq.com, direct
@@ -6192,7 +6301,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, it165.net, direct
     DOMAIN-SUFFIX, it168.com, direct
     DOMAIN-SUFFIX, it610.com, direct
-    DOMAIN-SUFFIX, iteye.com, direct
     DOMAIN-SUFFIX, itjuzi.com, direct
     DOMAIN-SUFFIX, itmop.com, direct
     DOMAIN-SUFFIX, iyiou.com, direct
@@ -6411,7 +6519,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, qianlima.com, direct
     DOMAIN-SUFFIX, qianzhan.com, direct
     DOMAIN-SUFFIX, qiaobutang.com, direct
-    DOMAIN-SUFFIX, qichacha.com, direct
     DOMAIN-SUFFIX, qie.tv, direct
     DOMAIN-SUFFIX, qifeiye.com, direct
     DOMAIN-SUFFIX, qijiayoudao.net, direct
@@ -6450,11 +6557,10 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, seniverse.com, direct
     DOMAIN-SUFFIX, senlinjimore.com, direct # 鲁ICP备20001333号 森林集
     DOMAIN-SUFFIX, sgamer.com, direct
-    DOMAIN-SUFFIX, shanbay.com, direct
     DOMAIN-SUFFIX, shang360.com, direct
     DOMAIN-SUFFIX, shangc.net, direct
     DOMAIN-SUFFIX, shanghairc.com, direct
-    DOMAIN-SUFFIX, shangshi360.com, direct # 桂ICP备14006138号-1, direct
+    DOMAIN-SUFFIX, shangshi360.com, direct # 桂ICP备14006138号-1
     DOMAIN-SUFFIX, shangzhibo.tv, direct
     DOMAIN-SUFFIX, shanshuihotel.com, direct
     DOMAIN-SUFFIX, sharejs.com, direct
@@ -6516,6 +6622,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, tianjin-air.com, direct
     DOMAIN-SUFFIX, tianlailive.com, direct
     DOMAIN-SUFFIX, tianqi.com, direct
+    DOMAIN-SUFFIX, tianqistatic.com, direct
     DOMAIN-SUFFIX, tietuku.com, direct
     DOMAIN-SUFFIX, tiexue.net, direct
     DOMAIN-SUFFIX, timedoo.com, direct
@@ -6535,7 +6642,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, trustutn.org, direct
     DOMAIN-SUFFIX, tudou.com, direct
     DOMAIN-SUFFIX, tudouui.com, direct
-    DOMAIN-SUFFIX, tuer123.com, direct
     DOMAIN-SUFFIX, tuicool.com, direct
     DOMAIN-SUFFIX, tuiwen.net, direct
     DOMAIN-SUFFIX, tujia.com, direct
@@ -6687,7 +6793,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, yrz.name, direct
     DOMAIN-SUFFIX, yslyhr.com, direct
     DOMAIN-SUFFIX, ysten.com, direct
-    DOMAIN-SUFFIX, yuewen.com, direct
     DOMAIN-SUFFIX, yunaq.com, direct
     DOMAIN-SUFFIX, yunba.io, direct
     DOMAIN-SUFFIX, yundaex.com, direct
@@ -6764,7 +6869,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
     # 云鲸科技
     # include:narwal
-
+    
     # 石头科技
     # include:roborock
 
@@ -6837,6 +6942,31 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # 拓竹科技
     DOMAIN-SUFFIX, bambulab.com, direct
     DOMAIN-SUFFIX, bblmw.com, direct
+
+    # 号码认证
+    # include:category-number-verification-cn
+
+    # 中国石油支付宝小程序
+    DOMAIN-SUFFIX, 95504test.com, direct
+
+    # 123 云盘 CDN
+    DOMAIN-SUFFIX, cjjd19.com, direct
+
+    # 美物清单
+    DOMAIN-SUFFIX, maxonesoft.com, direct
+    DOMAIN-SUFFIX, meiwulist.com, direct
+
+    # 北京鸿合智能系统股份有限公司
+    DOMAIN-SUFFIX, hitevision-solutions.com, direct
+
+    # 捷顺科技
+    DOMAIN-SUFFIX, jslife.net, direct
+
+    # 南海控股有限公司
+    DOMAIN-SUFFIX, nanhaicorp.com, direct
+
+    # 范明明's Blog 蒙ICP备18004194号
+    DOMAIN-SUFFIX, fanmingming.com, direct
 
    # gigabyte
     DOMAIN-SUFFIX, aoruszone.cn, direct
@@ -7079,6 +7209,11 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, gvt2-cn.com, direct
 
    # google-play
+    # if connect to services.googleapis.cn directly,
+    # then these domains will be used.
+    # 北京 (2x3)、上海 (ni5)、广州 (j5o)
+    # regexp:^r+[0-9]+(---|\.)sn-(2x3|ni5|j5o)\w{5}\.xn--ngstr-lra8j\.com$ @cn
+
     DOMAIN, redirector.c.play.google.com, direct
 
    # google-trust-services
@@ -7593,16 +7728,22 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # 科大讯飞官方商城
     DOMAIN-SUFFIX, xunfei.cn, direct
 
+    # 讯飞读写
+    DOMAIN-SUFFIX, iflyink.com, direct
+
+    # 讯飞听见
+    DOMAIN-SUFFIX, iflyrec.com, direct
+
     # e听说中学
     DOMAIN-SUFFIX, ets100.com, direct
 
     # 智学网
     DOMAIN-SUFFIX, zhixue.com, direct
 
-    # 畅言教育开放平台
+    #畅言教育开放平台
     DOMAIN-SUFFIX, changyan.com, direct
 
-    # 科大讯飞AI学习机官网
+    #科大讯飞AI学习机官网
     DOMAIN-SUFFIX, xunfeixxj.com, direct
 
    # ihuman
@@ -7943,6 +8084,48 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, jr24h.com, direct
     DOMAIN-SUFFIX, jvid.com, direct
 
+   # jlc
+    # 嘉立创
+    DOMAIN-SUFFIX, fa-part.com, direct
+    DOMAIN-SUFFIX, forface3d.com, direct
+    DOMAIN-SUFFIX, jlc-3dp.cn, direct
+    DOMAIN-SUFFIX, jlc3dp.cn, direct
+    DOMAIN-SUFFIX, jlc-3dp.com, direct
+    DOMAIN-SUFFIX, jlc-cad.com, direct
+    DOMAIN-SUFFIX, jlccad.com, direct
+    DOMAIN-SUFFIX, jlc-cam.com, direct
+    DOMAIN-SUFFIX, jlccam.com, direct
+    DOMAIN-SUFFIX, jlccam.com, direct
+    DOMAIN-SUFFIX, jlc-cnc.com, direct
+    DOMAIN-SUFFIX, jlccnc.com, direct
+    DOMAIN-SUFFIX, jlc.com, direct
+    DOMAIN-SUFFIX, jlc-dfm.com, direct
+    DOMAIN-SUFFIX, jlcdfm.com, direct
+    DOMAIN-SUFFIX, jlc-drm.com, direct
+    DOMAIN-SUFFIX, jlc-ecad.com, direct
+    DOMAIN-SUFFIX, jlcecad.com, direct
+    DOMAIN-SUFFIX, jlceda.cn, direct
+    DOMAIN-SUFFIX, jlceda.com, direct
+    DOMAIN-SUFFIX, jlc-erp.com, direct
+    DOMAIN-SUFFIX, jlcerp.com, direct
+    DOMAIN-SUFFIX, jlcfa.com, direct
+    DOMAIN-SUFFIX, jlc-fpc.com, direct
+    DOMAIN-SUFFIX, jlcgroup.cn, direct
+    DOMAIN-SUFFIX, jlc-gw.com, direct
+    DOMAIN-SUFFIX, jlc-jh.com, direct
+    DOMAIN-SUFFIX, jlc-layout.com, direct
+    DOMAIN-SUFFIX, jlcops.com, direct
+    DOMAIN-SUFFIX, jlc-pcb.com, direct
+    DOMAIN-SUFFIX, jlcsj.com, direct
+    DOMAIN-SUFFIX, jlcsmt.com, direct
+    DOMAIN-SUFFIX, lceda.cn, direct
+    DOMAIN-SUFFIX, lckfb.com, direct
+    DOMAIN-SUFFIX, oshwhub.com, direct
+    DOMAIN-SUFFIX, sanweihou.com, direct
+    DOMAIN-SUFFIX, szjlc.cn, direct
+    DOMAIN-SUFFIX, sz-jlc.com, direct
+    DOMAIN-SUFFIX, zs-jlc.com, direct
+
    # juejin
     DOMAIN-SUFFIX, juejin.cn, direct
     DOMAIN-SUFFIX, juejin.im, direct
@@ -8052,8 +8235,24 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:kuaishou-ads
 
    # kugou
+    # include:kugou-ads
+
+    DOMAIN-SUFFIX, fanxingliveshow.com, direct
     DOMAIN-SUFFIX, kgimg.com, direct
+    DOMAIN-SUFFIX, kglink.cn, direct
+    DOMAIN-SUFFIX, ktv.com, direct
+    DOMAIN-SUFFIX, kugoo.com, direct
     DOMAIN-SUFFIX, kugou.com, direct
+    DOMAIN-SUFFIX, kugou.net, direct
+    DOMAIN-SUFFIX, kugouaudio.com, direct
+    DOMAIN-SUFFIX, kugouipv6.com, direct
+    DOMAIN-SUFFIX, kugoukid.com, direct
+    DOMAIN-SUFFIX, kugouliveshow.com, direct
+    DOMAIN-SUFFIX, kugouringtone.com, direct
+    DOMAIN-SUFFIX, kugousenior.com, direct
+    DOMAIN-SUFFIX, kugoustore.com, direct
+    DOMAIN-SUFFIX, kugouvoice.com, direct
+    DOMAIN-SUFFIX, kugouyouth.com, direct
 
    # kurogames
     DOMAIN-SUFFIX, kurogames.com, direct
@@ -8177,9 +8376,14 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, ldmnq.com, direct
 
    # le
+    # include:letv-ads
+
     DOMAIN-SUFFIX, le.com, direct
+    DOMAIN-SUFFIX, leautolink.com, direct
     DOMAIN-SUFFIX, lecloud.com, direct
+    DOMAIN-SUFFIX, lecloudapi.com, direct
     DOMAIN-SUFFIX, lemall.com, direct
+    DOMAIN-SUFFIX, leso.cn, direct
     DOMAIN-SUFFIX, letv.com, direct
     DOMAIN-SUFFIX, letvcdn.com, direct
     DOMAIN-SUFFIX, letvimg.com, direct
@@ -8264,6 +8468,9 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
    # lianjia
     DOMAIN-SUFFIX, lianjia.com, direct
     DOMAIN-SUFFIX, ljcdn.com, direct
+    # 贝壳
+    DOMAIN-SUFFIX, beckyroom.com, direct
+    DOMAIN-SUFFIX, ke.com, direct
 
    # liepin
     DOMAIN-SUFFIX, liepin.com, direct
@@ -8354,6 +8561,8 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
    # meizu
     DOMAIN-SUFFIX, flyme.cn, direct
+    DOMAIN-SUFFIX, flyme.com, direct
+    DOMAIN-SUFFIX, flymeauto.com, direct
     DOMAIN-SUFFIX, meizu.cn, direct
     DOMAIN-SUFFIX, meizu.com, direct
     DOMAIN-SUFFIX, mzres.com, direct
@@ -8568,6 +8777,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, 163yun.com, direct
     DOMAIN-SUFFIX, 166.com, direct
     DOMAIN-SUFFIX, 166.net, direct
+    DOMAIN-SUFFIX, 188.com, direct
     DOMAIN-SUFFIX, haowu.link, direct
     DOMAIN-SUFFIX, icourse163.org, direct
     DOMAIN-SUFFIX, kaola.com, direct
@@ -8674,30 +8884,45 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, oneplus.net, direct
     DOMAIN-SUFFIX, opstatics.com, direct
     DOMAIN-SUFFIX, oneplusbbs.com, direct
+    DOMAIN-SUFFIX, oneplusmobile.com, direct
     DOMAIN-SUFFIX, h2os.com, direct
 
    # oppo
+    # include:oneplus
+    DOMAIN-SUFFIX, allawnfs.com, direct
+    DOMAIN-SUFFIX, allawno.com, direct
     DOMAIN-SUFFIX, allawntech.com, direct
     DOMAIN-SUFFIX, coloros.com, direct
+    DOMAIN-SUFFIX, coloros.net, direct
     DOMAIN-SUFFIX, finzfin.com, direct
     DOMAIN-SUFFIX, heytap.com, direct
     DOMAIN-SUFFIX, heytapcs.com, direct
     DOMAIN-SUFFIX, heytapdownload.com, direct
     DOMAIN-SUFFIX, heytapimage.com, direct
     DOMAIN-SUFFIX, heytapmobi.com, direct
+    DOMAIN-SUFFIX, ioppo.com.cn, direct
+    DOMAIN-SUFFIX, ioppo.net, direct
     DOMAIN-SUFFIX, myoppo.com, direct
     DOMAIN-SUFFIX, nearme.com.cn, direct
+    DOMAIN-SUFFIX, opdwz.cn, direct
     DOMAIN-SUFFIX, oppo.cn, direct
     DOMAIN-SUFFIX, oppo.com, direct
     DOMAIN-SUFFIX, oppo.mobi, direct
+    DOMAIN-SUFFIX, oppocolor.com, direct
+    DOMAIN-SUFFIX, oppocoloros.com, direct
     DOMAIN-SUFFIX, oppodigital.com, direct
+    DOMAIN-SUFFIX, oppodigital.com.cn, direct
     DOMAIN-SUFFIX, oppoer.me, direct
+    DOMAIN-SUFFIX, oppomobile.cn, direct
     DOMAIN-SUFFIX, oppomobile.com, direct
     DOMAIN-SUFFIX, oppopay.com, direct
     DOMAIN-SUFFIX, opposhop.cn, direct
+    DOMAIN-SUFFIX, oppowork.com, direct
     DOMAIN-SUFFIX, realme.com, direct
     DOMAIN-SUFFIX, realmebbs.com, direct
     DOMAIN-SUFFIX, realmemobile.com, direct
+    DOMAIN-SUFFIX, shopoppo.cn, direct
+    DOMAIN-SUFFIX, shopoppo.com.cn, direct
 
    # oreilly
     DOMAIN-SUFFIX, oreilly.com.cn, direct
@@ -9165,12 +9390,15 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, timatrix.com.cn, direct
     DOMAIN-SUFFIX, timmerse.com, direct
     DOMAIN-SUFFIX, tlivecdn.com, direct
+    DOMAIN-SUFFIX, tlivepush.com, direct
+    DOMAIN-SUFFIX, tlivesource.com, direct
     DOMAIN-SUFFIX, tourismshow.cn, direct
     DOMAIN-SUFFIX, tourismuser.cn, direct
     DOMAIN-SUFFIX, tsparkling.com, direct
     DOMAIN-SUFFIX, tx-exhibition.com, direct
     DOMAIN-SUFFIX, txbyod.com, direct
     DOMAIN-SUFFIX, txidc.wang, direct
+    DOMAIN-SUFFIX, txlivecdn.com, direct
     DOMAIN-SUFFIX, txtyxg.com, direct
     DOMAIN-SUFFIX, txyscdn.com, direct
     DOMAIN-SUFFIX, txyscdn.net, direct
@@ -9330,6 +9558,14 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, youhua.com, direct
     DOMAIN-SUFFIX, yunpan.cn, direct
 
+   # qimao
+    DOMAIN-SUFFIX, jiuyue919.com, direct
+    DOMAIN-SUFFIX, qimao.com, direct
+    DOMAIN-SUFFIX, qm989.com, direct
+    DOMAIN-SUFFIX, qmniu.com, direct
+    DOMAIN-SUFFIX, quehu.com, direct
+    DOMAIN-SUFFIX, wtzw.com, direct
+
    # qingcloud
     DOMAIN-SUFFIX, frontwize.com, direct
     DOMAIN-SUFFIX, qingcache.com, direct
@@ -9468,6 +9704,8 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, shopeesz.com, direct
 
    # sina
+    # include:sina-ads
+
     DOMAIN-SUFFIX, 97973.com, direct
     DOMAIN-SUFFIX, picself.cn, direct
     DOMAIN-SUFFIX, sina.cn, direct
@@ -9490,9 +9728,11 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, weibo.com.cn, direct
     DOMAIN-SUFFIX, weibocdn.com, direct
     DOMAIN-SUFFIX, xhaiwai.com, direct
-    
-    # include:sina-ads
 
+   # sky
+    # CDN
+    DOMAIN-SUFFIX, cn-cdn1.skymansion.net, direct
+    
    # smtiaojiaoshi
     DOMAIN-SUFFIX, jhxl.org, direct
     DOMAIN-SUFFIX, xn--sgt856gbjl.cc, direct
@@ -9543,6 +9783,9 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, yuweikuijianzhan.com, direct
 
    # sohu
+    # include:sogou
+    # include:sohu-ads
+
     DOMAIN-SUFFIX, focus-img.cn, direct
     DOMAIN-SUFFIX, focus.cn, direct
     DOMAIN-SUFFIX, itc.cn, direct
@@ -9698,8 +9941,8 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # 腾讯.中国
     DOMAIN-SUFFIX, xn--r70as2s.xn--fiqs8s, direct
 
+    DOMAIN-SUFFIX, acimg.cn, direct
     DOMAIN-SUFFIX, apcdns.net, direct
-    DOMAIN-SUFFIX, cdn-go.cn, direct
     DOMAIN-SUFFIX, foxmail.com, direct
     DOMAIN-SUFFIX, foxmail.com.cn, direct
     DOMAIN-SUFFIX, gtimg.cn, direct
@@ -9726,8 +9969,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, tencentmusic.com, direct
     DOMAIN-SUFFIX, tenpay.com, direct
     DOMAIN-SUFFIX, tfogc.com, direct
-    DOMAIN-SUFFIX, tlivepush.com, direct
-    DOMAIN-SUFFIX, txlivecdn.com, direct
     DOMAIN-SUFFIX, wechat.com, direct
     DOMAIN-SUFFIX, wechatpay.cn, direct
     DOMAIN-SUFFIX, weiyun.com, direct
@@ -10620,6 +10861,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, mi-img.com, direct
     DOMAIN-SUFFIX, mi.com, direct
     DOMAIN-SUFFIX, mifile.cn, direct
+    DOMAIN-SUFFIX, migames.com, direct
     DOMAIN-SUFFIX, mijia.tech, direct
     DOMAIN-SUFFIX, miui.com, direct
     DOMAIN-SUFFIX, miwifi.com, direct
@@ -10630,8 +10872,14 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, xiaomimobile.com, direct
     DOMAIN-SUFFIX, xiaomixiaoai.com, direct
 
+    # 多看
+    DOMAIN-SUFFIX, duokan.com, direct
+
     # Xiaomi YouPin
     DOMAIN-SUFFIX, xiaomiyoupin.com, direct
+
+    # 紫米
+    DOMAIN-SUFFIX, zmifi.com, direct
 
     # AppStore CDN
     DOMAIN-SUFFIX, saxyit.com, direct
@@ -10718,6 +10966,12 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
    # yinxiang
     DOMAIN-SUFFIX, yinxiang.com, direct
+
+   # ymtc
+    # 长江存储
+    DOMAIN-SUFFIX, ymtc.com, direct
+    DOMAIN-SUFFIX, ymtc.com.cn, direct
+    DOMAIN-SUFFIX, ymtc.cn, direct
 
    # ynet
     # This file includes domains for 北京青年报网际传播技术有限公司 (京ICP证010639号-4)
@@ -11502,6 +11756,8 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, iamakamai.net, proxy
     DOMAIN-SUFFIX, soasta-dswb.com, proxy
     DOMAIN-SUFFIX, srtcdn.net, proxy
+
+   # akiko
 
    # alibaba
     DOMAIN-SUFFIX, alihealth.hk, proxy
@@ -15279,6 +15535,13 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, bootstrapcdn.com, proxy
     DOMAIN-SUFFIX, getbootstrap.com, proxy
 
+   # borneoschematics
+    DOMAIN-SUFFIX, borneo.world, proxy
+    DOMAIN-SUFFIX, borneoasia.com, proxy
+    DOMAIN-SUFFIX, borneoschematic.com, proxy
+    DOMAIN-SUFFIX, bosharso.net, proxy
+    DOMAIN-SUFFIX, hostborneo.org, proxy
+
    # boslife
     DOMAIN-SUFFIX, boslife.biz, proxy
     DOMAIN-SUFFIX, boslife.net, proxy
@@ -15471,6 +15734,14 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, byapis.com, proxy
     DOMAIN-SUFFIX, bycbe.com, proxy
     DOMAIN-SUFFIX, bymj.io, proxy
+    DOMAIN-SUFFIX, byabcde.com, proxy
+    DOMAIN-SUFFIX, byapps.net, proxy
+    DOMAIN-SUFFIX, byd3c3.com, proxy
+    DOMAIN-SUFFIX, bybit.biz, proxy
+    DOMAIN-SUFFIX, bybdc6.com, proxy
+    DOMAIN-SUFFIX, bybit-global.com, proxy
+    DOMAIN-SUFFIX, bybit.cloud, proxy
+    DOMAIN-SUFFIX, bybitglobal.com, proxy
 
     DOMAIN, bybit-exchange.github.io, proxy
     DOMAIN, bybit.ada.support, proxy
@@ -15641,6 +15912,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:perplexity
     # include:poe
     # include:xai
+    # include:cursor
 
     # Jasper
     DOMAIN-SUFFIX, clipdrop.co, proxy
@@ -15958,6 +16230,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:hinet
     # include:hkbn
     # include:hp
+    # include:hpe
     # include:hubblephone
     # include:ibm
     # include:inshot
@@ -15973,6 +16246,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:mozilla
     # include:musixmatch
     # include:naver
+    # include:netcup
     # include:neuralink
     # include:nvidia
     # include:openai
@@ -16048,6 +16322,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:wynd
     # include:zb
     # include:kucoin
+    # include:redotpay
 
     DOMAIN-SUFFIX, 1inch.io, proxy
     DOMAIN-SUFFIX, aave.com, proxy
@@ -16310,8 +16585,10 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:purikonejp
     # include:riot
     # include:rockstar
+    # include:snk
     # include:steam
     # include:steamunlocked
+    # include:supercell
     # include:tencent-games
     # include:ubisoft
     # include:xbox
@@ -16539,6 +16816,13 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, youlucky.com, proxy
     DOMAIN-SUFFIX, zerohedge.com, proxy
     DOMAIN-SUFFIX, zoomingin.tv, proxy
+
+   # category-mobile-repair
+    # include:borneoschematics
+    # include:z3x-team
+
+    DOMAIN-SUFFIX, androidfilehost.com, proxy
+    DOMAIN-SUFFIX, unlocktool.net, proxy
 
    # category-netdisk-cn
 
@@ -22797,7 +23081,6 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # regexp:(^|\.)zzz[1-9][0-9]\.top$
 
    # category-pt
-
     # 天雪论坛
     DOMAIN-SUFFIX, skyey2.com, proxy
     DOMAIN-SUFFIX, skyeysnow.com, proxy
@@ -22808,7 +23091,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
     DOMAIN-SUFFIX, myanonamouse.net, proxy
     DOMAIN-SUFFIX, torrentleech.org, proxy
-    DOMAIN-SUFFIX, u2.dmhy.org, proxy
+    DOMAIN-SUFFIX, u2.dmhy.org, proxy 
 
    # category-android-app-download
     # include:apkcombo
@@ -23445,6 +23728,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:facebook
     # include:instagram
     # include:linkedin
+    # include:misskey
     # include:threads
     # include:twitter
     # include:vk
@@ -23620,8 +23904,9 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
    # chinaunicom
     DOMAIN-SUFFIX, chinaunicom.com.hk, proxy
     DOMAIN-SUFFIX, chinaunicomglobal.com, proxy
-
     DOMAIN-SUFFIX, cuniq.com, proxy
+    DOMAIN-SUFFIX, speedtest.hk.chinamobile.com, proxy
+    DOMAIN-SUFFIX, speedtestbb.hk.chinamobile.com, proxy
 
    # cisco
     # include:webex
@@ -23965,6 +24250,12 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, curseforge.com, proxy
     DOMAIN-SUFFIX, forgecdn.net, proxy
 
+   # cursor
+    DOMAIN-SUFFIX, cursor-cdn.com, proxy
+    DOMAIN-SUFFIX, cursor.com, proxy
+    DOMAIN-SUFFIX, cursor.sh, proxy
+    DOMAIN-SUFFIX, cursorapi.com, proxy
+
    # cuttly
     DOMAIN-SUFFIX, cutt.ly, proxy
 
@@ -24045,6 +24336,9 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, dell-brand.com, proxy
     DOMAIN-SUFFIX, dell.com, proxy
     DOMAIN-SUFFIX, dellcdn.com, proxy
+    DOMAIN-SUFFIX, dellsupportcenter.com, proxy
+    DOMAIN-SUFFIX, delltechnologies.com, proxy
+    DOMAIN-SUFFIX, emc.com, proxy
 
    # demonoid
     DOMAIN-SUFFIX, demonoid.is, proxy
@@ -25282,6 +25576,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, easyanticheat.net, proxy
     DOMAIN-SUFFIX, epicgames.com, proxy
     DOMAIN-SUFFIX, epicgames.dev, proxy
+    DOMAIN-SUFFIX, epicgamescdn.com, proxy
     DOMAIN-SUFFIX, fortnite.com, proxy
     DOMAIN-SUFFIX, paragon.com, proxy
     DOMAIN-SUFFIX, playparagon.com, proxy
@@ -26098,6 +26393,10 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, flathub.org, proxy
     DOMAIN-SUFFIX, flatpak.org, proxy
 
+   # flibusta
+    DOMAIN-SUFFIX, flibusta.is, proxy
+    DOMAIN-SUFFIX, flisland.net, proxy
+
    # flickr
     # All .flickr domains
     DOMAIN-KEYWORD, .flickr, proxy
@@ -26636,6 +26935,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
       # include:category-android-app-download
       # include:category-browser-!
       # include:category-enhance-gaming
+      # include:category-mobile-repair
       # include:category-ntp
       # include:decryptipastore # iOS
  
@@ -27512,6 +27812,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     # include:google-deepmind
 
    # google-play
+    DOMAIN-SUFFIX, googleplay.com, proxy
     DOMAIN-SUFFIX, play-fe.googleapis.com, proxy
     DOMAIN-SUFFIX, play-games.googleusercontent.com, proxy
     DOMAIN-SUFFIX, play-lh.googleusercontent.com, proxy
@@ -28100,6 +28401,26 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, xn--6eup7j.net, proxy
 
     DOMAIN, hpstore.corpmerchandise.com, proxy
+
+   # hpe
+    # Hewlett Packard Enterprise Development, L. P.
+    DOMAIN-SUFFIX, greenlakeaas.com, proxy
+    DOMAIN-SUFFIX, greenlakehybridcloud.com, proxy
+    DOMAIN-SUFFIX, hewlett-packard.asia, proxy
+    DOMAIN-SUFFIX, hewlett-packard.ch, proxy
+    DOMAIN-SUFFIX, hewlett-packard.co.il, proxy
+    DOMAIN-SUFFIX, hewlett-packard.co.uk, proxy
+    DOMAIN-SUFFIX, hewlett-packard.co, proxy
+    DOMAIN-SUFFIX, hewlett-packard.com.cn, proxy
+    DOMAIN-SUFFIX, hewlett-packard.com.mx, proxy
+    DOMAIN-SUFFIX, hewlett-packard.com.sg, proxy
+    DOMAIN-SUFFIX, hewlett-packard.jp, proxy
+    DOMAIN-SUFFIX, hewlett-packard.mobi, proxy
+    DOMAIN-SUFFIX, hewlettpackard.enterprises, proxy
+    DOMAIN-SUFFIX, hpe.com, proxy
+    DOMAIN-SUFFIX, hpecyber.com, proxy
+
+    DOMAIN, hpefonts.s3.amazonaws.com, proxy
 
    # hsbc
     # TLD
@@ -30042,6 +30363,10 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, medium.com, proxy
     DOMAIN-SUFFIX, medium.systems, proxy
 
+   # meduza
+    DOMAIN-SUFFIX, meduza.io, proxy
+    DOMAIN-SUFFIX, meduza-flutter.firebaseapp.com, proxy
+
    # mega
     DOMAIN-SUFFIX, mega.co.nz, proxy
     DOMAIN-SUFFIX, mega.io, proxy
@@ -30701,6 +31026,51 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
    # miraheze
     DOMAIN-SUFFIX, miraheze.org, proxy
 
+   # misskey
+    DOMAIN-SUFFIX, misskey.io, proxy
+    DOMAIN-SUFFIX, misskeyusercontent.jp, proxy
+
+    # include:misskey-universe
+
+   # misskey-universe
+    # please DO NOT include domains that are only meant to serve static files
+    # e.g.
+    #    mediaproxy-mi.mashiro.site
+    #    misskey-white.s3.ap-northeast-1.amazonaws.com
+    
+    DOMAIN-SUFFIX, 9ineverse.com, proxy
+    DOMAIN-SUFFIX, buicha.social, proxy
+    DOMAIN-SUFFIX, gyutte.site, proxy
+    DOMAIN-SUFFIX, labo.wovs.tk, proxy
+    DOMAIN-SUFFIX, maniakey.homes, proxy
+    DOMAIN-SUFFIX, mfmf.club, proxy
+    DOMAIN-SUFFIX, mi.kochudaho.me, proxy
+    DOMAIN-SUFFIX, mi.mashiro.site, proxy
+    DOMAIN-SUFFIX, mi.nakn.jp, proxy
+    DOMAIN-SUFFIX, misskey-square.net, proxy
+    DOMAIN-SUFFIX, misskey.04.si, proxy
+    DOMAIN-SUFFIX, misskey.always-we-need.games, proxy
+    DOMAIN-SUFFIX, misskey.art, proxy
+    DOMAIN-SUFFIX, misskey.cloud, proxy
+    DOMAIN-SUFFIX, misskey.design, proxy
+    DOMAIN-SUFFIX, misskey.flowers, proxy
+    DOMAIN-SUFFIX, misskey.gamelore.fun, proxy
+    DOMAIN-SUFFIX, misskey.gg, proxy
+    DOMAIN-SUFFIX, misskey.noellabo.jp, proxy
+    DOMAIN-SUFFIX, misskey.ranranhome.info, proxy
+    DOMAIN-SUFFIX, misskey.stream, proxy
+    DOMAIN-SUFFIX, misskey.yukineko.me, proxy
+    DOMAIN-SUFFIX, mk.shrimpia.network, proxy
+    DOMAIN-SUFFIX, mk.yopo.work, proxy
+    DOMAIN-SUFFIX, mof.kemomi.me, proxy
+    DOMAIN-SUFFIX, msk.ilnk.info, proxy
+    DOMAIN-SUFFIX, msk.kitazawa.me, proxy
+    DOMAIN-SUFFIX, nijimiss.moe, proxy
+    DOMAIN-SUFFIX, oekakiskey.com, proxy
+    DOMAIN-SUFFIX, submarin.online, proxy
+    DOMAIN-SUFFIX, sushi.ski, proxy
+    DOMAIN-SUFFIX, trpger.us, proxy
+
    # mit
     # All .mit domains
     DOMAIN-KEYWORD, .mit, proxy
@@ -30982,6 +31352,15 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
    # neowin
     DOMAIN-SUFFIX, neow.in, proxy
     DOMAIN-SUFFIX, neowin.net, proxy
+
+   # netcup
+    DOMAIN-SUFFIX, customercontrolpanel.de, proxy
+    DOMAIN-SUFFIX, netcup.com, proxy
+    DOMAIN-SUFFIX, netcup.de, proxy
+    DOMAIN-SUFFIX, netcup.eu, proxy
+    DOMAIN-SUFFIX, netcup.net, proxy
+    DOMAIN-SUFFIX, netcup-news.de, proxy
+    DOMAIN-SUFFIX, netcup-sonderangebote.de, proxy
 
    # netflav
     DOMAIN-SUFFIX, netflav.com, proxy
@@ -31742,8 +32121,12 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, proxy
     DOMAIN, openaicomproductionae4b.blob.core.windows.net, proxy
     DOMAIN, production-openaicom-storage.azureedge.net, proxy
-
     # regexp:^chatgpt-async-webps-prod-\S+-\d+\.webpubsub\.azure\.com$
+
+    # Advanced Voice
+    DOMAIN-SUFFIX, chatgpt.livekit.cloud, proxy
+    DOMAIN-SUFFIX, host.livekit.cloud, proxy
+    DOMAIN-SUFFIX, turn.livekit.cloud, proxy
 
    # opencollective
     DOMAIN-SUFFIX, opencollective.com, proxy
@@ -32903,6 +33286,13 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, redis.io, proxy
     DOMAIN-SUFFIX, redislabs.com, proxy
 
+   # redotpay
+    DOMAIN-SUFFIX, redotpay.com, proxy
+    DOMAIN-SUFFIX, redotpay.zendesk.com, proxy
+    DOMAIN-SUFFIX, pod-15-sunco-ws.zendesk.com, proxy
+    DOMAIN-SUFFIX, xhpjc6-cdn-settings.appsflyersdk.com, proxy
+    DOMAIN-SUFFIX, rp-static-apne1.s3.ap-northeast-1.amazonaws.com, proxy
+
    # redtube
     DOMAIN-SUFFIX, livehdcams.com, proxy
     DOMAIN-SUFFIX, redtube.com, proxy
@@ -33314,6 +33704,15 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, signalusers.org, proxy
     DOMAIN-SUFFIX, whispersystems.org, proxy
 
+   # sina
+    DOMAIN-SUFFIX, hk.weibo.com, proxy
+    DOMAIN-SUFFIX, my.weibo.com, proxy
+    DOMAIN-SUFFIX, overseas.weibo.com, proxy
+    DOMAIN-SUFFIX, sg.weibo.com, proxy
+    DOMAIN-SUFFIX, th.weibo.com, proxy
+    DOMAIN-SUFFIX, tw.weibo.com, proxy
+    DOMAIN-SUFFIX, us.weibo.com, proxy
+
    # singtaonewscorp
     # Reference: https://zh.wikipedia.org/wiki/%E6%98%9F%E5%B3%B6%E6%96%B0%E8%81%9E%E9%9B%86%E5%9C%98
 
@@ -33370,6 +33769,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
     DOMAIN-SUFFIX, sky.com, proxy
     DOMAIN-SUFFIX, skyassets.com, proxy
+    DOMAIN-SUFFIX, skymansion.net, proxy
     DOMAIN-SUFFIX, skyoceanrescue.com, proxy
     DOMAIN-SUFFIX, skyoceanrescue.de, proxy
     DOMAIN-SUFFIX, skyoceanrescue.it, proxy
@@ -33455,6 +33855,10 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
    # snapcraft
     DOMAIN-SUFFIX, snapcraft.io, proxy
     DOMAIN-SUFFIX, snapstore.io, proxy
+
+   # snk
+    DOMAIN-SUFFIX, snk-corp.co.jp, proxy
+    DOMAIN-SUFFIX, snkplaymore.info, proxy
 
    # softbank
     # All .softbank domains
@@ -33673,6 +34077,7 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, spotifycodes.com, proxy
     DOMAIN-SUFFIX, spotifyforbrands.com, proxy
     DOMAIN-SUFFIX, spotifyjobs.com, proxy
+    DOMAIN-SUFFIX, spotify.link, proxy
 
     DOMAIN, audio-ak-spotify-com.akamaized.net, proxy
     DOMAIN, audio4-ak-spotify-com.akamaized.net, proxy
@@ -33963,6 +34368,11 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
    # sumkoo
 
    # suning
+
+   # supercell
+    DOMAIN-SUFFIX, supercell.com, proxy
+    DOMAIN-SUFFIX, supercell.net, proxy
+    DOMAIN-SUFFIX, supercell.helpshift.com, proxy
 
    # supersonic-ads
 
@@ -34414,13 +34824,17 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, musical.ly, proxy
     DOMAIN-SUFFIX, tik-tokapi.com, proxy
     DOMAIN-SUFFIX, tiktok.com, proxy
+    DOMAIN-SUFFIX, tiktokcdn-eu.com, proxy
     DOMAIN-SUFFIX, tiktokcdn-us.com, proxy
     DOMAIN-SUFFIX, tiktokcdn.com, proxy
     DOMAIN-SUFFIX, tiktokd.net, proxy
     DOMAIN-SUFFIX, tiktokd.org, proxy
     DOMAIN-SUFFIX, tiktokv.com, proxy
+    DOMAIN-SUFFIX, tiktokv.eu, proxy
     DOMAIN-SUFFIX, tiktokv.us, proxy
+    DOMAIN-SUFFIX, tiktokw.eu, proxy
     DOMAIN-SUFFIX, tiktokw.us, proxy
+    DOMAIN-SUFFIX, ttlivecdn.com, proxy
     DOMAIN-SUFFIX, ttwstatic.com, proxy
 
     DOMAIN, p16-tiktokcdn-com.akamaized.net, proxy
@@ -36835,6 +37249,9 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
    # xiaohongshu
 
    # xiaomi
+    # Overseas only
+    DOMAIN-SUFFIX, c.mi.com, proxy
+    DOMAIN-SUFFIX, global.market.xiaomi.com, proxy
 
    # xiaomitv-ads
 
@@ -37370,6 +37787,10 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
     DOMAIN-SUFFIX, zlibcdn.com, proxy
     DOMAIN-SUFFIX, zlibcdn2.com, proxy
 
+   # z3x-team
+    DOMAIN-SUFFIX, easy-jtag.com, proxy
+    DOMAIN-SUFFIX, z3x-team.com, proxy
+
    # zaobao
     DOMAIN-SUFFIX, zaobao.com, proxy
     DOMAIN-SUFFIX, zaobao.com.sg, proxy
@@ -37860,6 +38281,10 @@ always-real-ip = *.lan, *.linksys.com, *.linksyssmartwifi.com, +.aliyun.com, *.a
 
  # PROXY added manually IP-CIDR
   # a
+   # AS45102 Alibaba (US) Technology Co., Ltd.
+    # Alibaba Cloud - US (C06961510)
+    IP-CIDR, 47.252.0.0/18, proxy, no-resolve
+
    # AS7018 AT&T Services, Inc.
     # romania
     IP-CIDR, 89.47.119.0/24, proxy, no-resolve
