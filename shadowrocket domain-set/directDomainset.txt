@@ -1,0 +1,126 @@
+# prompt
+ # rules for "rule-provider" 
+  # the following few lines is for creating clash rule-providers:
+  # payload:
+  #     - '+.'
+  #     - ''
+
+ # WARNING: The following domain names may be replaced incorrectly during the conversion process
+ # direct manual
+
+ # proxy manual
+  # d
+   # directenergy.com
+    ## - DOMAIN-SUFFIX, /* directenergy.com, /* PROXY # keywords: , /* direct
+      # search "energy.com" to correct back the domain and change it to "directenergy.com"
+
+  # p
+   # proxyium.com
+    ## - DOMAIN-SUFFIX, /* proxyium.com, /* PROXY # keywords: , /* proxy
+      # search "ium.com" to correct back the domain and change it to "proxyium.com"
+
+ # reject manual
+
+ # keywords change
+  # "rules:" will need to be replaced by "payload:"
+
+payload:
+ # direct manual
+  # a
+   # agoda.cn
+    .agoda.cn
+
+   # afdian
+    .afdian.net
+    .afdiancdn.com
+
+  # b
+
+  # c
+   # cloudflare-cn
+    .cloudflarestorage.com
+
+  # d
+
+  # e
+
+  # f
+ 
+  # g
+   # geetest
+    .geetest.com
+
+   # github
+    # .github.com
+    # .github.io
+    # .raw.githubusercontent.com
+
+   # goodwe.com
+    .goodwe.com
+
+  # h
+
+  # i
+   # iCloud
+    # .*.icloud.com.cn
+
+   # ikea
+    # .srv.app.ikea.cn
+
+  # j
+
+  # k
+ 
+  # l
+
+  # m
+   # microsoft
+    # .msn.cn
+    # microsoft.com
+
+    # outlook
+    .autodiscover-s.outlook.com
+    .dataservice.protection.outlook.com
+    .outlook.office.com
+    .outlook.office365.com
+
+  # n
+
+  # o
+   # okcis
+    # .okcis.cn
+    # . .okcis
+
+  # p
+   # pingan bank
+    .auth.orangebank.com.cn
+    .cdn.sdb.com.cn
+
+  # q
+
+  # r
+   # resi
+    .resi.io
+    .resi.media
+ 
+  # s
+   # steam
+    .steamcontent.com
+
+  # t
+
+  # u
+ 
+  # v
+ 
+  # w
+   # walmart
+    .walmartmobile.cn
+
+    .api-sams.walmartmobile.cn
+
+  # x
+ 
+  # y
+ 
+  # Z
