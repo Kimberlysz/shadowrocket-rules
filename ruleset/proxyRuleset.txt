@@ -1,4 +1,28 @@
-# rules:
+# prompt
+ # rules for "rule-provider" 
+  # the following few lines is for creating clash rule-providers:
+  # payload:
+  #     - '+.'
+  #     - ''
+
+ # WARNING: The following domain names may be replaced incorrectly during the conversion process
+ # direct manual
+
+ # proxy manual
+  # d
+   # directenergy.com
+    ## - DOMAIN-SUFFIX, /* directenergy.com, /* PROXY # keywords: , /* direct
+      # search "energy.com" to correct back the domain and change it to "directenergy.com"
+
+  # p
+   # proxyium.com
+    ## - DOMAIN-SUFFIX, /* proxyium.com, /* PROXY # keywords: , /* proxy
+      # search "ium.com" to correct back the domain and change it to "proxyium.com"
+
+ # reject manual
+
+ # keywords change
+  # "rules:" will need to be replaced by "payload:"
 
 payload:
  # proxy manual
@@ -248,11 +272,18 @@ payload:
    # canyonsdistrict.org
     DOMAIN-SUFFIX, canyonsdistrict.org
 
+   # capcut
+    DOMAIN-SUFFIX, capcut.com
+    DOMAIN-SUFFIX, capcutapi.com
+
    # cars.com
     DOMAIN-SUFFIX, cars.com
 
    # carneysandoe.com
     DOMAIN-SUFFIX, carneysandoe.com
+
+   # cbex18.com
+    DOMAIN-SUFFIX, cbex18.com
 
    # cebupacificair.com
     DOMAIN-SUFFIX, cebupacificair.com
@@ -297,6 +328,9 @@ payload:
 
    # clash
     DOMAIN-SUFFIX, clash.la
+
+   # clickbank.com (test)
+    DOMAIN-SUFFIX, clickbank.com
 
    # cloudflare
     DOMAIN, a.nel.cloudflare.com
@@ -364,6 +398,10 @@ payload:
    # crazypool
     DOMAIN-SUFFIX, crazypool.org
 
+   # createaiasian.com
+    DOMAIN-SUFFIX, api.createporn.com
+    DOMAIN-SUFFIX, imgpog.com
+
    # creditkarma.com
     DOMAIN-SUFFIX, creditkarma.com
 
@@ -374,10 +412,14 @@ payload:
     DOMAIN-SUFFIX, crocoblock.com
 
    # crunchyroll (test)
-    DOMAIN-SUFFIX, crunchyrollcdn.com
     DOMAIN-SUFFIX, 5af10.v.fwmrm.net
     DOMAIN-SUFFIX, a-vrv.akamaized.net
+    DOMAIN-SUFFIX, a.a47b.com # test
+    DOMAIN-SUFFIX, adsafeprotected.com
+    DOMAIN-SUFFIX, adsrvr.org
     DOMAIN-SUFFIX, api64.ipify.org
+    DOMAIN-SUFFIX, browser-intake-us5-datadoghq.com # test
+    DOMAIN-SUFFIX, crunchyrollcdn.com
     DOMAIN-SUFFIX, e0vemjple0l1luii7h5vlu5no.litix.io
     DOMAIN-SUFFIX, p.placed.com
     DOMAIN-SUFFIX, p.tvpixel.com
@@ -385,11 +427,9 @@ payload:
     DOMAIN-SUFFIX, pi.ispot.tv
     DOMAIN-SUFFIX, secure.adnxs.com
     DOMAIN-SUFFIX, tapestry.tapad.com
+    DOMAIN-SUFFIX, trustarc.com
     DOMAIN-SUFFIX, v.vrv.co
     DOMAIN-SUFFIX, vid.springserve.com
-    DOMAIN-SUFFIX, adsrvr.org
-    DOMAIN-SUFFIX, adsafeprotected.com
-    DOMAIN-SUFFIX, trustarc.com
 
    # cryptocompare
     DOMAIN-SUFFIX, cryptocompare.com
@@ -748,7 +788,16 @@ payload:
     # DOMAIN, dl.google.com
     # DOMAIN, mtalk.google.com
 
-   # google-ads-test
+   # google2 (test)
+    # under global mode, dl.google.com redirects to https://google.com/chrome
+    # under rule mode, dl.google.com redirects to a 404 page
+    # DOMAIN, dl.google.com
+
+   # google-ads (test)
+    # these domains locates before reject rules ads
+    # it's for crunchyroll.com
+
+    DOMAIN-SUFFIX, 2mdn.net # test
     DOMAIN-SUFFIX, beacons.gcp.gvt2.com
     # DOMAIN-SUFFIX, csi.gstatic.com
     DOMAIN-SUFFIX, doubleclick.net
@@ -758,7 +807,7 @@ payload:
     # DOMAIN-SUFFIX, imasdk.googleapis.com
     DOMAIN-SUFFIX, redirector.gvt1.com
     # DOMAIN-SUFFIX, ssl.gstatic.com
-    # DOMAIN-SUFFIX, gstatic.com
+    DOMAIN-SUFFIX, gstatic.com # test
 
    # gotquestions.org
     DOMAIN-SUFFIX, gotquestions.org
@@ -853,6 +902,9 @@ payload:
    # hymnal.net
     DOMAIN-SUFFIX, hymnal.net
 
+   # hyperionherbs.com
+    DOMAIN-SUFFIX, hyperionherbs.com
+
   # i
    # id.me
     DOMAIN-SUFFIX, id.me
@@ -902,6 +954,9 @@ payload:
    # iscooterglobal.co.uk
     DOMAIN-SUFFIX, iscooterglobal.co.uk
 
+   # iscooterglobal.com
+    DOMAIN-SUFFIX, iscooterglobal.com
+
    # istockphoto.com
     DOMAIN-SUFFIX, istockphoto.com
 
@@ -921,15 +976,18 @@ payload:
     DOMAIN-SUFFIX, ivpn.net
 
   # j
-   # jkforum.net
+   # jkforum.net (test)
     DOMAIN-SUFFIX, jkforum.net
+    DOMAIN-SUFFIX, mymypic.net
+    # DOMAIN-SUFFIX, mymyads.net
+    # DOMAIN-SUFFIX, mymyuc.net
 
    # jordandistrict.org
     DOMAIN-SUFFIX, jordandistrict.org
     DOMAIN-SUFFIX, employment.jordandistrict.org
 
    # jotform.com  (test)
-    DOMAIN-SUFFIX, jotform.com 
+    DOMAIN-SUFFIX, jotform.com
 
    # justanswer.com
     DOMAIN-SUFFIX, justanswer.com
@@ -979,6 +1037,9 @@ payload:
 
    # legkierody.ru
     DOMAIN-SUFFIX, legkierody.ru
+
+   # lendingtree.com
+    DOMAIN-SUFFIX, lendingtree.com
 
    # letsvpn.world
     DOMAIN, letsvpn.world
@@ -1119,6 +1180,14 @@ payload:
     DOMAIN-SUFFIX, images-eds-ssl.xboxlive.com
     DOMAIN-SUFFIX, storeedgefd.dsx.mp.microsoft.com
 
+    # teams (tests)
+    DOMAIN-SUFFIX, cdn.office.net
+    DOMAIN-SUFFIX, teams.microsoft.com
+    DOMAIN-SUFFIX, teams.events.data.microsoft.com
+    DOMAIN-SUFFIX, presence.teams.live.com
+    DOMAIN-SUFFIX, mp.microsoft.com
+    DOMAIN-SUFFIX, teams.live.com
+
    # mintmobile.com
     DOMAIN-SUFFIX, mintmobile.com
 
@@ -1128,6 +1197,9 @@ payload:
 
    # mojim.com
     DOMAIN-SUFFIX, mojim.com
+
+   # monica.im
+    DOMAIN-SUFFIX, monica.im
 
    # msn
     # msn rules originates from this yaml file
@@ -1223,7 +1295,7 @@ payload:
    # notepad++
     DOMAIN-SUFFIX, notepad-plus-plus.org
 
-   # noviosfalabella.com
+   # noviosfalabella.com (deprecated)
     DOMAIN-SUFFIX, noviosfalabella.com
 
    # nr-data.net
@@ -1342,6 +1414,9 @@ payload:
    # pcgamesn.com
     DOMAIN-SUFFIX, pcgamesn.com
 
+   # pephop.ai
+    DOMAIN-SUFFIX, pephop.ai
+
    # pexels.com
     DOMAIN-SUFFIX, pexels.com
 
@@ -1386,11 +1461,14 @@ payload:
    # previred.com
     DOMAIN-SUFFIX, previred.com
 
-   # printmailsystems.com
+   # printmailsystems.com (deprecated)
     DOMAIN-SUFFIX, printmailsystems.com
 
    # promeai.pro (test)
     DOMAIN-SUFFIX, promeai.pro
+
+   # prompthero.com
+    DOMAIN-SUFFIX, prompthero.com
 
    # proshkola
     DOMAIN-SUFFIX, proshkola18.ru
@@ -1403,7 +1481,7 @@ payload:
 
   # q
    # qiangwaikan.com
-    DOMAIN-SUFFIX, qiangwaikan.com 
+    DOMAIN-SUFFIX, qiangwaikan.com
 
    # qodeinteractive.com
     DOMAIN-SUFFIX, qodeinteractive.com
@@ -1542,6 +1620,9 @@ payload:
    # socratic.org
     DOMAIN-SUFFIX, socratic.org
 
+   # sono.com
+    DOMAIN-SUFFIX, sono.com
+
    # soundraw
     DOMAIN-SUFFIX, soundraw-storage.com
 
@@ -1550,6 +1631,9 @@ payload:
 
    # special-ops.org
     DOMAIN-SUFFIX, special-ops.org
+
+   # spicychat.ai
+    DOMAIN-SUFFIX, spicychat.ai
 
    # spot.im
     DOMAIN-SUFFIX, spot.im
@@ -1593,6 +1677,9 @@ payload:
    # sugarfreemom.com
     DOMAIN-SUFFIX, sugarfreemom.com
 
+   # suno.com
+    DOMAIN-SUFFIX, suno.com
+
    # surfshark.com
     DOMAIN-SUFFIX, surfshark.com
 
@@ -1614,6 +1701,14 @@ payload:
 
    # teamredminer
     DOMAIN-SUFFIX, teamredminer.com
+
+   # teams
+    DOMAIN-SUFFIX, cdn.office.net
+    DOMAIN-SUFFIX, mp.microsoft.com
+    DOMAIN-SUFFIX, presence.teams.live.com
+    DOMAIN-SUFFIX, teams.events.data.microsoft.com
+    DOMAIN-SUFFIX, teams.live.com
+    DOMAIN-SUFFIX, teams.microsoft.com
 
    # techcrunch
     # DOMAIN-KEYWORD, .techcrunch
@@ -1706,6 +1801,9 @@ payload:
     DOMAIN-SUFFIX, tokopediax.com
 
     # USER-AGENT, TikTok*
+
+   # tiktokglobalshop.com
+    DOMAIN-SUFFIX, tiktokglobalshop.com
 
    # tlsfingerprint
     DOMAIN-SUFFIX, tlsfingerprint.io
@@ -1805,6 +1903,11 @@ payload:
     DOMAIN-SUFFIX, tymedigital.co.za
 
   # u
+   # undress.cc
+    DOMAIN-SUFFIX, undress.cc
+
+   # undressai.tools
+    DOMAIN-SUFFIX, undressai.tools
 
    # unir.net
     DOMAIN-SUFFIX, unir.net
@@ -1961,10 +2064,10 @@ payload:
 
     # DOMAIN-SUFFIX, yt3.ggpht.com
     # DOMAIN, yt3.ggpht.com
-    # - USER-AGENT, com.google.ios.youtube*
-    # - USER-AGENT, com.google.ios.youtubemusic*
-    # - USER-AGENT, YouTube*
-    # - USER-AGENT, YouTubeMusic*
+    # USER-AGENT, com.google.ios.youtube*
+    # USER-AGENT, com.google.ios.youtubemusic*
+    # USER-AGENT, YouTube*
+    # USER-AGENT, YouTubeMusic*
 
    # yts.mx (test 2024-09-14)
     DOMAIN-SUFFIX, yts.mx

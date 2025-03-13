@@ -1,4 +1,28 @@
-# rules:
+# prompt
+ # rules for "rule-provider" 
+  # the following few lines is for creating clash rule-providers:
+  # payload:
+  #     - '+.'
+  #     - ''
+
+ # WARNING: The following domain names may be replaced incorrectly during the conversion process
+ # direct manual
+
+ # proxy manual
+  # d
+   # directenergy.com
+    ## - DOMAIN-SUFFIX, /* directenergy.com, /* PROXY # keywords: , /* direct
+      # search "energy.com" to correct back the domain and change it to "directenergy.com"
+
+  # p
+   # proxyium.com
+    ## - DOMAIN-SUFFIX, /* proxyium.com, /* PROXY # keywords: , /* proxy
+      # search "ium.com" to correct back the domain and change it to "proxyium.com"
+
+ # reject manual
+
+ # keywords change
+  # "rules:" will need to be replaced by "payload:"
 
 payload:
  # direct manual
@@ -13,6 +37,8 @@ payload:
   # b
 
   # c
+   # cloudflare-cn
+    DOMAIN-SUFFIX, cloudflarestorage.com
 
   # d
 
@@ -51,6 +77,12 @@ payload:
    # microsoft
     # DOMAIN-SUFFIX, msn.cn
     # DOMAIN, microsoft.com
+
+    # outlook
+    DOMAIN-SUFFIX, autodiscover-s.outlook.com
+    DOMAIN-SUFFIX, dataservice.protection.outlook.com
+    DOMAIN-SUFFIX, outlook.office.com
+    DOMAIN-SUFFIX, outlook.office365.com
 
   # n
 

@@ -1,4 +1,28 @@
-# rules:
+# prompt
+ # rules for "rule-provider" 
+  # the following few lines is for creating clash rule-providers:
+  # payload:
+  #     - '+.'
+  #     - ''
+
+ # WARNING: The following domain names may be replaced incorrectly during the conversion process
+ # direct manual
+
+ # proxy manual
+  # d
+   # directenergy.com
+    ## - DOMAIN-SUFFIX, /* directenergy.com, /* PROXY # keywords: , /* direct
+      # search "energy.com" to correct back the domain and change it to "directenergy.com"
+
+  # p
+   # proxyium.com
+    ## - DOMAIN-SUFFIX, /* proxyium.com, /* PROXY # keywords: , /* proxy
+      # search "ium.com" to correct back the domain and change it to "proxyium.com"
+
+ # reject manual
+
+ # keywords change
+  # "rules:" will need to be replaced by "payload:"
 
 payload:
  # proxy manual
@@ -248,11 +272,18 @@ payload:
    # canyonsdistrict.org
     .canyonsdistrict.org
 
+   # capcut
+    .capcut.com
+    .capcutapi.com
+
    # cars.com
     .cars.com
 
    # carneysandoe.com
     .carneysandoe.com
+
+   # cbex18.com
+    .cbex18.com
 
    # cebupacificair.com
     .cebupacificair.com
@@ -297,6 +328,9 @@ payload:
 
    # clash
     .clash.la
+
+   # clickbank.com (test)
+    .clickbank.com
 
    # cloudflare
     .a.nel.cloudflare.com
@@ -364,6 +398,10 @@ payload:
    # crazypool
     .crazypool.org
 
+   # createaiasian.com
+    .api.createporn.com
+    .imgpog.com
+
    # creditkarma.com
     .creditkarma.com
 
@@ -374,10 +412,14 @@ payload:
     .crocoblock.com
 
    # crunchyroll (test)
-    .crunchyrollcdn.com
     .5af10.v.fwmrm.net
     .a-vrv.akamaized.net
+    .a.a47b.com # test
+    .adsafeprotected.com
+    .adsrvr.org
     .api64.ipify.org
+    .browser-intake-us5-datadoghq.com # test
+    .crunchyrollcdn.com
     .e0vemjple0l1luii7h5vlu5no.litix.io
     .p.placed.com
     .p.tvpixel.com
@@ -385,11 +427,9 @@ payload:
     .pi.ispot.tv
     .secure.adnxs.com
     .tapestry.tapad.com
+    .trustarc.com
     .v.vrv.co
     .vid.springserve.com
-    .adsrvr.org
-    .adsafeprotected.com
-    .trustarc.com
 
    # cryptocompare
     .cryptocompare.com
@@ -748,7 +788,16 @@ payload:
     # dl.google.com
     # mtalk.google.com
 
-   # google-ads-test
+   # google2 (test)
+    # under global mode, dl.google.com redirects to https://google.com/chrome
+    # under rule mode, dl.google.com redirects to a 404 page
+    # .dl.google.com
+
+   # google-ads (test)
+    # these domains locates before reject rules ads
+    # it's for crunchyroll.com
+
+    .2mdn.net # test
     .beacons.gcp.gvt2.com
     # .csi.gstatic.com
     .doubleclick.net
@@ -758,7 +807,7 @@ payload:
     # .imasdk.googleapis.com
     .redirector.gvt1.com
     # .ssl.gstatic.com
-    # .gstatic.com
+    .gstatic.com # test
 
    # gotquestions.org
     .gotquestions.org
@@ -853,6 +902,9 @@ payload:
    # hymnal.net
     .hymnal.net
 
+   # hyperionherbs.com
+    .hyperionherbs.com
+
   # i
    # id.me
     .id.me
@@ -902,6 +954,9 @@ payload:
    # iscooterglobal.co.uk
     .iscooterglobal.co.uk
 
+   # iscooterglobal.com
+    .iscooterglobal.com
+
    # istockphoto.com
     .istockphoto.com
 
@@ -921,15 +976,18 @@ payload:
     .ivpn.net
 
   # j
-   # jkforum.net
+   # jkforum.net (test)
     .jkforum.net
+    .mymypic.net
+    # .mymyads.net
+    # .mymyuc.net
 
    # jordandistrict.org
     .jordandistrict.org
     .employment.jordandistrict.org
 
    # jotform.com  (test)
-    .jotform.com 
+    .jotform.com
 
    # justanswer.com
     .justanswer.com
@@ -979,6 +1037,9 @@ payload:
 
    # legkierody.ru
     .legkierody.ru
+
+   # lendingtree.com
+    .lendingtree.com
 
    # letsvpn.world
     .letsvpn.world
@@ -1119,6 +1180,14 @@ payload:
     .images-eds-ssl.xboxlive.com
     .storeedgefd.dsx.mp.microsoft.com
 
+    # teams (tests)
+    .cdn.office.net
+    .teams.microsoft.com
+    .teams.events.data.microsoft.com
+    .presence.teams.live.com
+    .mp.microsoft.com
+    .teams.live.com
+
    # mintmobile.com
     .mintmobile.com
 
@@ -1128,6 +1197,9 @@ payload:
 
    # mojim.com
     .mojim.com
+
+   # monica.im
+    .monica.im
 
    # msn
     # msn rules originates from this yaml file
@@ -1223,7 +1295,7 @@ payload:
    # notepad++
     .notepad-plus-plus.org
 
-   # noviosfalabella.com
+   # noviosfalabella.com (deprecated)
     .noviosfalabella.com
 
    # nr-data.net
@@ -1342,6 +1414,9 @@ payload:
    # pcgamesn.com
     .pcgamesn.com
 
+   # pephop.ai
+    .pephop.ai
+
    # pexels.com
     .pexels.com
 
@@ -1386,11 +1461,14 @@ payload:
    # previred.com
     .previred.com
 
-   # printmailsystems.com
+   # printmailsystems.com (deprecated)
     .printmailsystems.com
 
    # promeai.pro (test)
     .promeai.pro
+
+   # prompthero.com
+    .prompthero.com
 
    # proshkola
     .proshkola18.ru
@@ -1403,7 +1481,7 @@ payload:
 
   # q
    # qiangwaikan.com
-    .qiangwaikan.com 
+    .qiangwaikan.com
 
    # qodeinteractive.com
     .qodeinteractive.com
@@ -1542,6 +1620,9 @@ payload:
    # socratic.org
     .socratic.org
 
+   # sono.com
+    .sono.com
+
    # soundraw
     .soundraw-storage.com
 
@@ -1550,6 +1631,9 @@ payload:
 
    # special-ops.org
     .special-ops.org
+
+   # spicychat.ai
+    .spicychat.ai
 
    # spot.im
     .spot.im
@@ -1593,6 +1677,9 @@ payload:
    # sugarfreemom.com
     .sugarfreemom.com
 
+   # suno.com
+    .suno.com
+
    # surfshark.com
     .surfshark.com
 
@@ -1614,6 +1701,14 @@ payload:
 
    # teamredminer
     .teamredminer.com
+
+   # teams
+    .cdn.office.net
+    .mp.microsoft.com
+    .presence.teams.live.com
+    .teams.events.data.microsoft.com
+    .teams.live.com
+    .teams.microsoft.com
 
    # techcrunch
     # . .techcrunch
@@ -1706,6 +1801,9 @@ payload:
     .tokopediax.com
 
     # USER-AGENT, TikTok*
+
+   # tiktokglobalshop.com
+    .tiktokglobalshop.com
 
    # tlsfingerprint
     .tlsfingerprint.io
@@ -1805,6 +1903,11 @@ payload:
     .tymedigital.co.za
 
   # u
+   # undress.cc
+    .undress.cc
+
+   # undressai.tools
+    .undressai.tools
 
    # unir.net
     .unir.net
