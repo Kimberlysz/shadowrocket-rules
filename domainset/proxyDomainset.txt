@@ -27,7 +27,7 @@
 payload:
  # proxy manual
   # #
-   # 1800 flowers
+   # 1800 flowers (test)
     .1800flowers.com
 
     .1800flowers.7ymy.net
@@ -175,7 +175,7 @@ payload:
     .badoo.app
 
    # bandwagonhost
-    # . .64clouds
+    # - DOMAIN-KEYWORD, .64clouds
     .64clouds.com
 
    # bankaool.com
@@ -192,7 +192,7 @@ payload:
     .e-hentai.org
 
    # beetalk
-    # . .beetalk
+    # - DOMAIN-KEYWORD, .beetalk
 
    # behance.com
     .behance.com
@@ -412,24 +412,26 @@ payload:
     .crocoblock.com
 
    # crunchyroll (test)
-    .5af10.v.fwmrm.net
-    .a-vrv.akamaized.net
-    .a.a47b.com # test
-    .adsafeprotected.com
-    .adsrvr.org
-    .api64.ipify.org
-    .browser-intake-us5-datadoghq.com # test
-    .crunchyrollcdn.com
-    .e0vemjple0l1luii7h5vlu5no.litix.io
-    .p.placed.com
-    .p.tvpixel.com
-    .pbs.getpublica.com
-    .pi.ispot.tv
-    .secure.adnxs.com
-    .tapestry.tapad.com
-    .trustarc.com
-    .v.vrv.co
-    .vid.springserve.com
+    # keep until: 2025-09-01
+
+    # .5af10.v.fwmrm.net
+    # .a-vrv.akamaized.net
+    # .a.a47b.com
+    # .adsafeprotected.com
+    # .adsrvr.org
+    # .api64.ipify.org
+    # .browser-intake-us5-datadoghq.com
+    # .crunchyrollcdn.com
+    # .e0vemjple0l1luii7h5vlu5no.litix.io
+    # .etp-prod.com
+    # .p.placed.com
+    # .p.tvpixel.com
+    # .pbs.getpublica.com
+    # .pi.ispot.tv
+    # .tapestry.tapad.com
+    # .trustarc.com
+    # .v.vrv.co
+    # .vid.springserve.com
 
    # cryptocompare
     .cryptocompare.com
@@ -669,7 +671,7 @@ payload:
    # github
     # AS36459 - GitHub, Inc.
 
-    # . .github
+    # - DOMAIN-KEYWORD, .github
     # .gist.github.com
     # .raw.githubusercontent.com
     # .rawgithub.com
@@ -791,23 +793,7 @@ payload:
    # google2 (test)
     # under global mode, dl.google.com redirects to https://google.com/chrome
     # under rule mode, dl.google.com redirects to a 404 page
-    # .dl.google.com
-
-   # google-ads (test)
-    # these domains locates before reject rules ads
-    # it's for crunchyroll.com
-
-    .2mdn.net # test
-    .beacons.gcp.gvt2.com
-    # .csi.gstatic.com
-    .doubleclick.net
-    # .googleadservices.com
-    .googlesyndication.com
-    # .googletagmanager.com
-    # .imasdk.googleapis.com
-    .redirector.gvt1.com
-    # .ssl.gstatic.com
-    .gstatic.com # test
+    # dl.google.com
 
    # gotquestions.org
     .gotquestions.org
@@ -845,6 +831,8 @@ payload:
     .hashrate.to
 
    # hbomax (test)
+    # keep until: 2025-09-01
+
     .h264.io
     .prd.api.max.com
     .warnermediacdn.com
@@ -977,8 +965,10 @@ payload:
 
   # j
    # jkforum.net (test)
-    .jkforum.net
-    .mymypic.net
+    # keep until: 2025-09-01
+
+    # .jkforum.net
+    # .mymypic.net
     # .mymyads.net
     # .mymyuc.net
 
@@ -986,8 +976,10 @@ payload:
     .jordandistrict.org
     .employment.jordandistrict.org
 
-   # jotform.com  (test)
-    .jotform.com
+   # jotform.com (test)
+    # keep until: 2025-09-01
+
+    # .jotform.com
 
    # justanswer.com
     .justanswer.com
@@ -1144,7 +1136,7 @@ payload:
    # microsoft
     # AS8075 - Microsoft Corporation
 
-    # . .onedrive
+    # - DOMAIN-KEYWORD, .onedrive
     # .aadrm.com
     # .acompli.com
     # .acompli.net
@@ -1187,6 +1179,9 @@ payload:
     .presence.teams.live.com
     .mp.microsoft.com
     .teams.live.com
+
+    # windows initial setup download
+    .tlu.dl.delivery.mp.microsoft.com
 
    # mintmobile.com
     .mintmobile.com
@@ -1257,10 +1252,10 @@ payload:
     .nelnet.com
 
    # netflix
-    # USER-AGENT, Argo*
+    # .Argo*
 
-    # . .dualstack.apiproxy-
-    # . .dualstack.ichnaea-web-
+    # - DOMAIN-KEYWORD, .dualstack.apiproxy-
+    # - DOMAIN-KEYWORD, .dualstack.ichnaea-web-
     # .netflixdnstest0.com
 
    # newcannabisventures
@@ -1313,6 +1308,9 @@ payload:
     .okcoin.com
 
     .static.okcoin.com
+
+   # okcupid.com
+    .okcupid.com
 
    # okx
     .okx.com
@@ -1474,7 +1472,7 @@ payload:
     .proshkola18.ru
 
    # proxyium.com
-    .proxyium.com
+    - DOMAIN-SUFFIXium.com
 
    # psi.org
     .psi.org
@@ -1711,14 +1709,14 @@ payload:
     .teams.microsoft.com
 
    # techcrunch
-    # . .techcrunch
+    # - DOMAIN-KEYWORD, .techcrunch
     # .techcrunch.com
 
    # tel.meet
     .tel.meet
 
    # telegram
-    # . .telegram
+    # - DOMAIN-KEYWORD, .telegram
     # .updates.tdesktop.com
 
    # teleseer.com
@@ -1790,7 +1788,7 @@ payload:
     .pitaya-clientai.com
     .sgpstatp.com
     .snapkit.com
-    
+
     # (test)
     # . -att.com
     # . -tiktokcdn-com
@@ -1800,7 +1798,7 @@ payload:
     .tiktokcdn-eu.com
     .tokopediax.com
 
-    # USER-AGENT, TikTok*
+    # .TikTok*
 
    # tiktokglobalshop.com
     .tiktokglobalshop.com
@@ -1918,6 +1916,9 @@ payload:
    # updraftplus
     .updraftplus.com
 
+   # userbenchmark.com
+    .userbenchmark.com
+
    # uspto.gov
     .tmsearch.uspto.gov
 
@@ -1989,7 +1990,7 @@ payload:
     .whalestonpool.com
 
    # whatsapp
-    # . .whatsapp
+    # - DOMAIN-KEYWORD, .whatsapp
 
    # whoer.net
     .whoer.net
@@ -2029,7 +2030,7 @@ payload:
     .frontend.vh.yandex.ru
 
    # yahoo
-    # . .yahoo
+    # - DOMAIN-KEYWORD, .yahoo
 
     # .blogs.yahoo.co.jp
     # .buy.yahoo.com.tw

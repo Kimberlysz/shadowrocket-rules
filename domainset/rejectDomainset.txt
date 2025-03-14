@@ -26,12 +26,18 @@
 
 payload:
  # reject manual
+  # c
+   # category-ads-all
+    # This file contains domains of all ads providers, including both the domains that serves ads, and the domains of providers themselves.
+    # this is for crunchyroll.com
+
+    .secure.adnxs.com
+
   # g
    # google-ads (test)
     # these domains locates before reject rules ads
     # it's for crunchyroll.com
-
-    .2mdn.net # test
+    .2mdn.net
     .beacons.gcp.gvt2.com
     # .csi.gstatic.com
     .doubleclick.net
@@ -41,5 +47,3 @@ payload:
     # .imasdk.googleapis.com
     .redirector.gvt1.com
     # .ssl.gstatic.com
-    .gstatic.com # test
-

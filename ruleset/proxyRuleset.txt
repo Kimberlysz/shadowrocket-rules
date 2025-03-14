@@ -27,7 +27,7 @@
 payload:
  # proxy manual
   # #
-   # 1800 flowers
+   # 1800 flowers (test)
     DOMAIN-SUFFIX, 1800flowers.com
 
     DOMAIN, 1800flowers.7ymy.net
@@ -412,24 +412,26 @@ payload:
     DOMAIN-SUFFIX, crocoblock.com
 
    # crunchyroll (test)
-    DOMAIN-SUFFIX, 5af10.v.fwmrm.net
-    DOMAIN-SUFFIX, a-vrv.akamaized.net
-    DOMAIN-SUFFIX, a.a47b.com # test
-    DOMAIN-SUFFIX, adsafeprotected.com
-    DOMAIN-SUFFIX, adsrvr.org
-    DOMAIN-SUFFIX, api64.ipify.org
-    DOMAIN-SUFFIX, browser-intake-us5-datadoghq.com # test
-    DOMAIN-SUFFIX, crunchyrollcdn.com
-    DOMAIN-SUFFIX, e0vemjple0l1luii7h5vlu5no.litix.io
-    DOMAIN-SUFFIX, p.placed.com
-    DOMAIN-SUFFIX, p.tvpixel.com
-    DOMAIN-SUFFIX, pbs.getpublica.com
-    DOMAIN-SUFFIX, pi.ispot.tv
-    DOMAIN-SUFFIX, secure.adnxs.com
-    DOMAIN-SUFFIX, tapestry.tapad.com
-    DOMAIN-SUFFIX, trustarc.com
-    DOMAIN-SUFFIX, v.vrv.co
-    DOMAIN-SUFFIX, vid.springserve.com
+    # keep until: 2025-09-01
+
+    # DOMAIN-SUFFIX, 5af10.v.fwmrm.net
+    # DOMAIN-SUFFIX, a-vrv.akamaized.net
+    # DOMAIN-SUFFIX, a.a47b.com
+    # DOMAIN-SUFFIX, adsafeprotected.com
+    # DOMAIN-SUFFIX, adsrvr.org
+    # DOMAIN-SUFFIX, api64.ipify.org
+    # DOMAIN-SUFFIX, browser-intake-us5-datadoghq.com
+    # DOMAIN-SUFFIX, crunchyrollcdn.com
+    # DOMAIN-SUFFIX, e0vemjple0l1luii7h5vlu5no.litix.io
+    # DOMAIN-SUFFIX, etp-prod.com
+    # DOMAIN-SUFFIX, p.placed.com
+    # DOMAIN-SUFFIX, p.tvpixel.com
+    # DOMAIN-SUFFIX, pbs.getpublica.com
+    # DOMAIN-SUFFIX, pi.ispot.tv
+    # DOMAIN-SUFFIX, tapestry.tapad.com
+    # DOMAIN-SUFFIX, trustarc.com
+    # DOMAIN-SUFFIX, v.vrv.co
+    # DOMAIN-SUFFIX, vid.springserve.com
 
    # cryptocompare
     DOMAIN-SUFFIX, cryptocompare.com
@@ -793,22 +795,6 @@ payload:
     # under rule mode, dl.google.com redirects to a 404 page
     # DOMAIN, dl.google.com
 
-   # google-ads (test)
-    # these domains locates before reject rules ads
-    # it's for crunchyroll.com
-
-    DOMAIN-SUFFIX, 2mdn.net # test
-    DOMAIN-SUFFIX, beacons.gcp.gvt2.com
-    # DOMAIN-SUFFIX, csi.gstatic.com
-    DOMAIN-SUFFIX, doubleclick.net
-    # DOMAIN-SUFFIX, googleadservices.com
-    DOMAIN-SUFFIX, googlesyndication.com
-    # DOMAIN-SUFFIX, googletagmanager.com
-    # DOMAIN-SUFFIX, imasdk.googleapis.com
-    DOMAIN-SUFFIX, redirector.gvt1.com
-    # DOMAIN-SUFFIX, ssl.gstatic.com
-    DOMAIN-SUFFIX, gstatic.com # test
-
    # gotquestions.org
     DOMAIN-SUFFIX, gotquestions.org
 
@@ -845,6 +831,8 @@ payload:
     DOMAIN-SUFFIX, hashrate.to
 
    # hbomax (test)
+    # keep until: 2025-09-01
+
     DOMAIN-SUFFIX, h264.io
     DOMAIN-SUFFIX, prd.api.max.com
     DOMAIN-SUFFIX, warnermediacdn.com
@@ -977,17 +965,21 @@ payload:
 
   # j
    # jkforum.net (test)
-    DOMAIN-SUFFIX, jkforum.net
-    DOMAIN-SUFFIX, mymypic.net
-    # DOMAIN-SUFFIX, mymyads.net
-    # DOMAIN-SUFFIX, mymyuc.net
+    # keep until: 2025-09-01
+
+    # DOMAIN-SUFFIX, jkforum.net
+    # DOMAIN-SUFFIX, mymypic.net
+    # # DOMAIN-SUFFIX, mymyads.net
+    # # DOMAIN-SUFFIX, mymyuc.net
 
    # jordandistrict.org
     DOMAIN-SUFFIX, jordandistrict.org
     DOMAIN-SUFFIX, employment.jordandistrict.org
 
-   # jotform.com  (test)
-    DOMAIN-SUFFIX, jotform.com
+   # jotform.com (test)
+    # keep until: 2025-09-01
+
+    # DOMAIN-SUFFIX, jotform.com
 
    # justanswer.com
     DOMAIN-SUFFIX, justanswer.com
@@ -1188,6 +1180,9 @@ payload:
     DOMAIN-SUFFIX, mp.microsoft.com
     DOMAIN-SUFFIX, teams.live.com
 
+    # windows initial setup download
+    DOMAIN-SUFFIX, tlu.dl.delivery.mp.microsoft.com
+
    # mintmobile.com
     DOMAIN-SUFFIX, mintmobile.com
 
@@ -1313,6 +1308,9 @@ payload:
     DOMAIN-SUFFIX, okcoin.com
 
     DOMAIN, static.okcoin.com
+
+   # okcupid.com
+    DOMAIN-SUFFIX, okcupid.com
 
    # okx
     DOMAIN-SUFFIX, okx.com
@@ -1790,7 +1788,7 @@ payload:
     DOMAIN-SUFFIX, pitaya-clientai.com
     DOMAIN-SUFFIX, sgpstatp.com
     DOMAIN-SUFFIX, snapkit.com
-    
+
     # (test)
     DOMAIN-KEYWORD, -att.com
     DOMAIN-KEYWORD, -tiktokcdn-com
@@ -1917,6 +1915,9 @@ payload:
 
    # updraftplus
     DOMAIN-SUFFIX, updraftplus.com
+
+   # userbenchmark.com
+    DOMAIN-SUFFIX, userbenchmark.com
 
    # uspto.gov
     DOMAIN, tmsearch.uspto.gov
