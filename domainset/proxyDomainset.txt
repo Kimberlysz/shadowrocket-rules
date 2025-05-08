@@ -1,31 +1,73 @@
-# prompt
- # rules for "rule-provider" 
-  # the following few lines is for creating clash rule-providers:
-  # payload:
-  #     - '+.'
-  #     - ''
+# general
+ # build
+  # build by Kim Xie / kimberlysz
+  # build time start from: 2023-05-31
 
- # WARNING: The following domain names may be replaced incorrectly during the conversion process
+ # keywords
+  # (cn): CN direct connect domains that's under "domain-list-community"
+
+  # (deprecated): domains that's not affected or needed anymore
+
+  # (revised): means domains that's included by v2fly-domain-rules but can directly connected in mainland China
+    # how to process theose domains?
+      # mark those domains
+
+    # (revised cn)
+
+    # (revised ir)
+
+    # (revised ru)
+
+    # (revised other regions)
+
+  # (test): domains that's under testing
+
+ # format
+  # rule clash (by using "rule-provider" configurations)
+    # rules for clash configuration file
+      # "rules:" will need to be replaced by "payload:"
+        # payload:
+        #     - '+.'
+        #     - ''
+
+  # rule shadowrocket
+    # rules for shadoworcket app
+      # "rules:" will need to be replaced by "[Rule]"
+
+    # rules for domain-set and rule-set
+      # "rules:" will need to be replaced by "payload:"
+
+# website domain conflicts and mis-replacement
+ # WARNING: The following domain names may be replaced incorrectly during the conversion process, or the following keyword might conflict with relevant websites
  # direct manual
 
  # proxy manual
+  # a
+   # aliyun (conflicts with)
+    # .al
+
   # d
    # directenergy.com
     ## - DOMAIN-SUFFIX, /* directenergy.com, /* PROXY # keywords: , /* direct
       # search "energy.com" to correct back the domain and change it to "directenergy.com"
 
   # p
+   # pingan bank (conflicts with)
+    # .cl
+    # .sd
+    # .orange
+
    # proxyium.com
     ## - DOMAIN-SUFFIX, /* proxyium.com, /* PROXY # keywords: , /* proxy
       # search "ium.com" to correct back the domain and change it to "proxyium.com"
 
+  # t
+   # tld-!cn
+   # tld-opennic
+
  # reject manual
 
- # keywords change
-  # "rules:" will need to be replaced by "payload:"
-
 payload:
- # proxy manual
   # #
    # 1800 flowers (test)
     .1800flowers.com
@@ -43,12 +85,15 @@ payload:
    # 2miners
     .2miners.com
 
-   # 1password
-    .1password.com
+   # 4k video downloader
+    .4kdownload.com
 
   # a
    # aaos
     .aaos.org
+
+   # abc.net.au
+    .abc.net.au
 
    # abeka.com
     .abeka.com
@@ -115,9 +160,6 @@ payload:
    # aniview.com
     .aniview.com
 
-   # annas-archive
-    .annas-archive.org
-
    # apkpure
     .apkpure.net
 
@@ -175,7 +217,7 @@ payload:
     .badoo.app
 
    # bandwagonhost
-    # - DOMAIN-KEYWORD, .64clouds
+    # .64clouds
     .64clouds.com
 
    # bankaool.com
@@ -192,7 +234,7 @@ payload:
     .e-hentai.org
 
    # beetalk
-    # - DOMAIN-KEYWORD, .beetalk
+    # .beetalk
 
    # behance.com
     .behance.com
@@ -214,6 +256,7 @@ payload:
     .app.link
 
    # bice
+    .banco.bice.cl
     .bice.cl
     .modyocdn.com
 
@@ -255,7 +298,6 @@ payload:
     .broadbandgenie.co.uk
 
   # c
-
    # ca.gov
     .dmv.ca.gov
     .sa.dmv.ca.gov
@@ -316,6 +358,19 @@ payload:
    # chia
     .chia.net
     .chiacalculator.com
+
+   # chinababe.net (test)
+    .akumachi.com
+    .blcdog.com
+    .chaseherbalpasty.com
+    .chinababe.net
+    .img.doppiocdn.com
+    .media.daly2024.com
+    .paupsoborofoow.net
+    .sfuyxpozfv.cdn-centaurus.com
+    .streamwish.to
+    .swiftplayers.com
+    .ww2.chinababe.net
 
    # chunman4.com
     .chunman4.com
@@ -622,6 +677,9 @@ payload:
    # foresters.com
     .foresters.com
 
+   # fosshub
+    .download.fosshub.com
+
    # freedesktop.timedate1
     .org.freedesktop.timedate1
 
@@ -671,10 +729,19 @@ payload:
    # github
     # AS36459 - GitHub, Inc.
 
-    # - DOMAIN-KEYWORD, .github
+    # .github
     # .gist.github.com
     # .raw.githubusercontent.com
     # .rawgithub.com
+
+   # gmjd1.org
+    .gmjd1.org
+
+   # go.cr
+    .atv.hacienda.go.cr
+
+   # gob.cl
+    .donacionesley21440.gob.cl
 
    # goddessdelivers
     .goddessdelivers.com
@@ -1014,9 +1081,6 @@ payload:
    # koinly.io
     .koinly.io
 
-   # kraken
-    .kraken.com
-
    # ktar.com
     .ktar.com
 
@@ -1095,7 +1159,6 @@ payload:
     .luxor.tech
 
   # m
-
    # ma.ne
     .hu.ma.ne
 
@@ -1136,7 +1199,7 @@ payload:
    # microsoft
     # AS8075 - Microsoft Corporation
 
-    # - DOMAIN-KEYWORD, .onedrive
+    # .onedrive
     # .aadrm.com
     # .acompli.com
     # .acompli.net
@@ -1196,10 +1259,17 @@ payload:
    # monica.im
     .monica.im
 
+   # moxfield
+    .assets.moxfield.net
+    .moxfield.com
+
    # msn
     # msn rules originates from this yaml file
     # .news.hk.msn.com
     # .news.msn.com.tw
+
+   # mujeresconpoder.com (test)
+    .acceso.mujeresconpoder.com
 
    # mullvad
     .mullvad.net
@@ -1254,8 +1324,8 @@ payload:
    # netflix
     # .Argo*
 
-    # - DOMAIN-KEYWORD, .dualstack.apiproxy-
-    # - DOMAIN-KEYWORD, .dualstack.ichnaea-web-
+    # .dualstack.apiproxy-
+    # .dualstack.ichnaea-web-
     # .netflixdnstest0.com
 
    # newcannabisventures
@@ -1709,14 +1779,14 @@ payload:
     .teams.microsoft.com
 
    # techcrunch
-    # - DOMAIN-KEYWORD, .techcrunch
+    # .techcrunch
     # .techcrunch.com
 
    # tel.meet
     .tel.meet
 
    # telegram
-    # - DOMAIN-KEYWORD, .telegram
+    # .telegram
     # .updates.tdesktop.com
 
    # teleseer.com
@@ -1737,8 +1807,17 @@ payload:
    # thechinaproject.com
     .thechinaproject.com
 
+   # thechosen.tv
+    .api.frontrow.cc
+    .fastly.frontrowcdn.com
+    .thechosen.tv
+    .frontrowbiuzef.dataplane.rudderstack.com
+
    # thedroidguy.com
     .thedroidguy.com
+
+   # thegreatcourses.com
+    .thegreatcourses.com
 
    # thepennyhoarder.com
     .thepennyhoarder.com
@@ -1944,6 +2023,9 @@ payload:
    # viber
     .viber.com
 
+   # vidiq.com
+    .vidiq.com
+
    # visaguide.world
     .visaguide.world
 
@@ -1990,7 +2072,7 @@ payload:
     .whalestonpool.com
 
    # whatsapp
-    # - DOMAIN-KEYWORD, .whatsapp
+    # .whatsapp
 
    # whoer.net
     .whoer.net
@@ -2030,7 +2112,7 @@ payload:
     .frontend.vh.yandex.ru
 
    # yahoo
-    # - DOMAIN-KEYWORD, .yahoo
+    # .yahoo
 
     # .blogs.yahoo.co.jp
     # .buy.yahoo.com.tw
