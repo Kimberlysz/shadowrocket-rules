@@ -483,9 +483,6 @@ payload:
    # dpsk12.org
     DOMAIN-SUFFIX, dpsk12.org
 
-   # dt.gob.cl
-    DOMAIN-SUFFIX, dt.gob.cl
-
   # e
    # ecosia.org
     DOMAIN-SUFFIX, ecosia.org
@@ -674,7 +671,7 @@ payload:
     DOMAIN-SUFFIX, atv.hacienda.go.cr
 
    # gob.cl
-    DOMAIN-SUFFIX, donacionesley21440.gob.cl
+    DOMAIN-SUFFIX, gob.cl
 
    # goddessdelivers
     DOMAIN-SUFFIX, goddessdelivers.com

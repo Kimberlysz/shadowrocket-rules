@@ -483,9 +483,6 @@ payload:
    # dpsk12.org
     .dpsk12.org
 
-   # dt.gob.cl
-    .dt.gob.cl
-
   # e
    # ecosia.org
     .ecosia.org
@@ -674,7 +671,7 @@ payload:
     .atv.hacienda.go.cr
 
    # gob.cl
-    .donacionesley21440.gob.cl
+    .gob.cl
 
    # goddessdelivers
     .goddessdelivers.com
