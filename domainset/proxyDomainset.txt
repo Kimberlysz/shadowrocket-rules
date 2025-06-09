@@ -182,7 +182,6 @@ payload:
     .betterplan.cl
 
    # bible
-    .youversion.com
     .bible.com
     .app.link
 
@@ -2091,9 +2090,9 @@ payload:
     # .upcoming.yahoo.com
     # .video.yahoo.com
 
-   # yourversion.com
-    .yourversion.com
-    .yourversionapi.com
+   # youversion.com
+    .youversion.com
+    .youversionapi.com
 
    # youtube
     # .studio.youtube.com

@@ -182,7 +182,6 @@ payload:
     DOMAIN-SUFFIX, betterplan.cl
 
    # bible
-    DOMAIN-SUFFIX, youversion.com
     DOMAIN-SUFFIX, bible.com
     DOMAIN-SUFFIX, app.link
 
@@ -2091,9 +2090,9 @@ payload:
     # DOMAIN-SUFFIX, upcoming.yahoo.com
     # DOMAIN-SUFFIX, video.yahoo.com
 
-   # yourversion.com
-    DOMAIN-SUFFIX, yourversion.com
-    DOMAIN-SUFFIX, yourversionapi.com
+   # youversion.com
+    DOMAIN-SUFFIX, youversion.com
+    DOMAIN-SUFFIX, youversionapi.com
 
    # youtube
     # DOMAIN-SUFFIX, studio.youtube.com
