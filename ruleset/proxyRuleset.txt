@@ -1,72 +1,3 @@
-# general
- # build
-  # build by Kim Xie / kimberlysz
-  # build time start from: 2023-05-31
-
- # keywords
-  # (cn): CN direct connect domains that's under "domain-list-community"
-
-  # (deprecated): domains that's not affected or needed anymore
-
-  # (revised): means domains that's included by v2fly-domain-rules but can directly connected in mainland China
-    # how to process theose domains?
-      # mark those domains
-
-    # (revised cn)
-
-    # (revised ir)
-
-    # (revised ru)
-
-    # (revised other regions)
-
-  # (test): domains that's under testing
-
- # format
-  # rule clash (by using "rule-provider" configurations)
-    # rules for clash configuration file
-      # "rules:" will need to be replaced by "payload:"
-        # payload:
-        #     - '+.'
-        #     - ''
-
-  # rule shadowrocket
-    # rules for shadoworcket app
-      # "rules:" will need to be replaced by "[Rule]"
-
-    # rules for domain-set and rule-set
-      # "rules:" will need to be replaced by "payload:"
-
-# website domain conflicts and mis-replacement
- # WARNING: The following domain names may be replaced incorrectly during the conversion process, or the following keyword might conflict with relevant websites
- # direct manual
-
- # proxy manual
-  # a
-   # aliyun (conflicts with)
-    # .al
-
-  # d
-   # directenergy.com
-    ## - DOMAIN-SUFFIX, /* directenergy.com, /* PROXY # keywords: , /* direct
-      # search "energy.com" to correct back the domain and change it to "directenergy.com"
-
-  # p
-   # pingan bank (conflicts with)
-    # .cl
-    # .sd
-    # .orange
-
-   # proxyium.com
-    ## - DOMAIN-SUFFIX, /* proxyium.com, /* PROXY # keywords: , /* proxy
-      # search "ium.com" to correct back the domain and change it to "proxyium.com"
-
-  # t
-   # tld-!cn
-   # tld-opennic
-
- # reject manual
-
 payload:
   # #
    # 1800 flowers (test)
@@ -307,6 +238,9 @@ payload:
 
    # callannie.ai
     DOMAIN-SUFFIX, callannie.ai
+
+   # candy.ai
+    DOMAIN-SUFFIX, candy.ai
 
    # canva.com
     DOMAIN-SUFFIX, canva.com
@@ -1003,6 +937,9 @@ payload:
    # intuit.com
     DOMAIN-SUFFIX, intuit.com
 
+   # invideo.io
+    DOMAIN-SUFFIX, invideo.io
+
    # ipinfo
     DOMAIN-SUFFIX, ipinfo.io
 
@@ -1029,6 +966,9 @@ payload:
 
    # ivpn.net
     DOMAIN-SUFFIX, ivpn.net
+
+   # iyf
+    DOMAIN-SUFFIX, yfsp.tv
 
   # j
    # jkforum.net (test)
@@ -1274,6 +1214,9 @@ payload:
    # mullvad
     DOMAIN-SUFFIX, mullvad.net
 
+   # mux (revised other regions)
+    DOMAIN-SUFFIX, mux.com
+
    # mwcbarcelona.com
     DOMAIN, register.mwcbarcelona.com
 
@@ -1386,6 +1329,9 @@ payload:
     DOMAIN-SUFFIX, okx.com
 
     DOMAIN, static.okx.com
+
+   # oldmapsonline.org (revised other regions)
+    DOMAIN-SUFFIX, oldmapsonline.org
 
    # omny.fm
     DOMAIN-SUFFIX, omny.fm
@@ -1542,12 +1488,15 @@ payload:
     DOMAIN-SUFFIX, proshkola18.ru
 
    # proxyium.com
-    - DOMAIN-SUFFIXium.com
+    - DOMAIN-SUFFIX, proxyium.com
 
    # psi.org
     DOMAIN-SUFFIX, psi.org
 
   # q
+   # qbittorrent.org
+    DOMAIN-SUFFIX, qbittorrent.org
+
    # qiangwaikan.com
     DOMAIN-SUFFIX, qiangwaikan.com
 
@@ -2141,6 +2090,10 @@ payload:
     # DOMAIN-SUFFIX, tw.yahoo.com
     # DOMAIN-SUFFIX, upcoming.yahoo.com
     # DOMAIN-SUFFIX, video.yahoo.com
+
+   # yourversion.com
+    DOMAIN-SUFFIX, yourversion.com
+    DOMAIN-SUFFIX, yourversionapi.com
 
    # youtube
     # DOMAIN-SUFFIX, studio.youtube.com

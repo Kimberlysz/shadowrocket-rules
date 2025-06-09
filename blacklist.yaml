@@ -584,7 +584,6 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, imglnkc.com, reject
     DOMAIN-SUFFIX, imglnkd.com, reject
     DOMAIN-SUFFIX, innovid.com, reject
-    DOMAIN-SUFFIX, ja2.gamersky.com, reject
     DOMAIN-SUFFIX, jads.co, reject
     DOMAIN-SUFFIX, jl3.yjaxa.top, reject
     DOMAIN-SUFFIX, juicyads.com, reject
@@ -829,6 +828,13 @@ localhost = 127.0.0.1
     DOMAIN, rtlog5-applog-hl.fqnovel.com, reject
 
   # g
+   # gamersky
+    DOMAIN-SUFFIX, click.gamersky.com, reject
+    DOMAIN-SUFFIX, ja.gamersky.com, reject
+    DOMAIN-SUFFIX, ja1.gamersky.com, reject
+    DOMAIN-SUFFIX, ja2.gamersky.com, reject
+    DOMAIN-SUFFIX, wmbd.gamersky.com, reject
+
    # google-ads
     DOMAIN-SUFFIX, 2mdn-cn.net, reject
     DOMAIN-SUFFIX, 2mdn.net, reject
@@ -931,11 +937,13 @@ localhost = 127.0.0.1
   # j
    # jd-ads
     DOMAIN-SUFFIX, ads.union.jd.com, reject
+    DOMAIN-SUFFIX, ads-union.jd.com, reject
     DOMAIN-SUFFIX, c-nfa.jd.com, reject
     DOMAIN-SUFFIX, cps.360buy.com, reject
+    DOMAIN-SUFFIX, gia.jd.com, reject
+    DOMAIN-SUFFIX, img-x.jd.com, reject
     DOMAIN-SUFFIX, jzt.jd.com, reject
     DOMAIN-SUFFIX, stat.m.jd.com, reject
-    DOMAIN-SUFFIX, img-x.jd.com, reject
 
   # k
    # kuaishou-ads
@@ -979,6 +987,8 @@ localhost = 127.0.0.1
     # include:whatsapp-ads
 
    # microsoft
+    # Others
+    DOMAIN-SUFFIX, clarity.ms, reject
     DOMAIN-SUFFIX, nelreports.net, reject
 
    # mixpanel-ads
@@ -1060,6 +1070,9 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, s.union.360.cn, reject
 
   # s
+   # samsung
+    DOMAIN-SUFFIX, samsungads.com, reject
+
    # segment-ads
     DOMAIN-SUFFIX, cdn.segment.com, reject
 
@@ -1147,7 +1160,6 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, ads.sohu.com, reject
     DOMAIN-SUFFIX, adv-sv-show.focus.cn, reject
     DOMAIN-SUFFIX, aty.sohu.com, reject
-    DOMAIN-SUFFIX, data.vod.itc.cn, reject
     DOMAIN-SUFFIX, epro.sogou.com, reject
     DOMAIN-SUFFIX, fpb.sohu.com, reject
     DOMAIN-SUFFIX, go.sohu.com, reject
@@ -1528,6 +1540,7 @@ localhost = 127.0.0.1
 
     # 盒马
     # DOMAIN-SUFFIX, freshhema.com, proxy
+    # DOMAIN-SUFFIX, freshippo.com, proxy
     # DOMAIN-SUFFIX, hemamax.com, proxy
     # DOMAIN-SUFFIX, hemaos.com, proxy
     # DOMAIN-SUFFIX, hemashare.cn, proxy
@@ -1852,7 +1865,7 @@ localhost = 127.0.0.1
     DOMAIN, s5.mzstatic.com, direct
 
     # The rules below are from https://github.com/felixonmars/dnsmasq-china-list/blob/master/apple.china.conf
-    # Revision: e54aa75ca9c6567ac5b67093e5471eb1c8041e86
+    # Revision: 4d392cc0a822ac5626bb97fef3fe5e04e86b28b0
     # Use in config file like this: "geosite:apple@cn"
     DOMAIN, a1.mzstatic.com, direct
     DOMAIN, a2.mzstatic.com, direct
@@ -1861,16 +1874,15 @@ localhost = 127.0.0.1
     DOMAIN, a5.mzstatic.com, direct
     DOMAIN, adcdownload.apple.com, direct
     DOMAIN, adcdownload.apple.com.akadns.net, direct
+    DOMAIN, amp-api-updates.apps.apple.com, direct
     DOMAIN, amp-api.media.apple.com, direct
-    DOMAIN, api-p-ap-c.smoot.apple.com, direct
-    DOMAIN, api-p-ap-d.smoot.apple.com, direct
-    DOMAIN, api-p-ap-e.smoot.apple.com, direct
     DOMAIN, app-site-association.cdn-apple.com, direct
     DOMAIN, appldnld.apple.com, direct
     DOMAIN, appldnld.g.aaplimg.com, direct
     DOMAIN, appleid.cdn-apple.com, direct
     # According to the consensus in #503, do not include the domain name apps.apple.com directly.
     DOMAIN, apps.mzstatic.com, direct
+    DOMAIN, bag-cdn.itunes-apple.com.akadns.net, direct
     DOMAIN, cdn-cn1.apple-mapkit.com, direct
     DOMAIN, cdn-cn2.apple-mapkit.com, direct
     DOMAIN, cdn-cn3.apple-mapkit.com, direct
@@ -1884,6 +1896,7 @@ localhost = 127.0.0.1
     DOMAIN, cds.apple.com, direct
     DOMAIN, cds.apple.com.akadns.net, direct
     DOMAIN, cdsassets.apple.com, direct
+    DOMAIN, certs.apple.com, direct
     DOMAIN, cl1-cdn.origin-apple.com.akadns.net, direct
     DOMAIN, cl1.apple.com, direct
     DOMAIN, cl2-cn.apple.com, direct
@@ -1900,10 +1913,13 @@ localhost = 127.0.0.1
     DOMAIN, cn-smp-paymentservices.apple.com, direct
     DOMAIN, configuration.apple.com, direct
     DOMAIN, configuration.apple.com.akadns.net, direct
+    DOMAIN, crl.apple.com, direct
     DOMAIN, cstat.apple.com, direct
     DOMAIN, cstat.cdn-apple.com, direct
     DOMAIN, dd-cdn.origin-apple.com.akadns.net, direct
     DOMAIN, dejavu.apple.com, direct
+    DOMAIN, devimages-cdn.apple.com, direct
+    DOMAIN, devstreaming-cdn.apple.com, direct
     DOMAIN, download.developer.apple.com, direct
     DOMAIN, experiments.apple.com, direct
     DOMAIN, gs-loc-cn.apple.com, direct
@@ -1916,12 +1932,12 @@ localhost = 127.0.0.1
     DOMAIN, gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net, direct
     DOMAIN, gsp5-cn.ls.apple.com, direct
     DOMAIN, gsp85-cn-ssl.ls.apple.com, direct
+    DOMAIN, gspe19-2-cn-ssl.ls-apple.com.akadns.net, direct
     DOMAIN, gspe19-2-cn-ssl.ls.apple.com, direct
     DOMAIN, gspe19-cn-ssl.ls.apple.com, direct
     DOMAIN, gspe19-cn.ls-apple.com.akadns.net, direct
     DOMAIN, gspe19-cn.ls.apple.com, direct
     DOMAIN, gspe21-ssl.ls.apple.com, direct
-    DOMAIN, gspe21.ls.apple.com, direct
     DOMAIN, gspe35-ssl.ls.apple.com, direct
     DOMAIN, gspe79-cn-ssl.ls.apple.com, direct
     DOMAIN, guzzoni-apple-com.v.aaplimg.com, direct
@@ -1930,8 +1946,6 @@ localhost = 127.0.0.1
     # full:iadsdk.apple.com has already been defined in apple-ads
     DOMAIN, icloud-cdn.icloud.com.akadns.net, direct
     DOMAIN, icloud.cdn-apple.com, direct
-    DOMAIN, images.apple.com, direct
-    DOMAIN, images.apple.com.akadns.net, direct
     DOMAIN, images.apple.com.edgekey.net.globalredir.akadns.net, direct
     DOMAIN, init-kt.apple.com, direct
     DOMAIN, init-p01md-lb.push-apple.com.akadns.net, direct
@@ -1945,6 +1959,7 @@ localhost = 127.0.0.1
     DOMAIN, ipcdn.apple.com, direct
     DOMAIN, iphone-ld.apple.com, direct
     DOMAIN, iphone-ld.origin-apple.com.akadns.net, direct
+    DOMAIN, is-ssl.mzstatic.com-cn-lb.itunes-apple.com.akadns.net, direct
     DOMAIN, is1-ssl.mzstatic.com, direct
     DOMAIN, is1.mzstatic.com, direct
     DOMAIN, is2-ssl.mzstatic.com, direct
@@ -2010,6 +2025,7 @@ localhost = 127.0.0.1
     DOMAIN, updates-http.cdn-apple.com, direct
     DOMAIN, updates-http.cdn-apple.com.akadns.net, direct
     DOMAIN, updates.cdn-apple.com, direct
+    DOMAIN, valid.apple.com, direct
     DOMAIN, valid.origin-apple.com.akadns.net, direct
     DOMAIN, weather-data.apple.com, direct
     DOMAIN, weather-data.apple.com.akadns.net, direct
@@ -2017,7 +2033,6 @@ localhost = 127.0.0.1
     DOMAIN, weather-map2.apple.com, direct
     DOMAIN, weatherkit.apple.com, direct
     DOMAIN, www.apple.com, direct
-    DOMAIN, www.apple.com.edgekey.net, direct
     DOMAIN, www.apple.com.edgekey.net.globalredir.akadns.net, direct
     DOMAIN, xp.apple.com, direct
 
@@ -2251,6 +2266,8 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, cn.bing.net, direct
     DOMAIN-SUFFIX, cn.mm.bing.net, direct
     DOMAIN-SUFFIX, ditu.live.com, direct
+    DOMAIN-SUFFIX, r.bing.com, direct
+    DOMAIN-SUFFIX, th.bing.com, direct
 
     DOMAIN, bj1.api.bing.com, direct
     DOMAIN, emoi-cncdn.bing.com, direct
@@ -2795,72 +2812,71 @@ localhost = 127.0.0.1
 
    # category-pt (revised cn)
     # TODO: add annotations
+    # DOMAIN-SUFFIX, 52pt.site, proxy
     # DOMAIN-SUFFIX, audiences.me, proxy
+    # DOMAIN-SUFFIX, carpt.net, proxy
+    # DOMAIN-SUFFIX, ccfbits.org, proxy
+    # DOMAIN-SUFFIX, dicmusic.com, proxy
+    # DOMAIN-SUFFIX, eastgame.org, proxy
+    # DOMAIN-SUFFIX, et8.org, proxy
+    # DOMAIN-SUFFIX, greatposterwall.com, proxy
+    # DOMAIN-SUFFIX, haidan.video, proxy
+    # DOMAIN-SUFFIX, hdarea.club, proxy
+    # DOMAIN-SUFFIX, hdatmos.club, proxy
+    # DOMAIN-SUFFIX, hdcity.city, proxy
+    # DOMAIN-SUFFIX, hddolby.com, proxy
+    # DOMAIN-SUFFIX, hdfans.org, proxy
+    # DOMAIN-SUFFIX, hdmayi.com, proxy
+    # DOMAIN-SUFFIX, hdpt.xyz, proxy
+    # DOMAIN-SUFFIX, hdtime.org, proxy
+    # DOMAIN-SUFFIX, hdvideo.one, proxy
+    # DOMAIN-SUFFIX, hhan.club, proxy
+    # DOMAIN-SUFFIX, hhanclub.top, proxy
+    # DOMAIN-SUFFIX, ianon.app, proxy
+    # DOMAIN-SUFFIX, kufei.com, proxy
+    # DOMAIN-SUFFIX, kufei.org, proxy
+    # DOMAIN-SUFFIX, leaves.red, proxy
+    # DOMAIN-SUFFIX, nicept.net, proxy
+    # DOMAIN-SUFFIX, open.cd, proxy
+    # DOMAIN-SUFFIX, piggo.me, proxy
+    # DOMAIN-SUFFIX, pt.0ff.cc, proxy
+    # DOMAIN-SUFFIX, pt.btschool.club, proxy
+    # DOMAIN-SUFFIX, pt.eastgame.org, proxy
+    # DOMAIN-SUFFIX, pt.hd4fans.org, proxy
+    # DOMAIN-SUFFIX, pt.soulvoice.club, proxy
+    # DOMAIN-SUFFIX, ptchina.org, proxy
+    # DOMAIN-SUFFIX, pthome.net, proxy
+    # DOMAIN-SUFFIX, ptsbao.club, proxy
+    # DOMAIN-SUFFIX, pttime.org, proxy
+    # DOMAIN-SUFFIX, pttime.top, proxy
+    # DOMAIN-SUFFIX, rousi.zip, proxy
+    # DOMAIN-SUFFIX, share.ilolicon.com, proxy
+    # DOMAIN-SUFFIX, sharkpt.net, proxy
+    # DOMAIN-SUFFIX, zhuque.in, proxy
+
+
+    # Non-Chinese trackers
+    ## TODO: add annotations
     # DOMAIN-SUFFIX, avistaz.to, proxy
     # DOMAIN-SUFFIX, beyond-hd.me, proxy
     # DOMAIN-SUFFIX, bibliotik.me, proxy
     # DOMAIN-SUFFIX, blutopia.cc, proxy
     # DOMAIN-SUFFIX, broadcasthe.net, proxy
-    # DOMAIN-SUFFIX, ccfbits.org, proxy
     # DOMAIN-SUFFIX, cinemaz.to, proxy
-    # DOMAIN-SUFFIX, dicmusic.com, proxy
-    # DOMAIN-SUFFIX, eastgame.org, proxy
-    # DOMAIN-SUFFIX, et8.org, proxy
     # DOMAIN-SUFFIX, exoticaz.to, proxy
     # DOMAIN-SUFFIX, filelist.io, proxy
-    # DOMAIN-SUFFIX, greatposterwall.com, proxy
     # DOMAIN-SUFFIX, hdbits.org, proxy
-    # DOMAIN-SUFFIX, hdcity.city, proxy
-    # DOMAIN-SUFFIX, hdfans.org, proxy
-    # DOMAIN-SUFFIX, hdtime.org, proxy
-    # DOMAIN-SUFFIX, hhanclub.top, proxy
-    # DOMAIN-SUFFIX, hddolby.com, proxy
-    # DOMAIN-SUFFIX, hdpt.xyz, proxy
     # DOMAIN-SUFFIX, iptorrents.com, proxy
     # DOMAIN-SUFFIX, jpopsuki.eu, proxy
     # DOMAIN-SUFFIX, jptv.club, proxy
-    # DOMAIN-SUFFIX, lemonhd.org, proxy
-    # DOMAIN-SUFFIX, lemonhd.club, proxy
-    # DOMAIN-SUFFIX, lemonhd.net, proxy
-    # DOMAIN-SUFFIX, ilovelemonhd.me, proxy
-    # DOMAIN-SUFFIX, pttime.org, proxy
-    # DOMAIN-SUFFIX, pttime.top, proxy
-    # DOMAIN-SUFFIX, ianon.app, proxy
-    # DOMAIN-SUFFIX, hdatmos.club, proxy
-    # DOMAIN-SUFFIX, ptchina.org, proxy
-    # DOMAIN-SUFFIX, piggo.me, proxy
-    # DOMAIN-SUFFIX, leaves.red, proxy
-    # DOMAIN-SUFFIX, nicept.net, proxy
-    # DOMAIN-SUFFIX, hdmayi.com, proxy
-    # DOMAIN-SUFFIX, carpt.net, proxy
-    # DOMAIN-SUFFIX, hdvideo.one, proxy
-    # DOMAIN-SUFFIX, pt.0ff.cc, proxy
-
     # DOMAIN-SUFFIX, morethantv.me, proxy
-    # DOMAIN-SUFFIX, open.cd, proxy
     # DOMAIN-SUFFIX, passthepopcorn.me, proxy
     # DOMAIN-SUFFIX, privatehd.to, proxy
-    # DOMAIN-SUFFIX, pt.btschool.club, proxy
-    # DOMAIN-SUFFIX, pt.eastgame.org, proxy
-    # DOMAIN-SUFFIX, pt.hd4fans.org, proxy
-    # DOMAIN-SUFFIX, pt.soulvoice.club, proxy
-    # DOMAIN-SUFFIX, pt.xauat.edu.cn, proxy
-    # DOMAIN-SUFFIX, pthome.net, proxy
-    # DOMAIN-SUFFIX, ptsbao.club, proxy
-    # DOMAIN-SUFFIX, share.ilolicon.com, proxy
-    # DOMAIN-SUFFIX, sharkpt.net, proxy
     # DOMAIN-SUFFIX, uhdbits.org, proxy
-    # DOMAIN-SUFFIX, zhuque.in, proxy
-    # DOMAIN-SUFFIX, kufei.org, proxy
-    # DOMAIN-SUFFIX, kufei.com, proxy
-    # DOMAIN-SUFFIX, rousi.zip, proxy
-    # DOMAIN-SUFFIX, haidan.video, proxy
-    # DOMAIN-SUFFIX, hhan.club, proxy
-    # DOMAIN-SUFFIX, hdarea.club, proxy
-    # DOMAIN-SUFFIX, 52pt.site, proxy
 
-    # To the Chinese Users:
-    #    The following domains are supposed not to go through the proxy
+
+    # To Chinese Users:
+    #    The following domains are not supposed to be proxied
 
     # 北邮人
     # DOMAIN-SUFFIX, bt.byr.cn, proxy
@@ -2873,8 +2889,8 @@ localhost = 127.0.0.1
     # CHD
     # DOMAIN-SUFFIX, chdbits.co, proxy
     # DOMAIN-SUFFIX, chdbits.xyz, proxy
-    # DOMAIN-SUFFIX, ptchdbits.co, proxy
     # DOMAIN-SUFFIX, chddiy.xyz, proxy
+    # DOMAIN-SUFFIX, ptchdbits.co, proxy
     # DOMAIN-SUFFIX, rainbowisland.co, proxy
 
     # HDKylin
@@ -2882,10 +2898,54 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, hdkylin.top, proxy
     # DOMAIN-SUFFIX, hdkylin.work, proxy
 
+    # 好多油
+    # DOMAIN-SUFFIX, pt.hdupt.com, proxy
+    # DOMAIN-SUFFIX, pt.upxin.net, proxy
+
+    # ubits 你堡
+    # DOMAIN-SUFFIX, ubits.club, proxy
+
+    # UltraHD
+    # DOMAIN-SUFFIX, ultrahd.net, proxy
+
+    # 咖啡
+    # DOMAIN-SUFFIX, ptcafe.club, proxy
+
+    # 织匿名
+    # DOMAIN-SUFFIX, zmpt.cc, proxy
+
+    # 冬樱
+    # DOMAIN-SUFFIX, wintersakura.net, proxy
+
+    # 熊猫
+    # DOMAIN-SUFFIX, pandapt.net, proxy
+
+    # 壹PT
+    # DOMAIN-SUFFIX, 1ptba.com, proxy
+
+    # 冰激淋
+    # DOMAIN-SUFFIX, icc2022.com, proxy
+
+    # 大青虫
+    # DOMAIN-SUFFIX, cyanbug.net, proxy
+
+    # 柠檬PT
+    # DOMAIN-SUFFIX, ilovelemonhd.me, proxy
+    # DOMAIN-SUFFIX, lemonhd.club, proxy
+    # DOMAIN-SUFFIX, lemonhd.net, proxy
+    # DOMAIN-SUFFIX, lemonhd.org, proxy
+
+    # 备胎
+    # DOMAIN-SUFFIX, beitai.pt, proxy
+
     # DOMAIN-SUFFIX, bitpt.cn, proxy
+    # DOMAIN-SUFFIX, hdarea.club, proxy
     # DOMAIN-SUFFIX, hdchina.org, proxy
+    # DOMAIN-SUFFIX, hdcmct.org, proxy
     # DOMAIN-SUFFIX, hdhome.org, proxy
     # DOMAIN-SUFFIX, hdsky.me, proxy
+    # DOMAIN-SUFFIX, hdzone.me, proxy
+    # DOMAIN-SUFFIX, hitpt.com, proxy
     # DOMAIN-SUFFIX, hudbt.hust.edu.cn, proxy
     # DOMAIN-SUFFIX, keepfrds.com, proxy
     # DOMAIN-SUFFIX, nanyangpt.com, proxy
@@ -2894,6 +2954,7 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, ourbits.club, proxy
     # DOMAIN-SUFFIX, pt.nwsuaf6.edu.cn, proxy
     # DOMAIN-SUFFIX, pt.sjtu.edu.cn, proxy
+    # DOMAIN-SUFFIX, pt.xauat.edu.cn, proxy
     # DOMAIN-SUFFIX, pterclub.com, proxy
     # DOMAIN-SUFFIX, springsunday.net, proxy
     # DOMAIN-SUFFIX, totheglory.im, proxy
@@ -2932,6 +2993,28 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, ccblife-test.com.cn, proxy
     # DOMAIN-SUFFIX, ccbtrust.com.cn, proxy
     # DOMAIN-SUFFIX, ccbxt.com, proxy
+
+   # chinamobile (revised cn)
+    # DOMAIN-SUFFIX, 10086.cn, proxy
+    # DOMAIN-SUFFIX, 139.com, proxy
+    # DOMAIN-SUFFIX, chinamobile.com, proxy
+    # DOMAIN-SUFFIX, chinamobileltd.com, proxy
+
+    # Migu
+    # DOMAIN-SUFFIX, migucloud.com, proxy
+    # DOMAIN-SUFFIX, migu.cn, proxy
+    # DOMAIN-SUFFIX, cmvideo.cn, proxy
+    # DOMAIN-SUFFIX, miguvideo.com, proxy
+
+    # 中移互联
+    # DOMAIN-SUFFIX, andfx.cn, proxy
+    # DOMAIN-SUFFIX, andfx.net, proxy
+    # DOMAIN-SUFFIX, cmicrwx.cn, proxy
+    # DOMAIN-SUFFIX, cmpassport.com, proxy
+    # DOMAIN-SUFFIX, fetion-portal.com, proxy
+    # DOMAIN-SUFFIX, fetionpic.com, proxy
+    # DOMAIN-SUFFIX, mmarket.com, proxy
+    # DOMAIN-SUFFIX, mmarket6.com, proxy
 
    # chinatelecom (revised cn)
     # include:ctexcel
@@ -3029,6 +3112,10 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, ctrip.cn, proxy
     # DOMAIN-SUFFIX, ctrip.com, proxy
     # DOMAIN-SUFFIX, ctripbiz.com, proxy
+    # DOMAIN-SUFFIX, ctripgslb.cn, proxy
+    # DOMAIN-SUFFIX, ctripgslb.com, proxy
+    # DOMAIN-SUFFIX, ctripgslb.com.cn, proxy
+    # DOMAIN-SUFFIX, ctripgslb.net, proxy
     # DOMAIN-SUFFIX, ctripteam.com, proxy
     # DOMAIN-SUFFIX, doticloud.com, proxy
     # DOMAIN-SUFFIX, easytrip.com, proxy
@@ -3043,6 +3130,9 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, toptown.cn, proxy
     # DOMAIN-SUFFIX, toursbms.com, proxy
     # DOMAIN-SUFFIX, vipdlt.com, proxy
+
+    # DOMAIN-SUFFIX, tripcdn.cn, proxy
+    # DOMAIN-SUFFIX, tripcdn.com, proxy
 
     # qunar
     # DOMAIN-SUFFIX, qunar.com, proxy
@@ -3145,6 +3235,10 @@ localhost = 127.0.0.1
 
    # entrust
     DOMAIN, www.entrust.cn, direct
+
+   # eset
+    # ESET Wiki - [KB332] Ports and addresses required to use your ESET product with a third-party firewall
+    DOMAIN-SUFFIX, cn.eset.com, direct
 
   # f
    # familymart
@@ -5145,6 +5239,19 @@ localhost = 127.0.0.1
 
    # 115 (revised cn)
     # DOMAIN-SUFFIX, 115.com, proxy
+    # DOMAIN-SUFFIX, 115cdn.com, proxy
+    # DOMAIN-SUFFIX, 115cdn.net, proxy
+    # DOMAIN-SUFFIX, 115cloud.cn, proxy
+    # DOMAIN-SUFFIX, 115cloud.com, proxy
+    # DOMAIN-SUFFIX, 115cloud.net, proxy
+    # DOMAIN-SUFFIX, 115img.com, proxy
+    # DOMAIN-SUFFIX, 115meta.com, proxy
+    # DOMAIN-SUFFIX, 115vod.com, proxy
+    # DOMAIN-SUFFIX, 116cd.cn, proxy
+    # DOMAIN-SUFFIX, 116cd.com, proxy
+    # DOMAIN-SUFFIX, 116cd.net, proxy
+    # DOMAIN-SUFFIX, anxia.com, proxy
+    # DOMAIN-SUFFIX, sq.cc, proxy
 
    # 1337x (revised other regions)
     # Main domain
@@ -6168,6 +6275,8 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, android.com, proxy
     DOMAIN-SUFFIX, androidify.com, proxy
 
+    DOMAIN, android.googlesource.com, proxy
+
    # anime
     # 9amine
     DOMAIN-SUFFIX, 9anime.cz, proxy
@@ -7113,6 +7222,7 @@ localhost = 127.0.0.1
     # include:4plebs
 
     DOMAIN-SUFFIX, archive-it.org, proxy
+    DOMAIN-SUFFIX, archive.md, proxy
     DOMAIN-SUFFIX, archive.org, proxy
     DOMAIN-SUFFIX, archive.ph, proxy
     DOMAIN-SUFFIX, archive.today, proxy
@@ -7149,6 +7259,12 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, asakonet.co.jp, proxy
     DOMAIN-SUFFIX, nikkansports.com, proxy
     DOMAIN, asahishimbun.sc.omtrdc.net, proxy
+
+   # asobo
+    DOMAIN-SUFFIX, asobostudio.com, proxy
+    DOMAIN-SUFFIX, flightsimulator.com, proxy
+
+    DOMAIN, flightsimulator.azureedge.net, proxy
 
    # asproex
     DOMAIN-SUFFIX, asproex.com, proxy
@@ -10339,7 +10455,7 @@ localhost = 127.0.0.1
 
    # category-ai-!cn
     # include:anthropic
-    # include:google-gemini
+    # include:google-deepmind
     # include:groq
     # include:huggingface
     # include:openai
@@ -10348,13 +10464,13 @@ localhost = 127.0.0.1
     # include:xai
     # include:cursor
 
+    # CodeRabbit
+    DOMAIN-SUFFIX, coderabbit.ai, proxy
+    DOMAIN-SUFFIX, coderabbit.gallery.vsassets.io, proxy
+
     # Jasper
     DOMAIN-SUFFIX, clipdrop.co, proxy
     DOMAIN-SUFFIX, jasper.ai, proxy
-
-    # NotebookLM
-    DOMAIN-SUFFIX, notebooklm.google, proxy
-    DOMAIN-SUFFIX, notebooklm.google.com, proxy
 
     DOMAIN-SUFFIX, chutes.ai, proxy
     DOMAIN-SUFFIX, dify.ai, proxy
@@ -10395,6 +10511,7 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, marscode.cn, proxy
 
     # 智谱清言
+    # DOMAIN-SUFFIX, bigmodel.cn, proxy
     # DOMAIN-SUFFIX, chatglm.cn, proxy
     # DOMAIN-SUFFIX, zhipuai.cn, proxy
 
@@ -10601,6 +10718,7 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, 82bank.co.jp, proxy # 株式会社八十二銀行
     DOMAIN-SUFFIX, a-bank.jp, proxy # 株式会社青森銀行
     DOMAIN-SUFFIX, akita-bank.co.jp, proxy # 株式会社秋田銀行
+    DOMAIN-SUFFIX, aozorabank.co.jp, proxy # 株式会社あおぞら銀行
     DOMAIN-SUFFIX, ashikagabank.co.jp, proxy # 株式会社足利銀行
     DOMAIN-SUFFIX, awabank.co.jp, proxy # 株式会社阿波銀行
     DOMAIN-SUFFIX, bk.mufg.jp, proxy # 株式会社三菱東京UFJ銀行
@@ -10609,6 +10727,7 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, chibakogyo-bank.co.jp, proxy # 株式会社千葉興業銀行
     DOMAIN-SUFFIX, chikubank.co.jp, proxy # 株式会社筑邦銀行
     DOMAIN-SUFFIX, chugokubank.co.jp, proxy # 株式会社中国銀行
+    DOMAIN-SUFFIX, citibank.co.jp, proxy # シティバンク銀行株式会社
     DOMAIN-SUFFIX, daiichibank.co.jp, proxy # 株式会社第四銀行
     DOMAIN-SUFFIX, fukuibank.co.jp, proxy # 株式会社福井銀行
     DOMAIN-SUFFIX, fukuokabank.co.jp, proxy # 株式会社福岡銀行
@@ -10623,7 +10742,10 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, ikedashinsen.co.jp, proxy # 株式会社池田泉州銀行
     DOMAIN-SUFFIX, iwatebank.co.jp, proxy # 株式会社岩手銀行
     DOMAIN-SUFFIX, iyobank.co.jp, proxy # 株式会社伊予銀行
+    DOMAIN-SUFFIX, jfc.go.jp, proxy # 日本政策金融公庫
+    DOMAIN-SUFFIX, jibunbank.co.jp, proxy # 株式会社じぶん銀行
     DOMAIN-SUFFIX, joyobank.co.jp, proxy # 株式会社常陽銀行
+    DOMAIN-SUFFIX, jp-bank.japanpost.jp, proxy # 株式会社ゆうちょ銀行
     DOMAIN-SUFFIX, juhachibank.co.jp, proxy # 株式会社十八銀行
     DOMAIN-SUFFIX, juroku.co.jp, proxy # 株式会社十六銀行
     DOMAIN-SUFFIX, kagobank.co.jp, proxy # 株式会社鹿児島銀行
@@ -10638,23 +10760,33 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, musashinobank.co.jp, proxy # 株式会社武蔵野銀行
     DOMAIN-SUFFIX, nantobank.co.jp, proxy # 株式会社南都銀行
     DOMAIN-SUFFIX, nishinipponbank.co.jp, proxy # 株式会社西日本シティ銀行
+    DOMAIN-SUFFIX, nochubank.or.jp, proxy # 農林中央金庫
     DOMAIN-SUFFIX, ogakikyoritsu.co.jp, proxy # 株式会社大垣共立銀行
     DOMAIN-SUFFIX, oitabank.co.jp, proxy # 株式会社大分銀行
     DOMAIN-SUFFIX, okinawabank.co.jp, proxy # 株式会社沖縄銀行
+    DOMAIN-SUFFIX, paypay-bank.co.jp, proxy # 株式会社PayPay銀行
+    DOMAIN-SUFFIX, rakuten-bank.co.jp, proxy # 株式会社楽天銀行
     DOMAIN-SUFFIX, resonabank.co.jp, proxy # 株式会社りそな銀行
     DOMAIN-SUFFIX, ryukyubank.co.jp, proxy # 株式会社琉球銀行
     DOMAIN-SUFFIX, sagabank.co.jp, proxy # 株式会社佐賀銀行
     DOMAIN-SUFFIX, saitama-resona.co.jp, proxy # 株式会社埼玉りそな銀行
     DOMAIN-SUFFIX, saninbank.co.jp, proxy # 株式会社山陰合同銀行
+    DOMAIN-SUFFIX, sbishinseibank.co.jp, proxy # SBI新生銀行
+    DOMAIN-SUFFIX, sevenbank.co.jp, proxy # 株式会社セブン銀行
     DOMAIN-SUFFIX, shigagin.co.jp, proxy # 株式会社滋賀銀行
     DOMAIN-SUFFIX, shikokubank.co.jp, proxy # 株式会社四国銀行
     DOMAIN-SUFFIX, shimizubank.co.jp, proxy # 株式会社清水銀行
     DOMAIN-SUFFIX, shinwabank.co.jp, proxy # 株式会社親和銀行
     DOMAIN-SUFFIX, shizuokabank.co.jp, proxy # 株式会社静岡銀行
+    DOMAIN-SUFFIX, shokochukin.co.jp, proxy # 商工組合中央金庫
     DOMAIN-SUFFIX, shonai.co.jp, proxy # 株式会社荘内銀行
     DOMAIN-SUFFIX, smbc.co.jp, proxy # 株式会社三井住友銀行
+    DOMAIN-SUFFIX, smbctb.co.jp, proxy # SMBC信託銀行株式会社
+    DOMAIN-SUFFIX, smtb.jp, proxy # 株式会社三井住友信託銀行
+    DOMAIN-SUFFIX, sonybank.jp, proxy # ソニーバンク株式会社
     DOMAIN-SUFFIX, surugabank.co.jp, proxy # 株式会社スルガ銀行
     DOMAIN-SUFFIX, tajimabank.co.jp, proxy # 株式会社但馬銀行
+    DOMAIN-SUFFIX, tochigibank.co.jp, proxy # 株式会社栃木銀行
     DOMAIN-SUFFIX, tohobank.co.jp, proxy # 株式会社東邦銀行
     DOMAIN-SUFFIX, tohoku-bank.co.jp, proxy # 株式会社東北銀行
     DOMAIN-SUFFIX, tomibank.co.jp, proxy # 株式会社東京都民銀行
@@ -11019,15 +11151,16 @@ localhost = 127.0.0.1
     # include:gateio
     # include:huobi
     # include:kraken
+    # include:kucoin
     # include:localbitcoins
     # include:nexo
     # include:okx
     # include:onekey
+    # include:redotpay
+    # include:trustwallet
     # include:wisekey
     # include:wynd
     # include:zb
-    # include:kucoin
-    # include:redotpay
 
     DOMAIN-SUFFIX, 1inch.io, proxy
     DOMAIN-SUFFIX, aave.com, proxy
@@ -11147,7 +11280,6 @@ localhost = 127.0.0.1
     # include:unity
     # include:v8
     # include:vim
-    # include:xda
 
     DOMAIN-SUFFIX, adventofcode.com, proxy
     DOMAIN-SUFFIX, alpinelinux.org, proxy
@@ -11449,6 +11581,14 @@ localhost = 127.0.0.1
     # “叶圣陶杯”全国中学生新作文大赛
     # DOMAIN-SUFFIX, ystbds.com, proxy
 
+    # CIS NanoMasters
+    # 粤ICP备2022138914号
+    # DOMAIN-SUFFIX, neoscholar.com, proxy
+    # DOMAIN-SUFFIX, neoschool.com, proxy
+
+    # 北京嘉瑞新创教育咨询有限公司 京ICP备2020046790号-3
+    # DOMAIN-SUFFIX, winyoungreading.com, proxy
+
    # category-education-ir (revised ir)
     # Iranian education and learning websites 
     
@@ -11462,6 +11602,81 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, done.ir, proxy
     # DOMAIN-SUFFIX, iranlms.org, proxy
     # DOMAIN-SUFFIX, webinarplus.online, proxy
+
+   # category-electronic-cn (revised cn)
+    # Electronic store/company's website with access point in China
+
+    # Analog
+    # DOMAIN-SUFFIX, analog.com, proxy
+
+    # 艾睿电子
+    # DOMAIN-SUFFIX, arrow.cn, proxy
+
+    # 博流智能
+    # DOMAIN-SUFFIX, bouffalolab.com, proxy
+
+    # 乐鑫信息科技
+    # DOMAIN-SUFFIX, esp8266.cn, proxy
+    # DOMAIN-SUFFIX, esp8266.com, proxy
+    # DOMAIN-SUFFIX, esp8266.com.cn, proxy
+    # DOMAIN-SUFFIX, espressif.cn, proxy
+    # DOMAIN-SUFFIX, espressif.com, proxy
+    # DOMAIN-SUFFIX, espressif.com.cn, proxy
+
+    # 华秋电子
+    # DOMAIN-SUFFIX, eda.cn, proxy
+    # DOMAIN-SUFFIX, elecfans.com, proxy
+    # DOMAIN-SUFFIX, hqchip.com, proxy
+    # DOMAIN-SUFFIX, hqdoc.com, proxy
+    # DOMAIN-SUFFIX, hqpcb.com, proxy
+
+    # 英飞凌
+    # DOMAIN-SUFFIX, infineon.com, proxy
+
+    # 嘉立创集团
+    # DOMAIN-SUFFIX, forface3d.com, proxy
+    # DOMAIN-SUFFIX, jlcfa.com, proxy
+    # DOMAIN-SUFFIX, jlcgroup.cn, proxy
+    # DOMAIN-SUFFIX, jlc-3dp.cn, proxy
+    # DOMAIN-SUFFIX, jlc-bbs.com, proxy
+    # DOMAIN-SUFFIX, jlc-cnc.com, proxy
+    # DOMAIN-SUFFIX, jlc-dfm.com, proxy
+    # DOMAIN-SUFFIX, jlc-drm.com, proxy
+    # DOMAIN-SUFFIX, jlc-fpc.com, proxy
+    # DOMAIN-SUFFIX, jlc-gw.com, proxy
+    # DOMAIN-SUFFIX, jlc-smt.com, proxy
+    # DOMAIN-SUFFIX, jlc-layout.com, proxy
+    # DOMAIN-SUFFIX, jlc-zh.com, proxy
+    # DOMAIN-SUFFIX, oshwhub.com, proxy
+    # DOMAIN-SUFFIX, szlcsc.com, proxy
+    # DOMAIN-SUFFIX, sz-jlc.com, proxy
+    # DOMAIN-SUFFIX, zxhgroup.com, proxy
+
+    # 移远通信
+    # DOMAIN-SUFFIX, quecmall.cn, proxy
+    # DOMAIN-SUFFIX, quectel.com.cn, proxy
+    # DOMAIN-SUFFIX, iotronic.tech, proxy
+
+    # 瑞芯微电子
+    # DOMAIN-SUFFIX, rock-chips.com, proxy
+
+    # 矽递科技
+    # DOMAIN-SUFFIX, seeed.cn, proxy
+    # DOMAIN-SUFFIX, seeed.cc, proxy
+    # DOMAIN-SUFFIX, seeed.com.cn, proxy
+    # DOMAIN-SUFFIX, seeedstudio.com.cn, proxy
+
+    # 矽速科技
+    # DOMAIN-SUFFIX, sipeed.com, proxy
+    # DOMAIN-SUFFIX, maixhub.com, proxy
+
+    # 德州仪器
+    # DOMAIN-SUFFIX, ti.com, proxy
+    # DOMAIN-SUFFIX, ti.com.cn, proxy
+
+    # 沁恒微电子
+    # DOMAIN-SUFFIX, wch.cn, proxy
+    # DOMAIN-SUFFIX, wch-ic.com, proxy
 
    # category-emby
     # ntRRR
@@ -11630,7 +11845,7 @@ localhost = 127.0.0.1
     DOMAIN, cc.ccemby.tk, proxy
 
     # Nebula
-    DOMAIN, direct.nebula-emby.com, proxy
+    DOMAIN-SUFFIX, nebula-emby.com, proxy
 
     # 狂热云
     DOMAIN-SUFFIX, feverss.cloud, proxy
@@ -11645,6 +11860,9 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, sptv.ii00.cc, proxy
     DOMAIN-SUFFIX, sgtv.ii00.cc, proxy
     DOMAIN-SUFFIX, cn-music.mefun.vip, proxy
+
+    # 红杏云
+    DOMAIN-SUFFIX, hongxingyunmovie.vip, proxy
 
    # category-enterprise-query-platform-cn (revised cn)
     # include:aiqicha
@@ -11693,6 +11911,7 @@ localhost = 127.0.0.1
     # include:litv
     # include:manhuagui
     # include:mihoyo
+    # include:mubi
     # include:mudvod
     # include:mytvsuper
     # include:netflix
@@ -11762,6 +11981,7 @@ localhost = 127.0.0.1
     # include:bestv
     # include:bilibili
     # include:ciweimao
+    # include:copymanga
     # include:cowlevel
     # include:dedao
     # include:dmzj
@@ -11789,12 +12009,14 @@ localhost = 127.0.0.1
     # include:pptv
     # include:qimao
     # include:qingtingfm
+    # include:sakurafrp
     # include:sfacg
     # include:taomee
     # include:tgbus
     # include:tiancity
     # include:u17
     # include:vgtime
+    # include:vrzwk
     # include:wasu
     # include:xd
     # include:ximalaya
@@ -11812,15 +12034,29 @@ localhost = 127.0.0.1
     # 九九互动 粤ICP备19068416号
     # DOMAIN-SUFFIX, forevernine.com, proxy
 
+    # 沪ICP备18041304号-1
+    # DOMAIN-SUFFIX, tgpro.top, proxy
+    # DOMAIN-SUFFIX, tgprocs.net, proxy
+
+    # B站空降助手 鲁ICP备2024098956号-1
+    # DOMAIN-SUFFIX, bsbsb.top, proxy
+
     # DOMAIN-SUFFIX, ledu.com, proxy
     # DOMAIN-SUFFIX, pearvideo.com, proxy
     # DOMAIN-SUFFIX, wo1wan.com, proxy
 
    # category-finance
-    # category-bank-mm
+    # DONOT include:category-bank-cn
+    # include:category-bank-ir
+    # include:category-bank-jp
+    # include:category-bank-mm
+
+    # include:fibank
     # include:hsbc
+    # include:ibkr
     # include:ifast
     # include:longbridge
+    # include:n26
     # include:wise
 
     DOMAIN-SUFFIX, fxcorporate.com, proxy
@@ -11845,6 +12081,7 @@ localhost = 127.0.0.1
     # include:dslreports
     # include:hkgolden
     # include:lihkg
+    # include:linuxdo
     # include:mobile01
     # include:pixnet
     # include:ptt
@@ -11852,7 +12089,10 @@ localhost = 127.0.0.1
     # include:reddit
     # include:rutracker
     # include:soyjakparty
+    # include:xda
     # include:yamibo
+
+    DOMAIN, bbs.boingboing.net, proxy
 
     DOMAIN-SUFFIX, 18p2p.com, proxy
     DOMAIN-SUFFIX, 8chan.moe, proxy
@@ -11861,13 +12101,13 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, doom9.org, proxy
     DOMAIN-SUFFIX, eyny.com, proxy
     DOMAIN-SUFFIX, gab.com, proxy
+    DOMAIN-SUFFIX, hydrogenaud.io, proxy
     DOMAIN-SUFFIX, mewe.com, proxy
     DOMAIN-SUFFIX, parler.com, proxy
     DOMAIN-SUFFIX, pincong.rocks, proxy
     DOMAIN-SUFFIX, safechat.com, proxy
     DOMAIN-SUFFIX, sis001.com, proxy
     DOMAIN-SUFFIX, v2ex.com, proxy
-    DOMAIN-SUFFIX, hydrogenaud.io, proxy
 
    # category-forums-ir (revised ir)
     # Iranian forums and community websites 
@@ -13655,6 +13895,9 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, quanben.io, proxy
 
    # category-ntp
+    # include:category-ntp-cn
+    # include:category-ntp-jp
+
     # Apple
     # regexp:^time(.euro)?.apple.com$
     DOMAIN, time.apple.com, proxy
@@ -13662,6 +13905,9 @@ localhost = 127.0.0.1
 
     # AWS
     DOMAIN, time.aws.com, proxy
+
+    # Cloudflare
+    DOMAIN, time.cloudflare.com, proxy
 
     # Facebook
     # regexp:^time([1-5])?\.facebook\.com$
@@ -13679,6 +13925,12 @@ localhost = 127.0.0.1
     DOMAIN, time2.google.com, proxy
     DOMAIN, time3.google.com, proxy
     DOMAIN, time4.google.com, proxy
+
+    # Ubuntu
+    DOMAIN, ntp.ubuntu.com, proxy
+
+    # Windows
+    DOMAIN, time.windows.com, proxy
 
     # NIST: https://tf.nist.gov/tf-cgi/servers.cgi
     # regexp:^((((ut1-wwv)|(ntp\-(b|d|wwv))|(time(\-(([a-e]\-(g|b))|([a-e]\-wwv)))?))\.nist\.gov)|((ntp-c|ut1-time)|(utcnist(2|3)?))\.colorado\.edu)$
@@ -13727,12 +13979,7 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, ntp.se, proxy
     DOMAIN-SUFFIX, ntp.ufe.cz, proxy
     DOMAIN-SUFFIX, pool.ntp.org, proxy
-    DOMAIN-SUFFIX, time.cloudflare.com, proxy
     DOMAIN-SUFFIX, time.nrc.ca, proxy
-    DOMAIN-SUFFIX, time.windows.com, proxy
-
-    # include:category-ntp-cn
-    # include:category-ntp-jp
 
    # category-ntp-cn (revised cn)
     # Aliyun
@@ -13885,6 +14132,9 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, who.int, proxy
     DOMAIN-SUFFIX, wi-fi.org, proxy
     DOMAIN-SUFFIX, wto.org, proxy
+
+   # category-outsource-cn (revised cn)
+    # DOMAIN-SUFFIX, mihuashi.com, proxy
 
    # category-password-management
     # include:agilebits
@@ -20069,6 +20319,14 @@ localhost = 127.0.0.1
     # regexp:(^|\.)zzz[1-9][0-9]\.top$
 
    # category-pt
+    # Non-Chinese trackers
+    DOMAIN-SUFFIX, myanonamouse.net, proxy
+    DOMAIN-SUFFIX, nebulance.io, proxy
+    DOMAIN-SUFFIX, torrentleech.org, proxy
+
+    # To Chinese Users:
+    #    The following domains are not supposed to be proxied
+
     # 天雪论坛
     DOMAIN-SUFFIX, skyey2.com, proxy
     DOMAIN-SUFFIX, skyeysnow.com, proxy
@@ -20076,14 +20334,11 @@ localhost = 127.0.0.1
     # M-Team
     DOMAIN-SUFFIX, m-team.cc, proxy
     DOMAIN-SUFFIX, m-team.io, proxy
-
-    DOMAIN-SUFFIX, myanonamouse.net, proxy
-    DOMAIN-SUFFIX, torrentleech.org, proxy
-    DOMAIN-SUFFIX, nebulance.io, proxy
+    DOMAIN-SUFFIX, mt.cc, proxy
 
     # U2
-    DOMAIN-SUFFIX, dmhy.org, proxy
     DOMAIN-SUFFIX, dmhy.best, proxy
+    DOMAIN-SUFFIX, dmhy.org, proxy
 
    # category-public-tracker
     DOMAIN, 10.rarbg.com, proxy
@@ -26358,6 +26613,8 @@ localhost = 127.0.0.1
     # include:douban
     # include:gracg
     # include:hupu
+    # include:meipian
+    # include:okjike
     # include:sina
     # include:xiaohongshu
     # include:yy
@@ -26387,6 +26644,7 @@ localhost = 127.0.0.1
 
    # category-speedtest
     # include:ookla-speedtest
+    # include:openspeedtest
 
     DOMAIN-SUFFIX, fast.com, proxy
     DOMAIN-SUFFIX, measurementlab.net, proxy
@@ -26480,6 +26738,9 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, flightio.com, proxy
     # DOMAIN-SUFFIX, mrbilit.com, proxy
     # DOMAIN-SUFFIX, tapsi.ir, proxy
+
+   # category-voip
+    # include:talkatone
 
    # category-vpnservices
     # DISCLAIMER:
@@ -26746,27 +27007,9 @@ localhost = 127.0.0.1
     # 山東省
     # DOMAIN-SUFFIX, sdgdwljt.com, proxy
 
-   # chinamobile (revised cn)
-    # DOMAIN-SUFFIX, 10086.cn, proxy
-    # DOMAIN-SUFFIX, 139.com, proxy
-    # DOMAIN-SUFFIX, chinamobile.com, proxy
-    # DOMAIN-SUFFIX, chinamobileltd.com, proxy
-
-    # Migu
-    # DOMAIN-SUFFIX, migucloud.com, proxy
-    # DOMAIN-SUFFIX, migu.cn, proxy
-    # DOMAIN-SUFFIX, cmvideo.cn, proxy
-    # DOMAIN-SUFFIX, miguvideo.com, proxy
-
-    # 中移互联
-    # DOMAIN-SUFFIX, andfx.cn, proxy
-    # DOMAIN-SUFFIX, andfx.net, proxy
-    # DOMAIN-SUFFIX, cmicrwx.cn, proxy
-    # DOMAIN-SUFFIX, cmpassport.com, proxy
-    # DOMAIN-SUFFIX, fetion-portal.com, proxy
-    # DOMAIN-SUFFIX, fetionpic.com, proxy
-    # DOMAIN-SUFFIX, mmarket.com, proxy
-    # DOMAIN-SUFFIX, mmarket6.com, proxy
+   # chinamobile
+    DOMAIN-SUFFIX, speedtest.hk.chinamobile.com, proxy
+    DOMAIN-SUFFIX, speedtestbb.hk.chinamobile.com, proxy
 
    # chinapower
     DOMAIN, chinapower.csis.org, proxy
@@ -26784,8 +27027,6 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, chinaunicom.com.hk, proxy
     DOMAIN-SUFFIX, chinaunicomglobal.com, proxy
     DOMAIN-SUFFIX, cuniq.com, proxy
-    DOMAIN-SUFFIX, speedtest.hk.chinamobile.com, proxy
-    DOMAIN-SUFFIX, speedtestbb.hk.chinamobile.com, proxy
 
    # chinaz (revised cn)
     # DOMAIN-SUFFIX, chinaz.com, proxy
@@ -27131,6 +27372,12 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, coolapkmarket.com, proxy
     # DOMAIN-SUFFIX, coolapkmarket.net, proxy
 
+   # copymanga (revised cn)
+    # DOMAIN-SUFFIX, copy-manga.com, proxy
+    # DOMAIN-SUFFIX, mangacopy.com, proxy
+    # DOMAIN-SUFFIX, mangafuna.xyz, proxy
+    # DOMAIN-SUFFIX, mangafunb.fun, proxy
+
    # corel
     DOMAIN-SUFFIX, corel.com, proxy
     DOMAIN-SUFFIX, corel.net, proxy
@@ -27210,7 +27457,14 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, ctripbuy.hk, proxy
     DOMAIN-SUFFIX, hhtravel.com.tw, proxy
     DOMAIN-SUFFIX, trip.com, proxy
-    DOMAIN-SUFFIX, tripcdn.com, proxy
+
+    DOMAIN-SUFFIX, ak-p.tripcdn.com, proxy
+    DOMAIN-SUFFIX, ak-s-cw.tripcdn.com, proxy
+    DOMAIN-SUFFIX, ak-s.tripcdn.com, proxy
+    DOMAIN-SUFFIX, akatest.tripcdn.com, proxy
+    DOMAIN-SUFFIX, aw-d.tripcdn.com, proxy
+    DOMAIN-SUFFIX, aw-p.tripcdn.com, proxy
+    DOMAIN-SUFFIX, aw-s.tripcdn.com, proxy
 
    # cugbonline (revised cn)
     # DOMAIN-SUFFIX, cugbonline.cn, proxy
@@ -27397,6 +27651,53 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, deviantart.com, proxy
     DOMAIN-SUFFIX, deviantart.net, proxy
     DOMAIN-SUFFIX, da-files.com, proxy
+
+   # dewu (revised cn)
+    # 得物 沪ICP备16019780号
+    # DOMAIN-SUFFIX, dewu-inc.com, proxy
+    # DOMAIN-SUFFIX, dewu-inner.com, proxy
+    # DOMAIN-SUFFIX, dewu-inner.net, proxy
+    # DOMAIN-SUFFIX, dewu.co, proxy
+    # DOMAIN-SUFFIX, dewu.com, proxy
+    # DOMAIN-SUFFIX, dewu.net, proxy
+    # DOMAIN-SUFFIX, dewuapp.cn, proxy
+    # DOMAIN-SUFFIX, dewucdn.com, proxy
+    # DOMAIN-SUFFIX, dewuhaowu.cn, proxy
+    # DOMAIN-SUFFIX, dewuhd.cn, proxy
+    # DOMAIN-SUFFIX, dewuhd.com, proxy
+    # DOMAIN-SUFFIX, dewuhui.cn, proxy
+    # DOMAIN-SUFFIX, dewuhui.com, proxy
+    # DOMAIN-SUFFIX, dewumall.com, proxy
+    # DOMAIN-SUFFIX, dewus.cn, proxy
+    # DOMAIN-SUFFIX, dewuyouhui.cn, proxy
+    # DOMAIN-SUFFIX, dewuyouhui.com, proxy
+    # DOMAIN-SUFFIX, du8.ltd, proxy
+    # DOMAIN-SUFFIX, dw2.co, proxy
+    # DOMAIN-SUFFIX, dw4.co, proxy
+    # DOMAIN-SUFFIX, dwhhd.cn, proxy
+    # DOMAIN-SUFFIX, dwhhd.com, proxy
+    # DOMAIN-SUFFIX, giftatdw.cn, proxy
+    # DOMAIN-SUFFIX, giftatdw.com, proxy
+    # DOMAIN-SUFFIX, giftattoday.com, proxy
+    # DOMAIN-SUFFIX, growthsharebounce.cn, proxy
+    # DOMAIN-SUFFIX, growthsharequestion.cn, proxy
+    # DOMAIN-SUFFIX, growthsharetubular.cn, proxy
+    # DOMAIN-SUFFIX, pandarzli.com, proxy
+    # DOMAIN-SUFFIX, pengyoudewu.cn, proxy
+    # DOMAIN-SUFFIX, pengyoudewu.com, proxy
+    # DOMAIN-SUFFIX, poizon-inner.com, proxy
+    # DOMAIN-SUFFIX, poizon-inner.net, proxy
+    # DOMAIN-SUFFIX, poizon-support.com, proxy
+    # DOMAIN-SUFFIX, poizon.com, proxy
+    # DOMAIN-SUFFIX, poizon.net, proxy
+    # DOMAIN-SUFFIX, shizhuang-inc.com, proxy
+    # DOMAIN-SUFFIX, shizhuang-inc.net, proxy
+    # DOMAIN-SUFFIX, theduapp.cn, proxy
+    # DOMAIN-SUFFIX, theduapp.com, proxy
+    # DOMAIN-SUFFIX, theduapp.com.cn, proxy
+    # DOMAIN-SUFFIX, wodehaodewu.cn, proxy
+    # DOMAIN-SUFFIX, womendedw.cn, proxy
+    # DOMAIN-SUFFIX, womendedw.com, proxy
 
    # dgtle (revised cn)
     # DOMAIN-SUFFIX, dgtle.com, proxy
@@ -27720,6 +28021,10 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, compose-spec.io, proxy
     DOMAIN-SUFFIX, docker.com, proxy
     DOMAIN-SUFFIX, docker.io, proxy
+    DOMAIN-SUFFIX, dockerstatic.com, proxy
+
+    DOMAIN, docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com, proxy
+    DOMAIN, docker-pinata-support.s3.amazonaws.com, proxy
 
    # doi
     DOMAIN-SUFFIX, doi.org, proxy
@@ -28805,6 +29110,21 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, eft-store.com, proxy
     DOMAIN-SUFFIX, escapefromtarkov.com, proxy
 
+   # eset
+    # ESET Wiki - [KB332] Ports and addresses required to use your ESET product with a third-party firewall
+    DOMAIN-SUFFIX, e5.sk, proxy
+    DOMAIN-SUFFIX, eset.com, proxy
+    DOMAIN-SUFFIX, eset.eu, proxy
+    DOMAIN-SUFFIX, eset.sk, proxy
+    DOMAIN-SUFFIX, eset.systems, proxy
+    DOMAIN-SUFFIX, esetsoftware.com, proxy
+
+    # ESET Password Manager
+    DOMAIN, eset-prod-ca48648d0ce7cadf.elb.eu-central-1.amazonaws.com, proxy
+
+    # Connection between the Agent and ESET PROTECT
+    DOMAIN, epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com, proxy
+
    # espn
     DOMAIN-SUFFIX, dtci.co, proxy
     DOMAIN-SUFFIX, dtci.technology, proxy
@@ -29515,6 +29835,11 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, fflogs.com, proxy
     DOMAIN-SUFFIX, rpglogs.com, proxy
 
+   # fibank
+    DOMAIN-SUFFIX, fibank.bg, proxy
+    DOMAIN-SUFFIX, meawallet.app, proxy
+    DOMAIN-SUFFIX, myfin.bg, proxy
+
    # figma
     DOMAIN-SUFFIX, figma.com, proxy
 
@@ -29632,6 +29957,14 @@ localhost = 127.0.0.1
    # forbes
     DOMAIN-SUFFIX, forbes.com, proxy
     DOMAIN-SUFFIX, forbesimg.com, proxy
+
+   # forza
+    DOMAIN-SUFFIX, forza.net, proxy
+    DOMAIN-SUFFIX, forzamotorsport.net, proxy
+    DOMAIN-SUFFIX, forzaracingchampionship.com, proxy
+    DOMAIN-SUFFIX, forzarc.com, proxy
+
+    DOMAIN, prodforza.blob.core.windows.net, proxy
 
    # foundertype (revised cn)
     # DOMAIN-SUFFIX, foundertype.com, proxy
@@ -30330,10 +30663,6 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, atwiki.jp, proxy
     DOMAIN-SUFFIX, touhouwiki.net, proxy
 
-    # Nebula Emby
-    DOMAIN-SUFFIX, api.nebula-emby.com, proxy
-    DOMAIN-SUFFIX, web.nebula-emby.com, proxy
-
     # Others
       # include:avaxhome
       # include:dlsite
@@ -30441,6 +30770,7 @@ localhost = 127.0.0.1
     # include:58tongcheng
     # include:ctrip
     # include:dangdang
+    # include:dewu
     # include:eleme
     # include:jd
     # include:lianjia
@@ -30455,6 +30785,9 @@ localhost = 127.0.0.1
     # include:vancl
     # include:youzan
     # include:ziroom
+
+    # Electronic
+    # include:category-electronic-cn
 
     # 孔夫子旧书网
     # DOMAIN-SUFFIX, kongfz.com, proxy
@@ -30497,10 +30830,10 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, uiwow.com, proxy # 魔兽有爱论坛
     # DOMAIN-SUFFIX, wuyou.net, proxy # 无忧启动论坛
 
-    # DOMAIN-SUFFIX, upe.net, proxy # 优启通官网（IT天空）
-
     # DOMAIN-SUFFIX, 423down.com, proxy # 423Down
     # DOMAIN-SUFFIX, ghxi.com, proxy # 果核剥壳
+    # DOMAIN-SUFFIX, moyubuluo.com, proxy # 墨鱼部落格 鲁ICP备16022801号-9
+    # DOMAIN-SUFFIX, upe.net, proxy # 优启通官网（IT天空）
     # DOMAIN-SUFFIX, winos.me, proxy # WINOS 精简社区
 
     # Media & News & Press
@@ -30535,6 +30868,7 @@ localhost = 127.0.0.1
     # include:category-collaborate-cn
     # include:category-documents-cn
     # include:category-ntp-cn
+    # include:category-outsource-cn
     # include:capitalonline
     # include:chinaso
     # include:chinaz
@@ -30577,8 +30911,6 @@ localhost = 127.0.0.1
 
     # DOMAIN-SUFFIX, zhaopin.cn, proxy # 智联招聘
     # DOMAIN-SUFFIX, moseeker.com, proxy # 仟寻招聘
-
-    # DOMAIN-SUFFIX, mihuashi.com, proxy # 米畫師
 
 
     # Social Media
@@ -32635,6 +32967,7 @@ localhost = 127.0.0.1
     DOMAIN, ai.google.dev, proxy
     DOMAIN, alkalicore-pa.clients6.google.com, proxy
     DOMAIN, alkalimakersuite-pa.clients6.google.com, proxy
+    DOMAIN, webchannel-alkalimakersuite-pa.clients6.google.com, proxy
     DOMAIN-SUFFIX, generativeai.google, proxy
     DOMAIN-SUFFIX, makersuite.google.com, proxy
 
@@ -32642,6 +32975,14 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, bard.google.com, proxy
     DOMAIN-SUFFIX, gemini.google, proxy
     DOMAIN-SUFFIX, gemini.google.com, proxy
+
+    # NotebookLM
+    DOMAIN-SUFFIX, notebooklm.google, proxy
+    DOMAIN-SUFFIX, notebooklm.google.com, proxy
+
+    # Jules
+    DOMAIN-SUFFIX, jules.google, proxy
+    DOMAIN-SUFFIX, jules.google.com, proxy
 
    # google-gemini
     # This list is for backward compatibility
@@ -33655,18 +33996,28 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, msstatic.com, proxy
 
   # i
-   # ibkr (revised other regions)
-    # DOMAIN-SUFFIX, ibkr.com, proxy
-    # DOMAIN-SUFFIX, interactivebrokers.ca, proxy
-    # DOMAIN-SUFFIX, interactivebrokers.co.in, proxy
-    # DOMAIN-SUFFIX, interactivebrokers.co.jp, proxy
-    # DOMAIN-SUFFIX, interactivebrokers.co.uk, proxy
-    # DOMAIN-SUFFIX, interactivebrokers.com, proxy
-    # DOMAIN-SUFFIX, interactivebrokers.com.au, proxy
-    # DOMAIN-SUFFIX, interactivebrokers.com.hk, proxy
-    # DOMAIN-SUFFIX, interactivebrokers.com.sg, proxy
-    # DOMAIN-SUFFIX, interactivebrokers.eu, proxy
-    # DOMAIN-SUFFIX, interactivebrokers.ie, proxy
+   # ibkr
+    DOMAIN-SUFFIX, ibkr.ca, proxy
+    DOMAIN-SUFFIX, ibkr.co.in, proxy
+    DOMAIN-SUFFIX, ibkr.co.uk, proxy
+    DOMAIN-SUFFIX, ibkr.com, proxy
+    DOMAIN-SUFFIX, ibkr.com.au, proxy
+    DOMAIN-SUFFIX, ibkr.com.hk, proxy
+    DOMAIN-SUFFIX, ibkr.com.sg, proxy
+    DOMAIN-SUFFIX, ibkr.eu, proxy
+    DOMAIN-SUFFIX, ibkr.ie, proxy
+    DOMAIN-SUFFIX, ibkrguides.com, proxy
+    DOMAIN-SUFFIX, ibllc.com, proxy
+    DOMAIN-SUFFIX, interactivebrokers.ca, proxy
+    DOMAIN-SUFFIX, interactivebrokers.co.in, proxy
+    DOMAIN-SUFFIX, interactivebrokers.co.jp, proxy
+    DOMAIN-SUFFIX, interactivebrokers.co.uk, proxy
+    DOMAIN-SUFFIX, interactivebrokers.com, proxy
+    DOMAIN-SUFFIX, interactivebrokers.com.au, proxy
+    DOMAIN-SUFFIX, interactivebrokers.com.hk, proxy
+    DOMAIN-SUFFIX, interactivebrokers.com.sg, proxy
+    DOMAIN-SUFFIX, interactivebrokers.eu, proxy
+    DOMAIN-SUFFIX, interactivebrokers.ie, proxy
 
    # ibm
     # include:hashicorp
@@ -35523,6 +35874,10 @@ localhost = 127.0.0.1
    # linux
     DOMAIN-SUFFIX, linux.org, proxy
 
+   # linuxdo (revised other regions)
+    # DOMAIN-SUFFIX, linux.do, proxy
+    # DOMAIN-SUFFIX, ldstatic.com, proxy
+
    # lisiku
     DOMAIN-SUFFIX, lisiku.com, proxy
     DOMAIN-SUFFIX, lisiku1.com, proxy
@@ -36041,6 +36396,12 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, mega.io, proxy
     DOMAIN-SUFFIX, mega.nz, proxy
 
+   # meipian (revised cn)
+    # 美篇
+    # DOMAIN-SUFFIX, ivwen.com, proxy
+    # DOMAIN-SUFFIX, meipian.cn, proxy
+    # DOMAIN-SUFFIX, meipian.me, proxy
+
    # meitu (revised cn)
     # DOMAIN-SUFFIX, meitu.com, proxy
     # DOMAIN-SUFFIX, meitudata.com, proxy
@@ -36288,11 +36649,13 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, msft.info, proxy
     DOMAIN-SUFFIX, msft.net, proxy
     DOMAIN-SUFFIX, msftauth.net, proxy
+    DOMAIN-SUFFIX, msftauthimages.net, proxy
     DOMAIN-SUFFIX, msftconnecttest.com, proxy
     DOMAIN-SUFFIX, msfteducation.ca, proxy
     DOMAIN-SUFFIX, msftncsi.com, proxy
     DOMAIN-SUFFIX, msftnet.org, proxy
     DOMAIN-SUFFIX, msgamesresearch.com, proxy
+    DOMAIN-SUFFIX, msgamestudios.com, proxy
     DOMAIN-SUFFIX, mshome.net, proxy
     DOMAIN-SUFFIX, msidentity.com, proxy
     DOMAIN-SUFFIX, msocdn.com, proxy
@@ -36874,6 +37237,7 @@ localhost = 127.0.0.1
 
    # mojang
     DOMAIN-SUFFIX, callersbane.com, proxy
+    DOMAIN-SUFFIX, minecraft-services.net, proxy
     DOMAIN-SUFFIX, minecraft.net, proxy
     DOMAIN-SUFFIX, minecraftservices.com, proxy
     DOMAIN-SUFFIX, minecraftshop.com, proxy
@@ -36995,6 +37359,10 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, msi.cn, proxy
     # DOMAIN-SUFFIX, msi.com, proxy
 
+   # mubi
+    DOMAIN-SUFFIX, mubi.com, proxy
+    DOMAIN-SUFFIX, mubicdn.net, proxy
+
    # mpv
     DOMAIN-SUFFIX, mpv.io, proxy
 
@@ -37065,6 +37433,11 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, mzed.com, proxy
 
   # n
+   # n26
+    DOMAIN-SUFFIX, n26.com, proxy
+    DOMAIN-SUFFIX, number26.de, proxy
+    DOMAIN-SUFFIX, tech26.de, proxy
+
    # n3ro
     DOMAIN-SUFFIX, n3ro.lol, proxy
     DOMAIN-SUFFIX, n3ro.net, proxy
@@ -37928,6 +38301,14 @@ localhost = 127.0.0.1
     # CN part of okaapps
     # regexp:^(.+\.)*zh\.okaapps\.com$ @cn
 
+   # okjike (revised cn)
+    # 即刻 沪ICP备15000478号
+    # DOMAIN-SUFFIX, jike.city, proxy
+    # DOMAIN-SUFFIX, jikecdn.com, proxy
+    # DOMAIN-SUFFIX, okjike.com, proxy
+    # DOMAIN-SUFFIX, okjk.co, proxy
+    # DOMAIN-SUFFIX, ruguoapp.com, proxy
+
    # okx
     DOMAIN-SUFFIX, okex.com, proxy
     DOMAIN-SUFFIX, okx.com, proxy
@@ -38030,6 +38411,10 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, deps.info, proxy
     DOMAIN-SUFFIX, opensourceinsight.dev, proxy
     DOMAIN-SUFFIX, opensourceinsights.dev, proxy
+
+   # openspeedtest
+    DOMAIN-SUFFIX, open.cachefly.net, proxy
+    DOMAIN-SUFFIX, openspeedtest.com, proxy
 
    # openstreetmap
     DOMAIN-SUFFIX, openmaps.org, proxy
@@ -38817,6 +39202,10 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, poe.com, proxy
     DOMAIN-SUFFIX, poecdn.net, proxy
 
+   # polocloud
+    DOMAIN-SUFFIX, polocloud.net, proxy
+    DOMAIN-SUFFIX, polocloud.xyz, proxy
+
    # polymer
     DOMAIN-SUFFIX, polymer-project.org, proxy
     DOMAIN-SUFFIX, polymerproject.org, proxy
@@ -38881,6 +39270,9 @@ localhost = 127.0.0.1
 
     # https://tools.ietf.org/html/rfc8375
     # DOMAIN-KEYWORD, .home.arpa, proxy
+
+    # https://www.icann.org/en/public-comment/proceeding/proposed-top-level-domain-string-for-private-use-24-01-2024
+    # DOMAIN-KEYWORD, .internal, proxy
 
     # References: https://www.iana.org/assignments/locally-served-dns-zones/locally-served-dns-zones.xhtml
     # https://www.rfc-editor.org/rfc/rfc6303.html
@@ -39804,6 +40196,73 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, rutrk.org, proxy
 
   # s
+   # sakurafrp
+    # Sakura Frp 由 南京帕斯琪信息科技有限公司 运营
+    # 苏ICP备2020068177号
+    # DOMAIN-SUFFIX, 13a.com, proxy
+    # DOMAIN-SUFFIX, natfrp.com, proxy
+
+    # VIP节点(内地)
+    # DOMAIN-SUFFIX, frp-air.com, proxy # 宿迁电信1
+    # DOMAIN-SUFFIX, frp-all.com, proxy # 宿迁电信2
+    # DOMAIN-SUFFIX, frp-arm.com, proxy # 西安电信1
+    # DOMAIN-SUFFIX, frp-art.com, proxy # 济南联通2
+    # DOMAIN-SUFFIX, frp-bag.com, proxy # 合肥三线PLUS1
+    # DOMAIN-SUFFIX, frp-bid.com, proxy # 南宁移动1
+    # DOMAIN-SUFFIX, frp-car.com, proxy # 重庆联通1
+    # DOMAIN-SUFFIX, frp-dog.com, proxy # 重庆三线PLUS1
+    # DOMAIN-SUFFIX, frp-dry.com, proxy # 重庆移动1
+    # DOMAIN-SUFFIX, frp-egg.com, proxy # 十堰多线PLUS2
+    # DOMAIN-SUFFIX, frp-era.com, proxy # 长沙电信PLUS1
+    # DOMAIN-SUFFIX, frp-fan.com, proxy # 浙江电信PLUS2
+    # DOMAIN-SUFFIX, frp-fee.com, proxy # 十堰多线PLUS1
+    # DOMAIN-SUFFIX, frp-fog.com, proxy # 浙江电信PLUS3
+    # DOMAIN-SUFFIX, frp-fox.com, proxy # 重庆三线PLUS2
+    # DOMAIN-SUFFIX, frp-gas.com, proxy # 昆明电信1
+    # DOMAIN-SUFFIX, frp-gym.com, proxy # 长沙电信PLUS3
+    # DOMAIN-SUFFIX, frp-hat.com, proxy # 广州联通2
+    # DOMAIN-SUFFIX, frp-hen.com, proxy # 广州联通3
+    # DOMAIN-SUFFIX, frp-hip.com, proxy # 辽宁联通1
+    # DOMAIN-SUFFIX, frp-hub.com, proxy # 浙江电信PLUS1
+    # DOMAIN-SUFFIX, frp-ice.com, proxy # 十堰多线1
+    # DOMAIN-SUFFIX, frp-key.com, proxy # 天津联通1
+    # DOMAIN-SUFFIX, frp-kit.com, proxy # 广东电信4
+    # DOMAIN-SUFFIX, frp-lab.com, proxy # 广东电信3
+    # DOMAIN-SUFFIX, frp-leg.com, proxy # 广州联通1
+    # DOMAIN-SUFFIX, frp-mad.com, proxy # 广东电信5
+    # DOMAIN-SUFFIX, frp-mix.com, proxy # 温州电信PLUS2
+    # DOMAIN-SUFFIX, frp-mom.com, proxy # 济南联通1
+    # DOMAIN-SUFFIX, frp-nut.com, proxy # 天津联通3
+    # DOMAIN-SUFFIX, frp-oak.com, proxy # 深圳移动PLUS-扩容1
+    # DOMAIN-SUFFIX, frp-one.com, proxy # 南昌三线PLUS1
+    # DOMAIN-SUFFIX, frp-own.com, proxy # 石家庄三线PLUS1
+    # DOMAIN-SUFFIX, frp-pen.com, proxy # 东莞三线PLUS1
+    # DOMAIN-SUFFIX, frp-rug.com, proxy # 济南电信PLUS1
+    # DOMAIN-SUFFIX, frp-run.com, proxy # 浙江电信PLUS4
+    # DOMAIN-SUFFIX, frp-say.com, proxy # 长沙电信PLUS5
+    # DOMAIN-SUFFIX, frp-shy.com, proxy # 浙江三线PLUS1
+
+    # 普通节点(内地)
+    # DOMAIN-SUFFIX, frp-act.com, proxy # 温州电信PLUS1
+    # DOMAIN-SUFFIX, frp-any.com, proxy # 成都移动2
+    # DOMAIN-SUFFIX, frp-bar.com, proxy # 浙江联通PLUS1
+    # DOMAIN-SUFFIX, frp-box.com, proxy # 济南联通3
+    # DOMAIN-SUFFIX, frp-boy.com, proxy # 济南联通PLUS1
+    # DOMAIN-SUFFIX, frp-bus.com, proxy # 济南联通PLUS2
+    # DOMAIN-SUFFIX, frp-dad.com, proxy # 长沙移动PLUS1
+    # DOMAIN-SUFFIX, frp-end.com, proxy # 合肥电信PLUS2
+    # DOMAIN-SUFFIX, frp-fun.com, proxy # 长沙电信PLUS4
+    # DOMAIN-SUFFIX, frp-gap.com, proxy # 重庆电信PLUS1
+    # DOMAIN-SUFFIX, frp-man.com, proxy # 深圳移动PLUS-扩容2
+    # DOMAIN-SUFFIX, frp-net.com, proxy # 十堰多线-扩容1
+    # DOMAIN-SUFFIX, frp-now.com, proxy # 天津联通2
+    # DOMAIN-SUFFIX, frp-off.com, proxy # 济南联通PLUS-扩容1
+    # DOMAIN-SUFFIX, frp-oil.com, proxy # 长沙电信PLUS2
+    # DOMAIN-SUFFIX, frp-put.com, proxy # 重庆电信PLUS2
+    # DOMAIN-SUFFIX, frp-rib.com, proxy # 石家庄联通PLUS1
+    # DOMAIN-SUFFIX, frp-sea.com, proxy # 浙江电信PLUS5
+    # DOMAIN-SUFFIX, frp-six.com, proxy # 浙江电信PLUS6
+
    # salesforce
     DOMAIN-SUFFIX, appcloud.com, proxy
     DOMAIN-SUFFIX, appexchange.com, proxy
@@ -40973,6 +41432,7 @@ localhost = 127.0.0.1
 
    # symantec
     DOMAIN-SUFFIX, symantec.com, proxy
+    DOMAIN-SUFFIX, symantecliveupdate.com, proxy
 
    # symantec-pki
     # Symantec CA
@@ -40988,6 +41448,21 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, synology.com, proxy
     DOMAIN-SUFFIX, synologydownload.com, proxy
     DOMAIN-SUFFIX, synologyupdate.com, proxy
+
+    # Synology DDNS
+    DOMAIN-SUFFIX, diskstation.me, proxy
+    DOMAIN-SUFFIX, dscloud.biz, proxy
+    DOMAIN-SUFFIX, dscloud.me, proxy
+    DOMAIN-SUFFIX, dscloud.mobi, proxy
+    DOMAIN-SUFFIX, dsmynas.com, proxy
+    DOMAIN-SUFFIX, dsmynas.net, proxy
+    DOMAIN-SUFFIX, dsmynas.org, proxy
+    DOMAIN-SUFFIX, familyds.com, proxy
+    DOMAIN-SUFFIX, familyds.net, proxy
+    DOMAIN-SUFFIX, familyds.org, proxy
+    DOMAIN-SUFFIX, i234.me, proxy
+    DOMAIN-SUFFIX, myds.me, proxy
+    DOMAIN-SUFFIX, synology.me, proxy
 
   # t
    # taboola
@@ -41006,6 +41481,19 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, tailscale.com, proxy
     DOMAIN-SUFFIX, tailscale.io, proxy
     DOMAIN-SUFFIX, ts.net, proxy
+
+   # talkatone
+    # imported from https://github.com/mottzz87/crules/blob/3e9cabc9f59c40ef8ac9773dda38dd9985b90dae/rule/talkatone.list
+    # credit to @mottzz87
+    DOMAIN-SUFFIX, agkn.com, proxy
+    DOMAIN-SUFFIX, cohere.com, proxy
+    DOMAIN-SUFFIX, inmobi.com, proxy
+    DOMAIN-SUFFIX, ip-api.com, proxy
+    DOMAIN-SUFFIX, kochava.com, proxy
+    DOMAIN-SUFFIX, mobilefuse.com, proxy
+    DOMAIN-SUFFIX, talkatone.com, proxy
+    DOMAIN-SUFFIX, tktn.at, proxy
+    DOMAIN-SUFFIX, tktn.be, proxy
 
    # taomee (revised cn)
     # DOMAIN-SUFFIX, 61.com, proxy
@@ -42473,6 +42961,9 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, trello.com, proxy
     DOMAIN-SUFFIX, trellocdn.com, proxy
 
+   # trustwallet
+    DOMAIN-SUFFIX, trustwallet.com, proxy
+
    # trustwave
     DOMAIN-SUFFIX, trustwave.com, proxy
 
@@ -43268,8 +43759,10 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, vivoglobal.com, proxy
 
    # vk
+    DOMAIN-SUFFIX, mradx.net, proxy
     DOMAIN-SUFFIX, mvk.com, proxy
     DOMAIN-SUFFIX, userapi.com, proxy
+    DOMAIN-SUFFIX, vk-analytics.ru, proxy
     DOMAIN-SUFFIX, vk-apps.com, proxy
     DOMAIN-SUFFIX, vk-apps.ru, proxy
     DOMAIN-SUFFIX, vk-cdn.me, proxy
@@ -43876,6 +44369,15 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, vpngate.jp, proxy
     DOMAIN-SUFFIX, vpngate.net, proxy
 
+   # vrzwk (revised other regions)
+    # vr中文库
+    # DOMAIN-SUFFIX, vrzwk.cn, proxy
+
+    # quest助手文件下载
+    # DOMAIN-SUFFIX, vrzwk.com, proxy
+    # DOMAIN-SUFFIX, vrzwk.net, proxy
+    # DOMAIN-SUFFIX, vrzwk.top, proxy
+
    # vultr
     DOMAIN-SUFFIX, vultr.com, proxy
 
@@ -44204,15 +44706,14 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, x.ai, proxy
 
    # xbox
+    # include:asobo
     # include:bethesda
+    # include:forza
     # include:mojang
 
     # All .xbox domains
     DOMAIN-KEYWORD, .xbox, proxy
 
-    DOMAIN-SUFFIX, forzamotorsport.net, proxy
-    DOMAIN-SUFFIX, forzaracingchampionship.com, proxy
-    DOMAIN-SUFFIX, forzarc.com, proxy
     DOMAIN-SUFFIX, gamepass.com, proxy
     DOMAIN-SUFFIX, orithegame.com, proxy
     DOMAIN-SUFFIX, renovacionxboxlive.com, proxy
@@ -44540,10 +45041,13 @@ localhost = 127.0.0.1
     DOMAIN-KEYWORD, .yandex, proxy
 
     # яндекс.рф
-    DOMAIN-SUFFIX, xn--d1acpjx3f.xn--p1ai, proxy
+    DOMAIN-SUFFIX, .xn--d1acpjx3f.xn--p1ai, proxy
 
     DOMAIN-SUFFIX, dzen.ru, proxy
+    DOMAIN-SUFFIX, rostaxi.org, proxy
     DOMAIN-SUFFIX, ya.ru, proxy
+    DOMAIN-SUFFIX, yandex-bank.net, proxy
+    DOMAIN-SUFFIX, yandex-images.clstorage.net, proxy
     DOMAIN-SUFFIX, yandex.aero, proxy
     DOMAIN-SUFFIX, yandex.az, proxy
     DOMAIN-SUFFIX, yandex.by, proxy
@@ -44575,7 +45079,10 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, yandex.tm, proxy
     DOMAIN-SUFFIX, yandex.ua, proxy
     DOMAIN-SUFFIX, yandex.uz, proxy
+    DOMAIN-SUFFIX, yandexadexchange.net, proxy
     DOMAIN-SUFFIX, yandexcloud.net, proxy
+    DOMAIN-SUFFIX, yandexcom.net, proxy
+    DOMAIN-SUFFIX, yandexwebcache.org, proxy
     DOMAIN-SUFFIX, yastatic.net, proxy
 
    # ycombinator
@@ -44975,6 +45482,7 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, 1lib.eu, proxy
     DOMAIN-SUFFIX, 1lib.limited, proxy
     DOMAIN-SUFFIX, 1lib.pl, proxy
+    DOMAIN-SUFFIX, 1lib.sk, proxy
     DOMAIN-SUFFIX, 1lib.to, proxy
     DOMAIN-SUFFIX, 1lib.tw, proxy
     DOMAIN-SUFFIX, 2lib.org, proxy
@@ -45005,7 +45513,11 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, singlelogin.me, proxy
     DOMAIN-SUFFIX, singlelogin.re, proxy
     DOMAIN-SUFFIX, singlelogin.site, proxy
+    DOMAIN-SUFFIX, z-lib.fm, proxy
+    DOMAIN-SUFFIX, z-lib.gd, proxy
+    DOMAIN-SUFFIX, z-lib.gl, proxy
     DOMAIN-SUFFIX, z-lib.org, proxy
+    DOMAIN-SUFFIX, z-library.sk, proxy
     DOMAIN-SUFFIX, z-library.se, proxy
     DOMAIN-SUFFIX, zlib.life, proxy
     DOMAIN-SUFFIX, zlibcdn.com, proxy
@@ -45143,6 +45655,7 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, izto.com, proxy
     # DOMAIN-SUFFIX, izto.com.cn, proxy
     # DOMAIN-SUFFIX, mlzt.com.cn, proxy
+    # DOMAIN-SUFFIX, tuxi.com, proxy
     # DOMAIN-SUFFIX, zt-express.com, proxy
     # DOMAIN-SUFFIX, zto.cn, proxy
     # DOMAIN-SUFFIX, zto.com, proxy
@@ -45697,5 +46210,3 @@ localhost = 127.0.0.1
 
  # MATCH rules
     FINAL, direct
-
-
