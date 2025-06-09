@@ -78,6 +78,9 @@ payload:
    # alchemer.com
     DOMAIN-SUFFIX, alchemer.com
 
+   # allsetlearning.com (revised other regions)
+    DOMAIN-SUFFIX, allsetlearning.com
+
    # alpineschools.org
     DOMAIN-SUFFIX, alpineschools.org
 

@@ -78,6 +78,9 @@ payload:
    # alchemer.com
     .alchemer.com
 
+   # allsetlearning.com (revised other regions)
+    .allsetlearning.com
+
    # alpineschools.org
     .alpineschools.org
 
