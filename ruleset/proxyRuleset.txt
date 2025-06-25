@@ -440,6 +440,9 @@ payload:
     DOMAIN-SUFFIX, curtin.edu.au
     DOMAIN-SUFFIX, pcdn.co
 
+   # cutout.pro
+    DOMAIN-SUFFIX, cutout.pro
+
    # cvs
     DOMAIN-SUFFIX, cvs.com
 
@@ -613,6 +616,9 @@ payload:
    # fosshub
     DOMAIN-SUFFIX, download.fosshub.com
 
+   # fotor.com
+    DOMAIN-SUFFIX, fotor.com
+
    # freedesktop.timedate1
     DOMAIN-SUFFIX, org.freedesktop.timedate1
 
@@ -675,6 +681,9 @@ payload:
 
    # gob.cl
     DOMAIN-SUFFIX, gob.cl
+    # DOMAIN-SUFFIX, donacionesley21440.gob.cl
+    # DOMAIN-SUFFIX, dt.gob.cl
+    # DOMAIN-SUFFIX, ine.gob.cl
 
    # goddessdelivers
     DOMAIN-SUFFIX, goddessdelivers.com
@@ -830,9 +839,7 @@ payload:
    # hashrate
     DOMAIN-SUFFIX, hashrate.to
 
-   # hbomax (test)
-    # keep until: 2025-09-01
-
+   # hbomax (revised other regions)
     DOMAIN-SUFFIX, h264.io
     DOMAIN-SUFFIX, prd.api.max.com
     DOMAIN-SUFFIX, warnermediacdn.com
@@ -865,6 +872,9 @@ payload:
 
    # homegoods.com
     DOMAIN-SUFFIX, homegoods.com
+
+   # homer.sii.cl (revised other regions)
+    DOMAIN-SUFFIX, homer.sii.cl
 
    # hostinger
     DOMAIN-SUFFIX, hostinger.com
@@ -933,6 +943,9 @@ payload:
    # interactivebrokers.com.hk
     DOMAIN-SUFFIX, interactivebrokers.com.hk
 
+   # intermixonline.com
+    DOMAIN-SUFFIX, intermixonline.com
+
    # intuit.com
     DOMAIN-SUFFIX, intuit.com
 
@@ -975,8 +988,8 @@ payload:
 
     # DOMAIN-SUFFIX, jkforum.net
     # DOMAIN-SUFFIX, mymypic.net
-    # # DOMAIN-SUFFIX, mymyads.net
-    # # DOMAIN-SUFFIX, mymyuc.net
+    # DOMAIN-SUFFIX, mymyads.net
+    # DOMAIN-SUFFIX, mymyuc.net
 
    # jordandistrict.org
     DOMAIN-SUFFIX, jordandistrict.org
@@ -1003,12 +1016,18 @@ payload:
 
     DOMAIN, cdn-useast1.kapwing.com
 
+   # kaze.ai
+    DOMAIN-SUFFIX, kaze.ai
+
    # keatinggroup.com
     DOMAIN-SUFFIX, keatinggroup.com
 
    # keepsolid
     DOMAIN-SUFFIX, keepsolid.com
     DOMAIN, sentry.keepsolid.com
+
+   # klingai.com (revised other regions)
+    DOMAIN-SUFFIX, klingai.com
 
    # kevinwilsonconnection.org
     DOMAIN-SUFFIX, kevinwilsonconnection.org
@@ -1332,6 +1351,9 @@ payload:
    # oldmapsonline.org (revised other regions)
     DOMAIN-SUFFIX, oldmapsonline.org
 
+   # olx.co.id
+    DOMAIN-SUFFIX, olx.co.id
+
    # omny.fm
     DOMAIN-SUFFIX, omny.fm
 
@@ -1355,6 +1377,9 @@ payload:
 
    # openai
     DOMAIN, tcr9i.chat.openai.com
+
+   # openart.ai
+    DOMAIN-SUFFIX, openart.ai
 
    # openinventionnetwork.com
     DOMAIN-SUFFIX, openinventionnetwork.com
@@ -1442,6 +1467,9 @@ payload:
    # philo.com
     DOMAIN-SUFFIX, philo.com
 
+   # picsart.com
+    DOMAIN-SUFFIX, picsart.com
+
    # pixeldrain.com
     DOMAIN-SUFFIX, pixeldrain.com
 
@@ -1487,7 +1515,7 @@ payload:
     DOMAIN-SUFFIX, proshkola18.ru
 
    # proxyium.com
-    - DOMAIN-SUFFIX, proxyium.com
+    - DOMAIN-SUFFIXium.com
 
    # psi.org
     DOMAIN-SUFFIX, psi.org
@@ -1749,6 +1777,9 @@ payload:
 
     DOMAIN, media.tenor.com
 
+   # theartofeducation.edu (revised other regions)
+    DOMAIN-SUFFIX, theartofeducation.edu
+
    # thedesk
     DOMAIN-SUFFIX, thedesk.net
 
@@ -1961,6 +1992,9 @@ payload:
 
    # vapezoo
     DOMAIN-SUFFIX, vapezoo.com
+
+   # veed.io
+    DOMAIN-SUFFIX, veed.io
 
    # veritaspress.com
     DOMAIN-SUFFIX, veritaspress.com

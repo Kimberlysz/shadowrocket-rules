@@ -3,15 +3,15 @@ payload:
    # 1800 flowers (test)
     .1800flowers.com
 
-    - DOMAIN, 1800flowers.7ymy.net
-    - DOMAIN, 1800flowers.attn.tv
-    - DOMAIN, z1800flowers3276921z.btttag.com
-    - DOMAIN, zn8gre3bdrts5wjr3-1800flowers.siteintercept.qualtrics.com
+    .1800flowers.7ymy.net
+    .1800flowers.attn.tv
+    .z1800flowers3276921z.btttag.com
+    .zn8gre3bdrts5wjr3-1800flowers.siteintercept.qualtrics.com
 
    # 14news
     .14news.com
   
-    - DOMAIN, gray-wfie-prod.cdn.arcpublishing.com
+    .gray-wfie-prod.cdn.arcpublishing.com
 
    # 2miners
     .2miners.com
@@ -41,18 +41,18 @@ payload:
    # addepar
     .addepar.com
 
-    - DOMAIN, id.addepar.com
-    - DOMAIN, matrixpcg.addepar.com
+    .id.addepar.com
+    .matrixpcg.addepar.com
 
    # agoda
     .agoda.com
 
-    - DOMAIN, pix6.agoda.net
-    - DOMAIN, mtagm.agoda.com
-    - DOMAIN, img.agoda.net
-    - DOMAIN, cdn6.agoda.net
-    - DOMAIN, cdn0.agoda.net
-    - DOMAIN, bento.agoda.com
+    .pix6.agoda.net
+    .mtagm.agoda.com
+    .img.agoda.net
+    .cdn6.agoda.net
+    .cdn0.agoda.net
+    .bento.agoda.com
 
    # ai art
     .craiyon.com
@@ -66,11 +66,11 @@ payload:
     .airasia.ck123.io
     .airasia.com
     .airasia.gw-dv.vip
-    - DOMAIN, payment.airasia.com
-    - DOMAIN, payment.apiairasia.com
-    - DOMAIN, sso-widget.airasia.com
-    - DOMAIN, ssor.airasia.com
-    - DOMAIN, static.airasia.com
+    .payment.airasia.com
+    .payment.apiairasia.com
+    .sso-widget.airasia.com
+    .ssor.airasia.com
+    .static.airasia.com
 
    # akamai technologies
     # AS16625 - Akamai Technologies, Inc.
@@ -113,13 +113,13 @@ payload:
     .applitrack.com
 
    # appspot, Others
-    # - DOMAIN, feelinsonice-hrd.appspot.com
-    # - DOMAIN, feelinsonice.appspot.com
-    # - DOMAIN, sc-analytics.appspot.com
+    # feelinsonice-hrd.appspot.com
+    # feelinsonice.appspot.com
+    # sc-analytics.appspot.com
 
    # arkoselabs.com
-    - DOMAIN, client-api.arkoselabs.com
-    - DOMAIN, iframe.arkoselabs.com
+    .client-api.arkoselabs.com
+    .iframe.arkoselabs.com
 
    # art19.com
     .art19.com
@@ -174,7 +174,7 @@ payload:
     .behance.com
 
    # beinsports
-    - DOMAIN, connect-us.beinsports.com
+    .connect-us.beinsports.com
 
     .beinsports.com
 
@@ -222,7 +222,7 @@ payload:
     .bmo.com
 
    # bmwusa
-    - DOMAIN, idresgraph.bmwusa.com
+    .idresgraph.bmwusa.com
 
    # box.com
     .box.com
@@ -266,21 +266,21 @@ payload:
    # cebupacificair.com
     .cebupacificair.com
 
-    - DOMAIN, soar.cebupacificair.com
+    .soar.cebupacificair.com
 
    # cedexis
     .cedexis-test.com
-    - DOMAIN, p29.cedexis-test.com
+    .p29.cedexis-test.com
 
    # celcius network
     .celsius.network
-    - DOMAIN, g9zdov47b9.execute-api.us-east-1.amazonaws.com
+    .g9zdov47b9.execute-api.us-east-1.amazonaws.com
 
    # celebsunmasked.com
     .celebsunmasked.com
 
    # character.ai
-    - DOMAIN, beta.character.ai
+    .beta.character.ai
 
    # chatgpt.com
     .chatgpt.com
@@ -324,7 +324,7 @@ payload:
     .clickbank.com
 
    # cloudflare
-    - DOMAIN, a.nel.cloudflare.com
+    .a.nel.cloudflare.com
     # .ajax.cloudflare.com
     # .api.ip.sb.cdn.cloudflare.net
     # .cdnjs.cloudflare.com
@@ -338,16 +338,16 @@ payload:
     .cnbetacdn.com
 
    # co.uk
-    # . .co.uk
+    - DOMAIN-KEYWORD, .co.uk
 
    # coinbase
     .coinbasecdn.net
 
-    - DOMAIN, as.coinbase.com
-    - DOMAIN, assets.coinbase.com
-    - DOMAIN, dynamic-assets.coinbase.com
-    - DOMAIN, sessions.coinbase.com
-    - DOMAIN, static-assets.coinbase.com
+    .as.coinbase.com
+    .assets.coinbase.com
+    .dynamic-assets.coinbase.com
+    .sessions.coinbase.com
+    .static-assets.coinbase.com
 
    # coindesk
     .coindesk.com
@@ -358,8 +358,8 @@ payload:
    # coingecko
     .coingecko.com
 
-    - DOMAIN, assets.coingecko.com
-    - DOMAIN, static.coingecko.com
+    .assets.coingecko.com
+    .static.coingecko.com
 
    # coinmarketcap.com
     .coinwarz.com
@@ -368,7 +368,7 @@ payload:
    # complio.com
     .complio.com
 
-    - DOMAIN, liberty.complio.com
+    .liberty.complio.com
 
    # cookcountyclerkil.gov
     .cookcountyclerkil.gov
@@ -440,16 +440,19 @@ payload:
     .curtin.edu.au
     .pcdn.co
 
+   # cutout.pro
+    .cutout.pro
+
    # cvs
     .cvs.com
 
-    - DOMAIN, cdn.appdynamics.com
-    - DOMAIN, images.ctfassets.net
+    .cdn.appdynamics.com
+    .images.ctfassets.net
 
    # cwtv.com
     .cwtv.com
 
-    - DOMAIN, images.cwtv.com
+    .images.cwtv.com
 
    # cyberspatial.com
     .cyberspatial.com
@@ -518,12 +521,12 @@ payload:
     .enterprise.com
 
    # epicgames
-    - DOMAIN, cdn2.unrealengine.com
-    - DOMAIN, components.unrealengine.com
-    - DOMAIN, graphql.unrealengine.com
-    - DOMAIN, media.graphassets.com
-    - DOMAIN, static-assets-prod.unrealengine.com
-    - DOMAIN, tracking.unrealengine.com
+    .cdn2.unrealengine.com
+    .components.unrealengine.com
+    .graphql.unrealengine.com
+    .media.graphassets.com
+    .static-assets-prod.unrealengine.com
+    .tracking.unrealengine.com
 
    # equator-network.org
     .equator-network.org
@@ -562,9 +565,9 @@ payload:
    # express.co.uk
     .express.co.uk
 
-    - DOMAIN, cdn.images.express.co.uk
-    - DOMAIN, premium.express.co.uk
-    - DOMAIN, secure.insightexpressai.com
+    .cdn.images.express.co.uk
+    .premium.express.co.uk
+    .secure.insightexpressai.com
 
    # expressvpn.com
     .expressvpn.com
@@ -585,7 +588,7 @@ payload:
     # AS54113 - Fastly, Inc.
 
    # firebase
-    - DOMAIN, firebase-settings.crashlytics.com
+    .firebase-settings.crashlytics.com
 
    # fiverr
     .fiverr.com
@@ -602,7 +605,7 @@ payload:
    # footystats
     .footystats.org
 
-    - DOMAIN, cdn.footystats.org
+    .cdn.footystats.org
 
    # forc.mx
     .forc.mx
@@ -613,10 +616,13 @@ payload:
    # fosshub
     .download.fosshub.com
 
+   # fotor.com
+    .fotor.com
+
    # freedesktop.timedate1
     .org.freedesktop.timedate1
 
-    - DOMAIN, org.freedesktop.timedate1
+    .org.freedesktop.timedate1
 
    # freemacsoft.net
     .freemacsoft.net
@@ -629,7 +635,7 @@ payload:
 
   # g
    # gammaplatform.com
-    - DOMAIN, cm-supply-web.gammaplatform.com
+    .cm-supply-web.gammaplatform.com
 
    # genius.com
     .genius.com
@@ -638,20 +644,20 @@ payload:
     .getcomics.info
 
    # getcourse.ru
-    - DOMAIN, fs-thb01.getcourse.ru
-    - DOMAIN, fs-thb02.getcourse.ru
-    - DOMAIN, fs-thb03.getcourse.ru
-    - DOMAIN, fs01.getcourse.ru
-    - DOMAIN, fs02.getcourse.ru
-    - DOMAIN, fs06.getcourse.ru
-    - DOMAIN, fs07.getcourse.ru
-    - DOMAIN, fs10.getcourse.ru
-    - DOMAIN, fs12.getcourse.ru
-    - DOMAIN, fs14.getcourse.ru
-    - DOMAIN, fs15.getcourse.ru
-    - DOMAIN, fs16.getcourse.ru
-    - DOMAIN, fs17.getcourse.ru
-    - DOMAIN, gcfs04.getcourse.ru
+    .fs-thb01.getcourse.ru
+    .fs-thb02.getcourse.ru
+    .fs-thb03.getcourse.ru
+    .fs01.getcourse.ru
+    .fs02.getcourse.ru
+    .fs06.getcourse.ru
+    .fs07.getcourse.ru
+    .fs10.getcourse.ru
+    .fs12.getcourse.ru
+    .fs14.getcourse.ru
+    .fs15.getcourse.ru
+    .fs16.getcourse.ru
+    .fs17.getcourse.ru
+    .gcfs04.getcourse.ru
 
    # ghostlifestyle.com
     .ghostlifestyle.com
@@ -675,6 +681,9 @@ payload:
 
    # gob.cl
     .gob.cl
+    # .donacionesley21440.gob.cl
+    # .dt.gob.cl
+    # .ine.gob.cl
 
    # goddessdelivers
     .goddessdelivers.com
@@ -764,7 +773,7 @@ payload:
     # .telephony.goog
     # .waveprotocol.org
 
-    # - DOMAIN, youtubei.googleapis.com
+    # youtubei.googleapis.com
 
     # other rules
     # .c.android.clients.google.com
@@ -787,13 +796,13 @@ payload:
     # .www-google-analytics.l.google.com
     # .www-googletagmanager.l.google.com
     # .gstatic.com
-    # - DOMAIN, dl.google.com
-    # - DOMAIN, mtalk.google.com
+    # dl.google.com
+    # mtalk.google.com
 
    # google2 (test)
     # under global mode, dl.google.com redirects to https://google.com/chrome
     # under rule mode, dl.google.com redirects to a 404 page
-    # - DOMAIN, dl.google.com
+    # dl.google.com
 
    # gotquestions.org
     .gotquestions.org
@@ -805,7 +814,7 @@ payload:
     .gov.in
 
    # gov.ph
-    - DOMAIN, edoc.ipophil.gov.ph
+    .edoc.ipophil.gov.ph
     .gov.ph
 
    # gov.sg
@@ -830,9 +839,7 @@ payload:
    # hashrate
     .hashrate.to
 
-   # hbomax (test)
-    # keep until: 2025-09-01
-
+   # hbomax (revised other regions)
     .h264.io
     .prd.api.max.com
     .warnermediacdn.com
@@ -849,9 +856,9 @@ payload:
    # heygen.com
     .heygen.com
 
-    - DOMAIN, cdn.heygen.com
-    - DOMAIN, app.heygen.com
-    - DOMAIN, api2.heygen.com
+    .cdn.heygen.com
+    .app.heygen.com
+    .api2.heygen.com
 
    # hhdcb3office
     .hhdcb3office.org
@@ -865,6 +872,9 @@ payload:
 
    # homegoods.com
     .homegoods.com
+
+   # homer.sii.cl (revised other regions)
+    .homer.sii.cl
 
    # hostinger
     .hostinger.com
@@ -904,17 +914,17 @@ payload:
     .ign.com
     .ignimgs.com
 
-    - DOMAIN, assets1.ignimgs.com
-    - DOMAIN, assets-prd.ignimgs.com
-    - DOMAIN, kraken.ignimgs.com
+    .assets1.ignimgs.com
+    .assets-prd.ignimgs.com
+    .kraken.ignimgs.com
 
    # indeed.com
-    - DOMAIN, t.indeed.com
-    - DOMAIN, secure.indeed.com
-    - DOMAIN, pxl.indeed.com
-    - DOMAIN, kimoyo.indeed.com
-    - DOMAIN, c03.s3.indeed.com
-    - DOMAIN, autocomplete.indeed.com
+    .t.indeed.com
+    .secure.indeed.com
+    .pxl.indeed.com
+    .kimoyo.indeed.com
+    .c03.s3.indeed.com
+    .autocomplete.indeed.com
 
     .indeed.com
 
@@ -932,6 +942,9 @@ payload:
 
    # interactivebrokers.com.hk
     .interactivebrokers.com.hk
+
+   # intermixonline.com
+    .intermixonline.com
 
    # intuit.com
     .intuit.com
@@ -957,11 +970,11 @@ payload:
    # itv.com
     .itv.com
 
-    - DOMAIN, app.10ft.itv.com
-    - DOMAIN, assets.fe.itv.com
-    - DOMAIN, cscript-cdn-irl.cassiecloud.com
-    - DOMAIN, http-inputs-itv.splunkcloud.com
-    - DOMAIN, tom.itv.com
+    .app.10ft.itv.com
+    .assets.fe.itv.com
+    .cscript-cdn-irl.cassiecloud.com
+    .http-inputs-itv.splunkcloud.com
+    .tom.itv.com
 
    # ivpn.net
     .ivpn.net
@@ -1001,14 +1014,20 @@ payload:
    # kapwing.com
     .kapwing.com
 
-    - DOMAIN, cdn-useast1.kapwing.com
+    .cdn-useast1.kapwing.com
+
+   # kaze.ai
+    .kaze.ai
 
    # keatinggroup.com
     .keatinggroup.com
 
    # keepsolid
     .keepsolid.com
-    - DOMAIN, sentry.keepsolid.com
+    .sentry.keepsolid.com
+
+   # klingai.com (revised other regions)
+    .klingai.com
 
    # kevinwilsonconnection.org
     .kevinwilsonconnection.org
@@ -1037,13 +1056,13 @@ payload:
     .lendingtree.com
 
    # letsvpn.world
-    - DOMAIN, letsvpn.world
+    .letsvpn.world
 
    # libbyapp.com
-    - DOMAIN, ic.od-cdn.com
-    - DOMAIN, ntc.api.overdrive.com
-    - DOMAIN, thunder.api.overdrive.com
-    - DOMAIN, thunder.cdn.overdrive.com
+    .ic.od-cdn.com
+    .ntc.api.overdrive.com
+    .thunder.api.overdrive.com
+    .thunder.cdn.overdrive.com
 
     .libbyapp.com
 
@@ -1056,8 +1075,8 @@ payload:
    # lido
     .lido.fi
 
-    - DOMAIN, blog.lido.fi
-    - DOMAIN, matomo.lido.fi
+    .blog.lido.fi
+    .matomo.lido.fi
 
    # lifemission.church
     .lifemission.church
@@ -1069,15 +1088,15 @@ payload:
     .naver.jp
 
    # linkedin
-    - DOMAIN, lnkd.demdex.net
-    - DOMAIN, static.licdn.com
+    .lnkd.demdex.net
+    .static.licdn.com
 
    # linktr
     .linktr.ee
 
-    - DOMAIN, website.linktr.ee
-    - DOMAIN, assets.production.linktr.ee
-    - DOMAIN, ingress.linktr.ee
+    .website.linktr.ee
+    .assets.production.linktr.ee
+    .ingress.linktr.ee
 
    # liquidweb.com
     .liquidweb.com
@@ -1217,7 +1236,7 @@ payload:
     .mux.com
 
    # mwcbarcelona.com
-    - DOMAIN, register.mwcbarcelona.com
+    .register.mwcbarcelona.com
 
    # mycustomsoftware.com
     .mycustomsoftware.com
@@ -1226,7 +1245,7 @@ payload:
     .myindigocard.com
     .myfinanceservice.com
 
-    - DOMAIN, indigo.myfinanceservice.com
+    .indigo.myfinanceservice.com
 
    # mymainecertification.com
     .mymainecertification.com
@@ -1247,24 +1266,24 @@ payload:
    # navyfederal
     .navyfederal.org
 
-    - DOMAIN, analytics.navyfederal.org
-    - DOMAIN, dm-assets.navyfederal.org
-    - DOMAIN, liveengage.navyfederal.org
-    - DOMAIN, navyfederalcu.tt.omtrdc.net
+    .analytics.navyfederal.org
+    .dm-assets.navyfederal.org
+    .liveengage.navyfederal.org
+    .navyfederalcu.tt.omtrdc.net
 
    # nces.ed.gov
     .nces.ed.gov
 
    # nelnet.com
-    - DOMAIN, secure.nelnet.com
-    - DOMAIN, extsvc.nelnet.net
-    - DOMAIN, contentmma.guides.nelnet.com
-    - DOMAIN, auth.nelnet.com
+    .secure.nelnet.com
+    .extsvc.nelnet.net
+    .contentmma.guides.nelnet.com
+    .auth.nelnet.com
     .nelnet.net
     .nelnet.com
 
    # netflix
-    # - '+.Argo*
+    # .Argo*
 
     # .dualstack.apiproxy-
     # .dualstack.ichnaea-web-
@@ -1280,12 +1299,12 @@ payload:
     .news9live.com
 
    # nexusmods.com
-    - DOMAIN, data.nexusmods.com
-    - DOMAIN, images.nexusmods.com
-    - DOMAIN, pw.nexusmods.com
-    - DOMAIN, staticdelivery.nexusmods.com
-    - DOMAIN, staticstats.nexusmods.com
-    - DOMAIN, unleash-edge.nexusmods.com
+    .data.nexusmods.com
+    .images.nexusmods.com
+    .pw.nexusmods.com
+    .staticdelivery.nexusmods.com
+    .staticstats.nexusmods.com
+    .unleash-edge.nexusmods.com
 
    # nh.gov
     .nh.gov
@@ -1306,20 +1325,20 @@ payload:
     .noviosfalabella.com
 
    # nr-data.net
-    - DOMAIN, bam-cell.nr-data.net
+    .bam-cell.nr-data.net
 
     .bam-cell.nr-data.net
 
   # o
    # oculus
-    - DOMAIN, developer.oculus.com
-    - DOMAIN, graph.oculus.com
-    - DOMAIN, oculus.fbthirdpartypixel.com
+    .developer.oculus.com
+    .graph.oculus.com
+    .oculus.fbthirdpartypixel.com
 
    # okcoin.com
     .okcoin.com
 
-    - DOMAIN, static.okcoin.com
+    .static.okcoin.com
 
    # okcupid.com
     .okcupid.com
@@ -1327,10 +1346,13 @@ payload:
    # okx
     .okx.com
 
-    - DOMAIN, static.okx.com
+    .static.okx.com
 
    # oldmapsonline.org (revised other regions)
     .oldmapsonline.org
+
+   # olx.co.id
+    .olx.co.id
 
    # omny.fm
     .omny.fm
@@ -1339,7 +1361,7 @@ payload:
     # onedrive rules originates from this yaml file
     # .blob.core.windows.net
     # .storage.msn.com
-    # - DOMAIN, oneclient.sfx.ms
+    # oneclient.sfx.ms
 
    # onehome.com
     .onehome.com
@@ -1354,7 +1376,10 @@ payload:
     .onlineaccount.net
 
    # openai
-    - DOMAIN, tcr9i.chat.openai.com
+    .tcr9i.chat.openai.com
+
+   # openart.ai
+    .openart.ai
 
    # openinventionnetwork.com
     .openinventionnetwork.com
@@ -1365,10 +1390,10 @@ payload:
    # optimizely.com
     .optimizely.com
 
-    - DOMAIN, a125375509.cdn.optimizely.com
-    - DOMAIN, cdn.optimizely.com
-    - DOMAIN, cdn3.optimizely.com
-    - DOMAIN, logx.optimizely.com
+    .a125375509.cdn.optimizely.com
+    .cdn.optimizely.com
+    .cdn3.optimizely.com
+    .logx.optimizely.com
 
    # osd.mil
     .osd.mil
@@ -1378,7 +1403,7 @@ payload:
     .ottcast.net
     .ottcst.com
 
-    - DOMAIN, line.ottcst.com
+    .line.ottcst.com
 
    # otto.nl
     .otto.nl
@@ -1390,11 +1415,11 @@ payload:
    # pancakeswap.finance
     .pancakeswap.finance
 
-    - DOMAIN, aptos.pancakeswap.finance
-    - DOMAIN, assets.pancakeswap.finance
-    - DOMAIN, nodes.pancakeswap.info
-    - DOMAIN, pancake-trading-fee-rebate-api.pancakeswap.com
-    - DOMAIN, strapi-cms.pancakeswap.ai
+    .aptos.pancakeswap.finance
+    .assets.pancakeswap.finance
+    .nodes.pancakeswap.info
+    .pancake-trading-fee-rebate-api.pancakeswap.com
+    .strapi-cms.pancakeswap.ai
 
    # paramount plus (test)
     # .pplusstatic.com
@@ -1406,8 +1431,8 @@ payload:
     .polyfill-fastly.io
 
    # patreon
-    - DOMAIN, c15.patreon.com
-    - DOMAIN, c5.patreon.com
+    .c15.patreon.com
+    .c5.patreon.com
 
    # pay1040.com
     .pay1040.com
@@ -1436,11 +1461,14 @@ payload:
    # philippineairlines.com
     .philippineairlines.com
 
-    - DOMAIN, philippineairlinesprod.api.useinsider.com
-    - DOMAIN, zn6euonij6xwfajg5-philippineairlines.site
+    .philippineairlinesprod.api.useinsider.com
+    .zn6euonij6xwfajg5-philippineairlines.site
 
    # philo.com
     .philo.com
+
+   # picsart.com
+    .picsart.com
 
    # pixeldrain.com
     .pixeldrain.com
@@ -1459,8 +1487,8 @@ payload:
     .pokerstars.net
     .pokerstrategy.com
 
-    - DOMAIN, api-01.luckyvr.net
-    - DOMAIN, events.backtrace.io
+    .api-01.luckyvr.net
+    .events.backtrace.io
 
    # pool.space
     .pool.space
@@ -1487,7 +1515,7 @@ payload:
     .proshkola18.ru
 
    # proxyium.com
-    .proxyium.com
+    - DOMAIN-SUFFIXium.com
 
    # psi.org
     .psi.org
@@ -1514,15 +1542,15 @@ payload:
    # quantummetric.com
     .quantummetric.com
 
-    - DOMAIN, cdn.quantummetric.com
-    - DOMAIN, ingest.quantummetric.com
-    - DOMAIN, rl.quantummetric.com
+    .cdn.quantummetric.com
+    .ingest.quantummetric.com
+    .rl.quantummetric.com
 
   # r
    # rask.ai
     .rask.ai
 
-    - DOMAIN, dev.visualwebsiteoptimizer.com
+    .dev.visualwebsiteoptimizer.com
 
    # raspberrypi.org
     .raspberrypi.org
@@ -1550,13 +1578,13 @@ payload:
     .roblox.com
 
    # runescape
-    - DOMAIN, cdn.runescape.com
-    - DOMAIN, play.runescape.com
+    .cdn.runescape.com
+    .play.runescape.com
 
    # rustylake
     .rustylake.com
 
-    - DOMAIN, blog.rustylake.com
+    .blog.rustylake.com
 
   # s
    # s-onetag.com
@@ -1587,7 +1615,7 @@ payload:
     .scribd.com
     .scribdassets.com
 
-    - DOMAIN, wa.scribd.com
+    .wa.scribd.com
 
    # sedl.org
     .sedl.org
@@ -1614,7 +1642,7 @@ payload:
 
    # skype.com
     # .twskype.com
-    # - DOMAIN, skype.com
+    # skype.com
 
    # smartdnsproxy.com
     .smartdnsproxy.com
@@ -1628,7 +1656,7 @@ payload:
     .sms-activate.org
 
    # socdm.com
-    - DOMAIN, tg.socdm.com
+    .tg.socdm.com
 
    # social-viral.com
     .social-viral.com
@@ -1654,9 +1682,9 @@ payload:
    # spot.im
     .spot.im
 
-    - DOMAIN, static-cdn.spot.im
-    - DOMAIN, publisher-assets.spot.im
-    - DOMAIN, event-stream.spot.im
+    .static-cdn.spot.im
+    .publisher-assets.spot.im
+    .event-stream.spot.im
 
    # squarespace.com (test)
     .squarespace.com
@@ -1665,18 +1693,18 @@ payload:
     .starford.com
     .ford.com
 
-    - DOMAIN, smetrics.ford.com
-    - DOMAIN, mtagateway.forddirectservices.com
-    - DOMAIN, ford.tt.omtrdc.net
-    - DOMAIN, ford.demdex.net
-    - DOMAIN, fdccpaadaptor.forddirectservices.com
-    - DOMAIN, api.pd01e.gcp.ford.com
+    .smetrics.ford.com
+    .mtagateway.forddirectservices.com
+    .ford.tt.omtrdc.net
+    .ford.demdex.net
+    .fdccpaadaptor.forddirectservices.com
+    .api.pd01e.gcp.ford.com
 
    # starz.com
     .starz.com
 
-    - DOMAIN, auth.starz.com
-    - DOMAIN, playdata.starz.com
+    .auth.starz.com
+    .playdata.starz.com
 
    # stremio.com
     .api.strem.io
@@ -1747,7 +1775,10 @@ payload:
    # tenor.com
     .tenor.com
 
-    - DOMAIN, media.tenor.com
+    .media.tenor.com
+
+   # theartofeducation.edu (revised other regions)
+    .theartofeducation.edu
 
    # thedesk
     .thedesk.net
@@ -1759,7 +1790,7 @@ payload:
     .api.frontrow.cc
     .fastly.frontrowcdn.com
     .thechosen.tv
-    - DOMAIN, frontrowbiuzef.dataplane.rudderstack.com
+    .frontrowbiuzef.dataplane.rudderstack.com
 
    # thedroidguy.com
     .thedroidguy.com
@@ -1785,7 +1816,7 @@ payload:
    # thetradedesk.com
     .thetradedesk.com
 
-    - DOMAIN, pages.thetradedesk.com
+    .pages.thetradedesk.com
 
    # threads
     .threads.net
@@ -1793,7 +1824,7 @@ payload:
    # threatconnect.com
     .threatconnect.com
 
-    - DOMAIN, gonow.threatconnect.com
+    .gonow.threatconnect.com
 
    # threatcrowd.org
     .threatcrowd.org
@@ -1817,15 +1848,15 @@ payload:
     .snapkit.com
 
     # (test)
-    # . -att.com
-    # . -tiktokcdn-com
+    - DOMAIN-KEYWORD, -att.com
+    - DOMAIN-KEYWORD, -tiktokcdn-com
     .app-analytics-services-att.com
     .app-analytics-services.com
     .starling.tiktokv.eu
     .tiktokcdn-eu.com
     .tokopediax.com
 
-    # - '+.TikTok*
+    # .TikTok*
 
    # tiktokglobalshop.com
     .tiktokglobalshop.com
@@ -1833,23 +1864,23 @@ payload:
    # tlsfingerprint
     .tlsfingerprint.io
 
-    - DOMAIN, client.tlsfingerprint.io
-    - DOMAIN, tlsfingerprint.iocode.jquery.com
-    - DOMAIN, tlsfingerprint.iomaxcdn.bootstrapcdn.com
+    .client.tlsfingerprint.io
+    .tlsfingerprint.iocode.jquery.com
+    .tlsfingerprint.iomaxcdn.bootstrapcdn.com
 
    # t-mobile.com
     .t-mobile.com
 
-    - DOMAIN, tmobile.tt.omtrdc.net
+    .tmobile.tt.omtrdc.net
 
    # todoist.com
     .todoist.com
-    - DOMAIN, todoist.b-cdn.net
+    .todoist.b-cdn.net
 
    # tokyo-hot
     .tokyo-hot.com
 
-    - DOMAIN, my.cdn.tokyo-hot.com
+    .my.cdn.tokyo-hot.com
 
    # tonkeeper.com
     .ton.app
@@ -1867,17 +1898,17 @@ payload:
    # trainingpeaks
     .trainingpeaks.com
 
-    - DOMAIN, assets.trainingpeaks.com
-    - DOMAIN, tp-front-end.trainingpeaks.com
-    - DOMAIN, tpapi.trainingpeaks.com
-    - DOMAIN, wpassets.trainingpeaks.com
+    .assets.trainingpeaks.com
+    .tp-front-end.trainingpeaks.com
+    .tpapi.trainingpeaks.com
+    .wpassets.trainingpeaks.com
 
    # transbank.cl
     .transbank.cl
 
    # transcend.io
-    - DOMAIN, cdn.transcend.io
-    - DOMAIN, sync.transcend.io
+    .cdn.transcend.io
+    .sync.transcend.io
 
    # transcendt.com
     .transcendt.com
@@ -1897,15 +1928,15 @@ payload:
    # tunein.com
     # .tunein.com
 
-    # - DOMAIN, api.tunein.com
-    # - DOMAIN, cdn-cms.tunein.com
-    # - DOMAIN, cdn-web.tunein.com
-    # - DOMAIN, event.platform.tunein.com
-    # - DOMAIN, gotie.tunein.com
-    # - DOMAIN, reports.tunein.com
+    # api.tunein.com
+    # cdn-cms.tunein.com
+    # cdn-web.tunein.com
+    # event.platform.tunein.com
+    # gotie.tunein.com
+    # reports.tunein.com
 
    # turner.com
-    - DOMAIN, s.cdn.turner.com
+    .s.cdn.turner.com
 
    # tuya
     .tuya.com
@@ -1947,7 +1978,7 @@ payload:
     .userbenchmark.com
 
    # uspto.gov
-    - DOMAIN, tmsearch.uspto.gov
+    .tmsearch.uspto.gov
 
    # utorrent.com
     .utorrent.com
@@ -1961,6 +1992,9 @@ payload:
 
    # vapezoo
     .vapezoo.com
+
+   # veed.io
+    .veed.io
 
    # veritaspress.com
     .veritaspress.com
@@ -2005,7 +2039,7 @@ payload:
     .wd.bible
 
    # webassign.com
-    - DOMAIN, webassign.com
+    .webassign.com
 
    # webassign.net
     .webassign.net
@@ -2041,8 +2075,8 @@ payload:
     .worldwidephotowalk.com
 
    # wsimg.com
-    - DOMAIN, img1.wsimg.com
-    - DOMAIN, isteam.wsimg.com
+    .img1.wsimg.com
+    .isteam.wsimg.com
 
   # x
    # xbox
@@ -2056,8 +2090,8 @@ payload:
     .yandex.disk
     .yandex.ru
 
-    - DOMAIN, disk.yandex.ru
-    - DOMAIN, frontend.vh.yandex.ru
+    .disk.yandex.ru
+    .frontend.vh.yandex.ru
 
    # yahoo
     # .yahoo
@@ -2098,11 +2132,11 @@ payload:
     # .studio.youtube.com
 
     # .yt3.ggpht.com
-    # - DOMAIN, yt3.ggpht.com
-    # - '+.com.google.ios.youtube*
-    # - '+.com.google.ios.youtubemusic*
-    # - '+.YouTube*
-    # - '+.YouTubeMusic*
+    # yt3.ggpht.com
+    # .com.google.ios.youtube*
+    # .com.google.ios.youtubemusic*
+    # .YouTube*
+    # .YouTubeMusic*
 
    # yts.mx (test 2024-09-14)
     .yts.mx
