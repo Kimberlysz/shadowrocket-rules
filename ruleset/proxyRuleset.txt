@@ -1515,7 +1515,7 @@ payload:
     DOMAIN-SUFFIX, proshkola18.ru
 
    # proxyium.com
-    - DOMAIN-SUFFIXium.com
+    DOMAIN-SUFFIX, proxyium.com
 
    # psi.org
     DOMAIN-SUFFIX, psi.org
