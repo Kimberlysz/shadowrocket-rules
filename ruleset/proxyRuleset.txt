@@ -81,6 +81,9 @@ payload:
    # allsetlearning.com (revised other regions)
     DOMAIN-SUFFIX, allsetlearning.com
 
+   # aloyoga.com
+    DOMAIN-SUFFIX, aloyoga.com
+
    # alpineschools.org
     DOMAIN-SUFFIX, alpineschools.org
 
@@ -402,6 +405,10 @@ payload:
    # crockblock
     DOMAIN-SUFFIX, crocoblock.com
 
+   # crplay (revised other regions)
+    DOMAIN-SUFFIX, crplay.tv
+    DOMAIN-SUFFIX, crplaytv.com
+
    # crunchyroll (test)
     # keep until: 2025-09-01
 
@@ -587,6 +594,15 @@ payload:
    # fastly
     # AS54113 - Fastly, Inc.
 
+   # feiyu-tech.com (revised other regions)
+    DOMAIN-SUFFIX, feiyu-tech.com
+
+   # figshare.com
+    DOMAIN-SUFFIX, figshare.com
+
+   # findladders.com
+    DOMAIN-SUFFIX, findladders.com
+
    # firebase
     DOMAIN, firebase-settings.crashlytics.com
 
@@ -594,10 +610,7 @@ payload:
     DOMAIN-SUFFIX, fiverr.com
     DOMAIN-SUFFIX, fiverrcdn.com
 
-   # findladders.com
-    DOMAIN-SUFFIX, findladders.com
-
-   # flixtor (test - partial works)
+   # flixtor (revised other regions)
     DOMAIN-SUFFIX, flixtor.nu
     DOMAIN-SUFFIX, flixtor.se
     DOMAIN-SUFFIX, flixtor.st
@@ -658,6 +671,9 @@ payload:
     DOMAIN, fs16.getcourse.ru
     DOMAIN, fs17.getcourse.ru
     DOMAIN, gcfs04.getcourse.ru
+
+   # getliner.com
+    DOMAIN-SUFFIX, getliner.com
 
    # ghostlifestyle.com
     DOMAIN-SUFFIX, ghostlifestyle.com
@@ -825,6 +841,9 @@ payload:
 
    # gptstore.ai
     DOMAIN-SUFFIX, gptstore.ai
+
+   # groupme.com (revised other regions)
+    DOMAIN-SUFFIX, groupme.com
 
    # gtk.pw
     DOMAIN-SUFFIX, gtk.pw
@@ -1112,6 +1131,9 @@ payload:
 
    # lookah
     DOMAIN-SUFFIX, lookah.com
+
+   # lowclassic.com
+    DOMAIN-SUFFIX, lowclassic.com
 
    # luxor.tech
     DOMAIN-SUFFIX, luxor.tech
@@ -1804,6 +1826,9 @@ payload:
    # theplusaddons.com
     DOMAIN-SUFFIX, theplusaddons.com
 
+   # therow.com
+    DOMAIN-SUFFIX, therow.com
+
    # thesaurus.com
     DOMAIN-SUFFIX, thesaurus.com
 
@@ -2083,6 +2108,9 @@ payload:
     DOMAIN-SUFFIX, xboxab.net
     DOMAIN-SUFFIX, xboxservice.com
     DOMAIN-SUFFIX, gamepass.com
+
+   # xiaoyakankan.com
+    DOMAIN-SUFFIX, xiaoyakankan.com
 
   # y
    # yandex

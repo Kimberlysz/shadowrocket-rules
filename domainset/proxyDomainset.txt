@@ -81,6 +81,9 @@ payload:
    # allsetlearning.com (revised other regions)
     .allsetlearning.com
 
+   # aloyoga.com
+    .aloyoga.com
+
    # alpineschools.org
     .alpineschools.org
 
@@ -338,7 +341,7 @@ payload:
     .cnbetacdn.com
 
    # co.uk
-    - DOMAIN-KEYWORD, .co.uk
+    # . .co.uk
 
    # coinbase
     .coinbasecdn.net
@@ -401,6 +404,10 @@ payload:
 
    # crockblock
     .crocoblock.com
+
+   # crplay (revised other regions)
+    .crplay.tv
+    .crplaytv.com
 
    # crunchyroll (test)
     # keep until: 2025-09-01
@@ -587,6 +594,15 @@ payload:
    # fastly
     # AS54113 - Fastly, Inc.
 
+   # feiyu-tech.com (revised other regions)
+    .feiyu-tech.com
+
+   # figshare.com
+    .figshare.com
+
+   # findladders.com
+    .findladders.com
+
    # firebase
     .firebase-settings.crashlytics.com
 
@@ -594,10 +610,7 @@ payload:
     .fiverr.com
     .fiverrcdn.com
 
-   # findladders.com
-    .findladders.com
-
-   # flixtor (test - partial works)
+   # flixtor (revised other regions)
     .flixtor.nu
     .flixtor.se
     .flixtor.st
@@ -658,6 +671,9 @@ payload:
     .fs16.getcourse.ru
     .fs17.getcourse.ru
     .gcfs04.getcourse.ru
+
+   # getliner.com
+    .getliner.com
 
    # ghostlifestyle.com
     .ghostlifestyle.com
@@ -825,6 +841,9 @@ payload:
 
    # gptstore.ai
     .gptstore.ai
+
+   # groupme.com (revised other regions)
+    .groupme.com
 
    # gtk.pw
     .gtk.pw
@@ -1112,6 +1131,9 @@ payload:
 
    # lookah
     .lookah.com
+
+   # lowclassic.com
+    .lowclassic.com
 
    # luxor.tech
     .luxor.tech
@@ -1804,6 +1826,9 @@ payload:
    # theplusaddons.com
     .theplusaddons.com
 
+   # therow.com
+    .therow.com
+
    # thesaurus.com
     .thesaurus.com
 
@@ -1848,8 +1873,8 @@ payload:
     .snapkit.com
 
     # (test)
-    - DOMAIN-KEYWORD, -att.com
-    - DOMAIN-KEYWORD, -tiktokcdn-com
+    # . -att.com
+    # . -tiktokcdn-com
     .app-analytics-services-att.com
     .app-analytics-services.com
     .starling.tiktokv.eu
@@ -2083,6 +2108,9 @@ payload:
     .xboxab.net
     .xboxservice.com
     .gamepass.com
+
+   # xiaoyakankan.com
+    .xiaoyakankan.com
 
   # y
    # yandex
