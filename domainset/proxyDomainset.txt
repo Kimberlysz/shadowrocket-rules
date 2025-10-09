@@ -1,6 +1,6 @@
 payload:
   # #
-   # 1800 flowers (test)
+   # 1800 flowers (@!cn)
     .1800flowers.com
 
     .1800flowers.7ymy.net
@@ -26,7 +26,7 @@ payload:
    # abc.net.au
     .abc.net.au
 
-   # abeka.com
+   # abeka
     .abeka.com
 
    # acast
@@ -59,7 +59,7 @@ payload:
     .hotpot.ai
     .nightcafe.studio
 
-   # aicoin.com
+   # aicoin
     .aicoin.com
 
    # airasia
@@ -75,13 +75,13 @@ payload:
    # akamai technologies
     # AS16625 - Akamai Technologies, Inc.
 
-   # alchemer.com
+   # alchemer
     .alchemer.com
 
-   # allsetlearning.com (revised other regions)
+   # allsetlearning (@!cn)
     .allsetlearning.com
 
-   # aloyoga.com
+   # aloyoga
     .aloyoga.com
 
    # alpineschools.org
@@ -94,7 +94,11 @@ payload:
     .amcplus.com
     .e5a6ae085b6c43020dea230eb0c0ecc33a188227507da97b8ecc05eb8beace6.us-east-1.prod.service.minerva.devices.a2z.com
 
-   # aniview.com
+   # amplitude (@!cn)
+    # 2025-11-01
+    .amplitude.com
+
+   # aniview
     .aniview.com
 
    # apkpure
@@ -112,7 +116,7 @@ payload:
    # appledaily
     .appledaily.tw
 
-   # applitrack.com
+   # applitrack
     .applitrack.com
 
    # appspot, Others
@@ -120,11 +124,11 @@ payload:
     # feelinsonice.appspot.com
     # sc-analytics.appspot.com
 
-   # arkoselabs.com
+   # arkoselabs
     .client-api.arkoselabs.com
     .iframe.arkoselabs.com
 
-   # art19.com
+   # art19
     .art19.com
 
    # ashleymadison
@@ -137,7 +141,7 @@ payload:
     .at-tps.org
     .tps-support.b-cdn.net
 
-   # atmeta.com
+   # atmeta
     .atmeta.com
 
    # avg
@@ -157,7 +161,7 @@ payload:
     # .64clouds
     .64clouds.com
 
-   # bankaool.com
+   # bankaool
     .bankaool.com
 
    # barnesandnoble
@@ -173,7 +177,7 @@ payload:
    # beetalk
     # .beetalk
 
-   # behance.com
+   # behance
     .behance.com
 
    # beinsports
@@ -200,13 +204,13 @@ payload:
     # Bing rules originates from this yaml file
     # .global.bing.com
 
-   # bisepinnovations.com
+   # bisepinnovations
     .bisepinnovations.com
 
    # bitmain
     .bitmain.com
 
-   # bittorrent.com
+   # bittorrent
     .bittorrent.com
 
    # blockscout
@@ -227,7 +231,7 @@ payload:
    # bmwusa
     .idresgraph.bmwusa.com
 
-   # box.com
+   # box
     .box.com
 
    # broadbandgenie.co.uk
@@ -247,7 +251,7 @@ payload:
    # candy.ai
     .candy.ai
 
-   # canva.com
+   # canva
     .canva.com
 
    # canyonsdistrict.org
@@ -257,16 +261,16 @@ payload:
     .capcut.com
     .capcutapi.com
 
-   # cars.com
+   # cars
     .cars.com
 
-   # carneysandoe.com
+   # carneysandoe
     .carneysandoe.com
 
-   # cbex18.com
+   # cbex18
     .cbex18.com
 
-   # cebupacificair.com
+   # cebupacificair
     .cebupacificair.com
 
     .soar.cebupacificair.com
@@ -279,14 +283,11 @@ payload:
     .celsius.network
     .g9zdov47b9.execute-api.us-east-1.amazonaws.com
 
-   # celebsunmasked.com
+   # celebsunmasked
     .celebsunmasked.com
 
    # character.ai
     .beta.character.ai
-
-   # chatgpt.com
-    .chatgpt.com
 
    # charlestoncounty.org
     .charlestoncounty.org
@@ -298,32 +299,23 @@ payload:
     .chia.net
     .chiacalculator.com
 
-   # chinababe.net (test)
-    .akumachi.com
-    .blcdog.com
-    .chaseherbalpasty.com
-    .chinababe.net
-    .img.doppiocdn.com
-    .media.daly2024.com
-    .paupsoborofoow.net
-    .sfuyxpozfv.cdn-centaurus.com
-    .streamwish.to
-    .swiftplayers.com
-    .ww2.chinababe.net
+   # choosemuse
+    .choosemuse.com
+    .interaxon.ca
 
-   # chunman4.com
+   # chunman4
     .chunman4.com
 
    # cipc.co.za
     .cipc.co.za
 
-   # civitai.com
+   # civitai
     .civitai.com
 
    # clash
     .clash.la
 
-   # clickbank.com (test)
+   # clickbank (@!cn)
     .clickbank.com
 
    # cloudflare
@@ -355,7 +347,7 @@ payload:
    # coindesk
     .coindesk.com
 
-   # coincodex.com
+   # coincodex
     .coincodex.com
 
    # coingecko
@@ -364,11 +356,11 @@ payload:
     .assets.coingecko.com
     .static.coingecko.com
 
-   # coinmarketcap.com
+   # coinmarketcap
     .coinwarz.com
     .coinmarketcap.com
 
-   # complio.com
+   # complio
     .complio.com
 
     .liberty.complio.com
@@ -376,60 +368,38 @@ payload:
    # cookcountyclerkil.gov
     .cookcountyclerkil.gov
 
-   # copilot.microsoft.com
+   # copilot.microsoft
     .copilot.microsoft.com
     .sydney.bing.com
 
-   # corehighered.com
+   # corehighered
     .corehighered.com
 
-   # corelogic.com
+   # corelogic
     .corelogic.com
 
-   # coze.com
+   # coze
     .coze.com
 
    # crazypool
     .crazypool.org
 
-   # createaiasian.com
+   # createaiasian
     .api.createporn.com
     .imgpog.com
 
-   # creditkarma.com
+   # creditkarma
     .creditkarma.com
 
-   # creditone.com
+   # creditone
     .creditone.com
 
    # crockblock
     .crocoblock.com
 
-   # crplay (revised other regions)
+   # crplay (@!cn)
     .crplay.tv
     .crplaytv.com
-
-   # crunchyroll (test)
-    # keep until: 2025-09-01
-
-    # .5af10.v.fwmrm.net
-    # .a-vrv.akamaized.net
-    # .a.a47b.com
-    # .adsafeprotected.com
-    # .adsrvr.org
-    # .api64.ipify.org
-    # .browser-intake-us5-datadoghq.com
-    # .crunchyrollcdn.com
-    # .e0vemjple0l1luii7h5vlu5no.litix.io
-    # .etp-prod.com
-    # .p.placed.com
-    # .p.tvpixel.com
-    # .pbs.getpublica.com
-    # .pi.ispot.tv
-    # .tapestry.tapad.com
-    # .trustarc.com
-    # .v.vrv.co
-    # .vid.springserve.com
 
    # cryptocompare
     .cryptocompare.com
@@ -456,23 +426,26 @@ payload:
     .cdn.appdynamics.com
     .images.ctfassets.net
 
-   # cwtv.com
+   # cwtv
     .cwtv.com
 
     .images.cwtv.com
 
-   # cyberspatial.com
+   # cyberspatial
     .cyberspatial.com
 
   # d
+   # deadline
+    .deadline.com
+
    # dfas.mil
     .dfas.mil
     .mypay.dfas.mil
 
-   # diamondbackonline.com
+   # diamondbackonline
     .diamondbackonline.com
 
-   # directenergy.com
+   # directenergy
     .directenergy.com
 
    # dirtrab.cl
@@ -500,6 +473,9 @@ payload:
    # ecosia.org
     .ecosia.org
 
+   # echostar
+    .echostar
+
    # ed.gov
     .eric.ed.gov
 
@@ -507,24 +483,24 @@ payload:
     .elementor.cloud
     .elementor.com
 
-   # elitebabes.com
+   # elitebabes
     .afcdn.net
     # .elitebabes.com
     .exdynsrv.com
     .hwcdn.net
 
-   # elmbrook.org (test)
+   # elmbrook.org (@!cn)
     .cdn.pendo.io
     .onrealm.org
     .pay.acst.com
 
-   # emol.com
+   # emol
     .emol.com
 
-   # engadget.com
+   # engadget
     .engadget.com
 
-   # enterprise.com
+   # enterprise
     .enterprise.com
 
    # epicgames
@@ -538,7 +514,7 @@ payload:
    # equator-network.org
     .equator-network.org
 
-   # equifax.com
+   # equifax
     .equifax.com
 
    # etsy
@@ -559,13 +535,13 @@ payload:
    # ethwscan
     .ethwscan.com
 
-   # etoro.com
+   # etoro
     .etoro.com
 
-   # experian.com
+   # experian
     .experian.com
 
-   # express-scripts.com
+   # express-scripts
     .express-scripts.com
     .militaryrx.express-scripts.com
 
@@ -576,31 +552,31 @@ payload:
     .premium.express.co.uk
     .secure.insightexpressai.com
 
-   # expressvpn.com
+   # expressvpn
     .expressvpn.com
 
   # f
    # f2pool
     .f2pool.com
 
-   # faithlife.com
+   # faithlife
     .faithlife.com
     .logos.com
     .logoscdn.com
 
-   # farmers.com
+   # farmers
     .farmers.com
 
    # fastly
     # AS54113 - Fastly, Inc.
 
-   # feiyu-tech.com (revised other regions)
+   # feiyu-tech (@!cn)
     .feiyu-tech.com
 
-   # figshare.com
+   # figshare
     .figshare.com
 
-   # findladders.com
+   # findladders
     .findladders.com
 
    # firebase
@@ -610,7 +586,7 @@ payload:
     .fiverr.com
     .fiverrcdn.com
 
-   # flixtor (revised other regions)
+   # flixtor (@!cn)
     .flixtor.nu
     .flixtor.se
     .flixtor.st
@@ -623,13 +599,13 @@ payload:
    # forc.mx
     .forc.mx
 
-   # foresters.com
+   # foresters
     .foresters.com
 
    # fosshub
     .download.fosshub.com
 
-   # fotor.com
+   # fotor
     .fotor.com
 
    # freedesktop.timedate1
@@ -640,17 +616,17 @@ payload:
    # freemacsoft.net
     .freemacsoft.net
 
-   # frontlineeducation.com
+   # frontlineeducation
     .frontlineeducation.com
 
    # fullcompass
     .fullcompass.com
 
   # g
-   # gammaplatform.com
+   # gammaplatform
     .cm-supply-web.gammaplatform.com
 
-   # genius.com
+   # genius
     .genius.com
 
    # getcomics.info
@@ -672,10 +648,10 @@ payload:
     .fs17.getcourse.ru
     .gcfs04.getcourse.ru
 
-   # getliner.com
+   # getliner
     .getliner.com
 
-   # ghostlifestyle.com
+   # ghostlifestyle
     .ghostlifestyle.com
 
    # giantfreakinrobot
@@ -815,7 +791,7 @@ payload:
     # dl.google.com
     # mtalk.google.com
 
-   # google2 (test)
+   # google2 (@!cn)
     # under global mode, dl.google.com redirects to https://google.com/chrome
     # under rule mode, dl.google.com redirects to a 404 page
     # dl.google.com
@@ -842,23 +818,23 @@ payload:
    # gptstore.ai
     .gptstore.ai
 
-   # groupme.com (revised other regions)
+   # groupme (@!cn)
     .groupme.com
 
    # gtk.pw
     .gtk.pw
 
-   # gumroad.com
+   # gumroad
     .gumroad.com
 
   # h
-   # happyaddons.com
+   # happyaddons
     .happyaddons.com
 
    # hashrate
     .hashrate.to
 
-   # hbomax (revised other regions)
+   # hbomax (@!cn)
     .h264.io
     .prd.api.max.com
     .warnermediacdn.com
@@ -866,13 +842,13 @@ payload:
    # healthline
     .healthline.com
 
-   # helloandroid.com
+   # helloandroid
     .helloandroid.com
 
-   # hermes.com
+   # hermes
     .hermes.com
 
-   # heygen.com
+   # heygen
     .heygen.com
 
     .cdn.heygen.com
@@ -882,17 +858,17 @@ payload:
    # hhdcb3office
     .hhdcb3office.org
 
-   # hindustantimes.com
+   # hindustantimes
     .hindustantimes.com
 
    # hiveos
     .hiveon.com
     .hiveos.farm
 
-   # homegoods.com
+   # homegoods
     .homegoods.com
 
-   # homer.sii.cl (revised other regions)
+   # homer.sii.cl (@!cn)
     .homer.sii.cl
 
    # hostinger
@@ -900,16 +876,16 @@ payload:
     .hpanel.hostinger.com
     .hostinger.com.hk
 
-   # hotjar.com
+   # hotjar
     .hotjar.com
 
    # hubspot
     .hubspot.com
 
-   # humana.com
+   # humana
     .humana.com
 
-   # humanamilitary.com
+   # humanamilitary
     .humanamilitary.com
 
    # huraWatch
@@ -919,7 +895,7 @@ payload:
    # hymnal.net
     .hymnal.net
 
-   # hyperionherbs.com
+   # hyperionherbs
     .hyperionherbs.com
 
   # i
@@ -937,7 +913,7 @@ payload:
     .assets-prd.ignimgs.com
     .kraken.ignimgs.com
 
-   # indeed.com
+   # indeed
     .t.indeed.com
     .secure.indeed.com
     .pxl.indeed.com
@@ -953,7 +929,7 @@ payload:
    # indexexchange
     .indexexchange.com
 
-   # indiatimes.com
+   # indiatimes
     .indiatimes.com
 
    # indiatoday.in
@@ -962,10 +938,10 @@ payload:
    # interactivebrokers.com.hk
     .interactivebrokers.com.hk
 
-   # intermixonline.com
+   # intermixonline
     .intermixonline.com
 
-   # intuit.com
+   # intuit
     .intuit.com
 
    # invideo.io
@@ -977,16 +953,16 @@ payload:
    # iscooterglobal.co.uk
     .iscooterglobal.co.uk
 
-   # iscooterglobal.com
+   # iscooterglobal
     .iscooterglobal.com
 
-   # istockphoto.com
+   # istockphoto
     .istockphoto.com
 
-   # itesonline.com
+   # itesonline
     .itesonline.com
 
-   # itv.com
+   # itv
     .itv.com
 
     .app.10ft.itv.com
@@ -999,10 +975,10 @@ payload:
     .ivpn.net
 
    # iyf
-    .yfsp.tv
+    .pipecdn.vip
 
   # j
-   # jkforum.net (test)
+   # jkforum.net (@!cn)
     # keep until: 2025-09-01
 
     # .jkforum.net
@@ -1014,23 +990,24 @@ payload:
     .jordandistrict.org
     .employment.jordandistrict.org
 
-   # jotform.com (test)
+   # jotform (@!cn)
     # keep until: 2025-09-01
 
     # .jotform.com
 
-   # justanswer.com
+   # justanswer
     .justanswer.com
 
   # k
-   # k12jobspot.com
+   # k12jobspot
     .k12jobspot.com
 
    # kagyuoffice
     .kagyuoffice.org
     .kagyuoffice.org.tw
 
-   # kapwing.com
+   # kapwing (@!cn)
+    # .amplitude.com
     .kapwing.com
 
     .cdn-useast1.kapwing.com
@@ -1038,14 +1015,14 @@ payload:
    # kaze.ai
     .kaze.ai
 
-   # keatinggroup.com
+   # keatinggroup
     .keatinggroup.com
 
    # keepsolid
     .keepsolid.com
     .sentry.keepsolid.com
 
-   # klingai.com (revised other regions)
+   # klingai (@!cn)
     .klingai.com
 
    # kevinwilsonconnection.org
@@ -1058,26 +1035,29 @@ payload:
    # koinly.io
     .koinly.io
 
-   # ktar.com
+   # ktar
     .ktar.com
 
   # l
-   # larrainvial.com
+   # larrainvial
     .larrainvial.com
 
-   # latestly.com (test)
+   # latestly (@!cn)
     .latestly.com
+
+   # league of legends (@!cn)
+    .wegamex.com.hk
 
    # legkierody.ru
     .legkierody.ru
 
-   # lendingtree.com
+   # lendingtree
     .lendingtree.com
 
    # letsvpn.world
     .letsvpn.world
 
-   # libbyapp.com
+   # libbyapp
     .ic.od-cdn.com
     .ntc.api.overdrive.com
     .thunder.api.overdrive.com
@@ -1117,7 +1097,7 @@ payload:
     .assets.production.linktr.ee
     .ingress.linktr.ee
 
-   # liquidweb.com
+   # liquidweb
     .liquidweb.com
 
    # lnks.gd
@@ -1126,13 +1106,13 @@ payload:
    # lofsolar
     .lofsolar.com
 
-   # logisteed-america.com
+   # logisteed-america
     .logisteed-america.com
 
    # lookah
     .lookah.com
 
-   # lowclassic.com
+   # lowclassic
     .lowclassic.com
 
    # luxor.tech
@@ -1145,13 +1125,17 @@ payload:
    # maine.gov
     .maine.gov
 
-   # makedreamwebsite.com
+   # makedreamwebsite
     .makedreamwebsite.com
     .makedreamwebsite.gumroad.com
 
-   # makeuseof.com
+   # makeuseof
     .makeuseof.com
     .makeuseofimages.com
+
+   # manus
+    .manus.im
+    .manuscdn.com
 
    # matrix.one
     .matrix.one
@@ -1159,7 +1143,7 @@ payload:
    # matrixpcg
     .matrixpcg.com
 
-   # mbusa.com
+   # mbusa
     .mbusa.com
 
    # memberpress
@@ -1167,14 +1151,11 @@ payload:
 
     .memberpress.com
 
-   # metacareers.com
+   # metacareers
     .metacareers.com
 
-   # mgmplus.com
+   # mgmplus
     .mgmplus.com
-
-   # mheducation.com
-    .mheducation.com
 
    # microsoft
     # AS8075 - Microsoft Corporation
@@ -1215,7 +1196,7 @@ payload:
     .images-eds-ssl.xboxlive.com
     .storeedgefd.dsx.mp.microsoft.com
 
-    # teams (tests)
+    # teams (@!cn)
     .cdn.office.net
     .teams.microsoft.com
     .teams.events.data.microsoft.com
@@ -1226,14 +1207,14 @@ payload:
     # windows initial setup download
     .tlu.dl.delivery.mp.microsoft.com
 
-   # mintmobile.com
+   # mintmobile
     .mintmobile.com
 
    # mo.gov
     .dese.mo.gov
     .mo.gov
 
-   # mojim.com
+   # mojim
     .mojim.com
 
    # monica.im
@@ -1248,19 +1229,19 @@ payload:
     # .news.hk.msn.com
     # .news.msn.com.tw
 
-   # mujeresconpoder.com (test)
+   # mujeresconpoder (@!cn)
     .acceso.mujeresconpoder.com
 
    # mullvad
     .mullvad.net
 
-   # mux (revised other regions)
+   # mux (@!cn)
     .mux.com
 
-   # mwcbarcelona.com
+   # mwcbarcelona
     .register.mwcbarcelona.com
 
-   # mycustomsoftware.com
+   # mycustomsoftware
     .mycustomsoftware.com
 
    # myindigocard
@@ -1269,14 +1250,14 @@ payload:
 
     .indigo.myfinanceservice.com
 
-   # mymainecertification.com
+   # mymainecertification
     .mymainecertification.com
 
   # n
    # nanopool
     .nanopool.org
 
-   # napster.com
+   # napster
     .napster.com
 
    # nasa.gov
@@ -1296,7 +1277,7 @@ payload:
    # nces.ed.gov
     .nces.ed.gov
 
-   # nelnet.com
+   # nelnet
     .secure.nelnet.com
     .extsvc.nelnet.net
     .contentmma.guides.nelnet.com
@@ -1314,13 +1295,13 @@ payload:
    # newcannabisventures
     .newcannabisventures.com
 
-   # news18.com
+   # news18
     .news18.com
 
-   # news9live.com (test)
+   # news9live (@!cn)
     .news9live.com
 
-   # nexusmods.com
+   # nexusmods
     .data.nexusmods.com
     .images.nexusmods.com
     .pw.nexusmods.com
@@ -1331,7 +1312,7 @@ payload:
    # nh.gov
     .nh.gov
 
-   # nicusa.com
+   # nicusa
     .nicusa.com
 
    # nolej.io
@@ -1343,7 +1324,7 @@ payload:
    # notepad++
     .notepad-plus-plus.org
 
-   # noviosfalabella.com (deprecated)
+   # noviosfalabella (deprecated)
     .noviosfalabella.com
 
    # nr-data.net
@@ -1357,12 +1338,12 @@ payload:
     .graph.oculus.com
     .oculus.fbthirdpartypixel.com
 
-   # okcoin.com
+   # okcoin
     .okcoin.com
 
     .static.okcoin.com
 
-   # okcupid.com
+   # okcupid
     .okcupid.com
 
    # okx
@@ -1370,7 +1351,7 @@ payload:
 
     .static.okx.com
 
-   # oldmapsonline.org (revised other regions)
+   # oldmapsonline.org (@!cn)
     .oldmapsonline.org
 
    # olx.co.id
@@ -1385,13 +1366,13 @@ payload:
     # .storage.msn.com
     # oneclient.sfx.ms
 
-   # onehome.com
+   # onehome
     .onehome.com
 
-   # onenetglobal.com
+   # onenetglobal
     .onenetglobal.com
 
-   # onetag-sys.com
+   # onetag-sys
     .onetag-sys.com
 
    # onlineaccount.net
@@ -1403,13 +1384,13 @@ payload:
    # openart.ai
     .openart.ai
 
-   # openinventionnetwork.com
+   # openinventionnetwork
     .openinventionnetwork.com
 
    # opensea
     .opensea.io
 
-   # optimizely.com
+   # optimizely
     .optimizely.com
 
     .a125375509.cdn.optimizely.com
@@ -1421,7 +1402,7 @@ payload:
     .osd.mil
     .milconnect.dmdc.osd.mil
 
-   # ottcst.com
+   # ottcst
     .ottcast.net
     .ottcst.com
 
@@ -1430,7 +1411,7 @@ payload:
    # otto.nl
     .otto.nl
 
-   # outlookindia.com
+   # outlookindia
     .outlookindia.com
 
   # p
@@ -1443,7 +1424,7 @@ payload:
     .pancake-trading-fee-rebate-api.pancakeswap.com
     .strapi-cms.pancakeswap.ai
 
-   # paramount plus (test)
+   # paramount plus (@!cn)
     # .pplusstatic.com
 
     .cbsi.live.ott.irdeto.com
@@ -1456,50 +1437,50 @@ payload:
     .c15.patreon.com
     .c5.patreon.com
 
-   # pay1040.com
+   # pay1040
     .pay1040.com
 
-   # paycom.com
+   # paycom
     .paycom.com
 
    # paycomonline.net
     .paycomonline.net
 
-   # payusatax.com
+   # payusatax
     .payusatax.com
 
    # pbskids.org
     .pbskids.org
 
-   # pcgamesn.com
+   # pcgamesn
     .pcgamesn.com
 
    # pephop.ai
     .pephop.ai
 
-   # pexels.com
+   # pexels
     .pexels.com
 
-   # philippineairlines.com
+   # philippineairlines
     .philippineairlines.com
 
     .philippineairlinesprod.api.useinsider.com
     .zn6euonij6xwfajg5-philippineairlines.site
 
-   # philo.com
+   # philo
     .philo.com
 
-   # picsart.com
+   # picsart
     .picsart.com
 
-   # pixeldrain.com
+   # pixeldrain
     .pixeldrain.com
 
    # pmpmanage
     .pmpmanage.com
     .pmprollc.com
 
-   # podbean.com
+   # podbean
     .podbean.com
 
    # pokerstarsVR
@@ -1518,26 +1499,26 @@ payload:
    # pottersschool.org
     .pottersschool.org
 
-   # powerpackelements.com
+   # powerpackelements
     .powerpackelements.com
 
-   # previred.com
+   # previred
     .previred.com
 
-   # printmailsystems.com (deprecated)
+   # printmailsystems (deprecated)
     .printmailsystems.com
 
-   # promeai.pro (test)
+   # promeai.pro (@!cn)
     .promeai.pro
 
-   # prompthero.com
+   # prompthero
     .prompthero.com
 
    # proshkola
     .proshkola18.ru
 
-   # proxyium.com
-    .proxyium.com
+   # proxyium
+    - DOMAIN-SUFFIXium.com
 
    # psi.org
     .psi.org
@@ -1546,10 +1527,10 @@ payload:
    # qbittorrent.org
     .qbittorrent.org
 
-   # qiangwaikan.com
+   # qiangwaikan
     .qiangwaikan.com
 
-   # qodeinteractive.com
+   # qodeinteractive
     .qodeinteractive.com
     .qodethemes.com
 
@@ -1561,7 +1542,7 @@ payload:
     .trdngbcknd.com
     .appsflyersdk.com
 
-   # quantummetric.com
+   # quantummetric
     .quantummetric.com
 
     .cdn.quantummetric.com
@@ -1581,13 +1562,13 @@ payload:
    # rbfcu
     .rbfcu.org
 
-   # rblbank.com
+   # rblbank
     .rblbank.com
 
-   # rcrwireless.com
+   # rcrwireless
     .rcrwireless.com
 
-   # reelshort.com
+   # reelshort
     .reelshort.com
 
    # recaptcha
@@ -1609,7 +1590,7 @@ payload:
     .blog.rustylake.com
 
   # s
-   # s-onetag.com
+   # s-onetag
     .s-onetag.com
 
    # salesforce
@@ -1624,16 +1605,16 @@ payload:
    # sandyliang.info
     .sandyliang.info
 
-   # satelles.com
+   # satelles
     .satelles.com
 
-   # scdmvonline.com
+   # scdmvonline
     .scdmvonline.com
 
-   # screenrant.com
+   # screenrant
     .screenrant.com
 
-   # scribd.com
+   # scribd
     .scribd.com
     .scribdassets.com
 
@@ -1645,7 +1626,7 @@ payload:
    # seoab.io
     .seoab.io
 
-   # sdge.com
+   # sdge
     .sdge.com
 
    # sharepoint
@@ -1662,11 +1643,11 @@ payload:
    # simplemining
     .simplemining.net
 
-   # skype.com
+   # skype
     # .twskype.com
     # skype.com
 
-   # smartdnsproxy.com
+   # smartdnsproxy
     .smartdnsproxy.com
 
    # smartiptv.dnsco.xyz
@@ -1677,16 +1658,16 @@ payload:
    # sms-activate
     .sms-activate.org
 
-   # socdm.com
+   # socdm.
     .tg.socdm.com
 
-   # social-viral.com
+   # social-viral
     .social-viral.com
 
    # socratic.org
     .socratic.org
 
-   # sono.com
+   # sono
     .sono.com
 
    # soundraw
@@ -1708,10 +1689,10 @@ payload:
     .publisher-assets.spot.im
     .event-stream.spot.im
 
-   # squarespace.com (test)
+   # squarespace (@!cn)
     .squarespace.com
 
-   # starford.com
+   # starford
     .starford.com
     .ford.com
 
@@ -1722,13 +1703,13 @@ payload:
     .fdccpaadaptor.forddirectservices.com
     .api.pd01e.gcp.ford.com
 
-   # starz.com
+   # starz
     .starz.com
 
     .auth.starz.com
     .playdata.starz.com
 
-   # stremio.com
+   # stremio
     .api.strem.io
     .blog.stremio.com
     .metahub.space
@@ -1740,29 +1721,29 @@ payload:
    # studentclearinghouse.org
     .studentclearinghouse.org
 
-   # sugarfreemom.com
+   # sugarfreemom
     .sugarfreemom.com
 
-   # suno.com
+   # suno
     .suno.com
 
-   # surfshark.com
+   # surfshark
     .surfshark.com
 
    # svc.ms
     # .centralus1.mediap.svc.ms
 
-   # swarovski.com
+   # swarovski
     .swarovski.com
 
-   # synchronybank.com
+   # synchronybank
     .synchronybank.com
 
   # t
-   # teachers-teachers.com
+   # teachers-teachers
     .teachers-teachers.com
 
-   # teacherstestprep.com
+   # teacherstestprep
     .teacherstestprep.com
 
    # teamredminer
@@ -1787,25 +1768,25 @@ payload:
     # .telegram
     # .updates.tdesktop.com
 
-   # teleseer.com
+   # teleseer
     .teleseer.com
 
    # temu
     .kwcdn.com
     .temu.com
 
-   # tenor.com
+   # tenor
     .tenor.com
 
     .media.tenor.com
 
-   # theartofeducation.edu (revised other regions)
+   # theartofeducation.edu (@!cn)
     .theartofeducation.edu
 
    # thedesk
     .thedesk.net
 
-   # thechinaproject.com
+   # thechinaproject
     .thechinaproject.com
 
    # thechosen.tv
@@ -1814,31 +1795,31 @@ payload:
     .thechosen.tv
     .frontrowbiuzef.dataplane.rudderstack.com
 
-   # thedroidguy.com
+   # thedroidguy
     .thedroidguy.com
 
-   # thegreatcourses.com
+   # thegreatcourses
     .thegreatcourses.com
 
-   # thepennyhoarder.com
+   # thepennyhoarder
     .thepennyhoarder.com
 
-   # theplusaddons.com
+   # theplusaddons
     .theplusaddons.com
 
-   # therow.com
+   # therow
     .therow.com
 
-   # thesaurus.com
+   # thesaurus
     .thesaurus.com
 
-   # theseedsnetwork.com
+   # theseedsnetwork
     .theseedsnetwork.com
 
    # thetatoken.org
     .thetatoken.org
 
-   # thetradedesk.com
+   # thetradedesk
     .thetradedesk.com
 
     .pages.thetradedesk.com
@@ -1846,7 +1827,7 @@ payload:
    # threads
     .threads.net
 
-   # threatconnect.com
+   # threatconnect
     .threatconnect.com
 
     .gonow.threatconnect.com
@@ -1864,7 +1845,7 @@ payload:
     .tibetoffice.org
     .tibetoffice.com.au
 
-   # tiktok (test)
+   # tiktok (@!cn)
     .appsflyer.com
     .bytegecko-i18n.com
     .ipstatp.com
@@ -1872,7 +1853,7 @@ payload:
     .sgpstatp.com
     .snapkit.com
 
-    # (test)
+    # (@!cn)
     # . -att.com
     # . -tiktokcdn-com
     .app-analytics-services-att.com
@@ -1883,7 +1864,7 @@ payload:
 
     # .TikTok*
 
-   # tiktokglobalshop.com
+   # tiktokglobalshop
     .tiktokglobalshop.com
 
    # tlsfingerprint
@@ -1893,12 +1874,12 @@ payload:
     .tlsfingerprint.iocode.jquery.com
     .tlsfingerprint.iomaxcdn.bootstrapcdn.com
 
-   # t-mobile.com
+   # t-mobile
     .t-mobile.com
 
     .tmobile.tt.omtrdc.net
 
-   # todoist.com
+   # todoist
     .todoist.com
     .todoist.b-cdn.net
 
@@ -1907,17 +1888,17 @@ payload:
 
     .my.cdn.tokyo-hot.com
 
-   # tonkeeper.com
+   # tonkeeper
     .ton.app
     .tonkeeper.com
 
-   # tonwhales.com
+   # tonwhales
     .tonwhales.com
 
-   # tools.keycdn.com
+   # tools.keycdn
     .tools.keycdn.com
 
-   # tradestockfund.com
+   # tradestockfund
     .tradestockfund.com
 
    # trainingpeaks
@@ -1935,22 +1916,22 @@ payload:
     .cdn.transcend.io
     .sync.transcend.io
 
-   # transcendt.com
+   # transcendt
     .transcendt.com
 
-   # travelerdoor.com
+   # travelerdoor
     .travelerdoor.com
 
-   # travistidwell.com
+   # travistidwell
     .travistidwell.com
 
-   # trimirror.com
+   # trimirror
     .trimirror.com
 
    # trustwallet
     .trustwallet.com
 
-   # tunein.com
+   # tunein
     # .tunein.com
 
     # api.tunein.com
@@ -1960,7 +1941,7 @@ payload:
     # gotie.tunein.com
     # reports.tunein.com
 
-   # turner.com
+   # turner
     .s.cdn.turner.com
 
    # tuya
@@ -1973,7 +1954,7 @@ payload:
    # tw.tomonews.ne
     .tw.tomonews.net
 
-   # twiggstudios.com
+   # twiggstudios
     .twiggstudios.com
 
    # twitonmsn
@@ -1993,26 +1974,26 @@ payload:
    # unir.net
     .unir.net
 
-   # unitedbmw.com
+   # unitedbmw
     .unitedbmw.com
 
    # updraftplus
     .updraftplus.com
 
-   # userbenchmark.com
+   # userbenchmark
     .userbenchmark.com
 
    # uspto.gov
     .tmsearch.uspto.gov
 
-   # utorrent.com
+   # utorrent
     .utorrent.com
 
   # v
    # v2fly.org
     .v2fly.org
 
-   # vantagemarkets.com
+   # vantagemarkets
     .vantagemarkets.com
 
    # vapezoo
@@ -2021,8 +2002,11 @@ payload:
    # veed.io
     .veed.io
 
-   # veritaspress.com
+   # veritaspress
     .veritaspress.com
+
+   # verygoodtour.com
+    .verygoodtour.com
 
    # viabtc
     .viabtc.com
@@ -2030,25 +2014,25 @@ payload:
    # viber
     .viber.com
 
-   # vidiq.com
+   # vidiq
     .vidiq.com
 
    # visaguide.world
     .visaguide.world
 
-   # vista.com
+   # vista
     .vista.com
 
-   # vitalchek.com
+   # vitalchek
     .vitalchek.com
 
-   # vitalsource.com
+   # vitalsource
     .vitalsource.com
 
    # volumio
     .volumio.com
 
-   # vpnmentor.com
+   # vpnmentor
     .vpnmentor.com
 
   # w
@@ -2058,12 +2042,17 @@ payload:
    # washoecountylibrary.us
     .washoecountylibrary.us
 
+   # waterstones.com (@!cn)
+    .dwin1.com
+    .waterstones.co.uk
+    .waterstones.com
+
    # wd.bible
     .endao.app
     .sentry.yetell.net
     .wd.bible
 
-   # webassign.com
+   # webassign
     .webassign.com
 
    # webassign.net
@@ -2072,10 +2061,10 @@ payload:
    # wes.org
     .applications.wes.org
 
-   # westernalliancebancorporation.com
+   # westernalliancebancorporation
     .westernalliancebancorporation.com
 
-   # whalestonpool.com
+   # whalestonpool
     .whalestonpool.com
 
    # whatsapp
@@ -2090,16 +2079,16 @@ payload:
    # wisconsinregisteredagent.net
     .wisconsinregisteredagent.net
 
-   # workspace.com(test)
+   # workspace(@!cn)
     .workspace.com
 
    # worldcat.org
     .worldcat.org
 
-   # worldwidephotowalk.com
+   # worldwidephotowalk
     .worldwidephotowalk.com
 
-   # wsimg.com
+   # wsimg
     .img1.wsimg.com
     .isteam.wsimg.com
 
@@ -2109,7 +2098,7 @@ payload:
     .xboxservice.com
     .gamepass.com
 
-   # xiaoyakankan.com
+   # xiaoyakankan
     .xiaoyakankan.com
 
   # y
@@ -2152,7 +2141,10 @@ payload:
     # .upcoming.yahoo.com
     # .video.yahoo.com
 
-   # youversion.com
+   # ybtour.co.kr
+    .ybtour.co.kr
+
+   # youversion
     .youversion.com
     .youversionapi.com
 
@@ -2166,7 +2158,7 @@ payload:
     # .YouTube*
     # .YouTubeMusic*
 
-   # yts.mx (test 2024-09-14)
+   # yts.mx (@!cn)
     .yts.mx
 
   # z
