@@ -144,10 +144,6 @@ payload:
    # atmeta
     DOMAIN-SUFFIX, atmeta.com
 
-   # avg
-    DOMAIN-SUFFIX, avcdn.com
-    DOMAIN-SUFFIX, avg.com
-
   # b
    # b-cdn.net
     DOMAIN-SUFFIX, b-cdn.net
@@ -391,8 +387,10 @@ payload:
    # creditkarma
     DOMAIN-SUFFIX, creditkarma.com
 
-   # creditone
+   # creditone bank
     DOMAIN-SUFFIX, creditone.com
+    DOMAIN-SUFFIX, creditonebank.com
+    DOMAIN-SUFFIX, getcreditone.com
 
    # crockblock
     DOMAIN-SUFFIX, crocoblock.com
@@ -470,6 +468,9 @@ payload:
     DOMAIN-SUFFIX, dpsk12.org
 
   # e
+   # eastasiaforum
+    DOMAIN-SUFFIX, eastasiaforum.org
+
    # ecosia.org
     DOMAIN-SUFFIX, ecosia.org
 
@@ -871,6 +872,9 @@ payload:
    # homer.sii.cl (@!cn)
     DOMAIN-SUFFIX, homer.sii.cl
 
+   # hongxingyunmovie.vip (@!cn)
+    DOMAIN-SUFFIX, hongxingyunmovie.vip
+
    # hostinger
     DOMAIN-SUFFIX, hostinger.com
     DOMAIN-SUFFIX, hpanel.hostinger.com
@@ -878,6 +882,9 @@ payload:
 
    # hotjar
     DOMAIN-SUFFIX, hotjar.com
+
+   # hotstar.com (@!cn)
+    DOMAIN-SUFFIX, hotstar.com
 
    # hubspot
     DOMAIN-SUFFIX, hubspot.com
@@ -899,6 +906,9 @@ payload:
     DOMAIN-SUFFIX, hyperionherbs.com
 
   # i
+   # icy-veins (@!cn)
+    DOMAIN-SUFFIX, icy-veins.com
+
    # id.me
     DOMAIN-SUFFIX, id.me
 
@@ -1210,6 +1220,9 @@ payload:
    # mintmobile
     DOMAIN-SUFFIX, mintmobile.com
 
+   # mnews
+    DOMAIN-SUFFIX, mnews.tw
+
    # mo.gov
     DOMAIN-SUFFIX, dese.mo.gov
     DOMAIN-SUFFIX, mo.gov
@@ -1424,6 +1437,9 @@ payload:
     DOMAIN, pancake-trading-fee-rebate-api.pancakeswap.com
     DOMAIN, strapi-cms.pancakeswap.ai
 
+   # pandora
+    DOMAIN-SUFFIX, pandora.net
+
    # paramount plus (@!cn)
     # DOMAIN-SUFFIX, pplusstatic.com
 
@@ -1472,6 +1488,9 @@ payload:
 
    # picsart
     DOMAIN-SUFFIX, picsart.com
+
+   # pipecdn.vip
+    DOMAIN-SUFFIX, pipecdn.vip
 
    # pixeldrain
     DOMAIN-SUFFIX, pixeldrain.com
@@ -1628,6 +1647,9 @@ payload:
 
    # sdge
     DOMAIN-SUFFIX, sdge.com
+
+   # shadowfly
+    DOMAIN-SUFFIX, shadowfly.org
 
    # sharepoint
     # DOMAIN-SUFFIX, blog.pathtosharepoint.com
@@ -1965,6 +1987,9 @@ payload:
     DOMAIN-SUFFIX, tymedigital.co.za
 
   # u
+   # ultramobile (@!cn)
+    DOMAIN-SUFFIX, ultramobile.com
+
    # undress.cc
     DOMAIN-SUFFIX, undress.cc
 
@@ -2020,6 +2045,9 @@ payload:
    # visaguide.world
     DOMAIN-SUFFIX, visaguide.world
 
+   # visitmexico
+    DOMAIN-SUFFIX, visitmexico.com
+
    # vista
     DOMAIN-SUFFIX, vista.com
 
@@ -2038,6 +2066,9 @@ payload:
   # w
    # wakenbakery
     DOMAIN-SUFFIX, wakenbakery.net
+
+   # wallmama
+    DOMAIN-SUFFIX, wallmama.com
 
    # washoecountylibrary.us
     DOMAIN-SUFFIX, washoecountylibrary.us
@@ -2073,6 +2104,9 @@ payload:
    # whoer.net
     DOMAIN-SUFFIX, whoer.net
 
+   # winscp.net
+    DOMAIN-SUFFIX, cdn.winscp.net
+
    # wisconsindot.gov
     DOMAIN-SUFFIX, wisconsindot.gov
 
@@ -2087,6 +2121,9 @@ payload:
 
    # worldwidephotowalk
     DOMAIN-SUFFIX, worldwidephotowalk.com
+
+   # wowhead.com (@!cn)
+    DOMAIN-SUFFIX, wowhead.com
 
    # wsimg
     DOMAIN, img1.wsimg.com
@@ -2168,4 +2205,8 @@ payload:
    # zillow
     DOMAIN-SUFFIX, zillow.com
     DOMAIN-SUFFIX, zillowstatic.com
+
+   # zoominfo
+    DOMAIN-SUFFIX, zoominfo.com
+
 

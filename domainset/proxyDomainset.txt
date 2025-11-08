@@ -144,10 +144,6 @@ payload:
    # atmeta
     .atmeta.com
 
-   # avg
-    .avcdn.com
-    .avg.com
-
   # b
    # b-cdn.net
     .b-cdn.net
@@ -391,8 +387,10 @@ payload:
    # creditkarma
     .creditkarma.com
 
-   # creditone
+   # creditone bank
     .creditone.com
+    .creditonebank.com
+    .getcreditone.com
 
    # crockblock
     .crocoblock.com
@@ -470,6 +468,9 @@ payload:
     .dpsk12.org
 
   # e
+   # eastasiaforum
+    .eastasiaforum.org
+
    # ecosia.org
     .ecosia.org
 
@@ -871,6 +872,9 @@ payload:
    # homer.sii.cl (@!cn)
     .homer.sii.cl
 
+   # hongxingyunmovie.vip (@!cn)
+    .hongxingyunmovie.vip
+
    # hostinger
     .hostinger.com
     .hpanel.hostinger.com
@@ -878,6 +882,9 @@ payload:
 
    # hotjar
     .hotjar.com
+
+   # hotstar.com (@!cn)
+    .hotstar.com
 
    # hubspot
     .hubspot.com
@@ -899,6 +906,9 @@ payload:
     .hyperionherbs.com
 
   # i
+   # icy-veins (@!cn)
+    .icy-veins.com
+
    # id.me
     .id.me
 
@@ -1210,6 +1220,9 @@ payload:
    # mintmobile
     .mintmobile.com
 
+   # mnews
+    .mnews.tw
+
    # mo.gov
     .dese.mo.gov
     .mo.gov
@@ -1424,6 +1437,9 @@ payload:
     .pancake-trading-fee-rebate-api.pancakeswap.com
     .strapi-cms.pancakeswap.ai
 
+   # pandora
+    .pandora.net
+
    # paramount plus (@!cn)
     # .pplusstatic.com
 
@@ -1472,6 +1488,9 @@ payload:
 
    # picsart
     .picsart.com
+
+   # pipecdn.vip
+    .pipecdn.vip
 
    # pixeldrain
     .pixeldrain.com
@@ -1628,6 +1647,9 @@ payload:
 
    # sdge
     .sdge.com
+
+   # shadowfly
+    .shadowfly.org
 
    # sharepoint
     # .blog.pathtosharepoint.com
@@ -1965,6 +1987,9 @@ payload:
     .tymedigital.co.za
 
   # u
+   # ultramobile (@!cn)
+    .ultramobile.com
+
    # undress.cc
     .undress.cc
 
@@ -2020,6 +2045,9 @@ payload:
    # visaguide.world
     .visaguide.world
 
+   # visitmexico
+    .visitmexico.com
+
    # vista
     .vista.com
 
@@ -2038,6 +2066,9 @@ payload:
   # w
    # wakenbakery
     .wakenbakery.net
+
+   # wallmama
+    .wallmama.com
 
    # washoecountylibrary.us
     .washoecountylibrary.us
@@ -2073,6 +2104,9 @@ payload:
    # whoer.net
     .whoer.net
 
+   # winscp.net
+    .cdn.winscp.net
+
    # wisconsindot.gov
     .wisconsindot.gov
 
@@ -2087,6 +2121,9 @@ payload:
 
    # worldwidephotowalk
     .worldwidephotowalk.com
+
+   # wowhead.com (@!cn)
+    .wowhead.com
 
    # wsimg
     .img1.wsimg.com
@@ -2168,3 +2205,6 @@ payload:
    # zillow
     .zillow.com
     .zillowstatic.com
+
+   # zoominfo
+    .zoominfo.com
