@@ -843,6 +843,9 @@ payload:
    # healthline
     DOMAIN-SUFFIX, healthline.com
 
+   # headfi (@!cn)
+    DOMAIN-SUFFIX, head-fi.org
+
    # helloandroid
     DOMAIN-SUFFIX, helloandroid.com
 
@@ -1004,6 +1007,9 @@ payload:
     # keep until: 2025-09-01
 
     # DOMAIN-SUFFIX, jotform.com
+
+   # jupas (@!cn)
+    DOMAIN-SUFFIX, jupas.edu.hk
 
    # justanswer
     DOMAIN-SUFFIX, justanswer.com
@@ -1229,6 +1235,10 @@ payload:
 
    # mojim
     DOMAIN-SUFFIX, mojim.com
+
+   # monarch
+    DOMAIN-SUFFIX, monarch.com
+    DOMAIN-SUFFIX, monarchmoney.com
 
    # monica.im
     DOMAIN-SUFFIX, monica.im
@@ -2202,8 +2212,10 @@ payload:
    # z-lib.io
     DOMAIN-SUFFIX, z-lib.io
 
-   # zillow
+   # zillow (@!cn)
     DOMAIN-SUFFIX, zillow.com
+    DOMAIN-SUFFIX, zillow.net
+    DOMAIN-SUFFIX, zillowgroup.com
     DOMAIN-SUFFIX, zillowstatic.com
 
    # zoominfo
