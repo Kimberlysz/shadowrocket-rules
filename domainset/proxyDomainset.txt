@@ -98,6 +98,9 @@ payload:
     # 2025-11-01
     .amplitude.com
 
+   # anikai
+    .anikai.to
+
    # aniview
     .aniview.com
 
@@ -154,7 +157,7 @@ payload:
     .badoo.app
 
    # bandwagonhost
-    # .64clouds
+    # - DOMAIN-KEYWORD, .64clouds
     .64clouds.com
 
    # bankaool
@@ -171,7 +174,7 @@ payload:
     .e-hentai.org
 
    # beetalk
-    # .beetalk
+    # - DOMAIN-KEYWORD, .beetalk
 
    # behance
     .behance.com
@@ -331,6 +334,9 @@ payload:
    # co.uk
     # . .co.uk
 
+   # cochyi
+    .ouchyi.support
+
    # coinbase
     .coinbasecdn.net
 
@@ -407,6 +413,9 @@ payload:
 
    # csl.edu
     .csl.edu
+
+   # cults3d (@!cn)
+    .cults3d.com
 
    # culturalvistas.org
     .culturalvistas.org
@@ -574,6 +583,9 @@ payload:
    # feiyu-tech (@!cn)
     .feiyu-tech.com
 
+   # fidelitasvirtual (@!cn)
+    .fidelitasvirtual.org
+
    # figshare
     .figshare.com
 
@@ -591,6 +603,19 @@ payload:
     .flixtor.nu
     .flixtor.se
     .flixtor.st
+
+   # fmovies (@!cn)
+    .fmovies.co
+    .jwpcdn.com
+    .jwpltx.com
+    .netusa.xyz
+    .netusa.xyz
+
+    .astream-5-1.voxzer.org
+    .prd.jwpltx.com
+    .ssl.p.jwpcdn.com
+    .voxzer.org
+    .ww4.fmovies.co
 
    # footystats
     .footystats.org
@@ -661,7 +686,7 @@ payload:
    # github
     # AS36459 - GitHub, Inc.
 
-    # .github
+    # - DOMAIN-KEYWORD, .github
     # .gist.github.com
     # .raw.githubusercontent.com
     # .rawgithub.com
@@ -1009,6 +1034,7 @@ payload:
     # .jotform.com
 
    # jupas (@!cn)
+    .jupas.com.hk
     .jupas.edu.hk
 
    # justanswer
@@ -1021,6 +1047,9 @@ payload:
    # kagyuoffice
     .kagyuoffice.org
     .kagyuoffice.org.tw
+
+   # kaido
+    .kaido.to
 
    # kapwing (@!cn)
     # .amplitude.com
@@ -1176,7 +1205,7 @@ payload:
    # microsoft
     # AS8075 - Microsoft Corporation
 
-    # .onedrive
+    # - DOMAIN-KEYWORD, .onedrive
     # .aadrm.com
     # .acompli.com
     # .acompli.net
@@ -1311,8 +1340,8 @@ payload:
    # netflix
     # .Argo*
 
-    # .dualstack.apiproxy-
-    # .dualstack.ichnaea-web-
+    # - DOMAIN-KEYWORD, .dualstack.apiproxy-
+    # - DOMAIN-KEYWORD, .dualstack.ichnaea-web-
     # .netflixdnstest0.com
 
    # newcannabisventures
@@ -1354,6 +1383,9 @@ payload:
     .bam-cell.nr-data.net
 
     .bam-cell.nr-data.net
+
+   # ntbus.com.tw
+    .ntbus.com.tw
 
   # o
    # oculus
@@ -1547,7 +1579,7 @@ payload:
     .proshkola18.ru
 
    # proxyium
-    - DOMAIN-SUFFIXium.com
+    .proxyium.com
 
    # psi.org
     .psi.org
@@ -1772,6 +1804,9 @@ payload:
     .synchronybank.com
 
   # t
+   # taiwanobsessed.com
+    .taiwanobsessed.com
+
    # teachers-teachers
     .teachers-teachers.com
 
@@ -1790,14 +1825,14 @@ payload:
     .teams.microsoft.com
 
    # techcrunch
-    # .techcrunch
+    # - DOMAIN-KEYWORD, .techcrunch
     # .techcrunch.com
 
    # tel.meet
     .tel.meet
 
    # telegram
-    # .telegram
+    # - DOMAIN-KEYWORD, .telegram
     # .updates.tdesktop.com
 
    # teleseer
@@ -1855,6 +1890,9 @@ payload:
     .thetradedesk.com
 
     .pages.thetradedesk.com
+
+   # thingiverse.com (@!cn)
+    .thingiverse.com
 
    # threads
     .threads.net
@@ -2109,7 +2147,7 @@ payload:
     .whalestonpool.com
 
    # whatsapp
-    # .whatsapp
+    # - DOMAIN-KEYWORD, .whatsapp
 
    # whoer.net
     .whoer.net
@@ -2158,7 +2196,7 @@ payload:
     .frontend.vh.yandex.ru
 
    # yahoo
-    # .yahoo
+    # - DOMAIN-KEYWORD, .yahoo
 
     # .blogs.yahoo.co.jp
     # .buy.yahoo.com.tw
@@ -2190,6 +2228,9 @@ payload:
 
    # ybtour.co.kr
     .ybtour.co.kr
+
+   # yeggi (@!cn)
+    .yeggi.com
 
    # youversion
     .youversion.com

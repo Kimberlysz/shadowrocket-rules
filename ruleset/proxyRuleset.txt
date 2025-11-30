@@ -98,6 +98,9 @@ payload:
     # 2025-11-01
     DOMAIN-SUFFIX, amplitude.com
 
+   # anikai
+    DOMAIN-SUFFIX, anikai.to
+
    # aniview
     DOMAIN-SUFFIX, aniview.com
 
@@ -331,6 +334,9 @@ payload:
    # co.uk
     DOMAIN-KEYWORD, .co.uk
 
+   # cochyi
+    DOMAIN-SUFFIX, ouchyi.support
+
    # coinbase
     DOMAIN-SUFFIX, coinbasecdn.net
 
@@ -407,6 +413,9 @@ payload:
 
    # csl.edu
     DOMAIN-SUFFIX, csl.edu
+
+   # cults3d (@!cn)
+    DOMAIN-SUFFIX, cults3d.com
 
    # culturalvistas.org
     DOMAIN-SUFFIX, culturalvistas.org
@@ -574,6 +583,9 @@ payload:
    # feiyu-tech (@!cn)
     DOMAIN-SUFFIX, feiyu-tech.com
 
+   # fidelitasvirtual (@!cn)
+    DOMAIN-SUFFIX, fidelitasvirtual.org
+
    # figshare
     DOMAIN-SUFFIX, figshare.com
 
@@ -591,6 +603,19 @@ payload:
     DOMAIN-SUFFIX, flixtor.nu
     DOMAIN-SUFFIX, flixtor.se
     DOMAIN-SUFFIX, flixtor.st
+
+   # fmovies (@!cn)
+    DOMAIN-SUFFIX, fmovies.co
+    DOMAIN-SUFFIX, jwpcdn.com
+    DOMAIN-SUFFIX, jwpltx.com
+    DOMAIN-SUFFIX, netusa.xyz
+    DOMAIN-SUFFIX, netusa.xyz
+
+    DOMAIN, astream-5-1.voxzer.org
+    DOMAIN, prd.jwpltx.com
+    DOMAIN, ssl.p.jwpcdn.com
+    DOMAIN, voxzer.org
+    DOMAIN, ww4.fmovies.co
 
    # footystats
     DOMAIN-SUFFIX, footystats.org
@@ -1009,6 +1034,7 @@ payload:
     # DOMAIN-SUFFIX, jotform.com
 
    # jupas (@!cn)
+    DOMAIN-SUFFIX, jupas.com.hk
     DOMAIN-SUFFIX, jupas.edu.hk
 
    # justanswer
@@ -1021,6 +1047,9 @@ payload:
    # kagyuoffice
     DOMAIN-SUFFIX, kagyuoffice.org
     DOMAIN-SUFFIX, kagyuoffice.org.tw
+
+   # kaido
+    DOMAIN-SUFFIX, kaido.to
 
    # kapwing (@!cn)
     # DOMAIN-SUFFIX, amplitude.com
@@ -1354,6 +1383,9 @@ payload:
     DOMAIN, bam-cell.nr-data.net
 
     DOMAIN-SUFFIX, bam-cell.nr-data.net
+
+   # ntbus.com.tw
+    DOMAIN-SUFFIX, ntbus.com.tw
 
   # o
    # oculus
@@ -1772,6 +1804,9 @@ payload:
     DOMAIN-SUFFIX, synchronybank.com
 
   # t
+   # taiwanobsessed.com
+    DOMAIN-SUFFIX, taiwanobsessed.com
+
    # teachers-teachers
     DOMAIN-SUFFIX, teachers-teachers.com
 
@@ -1855,6 +1890,9 @@ payload:
     DOMAIN-SUFFIX, thetradedesk.com
 
     DOMAIN, pages.thetradedesk.com
+
+   # thingiverse.com (@!cn)
+    DOMAIN-SUFFIX, thingiverse.com
 
    # threads
     DOMAIN-SUFFIX, threads.net
@@ -2191,6 +2229,9 @@ payload:
    # ybtour.co.kr
     DOMAIN-SUFFIX, ybtour.co.kr
 
+   # yeggi (@!cn)
+    DOMAIN-SUFFIX, yeggi.com
+
    # youversion
     DOMAIN-SUFFIX, youversion.com
     DOMAIN-SUFFIX, youversionapi.com
@@ -2220,5 +2261,3 @@ payload:
 
    # zoominfo
     DOMAIN-SUFFIX, zoominfo.com
-
-
