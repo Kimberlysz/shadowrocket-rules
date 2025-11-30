@@ -1,5 +1,4 @@
 payload:
- # direct manual
   # a
    # agoda.cn
     .agoda.cn
@@ -52,7 +51,13 @@ payload:
     # .msn.cn
     # microsoft.com
 
-    # outlook
+    # (@!cn)
+    .login.live.com
+    .login.microsoftonline.com
+    .aadcdn.msftauth.net
+    .browser.events.data.microsoft.com
+
+    # outlook (test)
     .autodiscover-s.outlook.com
     .dataservice.protection.outlook.com
     .outlook.office.com
@@ -63,7 +68,7 @@ payload:
   # o
    # okcis
     # .okcis.cn
-    # . .okcis
+    # .okcis
 
   # p
    # pingan bank

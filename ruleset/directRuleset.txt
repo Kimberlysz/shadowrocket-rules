@@ -1,5 +1,4 @@
 payload:
- # direct manual
   # a
    # agoda.cn
     DOMAIN-SUFFIX, agoda.cn
@@ -52,7 +51,13 @@ payload:
     # DOMAIN-SUFFIX, msn.cn
     # DOMAIN, microsoft.com
 
-    # outlook
+    # (@!cn)
+    DOMAIN-SUFFIX, login.live.com
+    DOMAIN-SUFFIX, login.microsoftonline.com
+    DOMAIN, aadcdn.msftauth.net
+    DOMAIN, browser.events.data.microsoft.com
+
+    # outlook (test)
     DOMAIN-SUFFIX, autodiscover-s.outlook.com
     DOMAIN-SUFFIX, dataservice.protection.outlook.com
     DOMAIN-SUFFIX, outlook.office.com
