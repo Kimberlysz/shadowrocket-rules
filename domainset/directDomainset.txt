@@ -1,0 +1,142 @@
+payload:
+  # a
+   # agoda.cn
+    .agoda.cn
+
+   # afdian
+    .afdian.net
+    .afdiancdn.com
+
+   # alibaba
+    .account-cn.alibabacloud.com
+
+  # b
+
+  # c
+   # category-ai-cn (@cn)
+    # MiniMax
+    .hailuoai.com
+    .minimaxi.com
+    .xingyeai.com
+
+   # category-collaborate-cn (@cn)
+    ## Oray
+    .oray.com
+    .oray.net
+    .orayer.com
+    .orayimg.com
+    .sunlogin.net
+
+   # cloudflare-cn
+    .cloudflarestorage.com
+
+  # d
+
+  # e
+
+  # f
+ 
+  # g
+   # geetest
+    .geetest.com
+
+   # github
+    # .github.com
+    # .github.io
+    # .raw.githubusercontent.com
+
+   # goodwe.com
+    .goodwe.com
+
+  # h
+
+  # i
+   # iCloud
+    # .*.icloud.com.cn
+
+   # ikea
+    # .srv.app.ikea.cn
+
+  # j
+
+  # k
+ 
+  # l
+
+  # m
+   # microsoft (@cn)
+    # remote access (@cn)
+    .remoteassistance.support.services.microsoft.com
+
+    # close at (2026-12-31)
+
+    # # All .microsoft domains
+    # . .microsoft
+
+    # # All .hotmail domains
+    # . .hotmail
+
+    # # All .office domains
+    # . .office
+
+    # # All .skype domains
+    # . .skype
+
+    # # All .windows domains
+    # . .windows
+
+    # Others, outlook, teams (@!cn)
+    # .autodiscover-s.outlook.com
+    # .dataservice.protection.outlook.com
+    # .login.live.com
+    # .msn.cn
+    # .outlook.office.com
+    # .outlook.office365.com
+    # .aadcdn.msftauth.net
+    # .microsoft.com
+
+    # Others, outlook, teams (@!cn)
+      # changed these from direct to proxy
+    # .browser.events.data.microsoft.com
+    # .login.microsoftonline.com
+
+  # n
+
+  # o
+   # okcis
+    # .okcis.cn
+    # . .okcis
+
+  # p
+   # pingan bank
+    .auth.orangebank.com.cn
+    .cdn.sdb.com.cn
+
+  # q
+
+  # r
+   # resi
+    .resi.io
+    .resi.media
+ 
+  # s
+   # steam
+    .steamcontent.com
+
+  # t
+
+  # u
+ 
+  # v
+ 
+  # w
+   # walmart
+    .walmartmobile.cn
+
+    .api-sams.walmartmobile.cn
+
+  # x
+ 
+  # y
+ 
+  # Z

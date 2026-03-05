@@ -1,0 +1,142 @@
+payload:
+  # a
+   # agoda.cn
+    DOMAIN-SUFFIX, agoda.cn
+
+   # afdian
+    DOMAIN-SUFFIX, afdian.net
+    DOMAIN-SUFFIX, afdiancdn.com
+
+   # alibaba
+    DOMAIN-SUFFIX, account-cn.alibabacloud.com
+
+  # b
+
+  # c
+   # category-ai-cn (@cn)
+    # MiniMax
+    DOMAIN-SUFFIX, hailuoai.com
+    DOMAIN-SUFFIX, minimaxi.com
+    DOMAIN-SUFFIX, xingyeai.com
+
+   # category-collaborate-cn (@cn)
+    ## Oray
+    DOMAIN-SUFFIX, oray.com
+    DOMAIN-SUFFIX, oray.net
+    DOMAIN-SUFFIX, orayer.com
+    DOMAIN-SUFFIX, orayimg.com
+    DOMAIN-SUFFIX, sunlogin.net
+
+   # cloudflare-cn
+    DOMAIN-SUFFIX, cloudflarestorage.com
+
+  # d
+
+  # e
+
+  # f
+ 
+  # g
+   # geetest
+    DOMAIN-SUFFIX, geetest.com
+
+   # github
+    # DOMAIN-SUFFIX, github.com
+    # DOMAIN-SUFFIX, github.io
+    # DOMAIN-SUFFIX, raw.githubusercontent.com
+
+   # goodwe.com
+    DOMAIN-SUFFIX, goodwe.com
+
+  # h
+
+  # i
+   # iCloud
+    # DOMAIN-SUFFIX, *.icloud.com.cn
+
+   # ikea
+    # DOMAIN-SUFFIX, srv.app.ikea.cn
+
+  # j
+
+  # k
+ 
+  # l
+
+  # m
+   # microsoft (@cn)
+    # remote access (@cn)
+    DOMAIN-SUFFIX, remoteassistance.support.services.microsoft.com
+
+    # close at (2026-12-31)
+
+    # # All .microsoft domains
+    # DOMAIN-KEYWORD, .microsoft
+
+    # # All .hotmail domains
+    # DOMAIN-KEYWORD, .hotmail
+
+    # # All .office domains
+    # DOMAIN-KEYWORD, .office
+
+    # # All .skype domains
+    # DOMAIN-KEYWORD, .skype
+
+    # # All .windows domains
+    # DOMAIN-KEYWORD, .windows
+
+    # Others, outlook, teams (@!cn)
+    # DOMAIN-SUFFIX, autodiscover-s.outlook.com
+    # DOMAIN-SUFFIX, dataservice.protection.outlook.com
+    # DOMAIN-SUFFIX, login.live.com
+    # DOMAIN-SUFFIX, msn.cn
+    # DOMAIN-SUFFIX, outlook.office.com
+    # DOMAIN-SUFFIX, outlook.office365.com
+    # DOMAIN, aadcdn.msftauth.net
+    # DOMAIN, microsoft.com
+
+    # Others, outlook, teams (@!cn)
+      # changed these from direct to proxy
+    # DOMAIN, browser.events.data.microsoft.com
+    # DOMAIN-SUFFIX, login.microsoftonline.com
+
+  # n
+
+  # o
+   # okcis
+    # DOMAIN-SUFFIX, okcis.cn
+    # DOMAIN-KEYWORD, .okcis
+
+  # p
+   # pingan bank
+    DOMAIN, auth.orangebank.com.cn
+    DOMAIN, cdn.sdb.com.cn
+
+  # q
+
+  # r
+   # resi
+    DOMAIN-SUFFIX, resi.io
+    DOMAIN-SUFFIX, resi.media
+ 
+  # s
+   # steam
+    DOMAIN-SUFFIX, steamcontent.com
+
+  # t
+
+  # u
+ 
+  # v
+ 
+  # w
+   # walmart
+    DOMAIN-SUFFIX, walmartmobile.cn
+
+    DOMAIN, api-sams.walmartmobile.cn
+
+  # x
+ 
+  # y
+ 
+  # Z
