@@ -20,3 +20,7 @@ payload:
     # DOMAIN-SUFFIX, imasdk.googleapis.com
     DOMAIN-SUFFIX, redirector.gvt1.com
     # DOMAIN-SUFFIX, ssl.gstatic.com
+
+  # t
+   # tiktok
+    DOMAIN-SUFFIX, ads.tiktok.com

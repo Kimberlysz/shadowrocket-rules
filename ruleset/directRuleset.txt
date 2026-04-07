@@ -45,8 +45,12 @@ payload:
     # DOMAIN-SUFFIX, github.io
     # DOMAIN-SUFFIX, raw.githubusercontent.com
 
-   # goodwe.com
+   # goodwe
     DOMAIN-SUFFIX, goodwe.com
+
+   # goofish
+    DOMAIN-SUFFIX, goofish.com
+    DOMAIN-SUFFIX, acs.m.goofish.com
 
   # h
 
@@ -124,6 +128,8 @@ payload:
     DOMAIN-SUFFIX, steamcontent.com
 
   # t
+   # tabbitbrowser
+    # DOMAIN-SUFFIX, tabbit-ai.com
 
   # u
  

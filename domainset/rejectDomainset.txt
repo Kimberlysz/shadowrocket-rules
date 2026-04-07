@@ -20,3 +20,7 @@ payload:
     # .imasdk.googleapis.com
     .redirector.gvt1.com
     # .ssl.gstatic.com
+
+  # t
+   # tiktok
+    .ads.tiktok.com

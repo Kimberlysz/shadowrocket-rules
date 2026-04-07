@@ -76,6 +76,9 @@ payload:
     DOMAIN, ssor.airasia.com
     DOMAIN, static.airasia.com
 
+   # airbyte
+    DOMAIN-SUFFIX, airbyte.com
+
    # akamai technologies
     # AS16625 - Akamai Technologies, Inc.
 
@@ -98,6 +101,9 @@ payload:
     DOMAIN-SUFFIX, amcplus.com
     DOMAIN-SUFFIX, e5a6ae085b6c43020dea230eb0c0ecc33a188227507da97b8ecc05eb8beace6.us-east-1.prod.service.minerva.devices.a2z.com
 
+   # americanexpress.com (@test)
+    DOMAIN-SUFFIX, americanexpress.com
+
    # amplitude (@!cn)
     # 2025-11-01
     DOMAIN-SUFFIX, amplitude.com
@@ -106,6 +112,10 @@ payload:
     DOMAIN-SUFFIX, ancestry.co.uk
     DOMAIN-SUFFIX, ancestry.com
     DOMAIN-SUFFIX, ancestrycdn.com
+
+   # annas-archive
+    DOMAIN-SUFFIX, annas-archive.li
+    DOMAIN-KEYWORD, .annas-archive
 
    # anikai
     DOMAIN-SUFFIX, anikai.to
@@ -136,6 +146,9 @@ payload:
     # DOMAIN, feelinsonice.appspot.com
     # DOMAIN, sc-analytics.appspot.com
 
+   # archiveofourown (@test)
+    DOMAIN-SUFFIX, archiveofourown.org
+
    # arkoselabs
     DOMAIN, client-api.arkoselabs.com
     DOMAIN, iframe.arkoselabs.com
@@ -146,6 +159,9 @@ payload:
    # ashleymadison
     DOMAIN-SUFFIX, ashleymadison.com
 
+   # asinsight (@test)
+    DOMAIN-SUFFIX, asinsight.com
+
    # astrill
     DOMAIN-SUFFIX, astrill.com
 
@@ -155,6 +171,9 @@ payload:
 
    # atmeta
     DOMAIN-SUFFIX, atmeta.com
+
+   # aviationa2z.com (@test)
+    DOMAIN-SUFFIX, aviationa2z.com
 
   # b
    # b-cdn.net
@@ -239,8 +258,10 @@ payload:
     DOMAIN-SUFFIX, personalization.bloomberg.com
     DOMAIN-SUFFIX, sourcepointcmp.bloomberg.com
 
-   # BMO
+   # BMO (@test)
+    DOMAIN-SUFFIX, apptentive.com
     DOMAIN-SUFFIX, bmo.com
+    DOMAIN-SUFFIX, bmofinancial.demdex.net
 
    # bmwusa
     DOMAIN, idresgraph.bmwusa.com
@@ -250,6 +271,9 @@ payload:
 
    # broadbandgenie.co.uk
     DOMAIN-SUFFIX, broadbandgenie.co.uk
+
+   # bun (@test)
+    DOMAIN-SUFFIX, bun.com
 
   # c
    # ca.gov
@@ -306,6 +330,9 @@ payload:
    # charlestoncounty.org
     DOMAIN-SUFFIX, charlestoncounty.org
 
+   # chase (@test)
+    DOMAIN-SUFFIX, chase.com
+
    # chatbotapp.ai (@!cn)
     DOMAIN-SUFFIX, chatbotapp.ai
 
@@ -334,6 +361,10 @@ payload:
 
    # clickbank (@!cn)
     DOMAIN-SUFFIX, clickbank.com
+
+   # clickup
+    DOMAIN-SUFFIX, clickup.com
+    DOMAIN-SUFFIX, app.clickup.com
 
    # cloudflare
     DOMAIN, a.nel.cloudflare.com
@@ -397,6 +428,9 @@ payload:
 
    # corelogic
     DOMAIN-SUFFIX, corelogic.com
+
+   # coupang (@test)
+    DOMAIN-SUFFIX, coupang.com
 
    # coveredca.com (@!cn)
     DOMAIN-SUFFIX, coveredca.com
@@ -463,8 +497,15 @@ payload:
     DOMAIN-SUFFIX, cyberspatial.com
 
   # d
+   # datarova (@test)
+    DOMAIN-SUFFIX, datarova.com
+
    # deadline
     DOMAIN-SUFFIX, deadline.com
+
+   # deepmind
+    # alphafold
+    DOMAIN-SUFFIX, alphafoldserver.com
 
    # dfas.mil
     DOMAIN-SUFFIX, dfas.mil
@@ -490,6 +531,9 @@ payload:
 
    # disney.demdex.net
     DOMAIN-SUFFIX, disney.demdex.net
+
+   # diyibanzhu
+    DOMAIN-SUFFIX, diyibanzhu.me
 
    # donacionesley21440.cl
     DOMAIN-SUFFIX, donacionesley21440.cl
@@ -787,7 +831,6 @@ payload:
 
    # google_3 (@!cn)
     # gstatic.com
-    DOMAIN-SUFFIX, gstatic.com
     DOMAIN-SUFFIX, www.gstatic.com
 
     # google-analytics.com (@!cn)
@@ -803,7 +846,6 @@ payload:
 
     # googleapis.com
     DOMAIN-SUFFIX, fonts.googleapis.com
-    DOMAIN-SUFFIX, googleapis.com
 
    # google2 (@!cn)
     # under global mode, dl.google.com redirects to https://google.com/chrome
@@ -1024,6 +1066,9 @@ payload:
    # howtogeek
     DOMAIN-SUFFIX, howtogeek.com
 
+   # huaren
+    DOMAIN-SUFFIX, huaren.us
+
    # hubspot
     DOMAIN-SUFFIX, hubspot.com
 
@@ -1097,6 +1142,9 @@ payload:
 
    # ipinfo
     DOMAIN-SUFFIX, ipinfo.io
+
+   # irishgenealogy
+    DOMAIN-SUFFIX, irishgenealogy.ie
 
    # iscooterglobal.co.uk
     DOMAIN-SUFFIX, iscooterglobal.co.uk
@@ -1172,6 +1220,9 @@ payload:
 
    # keatinggroup
     DOMAIN-SUFFIX, keatinggroup.com
+
+   # keeper (@test)
+    DOMAIN-SUFFIX, keeper.ai
 
    # keepsolid
     DOMAIN-SUFFIX, keepsolid.com
@@ -1273,9 +1324,12 @@ payload:
    # lookah
     DOMAIN-SUFFIX, lookah.com
 
+   # loom (@test)
+    DOMAIN-SUFFIX, loom.com
+
    # lovart
     DOMAIN-SUFFIX, flowith.io
-    DOMAIN-SUFFIX, lovart.ai
+    # DOMAIN-SUFFIX, lovart.ai # included in the main file
 
    # lowclassic
     DOMAIN-SUFFIX, lowclassic.com
@@ -1418,6 +1472,12 @@ payload:
    # moxfield
     DOMAIN-SUFFIX, assets.moxfield.net
     DOMAIN-SUFFIX, moxfield.com
+
+   # mpfill
+    DOMAIN-SUFFIX, mpfill.com
+
+   # mpcfill (@test)
+    DOMAIN-SUFFIX, mpcfill.com
 
    # msn
     # msn rules originates from this yaml file
@@ -1945,8 +2005,12 @@ payload:
    # sugarfreemom
     DOMAIN-SUFFIX, sugarfreemom.com
 
-   # suno
+   # suno (@test)
     DOMAIN-SUFFIX, suno.com
+    DOMAIN-SUFFIX, suno.ai
+
+   # supabase (@test)
+    DOMAIN-SUFFIX, supabase.com
 
    # surfshark
     DOMAIN-SUFFIX, surfshark.com
@@ -1961,6 +2025,10 @@ payload:
     DOMAIN-SUFFIX, synchronybank.com
 
   # t
+   # tabbitbrowser
+    # DOMAIN-SUFFIX, tabbit-ai.com
+    DOMAIN-SUFFIX, tabbitbrowser.com
+
    # taiwanobsessed.com
     DOMAIN-SUFFIX, taiwanobsessed.com
 
@@ -2217,6 +2285,9 @@ payload:
    # uspto.gov
     DOMAIN, tmsearch.uspto.gov
 
+   # usvisascheduling (@test)
+    DOMAIN-SUFFIX, usvisascheduling.com
+
    # utorrent
     DOMAIN-SUFFIX, utorrent.com
 
@@ -2280,6 +2351,9 @@ payload:
     DOMAIN-SUFFIX, dwin1.com
     DOMAIN-SUFFIX, waterstones.co.uk
     DOMAIN-SUFFIX, waterstones.com
+
+   # wconcept
+    DOMAIN-SUFFIX, wconcept.co.kr
 
    # wd.bible
     DOMAIN-SUFFIX, endao.app
@@ -2346,6 +2420,9 @@ payload:
 
    # xiaoyakankan
     DOMAIN-SUFFIX, xiaoyakankan.com
+
+   # xiranjayzhao
+    DOMAIN-SUFFIX, xiranjayzhao.com
 
   # y
    # yandex

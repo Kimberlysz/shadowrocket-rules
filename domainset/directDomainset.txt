@@ -45,8 +45,12 @@ payload:
     # .github.io
     # .raw.githubusercontent.com
 
-   # goodwe.com
+   # goodwe
     .goodwe.com
+
+   # goofish
+    .goofish.com
+    .acs.m.goofish.com
 
   # h
 
@@ -124,6 +128,8 @@ payload:
     .steamcontent.com
 
   # t
+   # tabbitbrowser
+    # .tabbit-ai.com
 
   # u
  

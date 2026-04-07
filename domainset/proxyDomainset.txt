@@ -76,6 +76,9 @@ payload:
     .ssor.airasia.com
     .static.airasia.com
 
+   # airbyte
+    .airbyte.com
+
    # akamai technologies
     # AS16625 - Akamai Technologies, Inc.
 
@@ -98,6 +101,9 @@ payload:
     .amcplus.com
     .e5a6ae085b6c43020dea230eb0c0ecc33a188227507da97b8ecc05eb8beace6.us-east-1.prod.service.minerva.devices.a2z.com
 
+   # americanexpress.com (@test)
+    .americanexpress.com
+
    # amplitude (@!cn)
     # 2025-11-01
     .amplitude.com
@@ -106,6 +112,10 @@ payload:
     .ancestry.co.uk
     .ancestry.com
     .ancestrycdn.com
+
+   # annas-archive
+    .annas-archive.li
+    # . .annas-archive
 
    # anikai
     .anikai.to
@@ -136,6 +146,9 @@ payload:
     # .feelinsonice.appspot.com
     # .sc-analytics.appspot.com
 
+   # archiveofourown (@test)
+    .archiveofourown.org
+
    # arkoselabs
     .client-api.arkoselabs.com
     .iframe.arkoselabs.com
@@ -146,6 +159,9 @@ payload:
    # ashleymadison
     .ashleymadison.com
 
+   # asinsight (@test)
+    .asinsight.com
+
    # astrill
     .astrill.com
 
@@ -155,6 +171,9 @@ payload:
 
    # atmeta
     .atmeta.com
+
+   # aviationa2z.com (@test)
+    .aviationa2z.com
 
   # b
    # b-cdn.net
@@ -239,8 +258,10 @@ payload:
     .personalization.bloomberg.com
     .sourcepointcmp.bloomberg.com
 
-   # BMO
+   # BMO (@test)
+    .apptentive.com
     .bmo.com
+    .bmofinancial.demdex.net
 
    # bmwusa
     .idresgraph.bmwusa.com
@@ -250,6 +271,9 @@ payload:
 
    # broadbandgenie.co.uk
     .broadbandgenie.co.uk
+
+   # bun (@test)
+    .bun.com
 
   # c
    # ca.gov
@@ -306,6 +330,9 @@ payload:
    # charlestoncounty.org
     .charlestoncounty.org
 
+   # chase (@test)
+    .chase.com
+
    # chatbotapp.ai (@!cn)
     .chatbotapp.ai
 
@@ -334,6 +361,10 @@ payload:
 
    # clickbank (@!cn)
     .clickbank.com
+
+   # clickup
+    .clickup.com
+    .app.clickup.com
 
    # cloudflare
     .a.nel.cloudflare.com
@@ -397,6 +428,9 @@ payload:
 
    # corelogic
     .corelogic.com
+
+   # coupang (@test)
+    .coupang.com
 
    # coveredca.com (@!cn)
     .coveredca.com
@@ -463,8 +497,15 @@ payload:
     .cyberspatial.com
 
   # d
+   # datarova (@test)
+    .datarova.com
+
    # deadline
     .deadline.com
+
+   # deepmind
+    # alphafold
+    .alphafoldserver.com
 
    # dfas.mil
     .dfas.mil
@@ -490,6 +531,9 @@ payload:
 
    # disney.demdex.net
     .disney.demdex.net
+
+   # diyibanzhu
+    .diyibanzhu.me
 
    # donacionesley21440.cl
     .donacionesley21440.cl
@@ -681,8 +725,10 @@ payload:
    # gamma.app
     .gamma.app
 
-   # genius
+   # genius (@test)
     .genius.com
+    .live.primis.tech
+    .primis.tech
 
    # getcomics.info
     .getcomics.info
@@ -785,7 +831,6 @@ payload:
 
    # google_3 (@!cn)
     # gstatic.com
-    .gstatic.com
     .www.gstatic.com
 
     # google-analytics.com (@!cn)
@@ -801,7 +846,6 @@ payload:
 
     # googleapis.com
     .fonts.googleapis.com
-    .googleapis.com
 
    # google2 (@!cn)
     # under global mode, dl.google.com redirects to https://google.com/chrome
@@ -1022,6 +1066,9 @@ payload:
    # howtogeek
     .howtogeek.com
 
+   # huaren
+    .huaren.us
+
    # hubspot
     .hubspot.com
 
@@ -1095,6 +1142,9 @@ payload:
 
    # ipinfo
     .ipinfo.io
+
+   # irishgenealogy
+    .irishgenealogy.ie
 
    # iscooterglobal.co.uk
     .iscooterglobal.co.uk
@@ -1170,6 +1220,9 @@ payload:
 
    # keatinggroup
     .keatinggroup.com
+
+   # keeper (@test)
+    .keeper.ai
 
    # keepsolid
     .keepsolid.com
@@ -1271,9 +1324,12 @@ payload:
    # lookah
     .lookah.com
 
+   # loom (@test)
+    .loom.com
+
    # lovart
     .flowith.io
-    .lovart.ai
+    # .lovart.ai # included in the main file
 
    # lowclassic
     .lowclassic.com
@@ -1416,6 +1472,12 @@ payload:
    # moxfield
     .assets.moxfield.net
     .moxfield.com
+
+   # mpfill
+    .mpfill.com
+
+   # mpcfill (@test)
+    .mpcfill.com
 
    # msn
     # msn rules originates from this yaml file
@@ -1943,8 +2005,12 @@ payload:
    # sugarfreemom
     .sugarfreemom.com
 
-   # suno
+   # suno (@test)
     .suno.com
+    .suno.ai
+
+   # supabase (@test)
+    .supabase.com
 
    # surfshark
     .surfshark.com
@@ -1959,6 +2025,10 @@ payload:
     .synchronybank.com
 
   # t
+   # tabbitbrowser
+    # .tabbit-ai.com
+    .tabbitbrowser.com
+
    # taiwanobsessed.com
     .taiwanobsessed.com
 
@@ -2215,6 +2285,9 @@ payload:
    # uspto.gov
     .tmsearch.uspto.gov
 
+   # usvisascheduling (@test)
+    .usvisascheduling.com
+
    # utorrent
     .utorrent.com
 
@@ -2278,6 +2351,9 @@ payload:
     .dwin1.com
     .waterstones.co.uk
     .waterstones.com
+
+   # wconcept
+    .wconcept.co.kr
 
    # wd.bible
     .endao.app
@@ -2344,6 +2420,9 @@ payload:
 
    # xiaoyakankan
     .xiaoyakankan.com
+
+   # xiranjayzhao
+    .xiranjayzhao.com
 
   # y
    # yandex
