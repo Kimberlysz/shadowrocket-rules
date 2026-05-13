@@ -114,8 +114,16 @@ payload:
     .ancestrycdn.com
 
    # annas-archive
+<<<<<<< HEAD
     .annas-archive.li
     # . .annas-archive
+=======
+    # . .annas-archive
+    .annas-archive.gd
+    .annas-archive.gl
+    .annas-archive.li
+    .annas-archive.pk
+>>>>>>> release
 
    # anikai
     .anikai.to
@@ -276,9 +284,6 @@ payload:
     .bun.com
 
   # c
-   # ca.gov
-    .dmv.ca.gov
-    .sa.dmv.ca.gov
 
    # caliva
     .caliva.com
@@ -299,6 +304,9 @@ payload:
     .capcut.com
     .capcutapi.com
 
+   # cargurus
+    .cargurus.com
+
    # cars
     .cars.com
 
@@ -307,6 +315,9 @@ payload:
 
    # cbex18
     .cbex18.com
+
+   # cdw
+    .cdw.com
 
    # cebupacificair
     .cebupacificair.com
@@ -415,9 +426,6 @@ payload:
     .complio.com
 
     .liberty.complio.com
-
-   # cookcountyclerkil.gov
-    .cookcountyclerkil.gov
 
    # copilot.microsoft
     .copilot.microsoft.com
@@ -551,9 +559,6 @@ payload:
    # echostar
     .echostar
 
-   # ed.gov
-    .eric.ed.gov
-
    # elementor
     .elementor.cloud
     .elementor.com
@@ -674,6 +679,11 @@ payload:
     .flixtor.se
     .flixtor.st
 
+   # flowith
+    .flowith.featurebase.app
+    .flowith.io
+    .flowith.net
+
    # fmovies (@!cn)
     .fmovies.co
     .jwpcdn.com
@@ -715,8 +725,14 @@ payload:
    # frontlineeducation
     .frontlineeducation.com
 
+   # fubon
+    .fbs.com.tw
+
    # fullcompass
     .fullcompass.com
+
+   # fuxin.tv
+    .api.fuxunapi.com
 
   # g
    # gammaplatform
@@ -962,6 +978,51 @@ payload:
    # gotquestions.org
     .gotquestions.org
 
+   # gov
+    # ca.gov
+    .dmv.ca.gov
+    .sa.dmv.ca.gov
+
+    # cookcountyclerkil.gov
+    .cookcountyclerkil.gov
+
+    # ed.gov
+    .eric.ed.gov
+
+    # maine.gov
+    .maine.gov
+
+    # nasa.gov
+    .spaceplace.nasa.gov
+
+    # nationsreportcard.gov
+    .nationsreportcard.gov
+
+    # nces.ed.gov
+    .nces.ed.gov
+
+    # nh.gov
+    .nh.gov
+
+    # mo.gov
+    .dese.mo.gov
+    .mo.gov
+
+    # sandiego.gov
+    .sandiego.gov
+
+    # studentaid.gov
+    .studentaid.gov
+
+    # uspto.gov
+    .tmsearch.uspto.gov
+
+    # wisconsindot.gov
+    .wisconsindot.gov
+
+    # war.gov
+    .war.gov
+
    # gov.co
     .gov.co
 
@@ -1106,6 +1167,10 @@ payload:
     .assets-prd.ignimgs.com
     .kraken.ignimgs.com
 
+   # il
+    # e-vrit.co.il
+    .e-vrit.co.il
+
    # indeed
     .t.indeed.com
     .secure.indeed.com
@@ -1139,6 +1204,9 @@ payload:
 
    # invideo.io
     .invideo.io
+
+   # ipdeep
+    .ipdeep.com
 
    # ipinfo
     .ipinfo.io
@@ -1248,6 +1316,9 @@ payload:
     .ktar.com
 
   # l
+   # lamborghiniwashington
+    .lamborghiniwashington.com
+
    # larrainvial
     .larrainvial.com
 
@@ -1343,9 +1414,6 @@ payload:
   # m
    # ma.ne
     .hu.ma.ne
-
-   # maine.gov
-    .maine.gov
 
    # makedreamwebsite
     .makedreamwebsite.com
@@ -1452,12 +1520,12 @@ payload:
    # mintmobile
     .mintmobile.com
 
+   # mil
+    # aaro.mil
+    .aaro.mil
+
    # mnews
     .mnews.tw
-
-   # mo.gov
-    .dese.mo.gov
-    .mo.gov
 
    # mojim
     .mojim.com
@@ -1512,12 +1580,6 @@ payload:
    # napster
     .napster.com
 
-   # nasa.gov
-    .spaceplace.nasa.gov
-
-   # nationsreportcard.gov
-    .nationsreportcard.gov
-
    # navyfederal
     .navyfederal.org
 
@@ -1525,9 +1587,6 @@ payload:
     .dm-assets.navyfederal.org
     .liveengage.navyfederal.org
     .navyfederalcu.tt.omtrdc.net
-
-   # nces.ed.gov
-    .nces.ed.gov
 
    # nelnet
     .secure.nelnet.com
@@ -1560,9 +1619,6 @@ payload:
     .staticdelivery.nexusmods.com
     .staticstats.nexusmods.com
     .unleash-edge.nexusmods.com
-
-   # nh.gov
-    .nh.gov
 
    # nicusa
     .nicusa.com
@@ -1747,6 +1803,10 @@ payload:
    # pizzint (@test)
     .pizzint.watch
 
+   # placer
+    .analytics.placer.ai
+    .placer.ai
+
    # pmpmanage
     .pmpmanage.com
     .pmprollc.com
@@ -1788,6 +1848,9 @@ payload:
 
    # prompthero
     .prompthero.com
+
+   # proofcentral
+    .proofcentral.com
 
    # proshkola
     .proshkola18.ru
@@ -1852,6 +1915,9 @@ payload:
    # remove.bg
     .remove.bg
 
+   # rm
+    .Ib.assessor.rm.com
+
    # roblox
     .roblox.com
 
@@ -1873,9 +1939,6 @@ payload:
 
    # sandbox.game
     .sandbox.game
-
-   # sandiego.gov
-    .sandiego.gov
 
    # sandyliang.info
     .sandyliang.info
@@ -1906,6 +1969,9 @@ payload:
 
    # shadowfly
     .shadowfly.org
+
+   # shaneco
+    .shaneco.com
 
    # sharepoint
     # .blog.pathtosharepoint.com
@@ -1957,6 +2023,9 @@ payload:
    # special-ops.org
     .special-ops.org
 
+   # spectrum
+    .spectrum.net
+
    # spicychat.ai
     .spicychat.ai
 
@@ -1996,15 +2065,18 @@ payload:
     .stremio.com
     .stremio.net
 
-   # studentaid.gov
-    .studentaid.gov
-
    # studentclearinghouse.org
     .studentclearinghouse.org
 
    # sugarfreemom
     .sugarfreemom.com
 
+<<<<<<< HEAD
+=======
+   # sundayguardianlive
+    .sundayguardianlive.com
+
+>>>>>>> release
    # suno (@test)
     .suno.com
     .suno.ai
@@ -2069,6 +2141,9 @@ payload:
     .tenor.com
 
     .media.tenor.com
+
+   # terafab
+    .terafab.ai
 
    # theartofeducation.edu (@!cn)
     .theartofeducation.edu
@@ -2137,6 +2212,9 @@ payload:
     .tibetoffice.eu
     .tibetoffice.org
     .tibetoffice.com.au
+
+   # tidal
+    .tidal.com
 
    # tiktok (@!cn)
     .appsflyer.com
@@ -2282,8 +2360,8 @@ payload:
    # userbenchmark
     .userbenchmark.com
 
-   # uspto.gov
-    .tmsearch.uspto.gov
+   # usvisascheduling (@test)
+    .usvisascheduling.com
 
    # usvisascheduling (@test)
     .usvisascheduling.com
@@ -2383,9 +2461,6 @@ payload:
 
    # winscp.net
     .cdn.winscp.net
-
-   # wisconsindot.gov
-    .wisconsindot.gov
 
    # wisconsinregisteredagent.net
     .wisconsinregisteredagent.net

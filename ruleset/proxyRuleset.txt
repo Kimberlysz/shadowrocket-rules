@@ -114,8 +114,16 @@ payload:
     DOMAIN-SUFFIX, ancestrycdn.com
 
    # annas-archive
+<<<<<<< HEAD
     DOMAIN-SUFFIX, annas-archive.li
     DOMAIN-KEYWORD, .annas-archive
+=======
+    DOMAIN-KEYWORD, .annas-archive
+    DOMAIN-SUFFIX, annas-archive.gd
+    DOMAIN-SUFFIX, annas-archive.gl
+    DOMAIN-SUFFIX, annas-archive.li
+    DOMAIN-SUFFIX, annas-archive.pk
+>>>>>>> release
 
    # anikai
     DOMAIN-SUFFIX, anikai.to
@@ -276,9 +284,6 @@ payload:
     DOMAIN-SUFFIX, bun.com
 
   # c
-   # ca.gov
-    DOMAIN-SUFFIX, dmv.ca.gov
-    DOMAIN-SUFFIX, sa.dmv.ca.gov
 
    # caliva
     DOMAIN-SUFFIX, caliva.com
@@ -299,6 +304,9 @@ payload:
     DOMAIN-SUFFIX, capcut.com
     DOMAIN-SUFFIX, capcutapi.com
 
+   # cargurus
+    DOMAIN-SUFFIX, cargurus.com
+
    # cars
     DOMAIN-SUFFIX, cars.com
 
@@ -307,6 +315,9 @@ payload:
 
    # cbex18
     DOMAIN-SUFFIX, cbex18.com
+
+   # cdw
+    DOMAIN-SUFFIX, cdw.com
 
    # cebupacificair
     DOMAIN-SUFFIX, cebupacificair.com
@@ -415,9 +426,6 @@ payload:
     DOMAIN-SUFFIX, complio.com
 
     DOMAIN, liberty.complio.com
-
-   # cookcountyclerkil.gov
-    DOMAIN-SUFFIX, cookcountyclerkil.gov
 
    # copilot.microsoft
     DOMAIN-SUFFIX, copilot.microsoft.com
@@ -551,9 +559,6 @@ payload:
    # echostar
     DOMAIN-SUFFIX, echostar
 
-   # ed.gov
-    DOMAIN-SUFFIX, eric.ed.gov
-
    # elementor
     DOMAIN-SUFFIX, elementor.cloud
     DOMAIN-SUFFIX, elementor.com
@@ -674,6 +679,11 @@ payload:
     DOMAIN-SUFFIX, flixtor.se
     DOMAIN-SUFFIX, flixtor.st
 
+   # flowith
+    DOMAIN-SUFFIX, flowith.featurebase.app
+    DOMAIN-SUFFIX, flowith.io
+    DOMAIN-SUFFIX, flowith.net
+
    # fmovies (@!cn)
     DOMAIN-SUFFIX, fmovies.co
     DOMAIN-SUFFIX, jwpcdn.com
@@ -715,8 +725,14 @@ payload:
    # frontlineeducation
     DOMAIN-SUFFIX, frontlineeducation.com
 
+   # fubon
+    DOMAIN-SUFFIX, fbs.com.tw
+
    # fullcompass
     DOMAIN-SUFFIX, fullcompass.com
+
+   # fuxin.tv
+    DOMAIN-SUFFIX, api.fuxunapi.com
 
   # g
    # gammaplatform
@@ -962,6 +978,51 @@ payload:
    # gotquestions.org
     DOMAIN-SUFFIX, gotquestions.org
 
+   # gov
+    # ca.gov
+    DOMAIN-SUFFIX, dmv.ca.gov
+    DOMAIN-SUFFIX, sa.dmv.ca.gov
+
+    # cookcountyclerkil.gov
+    DOMAIN-SUFFIX, cookcountyclerkil.gov
+
+    # ed.gov
+    DOMAIN-SUFFIX, eric.ed.gov
+
+    # maine.gov
+    DOMAIN-SUFFIX, maine.gov
+
+    # nasa.gov
+    DOMAIN-SUFFIX, spaceplace.nasa.gov
+
+    # nationsreportcard.gov
+    DOMAIN-SUFFIX, nationsreportcard.gov
+
+    # nces.ed.gov
+    DOMAIN-SUFFIX, nces.ed.gov
+
+    # nh.gov
+    DOMAIN-SUFFIX, nh.gov
+
+    # mo.gov
+    DOMAIN-SUFFIX, dese.mo.gov
+    DOMAIN-SUFFIX, mo.gov
+
+    # sandiego.gov
+    DOMAIN-SUFFIX, sandiego.gov
+
+    # studentaid.gov
+    DOMAIN-SUFFIX, studentaid.gov
+
+    # uspto.gov
+    DOMAIN, tmsearch.uspto.gov
+
+    # wisconsindot.gov
+    DOMAIN-SUFFIX, wisconsindot.gov
+
+    # war.gov
+    DOMAIN-SUFFIX, war.gov
+
    # gov.co
     DOMAIN-SUFFIX, gov.co
 
@@ -1106,6 +1167,10 @@ payload:
     DOMAIN, assets-prd.ignimgs.com
     DOMAIN, kraken.ignimgs.com
 
+   # il
+    # e-vrit.co.il
+    DOMAIN-SUFFIX, e-vrit.co.il
+
    # indeed
     DOMAIN, t.indeed.com
     DOMAIN, secure.indeed.com
@@ -1139,6 +1204,9 @@ payload:
 
    # invideo.io
     DOMAIN-SUFFIX, invideo.io
+
+   # ipdeep
+    DOMAIN-SUFFIX, ipdeep.com
 
    # ipinfo
     DOMAIN-SUFFIX, ipinfo.io
@@ -1248,6 +1316,9 @@ payload:
     DOMAIN-SUFFIX, ktar.com
 
   # l
+   # lamborghiniwashington
+    DOMAIN-SUFFIX, lamborghiniwashington.com
+
    # larrainvial
     DOMAIN-SUFFIX, larrainvial.com
 
@@ -1343,9 +1414,6 @@ payload:
   # m
    # ma.ne
     DOMAIN-SUFFIX, hu.ma.ne
-
-   # maine.gov
-    DOMAIN-SUFFIX, maine.gov
 
    # makedreamwebsite
     DOMAIN-SUFFIX, makedreamwebsite.com
@@ -1452,12 +1520,12 @@ payload:
    # mintmobile
     DOMAIN-SUFFIX, mintmobile.com
 
+   # mil
+    # aaro.mil
+    DOMAIN-SUFFIX, aaro.mil
+
    # mnews
     - DOMAIN-SUFFIX, mnews.tw
-
-   # mo.gov
-    DOMAIN-SUFFIX, dese.mo.gov
-    DOMAIN-SUFFIX, mo.gov
 
    # mojim
     DOMAIN-SUFFIX, mojim.com
@@ -1512,12 +1580,6 @@ payload:
    # napster
     DOMAIN-SUFFIX, napster.com
 
-   # nasa.gov
-    DOMAIN-SUFFIX, spaceplace.nasa.gov
-
-   # nationsreportcard.gov
-    DOMAIN-SUFFIX, nationsreportcard.gov
-
    # navyfederal
     DOMAIN-SUFFIX, navyfederal.org
 
@@ -1525,9 +1587,6 @@ payload:
     DOMAIN, dm-assets.navyfederal.org
     DOMAIN, liveengage.navyfederal.org
     DOMAIN, navyfederalcu.tt.omtrdc.net
-
-   # nces.ed.gov
-    DOMAIN-SUFFIX, nces.ed.gov
 
    # nelnet
     DOMAIN, secure.nelnet.com
@@ -1560,9 +1619,6 @@ payload:
     DOMAIN, staticdelivery.nexusmods.com
     DOMAIN, staticstats.nexusmods.com
     DOMAIN, unleash-edge.nexusmods.com
-
-   # nh.gov
-    DOMAIN-SUFFIX, nh.gov
 
    # nicusa
     DOMAIN-SUFFIX, nicusa.com
@@ -1747,6 +1803,10 @@ payload:
    # pizzint (@test)
     DOMAIN-SUFFIX, pizzint.watch
 
+   # placer
+    DOMAIN-SUFFIX, analytics.placer.ai
+    DOMAIN-SUFFIX, placer.ai
+
    # pmpmanage
     DOMAIN-SUFFIX, pmpmanage.com
     DOMAIN-SUFFIX, pmprollc.com
@@ -1788,6 +1848,9 @@ payload:
 
    # prompthero
     DOMAIN-SUFFIX, prompthero.com
+
+   # proofcentral
+    DOMAIN-SUFFIX, proofcentral.com
 
    # proshkola
     DOMAIN-SUFFIX, proshkola18.ru
@@ -1852,6 +1915,9 @@ payload:
    # remove.bg
     DOMAIN-SUFFIX, remove.bg
 
+   # rm
+    DOMAIN-SUFFIX, Ib.assessor.rm.com
+
    # roblox
     DOMAIN-SUFFIX, roblox.com
 
@@ -1873,9 +1939,6 @@ payload:
 
    # sandbox.game
     DOMAIN-SUFFIX, sandbox.game
-
-   # sandiego.gov
-    DOMAIN-SUFFIX, sandiego.gov
 
    # sandyliang.info
     DOMAIN-SUFFIX, sandyliang.info
@@ -1906,6 +1969,9 @@ payload:
 
    # shadowfly
     DOMAIN-SUFFIX, shadowfly.org
+
+   # shaneco
+    DOMAIN-SUFFIX, shaneco.com
 
    # sharepoint
     # DOMAIN-SUFFIX, blog.pathtosharepoint.com
@@ -1957,6 +2023,9 @@ payload:
    # special-ops.org
     DOMAIN-SUFFIX, special-ops.org
 
+   # spectrum
+    DOMAIN-SUFFIX, spectrum.net
+
    # spicychat.ai
     DOMAIN-SUFFIX, spicychat.ai
 
@@ -1996,15 +2065,18 @@ payload:
     DOMAIN-SUFFIX, stremio.com
     DOMAIN-SUFFIX, stremio.net
 
-   # studentaid.gov
-    DOMAIN-SUFFIX, studentaid.gov
-
    # studentclearinghouse.org
     DOMAIN-SUFFIX, studentclearinghouse.org
 
    # sugarfreemom
     DOMAIN-SUFFIX, sugarfreemom.com
 
+<<<<<<< HEAD
+=======
+   # sundayguardianlive
+    DOMAIN-SUFFIX, sundayguardianlive.com
+
+>>>>>>> release
    # suno (@test)
     DOMAIN-SUFFIX, suno.com
     DOMAIN-SUFFIX, suno.ai
@@ -2069,6 +2141,9 @@ payload:
     DOMAIN-SUFFIX, tenor.com
 
     DOMAIN, media.tenor.com
+
+   # terafab
+    DOMAIN-SUFFIX, terafab.ai
 
    # theartofeducation.edu (@!cn)
     DOMAIN-SUFFIX, theartofeducation.edu
@@ -2137,6 +2212,9 @@ payload:
     DOMAIN-SUFFIX, tibetoffice.eu
     DOMAIN-SUFFIX, tibetoffice.org
     DOMAIN-SUFFIX, tibetoffice.com.au
+
+   # tidal
+    DOMAIN-SUFFIX, tidal.com
 
    # tiktok (@!cn)
     DOMAIN-SUFFIX, appsflyer.com
@@ -2282,8 +2360,8 @@ payload:
    # userbenchmark
     DOMAIN-SUFFIX, userbenchmark.com
 
-   # uspto.gov
-    DOMAIN, tmsearch.uspto.gov
+   # usvisascheduling (@test)
+    DOMAIN-SUFFIX, usvisascheduling.com
 
    # usvisascheduling (@test)
     DOMAIN-SUFFIX, usvisascheduling.com
@@ -2383,9 +2461,6 @@ payload:
 
    # winscp.net
     DOMAIN-SUFFIX, cdn.winscp.net
-
-   # wisconsindot.gov
-    DOMAIN-SUFFIX, wisconsindot.gov
 
    # wisconsinregisteredagent.net
     DOMAIN-SUFFIX, wisconsinregisteredagent.net
