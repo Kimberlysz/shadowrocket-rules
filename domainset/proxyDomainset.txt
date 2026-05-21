@@ -17,6 +17,9 @@ payload:
     .2048.info
     .img.2048.spa
 
+   # 21st.dev
+    .21st.dev
+
    # 2miners
     .2miners.com
 
@@ -114,16 +117,11 @@ payload:
     .ancestrycdn.com
 
    # annas-archive
-<<<<<<< HEAD
-    .annas-archive.li
-    # . .annas-archive
-=======
     # . .annas-archive
     .annas-archive.gd
     .annas-archive.gl
     .annas-archive.li
     .annas-archive.pk
->>>>>>> release
 
    # anikai
     .anikai.to
@@ -284,7 +282,6 @@ payload:
     .bun.com
 
   # c
-
    # caliva
     .caliva.com
 
@@ -369,6 +366,9 @@ payload:
 
    # clash
     .clash.la
+
+   # clemson university
+    .clemson.edu
 
    # clickbank (@!cn)
     .clickbank.com
@@ -500,6 +500,9 @@ payload:
     .cwtv.com
 
     .images.cwtv.com
+
+   # cyberbackgroundchecks
+    .cyberbackgroundchecks.com
 
    # cyberspatial
     .cyberspatial.com
@@ -652,8 +655,14 @@ payload:
    # farmers
     .farmers.com
 
+   # fastbackgroundcheck
+    .fastbackgroundcheck.com
+
    # fastly
     # AS54113 - Fastly, Inc.
+
+   # fastpeoplesearch
+    .fastpeoplesearch.com
 
    # feiyu-tech (@!cn)
     .feiyu-tech.com
@@ -985,6 +994,9 @@ payload:
 
     # cookcountyclerkil.gov
     .cookcountyclerkil.gov
+
+    # defense.gov
+    .defense.gov
 
     # ed.gov
     .eric.ed.gov
@@ -1537,6 +1549,14 @@ payload:
    # monica.im
     .monica.im
 
+   # moonpay
+    .moonpay.com
+    .otel-collector.moonpaycloud.com
+    .moonpay.onelink.me
+
+   # motion.dev
+    .motion.dev
+
    # moxfield
     .assets.moxfield.net
     .moxfield.com
@@ -1579,6 +1599,9 @@ payload:
 
    # napster
     .napster.com
+
+   # nationalpublicdata
+    .nationalpublicdata.com
 
    # navyfederal
     .navyfederal.org
@@ -1981,6 +2004,9 @@ payload:
    # shodan.io
     .shodan.io
 
+   # shutterstock
+    .shutterstock.com
+
    # siena.edu
     .siena.edu
 
@@ -2036,6 +2062,9 @@ payload:
     .publisher-assets.spot.im
     .event-stream.spot.im
 
+   # spotify
+    .withspotify.com
+
    # squarespace (@!cn)
     .squarespace.com
 
@@ -2071,12 +2100,9 @@ payload:
    # sugarfreemom
     .sugarfreemom.com
 
-<<<<<<< HEAD
-=======
    # sundayguardianlive
     .sundayguardianlive.com
 
->>>>>>> release
    # suno (@test)
     .suno.com
     .suno.ai
@@ -2359,9 +2385,6 @@ payload:
 
    # userbenchmark
     .userbenchmark.com
-
-   # usvisascheduling (@test)
-    .usvisascheduling.com
 
    # usvisascheduling (@test)
     .usvisascheduling.com

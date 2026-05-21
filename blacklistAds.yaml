@@ -18,8 +18,21 @@ bypass-system = true
 skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, fe80::/10, fc00::/7, localhost, *.local, *.lan, *.internal, e.crashlytics.com, captive.apple.com, sequoia.apple.com, seed-sequoia.siri.apple.com, *.ls.apple.com
 # skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, captive.apple.com # e.crashlytics.com
 
-tun-excluded-routes = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32, 239.255.255.250/32
+tun-excluded-routes = 10.0.0.0/8, 10.8.0.0/24, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 240.0.0.0/4, 255.255.255.255/32, 239.255.255.250/32, ::1/128, fe80::/10, fc00::/7, ff00::/8, ::ffff:0:0/96, 2001:db8::/32, 100::/64, 2002::/16
+# tun-excluded-routes = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.0.0.0/24, 192.0.2.0/24, 192.88.99.0/24, 192.168.0.0/16, 198.51.100.0/24, 203.0.113.0/24, 224.0.0.0/4, 255.255.255.255/32, 239.255.255.250/32
 # bypass-tun = # ::1/128, ::ffff:0:0:0/96, ::ffff:0:0/96, 100::/64, 198.18.0.0/15, 2001::/32, 2001:20::/28, 2001:db8::/32, 2002::/16, 233.252.0.0/24, 3fff::/20, 5f00::/16, 64:ff9b::/96, 64:ff9b:1::/48, fc00::/7, fe80::/10, ff00::/8
+
+# skip-proxy vs tun-excluded-routes
+  # a. These are two different ways to bypass traffic in Shadowrocket (or similar VPN/proxy apps), operating at completely different levels:
+  #   (a) skip-proxy — Application/Proxy Layer
+  #     i. work layer: application
+  #     ii. what it bypass: the proxy interceptor (代理拦截器)
+  #     iii. Supported Formats: IP + domains
+
+  #   (b) tun-excluded-routes — Network/TUN (VPN) Kernel Layer
+  #     i. work layer: network
+  #     ii. The VPN tunnel itself (VPN 隧道本身)
+  #     iii. Supported Formats: just IP
 
 dns-server = 233.5.5.5, 119.29.29.29, 180.76.76.76, system
 fallback-dns-server = 233.5.5.5, 119.29.29.29, 180.76.76.76, system
@@ -2837,10 +2850,7 @@ localhost = 127.0.0.1
     DOMAIN, cdn-qc.content.steamchina.com, direct
 
    # category-ip-geo-detect
-<<<<<<< HEAD
-=======
     DOMAIN-SUFFIX, ipify.cn, direct
->>>>>>> release
     DOMAIN-SUFFIX, iplark.com, direct
     DOMAIN-SUFFIX, ipw.cn, direct
 
@@ -11228,27 +11238,6 @@ localhost = 127.0.0.1
     # Resource sharing
     DOMAIN-SUFFIX, bowlroll.net, proxy
 
-<<<<<<< HEAD
-   # category-ai-!cn
-    # include:anthropic
-    # include:bytedance-ai-!cn
-    # include:cerebras
-    # include:comfy
-    # include:cursor
-    # include:elevenlabs
-    # include:github-copilot
-    # include:google-deepmind
-    # include:groq
-    # include:huggingface
-    # include:liveperson
-    # include:manus
-    # include:openai
-    # include:perplexity
-    # include:poe
-    # include:windsurf
-    # include:xai
-    # include:youmind
-=======
    # category-ai-!cn (@!cn)
     # include: anthropic
     # include: bytedance-ai-!cn
@@ -11269,7 +11258,6 @@ localhost = 127.0.0.1
     # include: windsurf
     # include: xai
     # include: youmind
->>>>>>> release
 
     # CodeRabbit
     DOMAIN-SUFFIX, coderabbit.ai, proxy
@@ -11297,11 +11285,8 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, gateway.ai.cloudflare.com, proxy
     DOMAIN-SUFFIX, h2o.ai, proxy
     DOMAIN-SUFFIX, kiro.dev, proxy
-<<<<<<< HEAD
-=======
     DOMAIN-SUFFIX, langchain.com, proxy
     DOMAIN-SUFFIX, lmstudio.ai, proxy
->>>>>>> release
     DOMAIN-SUFFIX, lovart.ai, proxy
     DOMAIN-SUFFIX, meta.ai, proxy
     DOMAIN-SUFFIX, minimax.io, proxy
@@ -11310,11 +11295,8 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, openart.ai, proxy
     DOMAIN-SUFFIX, openclaw.ai, proxy
     DOMAIN-SUFFIX, openrouter.ai, proxy
-<<<<<<< HEAD
-=======
     DOMAIN-SUFFIX, openspec.dev, proxy
     DOMAIN-SUFFIX, plannotator.ai, proxy
->>>>>>> release
     DOMAIN-SUFFIX, spicywriter.com, proxy
 
    # category-ai-chat-!cn
@@ -11412,8 +11394,6 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, dui.ai, proxy
     # DOMAIN-SUFFIX, duiopen.com, proxy
 
-<<<<<<< HEAD
-=======
     # ClawHub 中国官方镜像站 (bytedance)
     # DOMAIN-SUFFIX, clawhub-mirror.com, proxy
 
@@ -11426,7 +11406,6 @@ localhost = 127.0.0.1
     # 智合 AI 沪ICP备2024060320号-4
     # DOMAIN-SUFFIX, zhiexa.com, proxy
 
->>>>>>> release
    # category-android-app-download
     # include: apkcombo
     # include: apkmirror
@@ -11781,14 +11760,6 @@ localhost = 127.0.0.1
    # category-bank-ru (@ru)
     # Alfa Bank
     DOMAIN-SUFFIX, alfabank.ru, proxy
-<<<<<<< HEAD
-
-    # GazpromBank
-    DOMAIN-SUFFIX, gazprombank.ru, proxy
-    DOMAIN-SUFFIX, gpb.ru, proxy
-
-    # Mts dengi
-=======
     DOMAIN-SUFFIX, alfabank.st, proxy
     DOMAIN-SUFFIX, alfadirect.ru, proxy
     DOMAIN-SUFFIX, myapelsin.ru, proxy
@@ -11810,25 +11781,15 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, mkb.ru, proxy
 
     # MTS Dengi
->>>>>>> release
     DOMAIN-SUFFIX, dbo-dengi.online, proxy
     DOMAIN-SUFFIX, mtsdengi.ru, proxy
 
     # PSB Bank
-<<<<<<< HEAD
-    DOMAIN-SUFFIX, psbank.ru, proxy
-
-    # RosBank
-    DOMAIN-SUFFIX, bankline.ru, proxy
-    DOMAIN-SUFFIX, rosbank.ru, proxy
-
-=======
     DOMAIN-SUFFIX, payment.ru, proxy
     DOMAIN-SUFFIX, psb-ocenka.ru, proxy
     DOMAIN-SUFFIX, psb.ru, proxy
     DOMAIN-SUFFIX, psbank.ru, proxy
 
->>>>>>> release
     # RUSSIA Bank
     DOMAIN-SUFFIX, abr.ru, proxy
 
@@ -11836,31 +11797,16 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, rshb.ru, proxy
 
     # SberBank
-<<<<<<< HEAD
-    DOMAIN-SUFFIX, sber.ru, proxy
-    DOMAIN-SUFFIX, sberbank.com, proxy
-    DOMAIN-SUFFIX, sberbank.ru, proxy
-
-    # T-Bank (Tinkoff)
-    DOMAIN-SUFFIX, cdn-tinkoff.ru, proxy
-    DOMAIN-SUFFIX, tbank-online.com, proxy
-    DOMAIN-SUFFIX, tbank.ru, proxy
-=======
     # include: sber
 
     # T-Bank (Tinkoff) and RosBank
     # include: tbank-ru
->>>>>>> release
 
     # Tochka bank
     DOMAIN-SUFFIX, tochka-tech.com, proxy
     DOMAIN-SUFFIX, tochka.com, proxy
 
     # VTB Bank
-<<<<<<< HEAD
-    DOMAIN-SUFFIX, vtb.ru, proxy
-
-=======
     DOMAIN-SUFFIX, pochtabank.ru, proxy #subsidiary
     DOMAIN-SUFFIX, vtb.ru, proxy
 
@@ -11870,7 +11816,6 @@ localhost = 127.0.0.1
     # include: ligastavok
     # include: winline
 
->>>>>>> release
    # category-blog-cn (@cn)
     # List of all blog domains that have access point in China mainland
 
@@ -12221,10 +12166,7 @@ localhost = 127.0.0.1
     # include: panasonic
     # include: pccw
     # include: plex
-<<<<<<< HEAD
-=======
     # include: progress
->>>>>>> release
     # include: qnap
     # include: qualcomm
     # include: qwant
@@ -13088,11 +13030,8 @@ localhost = 127.0.0.1
     # 菁优网
     # DOMAIN-SUFFIX, jyeoo.com, proxy
     # DOMAIN-SUFFIX, jyeoo.net, proxy
-<<<<<<< HEAD
-=======
     # 中山市纪雅学校智慧消费平台
     # DOMAIN-SUFFIX, jzagile.com, proxy
->>>>>>> release
     # 课播云校
     # DOMAIN-SUFFIX, keboyunxiao.com, proxy
     # 课堂派
@@ -14729,12 +14668,9 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, arcaea.cn, proxy
     # 《异象回声》游戏官网 沪ICP备2023010411号-1
     # DOMAIN-SUFFIX, astral-vector.com, proxy
-<<<<<<< HEAD
-=======
     # 终末地-协议终端
     # DOMAIN, end-api.shallow.ink, proxy
     # DOMAIN, end.shallow.ink, proxy
->>>>>>> release
     # 飞火游戏
     # DOMAIN-SUFFIX, feihuo.com, proxy
     # 九九互动 粤ICP备19068416号
@@ -14830,10 +14766,7 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, mil.ru, proxy          # Ministry of Defense of the Russian Federation
     DOMAIN-SUFFIX, nalog.ru, proxy        # Federal Tax Service
     DOMAIN-SUFFIX, xn--80ajghhoc2aj1c8b.xn--p1ai, proxy # Honest Sign - State Labeling System
-<<<<<<< HEAD
-=======
     DOMAIN-SUFFIX, xn--b1afabzvcegckfhg.xn--p1ai, proxy # Military Registration Register
->>>>>>> release
 
     #
     # Regional sites and Public Services
@@ -14853,10 +14786,6 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, mosreg.ru, proxy       # Moscow Region
     DOMAIN-SUFFIX, spb.ru, proxy          # St. Petersburg
     DOMAIN-SUFFIX, sevastopol.ru, proxy   # Sevastopol
-<<<<<<< HEAD
-    DOMAIN-SUFFIX, sev.ru, proxy          # Sevastopol
-=======
->>>>>>> release
 
     # Republics
     DOMAIN-SUFFIX, adygeya.ru, proxy      # Republic of Adygea
@@ -15051,18 +14980,12 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, greip.io, proxy
     DOMAIN-SUFFIX, hackertarget.com, proxy
     DOMAIN-SUFFIX, httpbin.org, proxy
-<<<<<<< HEAD
-=======
     DOMAIN-SUFFIX, i.pn, proxy
->>>>>>> release
     DOMAIN-SUFFIX, icanhazip.com, proxy
     DOMAIN-SUFFIX, ident.me, proxy
     DOMAIN-SUFFIX, ifconfig.co, proxy
     DOMAIN-SUFFIX, ifconfig.es, proxy
-<<<<<<< HEAD
-=======
     DOMAIN-SUFFIX, ifconfig.io, proxy
->>>>>>> release
     DOMAIN-SUFFIX, ifconfig.me, proxy
     DOMAIN-SUFFIX, ip-adress.com, proxy
     DOMAIN-SUFFIX, ip-api.com, proxy
@@ -15109,20 +15032,14 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, iproyal.com, proxy
     DOMAIN-SUFFIX, ipstack.com, proxy
     DOMAIN-SUFFIX, ipverify.com, proxy
-<<<<<<< HEAD
-=======
     DOMAIN-SUFFIX, ipwho.is, proxy
->>>>>>> release
     DOMAIN-SUFFIX, ipwhois.io, proxy
     DOMAIN-SUFFIX, ipxapi.com, proxy
     DOMAIN-SUFFIX, l2.io, proxy
     DOMAIN-SUFFIX, maxmind.com, proxy
     DOMAIN-SUFFIX, mon-ip.com, proxy
     DOMAIN-SUFFIX, monip.org, proxy
-<<<<<<< HEAD
-=======
     DOMAIN-SUFFIX, my-ip.io, proxy
->>>>>>> release
     DOMAIN-SUFFIX, my.ipinfo.app, proxy
     DOMAIN-SUFFIX, myexternalip.com, proxy
     DOMAIN-SUFFIX, myip.com, proxy
@@ -15133,10 +15050,7 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, myipaddress.com, proxy
     DOMAIN-SUFFIX, myiplookup.com, proxy
     DOMAIN-SUFFIX, mylocation.org, proxy
-<<<<<<< HEAD
-=======
     DOMAIN-SUFFIX, nodedata.io, proxy
->>>>>>> release
     DOMAIN-SUFFIX, osint.sh, proxy
     DOMAIN-SUFFIX, proxycheck.io, proxy
     DOMAIN-SUFFIX, realip.cc, proxy
@@ -15169,27 +15083,16 @@ localhost = 127.0.0.1
 
     # Subdomains/internal api used for ip-geo-detect
     DOMAIN, checkip.amazonaws.com, proxy
-<<<<<<< HEAD
-    DOMAIN, ipv4-check-perf.radar.cloudflare.com, proxy
-    DOMAIN, ipv6-check-perf.radar.cloudflare.com, proxy
-=======
     DOMAIN, checkip.dyndns.org, proxy
     DOMAIN, checkip.dyn.com, proxy
     DOMAIN, ip.comss.net, proxy
     DOMAIN, ipv4-check-perf.radar.cloudflare.com, proxy
     DOMAIN, ipv6-check-perf.radar.cloudflare.com, proxy
     DOMAIN, whatismyip.akamai.com, proxy
->>>>>>> release
     DOMAIN-SUFFIX, geoip.noc.gov.ru, proxy
     DOMAIN-SUFFIX, ip.hetzner.com, proxy
     DOMAIN-SUFFIX, ip.mail.ru, proxy
     DOMAIN-SUFFIX, ip.nic.ru, proxy
-<<<<<<< HEAD
-    DOMAIN-SUFFIX, ip.tyk.nu, proxy
-    DOMAIN-SUFFIX, ipgeo.vercel.app, proxy
-    DOMAIN-SUFFIX, ipv4-internet.yandex.net, proxy
-    DOMAIN-SUFFIX, ipv6-internet.yandex.net, proxy
-=======
     DOMAIN-SUFFIX, ip.pe.kr, proxy
     DOMAIN-SUFFIX, ip.tyk.nu, proxy
     DOMAIN-SUFFIX, ipgeo.vercel.app, proxy
@@ -15197,7 +15100,6 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, ipv4.internet.yandex.net, proxy
     DOMAIN-SUFFIX, ipv6-internet.yandex.net, proxy
     DOMAIN-SUFFIX, ipv6.internet.yandex.net, proxy
->>>>>>> release
 
    # category-ipfs
     # Reference: https://ipfs.github.io/public-gateway-checker/
@@ -15499,20 +15401,19 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, zoomingin.tv, proxy
 
    # category-media-cn (@cn)
-
-    # DOMAIN-SUFFIX, 36kr, proxy
-    # DOMAIN-SUFFIX, cctv, proxy
-    # DOMAIN-SUFFIX, chinanews, proxy
-    # DOMAIN-SUFFIX, ifanr, proxy
-    # DOMAIN-SUFFIX, jiemian, proxy
-    # DOMAIN-SUFFIX, landian, proxy
-    # DOMAIN-SUFFIX, phoenix, proxy
-    # DOMAIN-SUFFIX, ruanmei, proxy
-    # DOMAIN-SUFFIX, sohu, proxy
-    # DOMAIN-SUFFIX, tmtpost, proxy
-    # DOMAIN-SUFFIX, weiphone, proxy
-    # DOMAIN-SUFFIX, xueqiu, proxy
-    # DOMAIN-SUFFIX, ynet, proxy
+    # include: 36kr
+    # include: cctv
+    # include: chinanews
+    # include: ifanr
+    # include: jiemian
+    # include: landian
+    # include: phoenix
+    # include: ruanmei
+    # include: sohu
+    # include: tmtpost
+    # include: weiphone
+    # include: xueqiu
+    # include: ynet
 
     # 21世纪经济报
     # DOMAIN-SUFFIX, 21jingji.com, proxy
@@ -15941,31 +15842,6 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, zasekin.ru, proxy
     DOMAIN-SUFFIX, zerkalo.io, proxy
     DOMAIN-SUFFIX, zona.media, proxy
-
-   # category-medicine-ru (@ru)
-    # BudZdorov
-    DOMAIN-SUFFIX, klinikabudzdorov.ru, proxy
-
-    # Emias
-    DOMAIN-SUFFIX, emias.ru, proxy
-    DOMAIN-SUFFIX, emias.info, proxy
-
-    # Medsi
-    DOMAIN-SUFFIX, medsi.com, proxy
-    DOMAIN-SUFFIX, medsi.pro, proxy
-    DOMAIN-SUFFIX, medsi.ru, proxy
-    DOMAIN-SUFFIX, medsi-premium.ru, proxy
-    DOMAIN-SUFFIX, smartmed.pro, proxy
-
-    # Mosru-based/government
-    DOMAIN-SUFFIX, mosgorzdrav.ru, proxy
-    DOMAIN-SUFFIX, lk.emias.mos.ru, proxy
-
-    # Polyclinika-ru
-    DOMAIN-SUFFIX, polyclinika.ru, proxy
-
-    # Vipmed
-    DOMAIN-SUFFIX, vipmed.ru, proxy
 
    # category-medicine-ru (@ru)
     # BudZdorov
@@ -16422,10 +16298,7 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, zarinpal.com, proxy
 
    # category-porn
-<<<<<<< HEAD
-=======
 
->>>>>>> release
     # include: 18comic
     # include: 54647
     # include: anon-v
@@ -23202,10 +23075,7 @@ localhost = 127.0.0.1
     # include: category-ecommerce-ru
     # include: category-entertainment-ru
     # include: category-gov-ru
-<<<<<<< HEAD
-=======
     # include: category-media-ru
->>>>>>> release
     # include: category-medicine-ru
     # include: category-retail-ru
     # include: category-travel-ru
@@ -23239,17 +23109,10 @@ localhost = 127.0.0.1
     ## Credit History Bureaus
     DOMAIN-SUFFIX, credistory.ru, proxy
     DOMAIN-SUFFIX, nbki.ru, proxy
-<<<<<<< HEAD
-    # Currency and stock exchanges
-    DOMAIN-SUFFIX, moex.com, proxy   # Moscow Stock Exchange
-    DOMAIN-SUFFIX, spvb.ru, proxy    # Saint-Petersburg Stock Exchange
-    # Financial marketplace
-=======
     ## Currency and stock exchanges
     DOMAIN-SUFFIX, moex.com, proxy   # Moscow Stock Exchange
     DOMAIN-SUFFIX, spvb.ru, proxy    # Saint-Petersburg Stock Exchange
     ## Financial marketplace
->>>>>>> release
     DOMAIN-SUFFIX, banki.ru, proxy
     DOMAIN-SUFFIX, finuslugi.ru, proxy
     ## Investment
@@ -23271,19 +23134,6 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, beeline.ru, proxy
     DOMAIN-SUFFIX, dom.ru, proxy
 
-<<<<<<< HEAD
-    # Other domains
-    DOMAIN-SUFFIX, gazfond-pn.ru, proxy  # Non-state pension fund GAZFOND pension savings
-    DOMAIN-SUFFIX, litres.ru, proxy      # E-book and audiobook service
-    DOMAIN-SUFFIX, meteoinfo.ru, proxy   # Hydrometeorological Center of Russia
-    DOMAIN-SUFFIX, ngenix.net, proxy     # NGENIX is a Russian provider of acceleration and security services for public web resources
-    DOMAIN-SUFFIX, pochta.ru, proxy      # Russian post
-    DOMAIN-SUFFIX, qms.ru, proxy         # Russian internet speed testing service
-    DOMAIN-SUFFIX, rustore.ru, proxy     # RuStore is a Russian mobile app store for Android
-    DOMAIN-SUFFIX, t1.cloud, proxy       # Russian cloud storage provider
-    DOMAIN-SUFFIX, taxsee.com, proxy     # Taxi for business (self-employed drivers)
-    DOMAIN-SUFFIX, yclients.com, proxy   # Russian SaaS platform for online booking and business automation for service companies
-=======
     # Other services
     DOMAIN-SUFFIX, 3ebra.net, proxy          # Zebra Net Bureau, web development agency
     DOMAIN-SUFFIX, apptrackpets.com, proxy   # Pet GPS tracker service (Yandex Cloud, reg.ru)
@@ -23304,7 +23154,6 @@ localhost = 127.0.0.1
     ## Planeta Zdorov'ya pharmacy
     DOMAIN-SUFFIX, planetazdorovo.ru, proxy
     DOMAIN-SUFFIX, pz.help, proxy
->>>>>>> release
 
    # category-scholar-!cn
     # This list contains scholarly domains that don't have access point in China Mainland.
@@ -23809,10 +23658,6 @@ localhost = 127.0.0.1
     # include: facebook
     # include: instagram
     # include: linkedin
-<<<<<<< HEAD
-    # include: mailru
-=======
->>>>>>> release
     # include: misskey
     # include: mixi
     # include: ok
@@ -24104,15 +23949,10 @@ localhost = 127.0.0.1
     # Ostrovok
     DOMAIN-SUFFIX, ostrovok.ru, proxy
 
-<<<<<<< HEAD
-    # Othello from 2GIS
-    DOMAIN-SUFFIX, otello.ru, proxy
-=======
     # Othello / Otello from 2GIS and Sber
     DOMAIN-SUFFIX, 2gis.ru, proxy
     DOMAIN-SUFFIX, otello.ru, proxy
     DOMAIN-SUFFIX, sber.ru, proxy
->>>>>>> release
 
     # Public transport and ticketing
     # include: mosmetro
@@ -24123,10 +23963,6 @@ localhost = 127.0.0.1
     DOMAIN, transport.mos.ru, proxy
     DOMAIN-SUFFIX, gorodpay.ru, proxy
     DOMAIN-SUFFIX, rrtp.ru, proxy
-<<<<<<< HEAD
-    DOMAIN-SUFFIX, sbertroika.ru, proxy
-=======
->>>>>>> release
 
     # Russian Railways
     DOMAIN-SUFFIX, rzd-bonus.ru, proxy
@@ -24140,10 +23976,7 @@ localhost = 127.0.0.1
 
     # Yandex Taxi
     DOMAIN, taxi.yandex.ru, proxy
-<<<<<<< HEAD
-=======
     DOMAIN-SUFFIX, fasten.ru, proxy
->>>>>>> release
 
    # category-urlshortner
     # include:bitly
@@ -28935,13 +28768,10 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, nmc.cn, proxy
     ## 中国互联网联合辟谣平台
     # DOMAIN-SUFFIX, piyao.org.cn, proxy
-<<<<<<< HEAD
-=======
     ## 中国红十字会
     # DOMAIN-SUFFIX, redcross.org.cn, proxy
     ## 中国殡葬网
     # DOMAIN-SUFFIX, zgbznet.com.cn, proxy
->>>>>>> release
 
     # Public transportation
     ## 中国国际航空
@@ -29258,11 +29088,6 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, huanleguang.com, proxy
     # DOMAIN-SUFFIX, ttxsapp.com.cn, proxy
     # DOMAIN-SUFFIX, xsbapp.cn, proxy
-<<<<<<< HEAD
-    # 凯迪仕
-    # DOMAIN-SUFFIX, juziwulian.com, proxy
-    # DOMAIN-SUFFIX, kaadas.com, proxy
-=======
     ## 凯迪仕
     # DOMAIN-SUFFIX, juziwulian.com, proxy
     # DOMAIN-SUFFIX, kaadas.com, proxy
@@ -29272,7 +29097,6 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, shellpub.com, proxy
     # DOMAIN-SUFFIX, threatbook.cn, proxy
     # DOMAIN-SUFFIX, threatbook.com, proxy
->>>>>>> release
 
     # Telecommunication
     # include: chinabroadnet
@@ -29491,10 +29315,7 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, aplaybox.com, proxy
     # DOMAIN-SUFFIX, appchina.com, proxy
     # DOMAIN-SUFFIX, arpun.com, proxy
-<<<<<<< HEAD
-=======
     # DOMAIN-SUFFIX, awstme.top, proxy # 浙ICP备2024120639号
->>>>>>> release
     # DOMAIN-SUFFIX, babytree.com, proxy
     # DOMAIN-SUFFIX, babytreeimg.com, proxy
     # DOMAIN-SUFFIX, baidufree.com, proxy
@@ -30293,10 +30114,7 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, yupoo.com, proxy
     # DOMAIN-SUFFIX, yuzua.com, proxy
     # DOMAIN-SUFFIX, yxbao.com, proxy
-<<<<<<< HEAD
-=======
     # DOMAIN-SUFFIX, yyshub.top, proxy # 浙ICP备2023017032号-2
->>>>>>> release
     # DOMAIN-SUFFIX, yytcdn.com, proxy
     # DOMAIN-SUFFIX, z-tek.com, proxy # 粤ICP备2023022083号-1
     # DOMAIN-SUFFIX, z28j.com, proxy # 鄂ICP备20002930号-1
@@ -30717,10 +30535,7 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, gmoask.jp, proxy
     DOMAIN-SUFFIX, gmobb.jp, proxy
     DOMAIN-SUFFIX, gmocloud.com, proxy
-<<<<<<< HEAD
-=======
     DOMAIN-SUFFIX, gmopg.jp, proxy
->>>>>>> release
     DOMAIN-SUFFIX, gmosign.com, proxy
     DOMAIN-SUFFIX, gmossp.jp, proxy
     DOMAIN-SUFFIX, good-apps.jp, proxy
@@ -34755,13 +34570,8 @@ localhost = 127.0.0.1
     # include: mailru-group
 
    # mailru-group (@ru)
-<<<<<<< HEAD
-    # include: dzen
-    # include: mailru
-=======
     # VK Group, formerly known as Mail.ru Group, a Russian technology company
     # include: dzen
->>>>>>> release
     # include: ok
     # include: vk
 
@@ -34770,18 +34580,6 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, boom.ru, proxy
     DOMAIN-SUFFIX, boosty.to, proxy
     DOMAIN-SUFFIX, donationalerts.com, proxy
-<<<<<<< HEAD
-    DOMAIN-SUFFIX, max.ru, proxy
-    DOMAIN-SUFFIX, memealerts.com, proxy
-    DOMAIN-SUFFIX, oneme.ru, proxy
-    DOMAIN-SUFFIX, tamtam.chat, proxy
-    DOMAIN-SUFFIX, telega.info, proxy
-    DOMAIN-SUFFIX, telega.me, proxy
-    DOMAIN-SUFFIX, youla.io, proxy
-    DOMAIN-SUFFIX, youla.ru, proxy
-
-    DOMAIN, youla-web-static.mrgcdn.ru, proxy
-=======
     DOMAIN-SUFFIX, hrtek.ru, proxy
     DOMAIN-SUFFIX, koddobra.ru, proxy
     DOMAIN-SUFFIX, lovina.app, proxy
@@ -35035,7 +34833,6 @@ localhost = 127.0.0.1
     ## Youla
     DOMAIN-SUFFIX, youla.io, proxy
     DOMAIN-SUFFIX, youla.ru, proxy
->>>>>>> release
 
    # mainichi
     DOMAIN-SUFFIX, machigoto.jp, proxy
@@ -36441,13 +36238,10 @@ localhost = 127.0.0.1
     # Mozilla Push Service
     # * Overrided by above `mozilla.com`
     #push.services.mozilla.com
-<<<<<<< HEAD
-=======
 
    # msi (@cn)
     # DOMAIN-SUFFIX, msi.cn, proxy
     # DOMAIN-SUFFIX, msi.com, proxy
->>>>>>> release
 
    # msn
     DOMAIN-SUFFIX, microsoftnews.cc, proxy
@@ -37510,9 +37304,6 @@ localhost = 127.0.0.1
     DOMAIN, st-ok-pts.cdn-vk.ru, proxy
     DOMAIN, st-ok.cdn-vk.ru, proxy
 
-    DOMAIN, st-ok-pts.cdn-vk.ru, proxy
-    DOMAIN, st-ok.cdn-vk.ru, proxy
-
    # okaapps
     DOMAIN-SUFFIX, okaapps.com, proxy
     # domain:okaapps.com
@@ -37756,13 +37547,10 @@ localhost = 127.0.0.1
 
     # DOMAIN-SUFFIX, oschina.net, proxy
 
-<<<<<<< HEAD
-=======
    # oskelly
     DOMAIN-SUFFIX, oskelly.co, proxy
     DOMAIN-SUFFIX, oskelly.ru, proxy
 
->>>>>>> release
    # osu
     DOMAIN, a.ppy.sh, proxy
     DOMAIN, assets.ppy.sh, proxy
@@ -37808,8 +37596,6 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, veryshortintroductions.com, proxy
 
    # ozon (@ru)
-<<<<<<< HEAD
-=======
     DOMAIN-SUFFIX, ewisdom.us.kg, proxy
     DOMAIN-SUFFIX, o3.ru, proxy
     DOMAIN-SUFFIX, o3t.ru, proxy
@@ -37819,19 +37605,10 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, ozon-dostavka.ru, proxy
     DOMAIN-SUFFIX, ozon-credit.ru, proxy
     DOMAIN-SUFFIX, ozon-tech.ru, proxy
->>>>>>> release
     DOMAIN-SUFFIX, ozon.by, proxy
     DOMAIN-SUFFIX, ozon.com, proxy
     DOMAIN-SUFFIX, ozon.com.by, proxy
     DOMAIN-SUFFIX, ozon.com.kz, proxy
-<<<<<<< HEAD
-    DOMAIN-SUFFIX, ozon.kz, proxy
-    DOMAIN-SUFFIX, ozon.ru, proxy
-    DOMAIN-SUFFIX, ozon.tm, proxy
-    DOMAIN-SUFFIX, ozone.ru, proxy
-    DOMAIN-SUFFIX, ozonru.me, proxy
-    DOMAIN-SUFFIX, ozonusercontent.com, proxy
-=======
     DOMAIN-SUFFIX, ozon.dev, proxy
     DOMAIN-SUFFIX, ozon.express, proxy
     DOMAIN-SUFFIX, ozon.kz, proxy
@@ -37863,7 +37640,6 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, xn----8sbahiqzthbd0bn.xn--p1ai, proxy # озон-доставка.рф
     DOMAIN-SUFFIX, xn--80aafgovrgbc7am.xn--p1ai, proxy # озондоставка.рф
     DOMAIN-SUFFIX, xn--e1adjldbbpv.xn--90ais, proxy # озонрокет.бел
->>>>>>> release
 
   # p
    # pagecdn
@@ -38960,8 +38736,6 @@ localhost = 127.0.0.1
     # 前端性能监控
     DOMAIN-SUFFIX, rumt-sg.com, proxy        #新加坡s
     DOMAIN-SUFFIX, rumt-us.com, proxy        #硅谷s
-<<<<<<< HEAD
-=======
 
    # qianxin (@cn)
     # 奇安信 奇安信科技集团股份有限公司 京ICP备16020626号
@@ -38972,7 +38746,6 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, qianxincdn.com, proxy
     # DOMAIN-SUFFIX, seclab.online, proxy # SecLab
     # DOMAIN-SUFFIX, tianshucup.com, proxy # 天枢杯
->>>>>>> release
 
    # qihoo360 (@cn)
     # include:starworld
@@ -41858,14 +41631,11 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, tildaapi.com, proxy
     DOMAIN-SUFFIX, tildacdn.com, proxy
 
-<<<<<<< HEAD
-=======
    # timeweb (@ru)
     DOMAIN-SUFFIX, timeweb.cloud, proxy
     DOMAIN-SUFFIX, timeweb.com, proxy
     DOMAIN-SUFFIX, twcstorage.ru, proxy
 
->>>>>>> release
    # tinyurl
     DOMAIN-SUFFIX, tinyurl.com, proxy
 
@@ -45376,11 +45146,8 @@ localhost = 127.0.0.1
     # DOMAIN-SUFFIX, yamibo.com, proxy
 
    # yandex (@ru)
-<<<<<<< HEAD
-=======
     # include: kinopoisk
 
->>>>>>> release
     # All .yandex domains
     # DOMAIN-KEYWORD, .yandex, proxy
 
@@ -45450,12 +45217,8 @@ localhost = 127.0.0.1
     DOMAIN-SUFFIX, yandexadexchange.net, proxy
     DOMAIN-SUFFIX, yandexcloud.net, proxy
     DOMAIN-SUFFIX, yandexcom.net, proxy
-<<<<<<< HEAD
-    DOMAIN-SUFFIX, yandexmetrica.com, proxy
-=======
     DOMAIN-SUFFIX, yandexgo.com, proxy
     DOMAIN-SUFFIX, yandexlyceum.ru, proxy
->>>>>>> release
     DOMAIN-SUFFIX, yandexwebcache.net, proxy
     DOMAIN-SUFFIX, yandexwebcache.org, proxy
     DOMAIN-SUFFIX, yango-b2b.com, proxy

@@ -17,6 +17,9 @@ payload:
     DOMAIN-SUFFIX, 2048.info
     DOMAIN-SUFFIX, img.2048.spa
 
+   # 21st.dev
+    DOMAIN-SUFFIX, 21st.dev
+
    # 2miners
     DOMAIN-SUFFIX, 2miners.com
 
@@ -114,16 +117,11 @@ payload:
     DOMAIN-SUFFIX, ancestrycdn.com
 
    # annas-archive
-<<<<<<< HEAD
-    DOMAIN-SUFFIX, annas-archive.li
-    DOMAIN-KEYWORD, .annas-archive
-=======
     DOMAIN-KEYWORD, .annas-archive
     DOMAIN-SUFFIX, annas-archive.gd
     DOMAIN-SUFFIX, annas-archive.gl
     DOMAIN-SUFFIX, annas-archive.li
     DOMAIN-SUFFIX, annas-archive.pk
->>>>>>> release
 
    # anikai
     DOMAIN-SUFFIX, anikai.to
@@ -284,7 +282,6 @@ payload:
     DOMAIN-SUFFIX, bun.com
 
   # c
-
    # caliva
     DOMAIN-SUFFIX, caliva.com
 
@@ -369,6 +366,9 @@ payload:
 
    # clash
     DOMAIN-SUFFIX, clash.la
+
+   # clemson university
+    DOMAIN-SUFFIX, clemson.edu
 
    # clickbank (@!cn)
     DOMAIN-SUFFIX, clickbank.com
@@ -500,6 +500,9 @@ payload:
     DOMAIN-SUFFIX, cwtv.com
 
     DOMAIN, images.cwtv.com
+
+   # cyberbackgroundchecks
+    DOMAIN-SUFFIX, cyberbackgroundchecks.com
 
    # cyberspatial
     DOMAIN-SUFFIX, cyberspatial.com
@@ -652,8 +655,14 @@ payload:
    # farmers
     DOMAIN-SUFFIX, farmers.com
 
+   # fastbackgroundcheck
+    DOMAIN-SUFFIX, fastbackgroundcheck.com
+
    # fastly
     # AS54113 - Fastly, Inc.
+
+   # fastpeoplesearch
+    DOMAIN-SUFFIX, fastpeoplesearch.com
 
    # feiyu-tech (@!cn)
     DOMAIN-SUFFIX, feiyu-tech.com
@@ -985,6 +994,9 @@ payload:
 
     # cookcountyclerkil.gov
     DOMAIN-SUFFIX, cookcountyclerkil.gov
+
+    # defense.gov
+    DOMAIN-SUFFIX, defense.gov
 
     # ed.gov
     DOMAIN-SUFFIX, eric.ed.gov
@@ -1537,6 +1549,14 @@ payload:
    # monica.im
     DOMAIN-SUFFIX, monica.im
 
+   # moonpay
+    DOMAIN-SUFFIX, moonpay.com
+    DOMAIN-SUFFIX, otel-collector.moonpaycloud.com
+    DOMAIN-SUFFIX, moonpay.onelink.me
+
+   # motion.dev
+    DOMAIN-SUFFIX, motion.dev
+
    # moxfield
     DOMAIN-SUFFIX, assets.moxfield.net
     DOMAIN-SUFFIX, moxfield.com
@@ -1579,6 +1599,9 @@ payload:
 
    # napster
     DOMAIN-SUFFIX, napster.com
+
+   # nationalpublicdata
+    DOMAIN-SUFFIX, nationalpublicdata.com
 
    # navyfederal
     DOMAIN-SUFFIX, navyfederal.org
@@ -1981,6 +2004,9 @@ payload:
    # shodan.io
     DOMAIN-SUFFIX, shodan.io
 
+   # shutterstock
+    DOMAIN-SUFFIX, shutterstock.com
+
    # siena.edu
     DOMAIN-SUFFIX, siena.edu
 
@@ -2036,6 +2062,9 @@ payload:
     DOMAIN, publisher-assets.spot.im
     DOMAIN, event-stream.spot.im
 
+   # spotify
+    DOMAIN-SUFFIX, withspotify.com
+
    # squarespace (@!cn)
     DOMAIN-SUFFIX, squarespace.com
 
@@ -2071,12 +2100,9 @@ payload:
    # sugarfreemom
     DOMAIN-SUFFIX, sugarfreemom.com
 
-<<<<<<< HEAD
-=======
    # sundayguardianlive
     DOMAIN-SUFFIX, sundayguardianlive.com
 
->>>>>>> release
    # suno (@test)
     DOMAIN-SUFFIX, suno.com
     DOMAIN-SUFFIX, suno.ai
@@ -2359,9 +2385,6 @@ payload:
 
    # userbenchmark
     DOMAIN-SUFFIX, userbenchmark.com
-
-   # usvisascheduling (@test)
-    DOMAIN-SUFFIX, usvisascheduling.com
 
    # usvisascheduling (@test)
     DOMAIN-SUFFIX, usvisascheduling.com
