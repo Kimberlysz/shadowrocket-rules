@@ -175,6 +175,9 @@ payload:
     DOMAIN-SUFFIX, at-tps.org
     DOMAIN-SUFFIX, tps-support.b-cdn.net
 
+   # atlas-games
+    DOMAIN-SUFFIX, atlas-games.com
+
    # atmeta
     DOMAIN-SUFFIX, atmeta.com
 
@@ -264,7 +267,7 @@ payload:
     DOMAIN-SUFFIX, personalization.bloomberg.com
     DOMAIN-SUFFIX, sourcepointcmp.bloomberg.com
 
-   # BMO (@test)
+   # BMO
     DOMAIN-SUFFIX, apptentive.com
     DOMAIN-SUFFIX, bmo.com
     DOMAIN-SUFFIX, bmofinancial.demdex.net
@@ -272,11 +275,18 @@ payload:
    # bmwusa
     DOMAIN, idresgraph.bmwusa.com
 
+   # boo.world
+    DOMAIN-SUFFIX, boo.world
+
    # box
     DOMAIN-SUFFIX, box.com
 
    # broadbandgenie.co.uk
     DOMAIN-SUFFIX, broadbandgenie.co.uk
+
+   # bulbagarden.net
+    DOMAIN-SUFFIX, bulbagarden.net
+    DOMAIN-SUFFIX, bulbapedia.bulbagarden.net
 
    # bun (@test)
     DOMAIN-SUFFIX, bun.com
@@ -367,6 +377,9 @@ payload:
    # clash
     DOMAIN-SUFFIX, clash.la
 
+   # claudemcpcontent
+    DOMAIN-SUFFIX, claudemcpcontent.com
+
    # clemson university
     DOMAIN-SUFFIX, clemson.edu
 
@@ -397,6 +410,9 @@ payload:
    # cochyi
     DOMAIN-SUFFIX, ouchyi.support
 
+   # codepen
+    DOMAIN-SUFFIX, codepen.io
+
    # coinbase
     DOMAIN-SUFFIX, coinbasecdn.net
 
@@ -421,6 +437,9 @@ payload:
    # coinmarketcap
     DOMAIN-SUFFIX, coinwarz.com
     DOMAIN-SUFFIX, coinmarketcap.com
+
+   # companiesmarketcap (@test)
+    DOMAIN-SUFFIX, companiesmarketcap.com
 
    # complio
     DOMAIN-SUFFIX, complio.com
@@ -483,6 +502,9 @@ payload:
    # culturalvistas.org
     DOMAIN-SUFFIX, culturalvistas.org
 
+   # culture.tw
+    DOMAIN-SUFFIX, culture.tw
+
    # curtin university
     DOMAIN-SUFFIX, curtin.edu.au
     DOMAIN-SUFFIX, pcdn.co
@@ -508,6 +530,9 @@ payload:
     DOMAIN-SUFFIX, cyberspatial.com
 
   # d
+   # dailysports
+    DOMAIN-SUFFIX, dailysports.net
+
    # datarova (@test)
     DOMAIN-SUFFIX, datarova.com
 
@@ -546,11 +571,17 @@ payload:
    # diyibanzhu
     DOMAIN-SUFFIX, diyibanzhu.me
 
+   # dnb
+    DOMAIN-SUFFIX, dnb.com
+
    # donacionesley21440.cl
     DOMAIN-SUFFIX, donacionesley21440.cl
 
    # dpsk12.org
     DOMAIN-SUFFIX, dpsk12.org
+
+   # dropout
+    DOMAIN-SUFFIX, dropout.tv
 
   # e
    # eastasiaforum
@@ -561,6 +592,9 @@ payload:
 
    # echostar
     DOMAIN-SUFFIX, echostar
+
+   # edwardjones
+    DOMAIN-SUFFIX, edwardjones.com
 
    # elementor
     DOMAIN-SUFFIX, elementor.cloud
@@ -664,6 +698,13 @@ payload:
    # fastpeoplesearch
     DOMAIN-SUFFIX, fastpeoplesearch.com
 
+   # fboxtv
+    DOMAIN-SUFFIX, fboxtv.com
+
+   # featurebase
+    DOMAIN-SUFFIX, 21st.featurebase.app
+    DOMAIN-SUFFIX, featurebase.app
+
    # feiyu-tech (@!cn)
     DOMAIN-SUFFIX, feiyu-tech.com
 
@@ -754,6 +795,9 @@ payload:
     DOMAIN-SUFFIX, genius.com
     DOMAIN-SUFFIX, live.primis.tech
     DOMAIN-SUFFIX, primis.tech
+
+   # getbutton
+    DOMAIN-SUFFIX, getbutton.io
 
    # getcomics.info
     DOMAIN-SUFFIX, getcomics.info
@@ -1289,6 +1333,9 @@ payload:
    # kaido
     DOMAIN-SUFFIX, kaido.to
 
+   # kalshi
+    DOMAIN-SUFFIX, kalshi.com
+
    # kapwing (@!cn)
     # DOMAIN-SUFFIX, amplitude.com
     DOMAIN-SUFFIX, kapwing.com
@@ -1348,6 +1395,9 @@ payload:
 
    # lendingtree
     DOMAIN-SUFFIX, lendingtree.com
+
+   # leonardo ai
+    DOMAIN-SUFFIX, Leonardo.ai
 
    # letsvpn.world
     DOMAIN, letsvpn.world
@@ -1448,6 +1498,11 @@ payload:
    # mbusa
     DOMAIN-SUFFIX, mbusa.com
 
+   # mpcautofill.com
+    DOMAIN-SUFFIX, cdn.mpcautofill.com
+    DOMAIN-SUFFIX, img.mpcautofill.com
+    DOMAIN-SUFFIX, mpcautofill.com
+
    # memberpress
      # url: memberpress.com
 
@@ -1541,6 +1596,9 @@ payload:
 
    # mojim
     DOMAIN-SUFFIX, mojim.com
+
+   # moltbook
+    DOMAIN-SUFFIX, moltbook.com
 
    # monarch
     DOMAIN-SUFFIX, monarch.com
@@ -1802,6 +1860,9 @@ payload:
    # pephop.ai
     DOMAIN-SUFFIX, pephop.ai
 
+   # personality.co
+    DOMAIN-SUFFIX, personality.co
+
    # pexels
     DOMAIN-SUFFIX, pexels.com
 
@@ -1813,6 +1874,9 @@ payload:
 
    # philo
     DOMAIN-SUFFIX, philo.com
+
+   # piclumen
+    DOMAIN-SUFFIX, piclumen.com
 
    # picsart
     DOMAIN-SUFFIX, picsart.com
@@ -1944,6 +2008,9 @@ payload:
    # roblox
     DOMAIN-SUFFIX, roblox.com
 
+   # roboflow
+    DOMAIN-SUFFIX, roboflow.com
+
    # runescape
     DOMAIN, cdn.runescape.com
     DOMAIN, play.runescape.com
@@ -1956,6 +2023,9 @@ payload:
   # s
    # s-onetag
     DOMAIN-SUFFIX, s-onetag.com
+
+   # sakana
+    DOMAIN-SUFFIX, sakana.ai
 
    # salesforce
     DOMAIN-SUFFIX, trailhead.salesforce.com
@@ -1971,6 +2041,9 @@ payload:
 
    # scdmvonline
     DOMAIN-SUFFIX, scdmvonline.com
+
+   # schema
+    DOMAIN-SUFFIX, schema.org
 
    # screenrant
     DOMAIN-SUFFIX, screenrant.com
@@ -2036,6 +2109,9 @@ payload:
 
    # socratic.org
     DOMAIN-SUFFIX, socratic.org
+
+   # songkick
+    DOMAIN-SUFFIX, songkick.com
 
    # sono
     DOMAIN-SUFFIX, sono.com
@@ -2341,6 +2417,9 @@ payload:
     # DOMAIN, gotie.tunein.com
     # DOMAIN, reports.tunein.com
 
+   # turkish123
+    DOMAIN-SUFFIX, turkish123.website
+
    # turner
     DOMAIN, s.cdn.turner.com
 
@@ -2392,6 +2471,9 @@ payload:
    # utorrent
     DOMAIN-SUFFIX, utorrent.com
 
+   # uwf
+    DOMAIN-SUFFIX, uwf.edu
+
   # v
    # v2fly.org
     DOMAIN-SUFFIX, v2fly.org
@@ -2416,6 +2498,9 @@ payload:
 
    # vidiq
     DOMAIN-SUFFIX, vidiq.com
+
+   # vimeo
+    DOMAIN-SUFFIX, vimeo.tv
 
    # visaguide.world
     DOMAIN-SUFFIX, visaguide.world
@@ -2482,8 +2567,14 @@ payload:
    # whoer.net
     DOMAIN-SUFFIX, whoer.net
 
+   # whosampled
+    DOMAIN-SUFFIX, whosampled.com
+
    # winscp.net
     DOMAIN-SUFFIX, cdn.winscp.net
+
+   # wise (@test)
+    DOMAIN-SUFFIX, wise.com
 
    # wisconsinregisteredagent.net
     DOMAIN-SUFFIX, wisconsinregisteredagent.net

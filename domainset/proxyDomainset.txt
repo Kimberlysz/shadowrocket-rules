@@ -175,6 +175,9 @@ payload:
     .at-tps.org
     .tps-support.b-cdn.net
 
+   # atlas-games
+    .atlas-games.com
+
    # atmeta
     .atmeta.com
 
@@ -264,7 +267,7 @@ payload:
     .personalization.bloomberg.com
     .sourcepointcmp.bloomberg.com
 
-   # BMO (@test)
+   # BMO
     .apptentive.com
     .bmo.com
     .bmofinancial.demdex.net
@@ -272,11 +275,18 @@ payload:
    # bmwusa
     .idresgraph.bmwusa.com
 
+   # boo.world
+    .boo.world
+
    # box
     .box.com
 
    # broadbandgenie.co.uk
     .broadbandgenie.co.uk
+
+   # bulbagarden.net
+    .bulbagarden.net
+    .bulbapedia.bulbagarden.net
 
    # bun (@test)
     .bun.com
@@ -367,6 +377,9 @@ payload:
    # clash
     .clash.la
 
+   # claudemcpcontent
+    .claudemcpcontent.com
+
    # clemson university
     .clemson.edu
 
@@ -397,6 +410,9 @@ payload:
    # cochyi
     .ouchyi.support
 
+   # codepen
+    .codepen.io
+
    # coinbase
     .coinbasecdn.net
 
@@ -421,6 +437,9 @@ payload:
    # coinmarketcap
     .coinwarz.com
     .coinmarketcap.com
+
+   # companiesmarketcap (@test)
+    .companiesmarketcap.com
 
    # complio
     .complio.com
@@ -483,6 +502,9 @@ payload:
    # culturalvistas.org
     .culturalvistas.org
 
+   # culture.tw
+    .culture.tw
+
    # curtin university
     .curtin.edu.au
     .pcdn.co
@@ -508,6 +530,9 @@ payload:
     .cyberspatial.com
 
   # d
+   # dailysports
+    .dailysports.net
+
    # datarova (@test)
     .datarova.com
 
@@ -546,11 +571,17 @@ payload:
    # diyibanzhu
     .diyibanzhu.me
 
+   # dnb
+    .dnb.com
+
    # donacionesley21440.cl
     .donacionesley21440.cl
 
    # dpsk12.org
     .dpsk12.org
+
+   # dropout
+    .dropout.tv
 
   # e
    # eastasiaforum
@@ -561,6 +592,9 @@ payload:
 
    # echostar
     .echostar
+
+   # edwardjones
+    .edwardjones.com
 
    # elementor
     .elementor.cloud
@@ -664,6 +698,13 @@ payload:
    # fastpeoplesearch
     .fastpeoplesearch.com
 
+   # fboxtv
+    .fboxtv.com
+
+   # featurebase
+    .21st.featurebase.app
+    .featurebase.app
+
    # feiyu-tech (@!cn)
     .feiyu-tech.com
 
@@ -754,6 +795,9 @@ payload:
     .genius.com
     .live.primis.tech
     .primis.tech
+
+   # getbutton
+    .getbutton.io
 
    # getcomics.info
     .getcomics.info
@@ -1289,6 +1333,9 @@ payload:
    # kaido
     .kaido.to
 
+   # kalshi
+    .kalshi.com
+
    # kapwing (@!cn)
     # .amplitude.com
     .kapwing.com
@@ -1348,6 +1395,9 @@ payload:
 
    # lendingtree
     .lendingtree.com
+
+   # leonardo ai
+    .Leonardo.ai
 
    # letsvpn.world
     .letsvpn.world
@@ -1448,6 +1498,11 @@ payload:
    # mbusa
     .mbusa.com
 
+   # mpcautofill.com
+    .cdn.mpcautofill.com
+    .img.mpcautofill.com
+    .mpcautofill.com
+
    # memberpress
      # url: memberpress.com
 
@@ -1541,6 +1596,9 @@ payload:
 
    # mojim
     .mojim.com
+
+   # moltbook
+    .moltbook.com
 
    # monarch
     .monarch.com
@@ -1802,6 +1860,9 @@ payload:
    # pephop.ai
     .pephop.ai
 
+   # personality.co
+    .personality.co
+
    # pexels
     .pexels.com
 
@@ -1813,6 +1874,9 @@ payload:
 
    # philo
     .philo.com
+
+   # piclumen
+    .piclumen.com
 
    # picsart
     .picsart.com
@@ -1944,6 +2008,9 @@ payload:
    # roblox
     .roblox.com
 
+   # roboflow
+    .roboflow.com
+
    # runescape
     .cdn.runescape.com
     .play.runescape.com
@@ -1956,6 +2023,9 @@ payload:
   # s
    # s-onetag
     .s-onetag.com
+
+   # sakana
+    .sakana.ai
 
    # salesforce
     .trailhead.salesforce.com
@@ -1971,6 +2041,9 @@ payload:
 
    # scdmvonline
     .scdmvonline.com
+
+   # schema
+    .schema.org
 
    # screenrant
     .screenrant.com
@@ -2036,6 +2109,9 @@ payload:
 
    # socratic.org
     .socratic.org
+
+   # songkick
+    .songkick.com
 
    # sono
     .sono.com
@@ -2341,6 +2417,9 @@ payload:
     # .gotie.tunein.com
     # .reports.tunein.com
 
+   # turkish123
+    .turkish123.website
+
    # turner
     .s.cdn.turner.com
 
@@ -2392,6 +2471,9 @@ payload:
    # utorrent
     .utorrent.com
 
+   # uwf
+    .uwf.edu
+
   # v
    # v2fly.org
     .v2fly.org
@@ -2416,6 +2498,9 @@ payload:
 
    # vidiq
     .vidiq.com
+
+   # vimeo
+    .vimeo.tv
 
    # visaguide.world
     .visaguide.world
@@ -2482,8 +2567,14 @@ payload:
    # whoer.net
     .whoer.net
 
+   # whosampled
+    .whosampled.com
+
    # winscp.net
     .cdn.winscp.net
+
+   # wise (@test)
+    .wise.com
 
    # wisconsinregisteredagent.net
     .wisconsinregisteredagent.net
