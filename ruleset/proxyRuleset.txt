@@ -36,6 +36,9 @@ payload:
    # abeka
     DOMAIN-SUFFIX, abeka.com
 
+   # soton.ac.uk
+    DOMAIN-SUFFIX, student-selfservice.soton.ac.uk
+
    # acast
     DOMAIN-SUFFIX, acast.com
 
@@ -69,6 +72,9 @@ payload:
    # aicoin
     DOMAIN-SUFFIX, aicoin.com
 
+   # airalo
+    DOMAIN-SUFFIX, airalo.com
+
    # airasia
     DOMAIN-SUFFIX, airasia.ck123.io
     DOMAIN-SUFFIX, airasia.com
@@ -87,6 +93,9 @@ payload:
 
    # alchemer
     DOMAIN-SUFFIX, alchemer.com
+
+   # allegroningers
+    DOMAIN-SUFFIX, allegroningers.nl
 
    # allsetlearning (@!cn)
     DOMAIN-SUFFIX, allsetlearning.com
@@ -167,6 +176,9 @@ payload:
 
    # asinsight (@test)
     DOMAIN-SUFFIX, asinsight.com
+
+   # asterdex
+    DOMAIN-SUFFIX, asterdex.com
 
    # astrill
     DOMAIN-SUFFIX, astrill.com
@@ -288,6 +300,9 @@ payload:
     DOMAIN-SUFFIX, bulbagarden.net
     DOMAIN-SUFFIX, bulbapedia.bulbagarden.net
 
+   # buly
+    DOMAIN-SUFFIX, buly.kr
+
    # bun (@test)
     DOMAIN-SUFFIX, bun.com
 
@@ -398,6 +413,9 @@ payload:
 
     # cloudflare IP-CIDR
     # AS13335 - Cloudflare, Inc.
+
+   # cmtassociation
+    DOMAIN-SUFFIX, cmtassociation.org
 
    # cnbeta
     DOMAIN-SUFFIX, cnbeta.com
@@ -543,6 +561,9 @@ payload:
     # alphafold
     DOMAIN-SUFFIX, alphafoldserver.com
 
+   # dexscreener
+    DOMAIN-SUFFIX, dexscreener.com
+
    # dfas.mil
     DOMAIN-SUFFIX, dfas.mil
     DOMAIN-SUFFIX, mypay.dfas.mil
@@ -593,6 +614,9 @@ payload:
    # echostar
     DOMAIN-SUFFIX, echostar
 
+   # ecologyandsociety
+    DOMAIN-SUFFIX, ecologyandsociety.org
+
    # edwardjones
     DOMAIN-SUFFIX, edwardjones.com
 
@@ -633,6 +657,9 @@ payload:
 
    # equifax
     DOMAIN-SUFFIX, equifax.com
+
+   # eslite
+    DOMAIN-SUFFIX, eslite.com
 
    # etsy
     DOMAIN-SUFFIX, etsy.com
@@ -685,6 +712,9 @@ payload:
     DOMAIN-SUFFIX, faithlife.com
     DOMAIN-SUFFIX, logos.com
     DOMAIN-SUFFIX, logoscdn.com
+
+   # fakejournal
+    DOMAIN-SUFFIX, fakejournal.org
 
    # farmers
     DOMAIN-SUFFIX, farmers.com
@@ -1101,9 +1131,6 @@ payload:
    # gptstore.ai
     DOMAIN-SUFFIX, gptstore.ai
 
-   # grokipedia
-    DOMAIN-SUFFIX, grokipedia.com
-
    # ground.news (!cn)
     DOMAIN-SUFFIX, ground.news
 
@@ -1149,6 +1176,9 @@ payload:
 
    # hhdcb3office
     DOMAIN-SUFFIX, hhdcb3office.org
+
+   # higgsfield
+    DOMAIN-SUFFIX, higgsfield.ai
 
    # hindustantimes
     DOMAIN-SUFFIX, hindustantimes.com
@@ -1416,6 +1446,9 @@ payload:
    # libgen.rs
     DOMAIN-SUFFIX, libgen.rs
 
+   # libkey
+    DOMAIN-SUFFIX, libkey.io
+
    # lido
     DOMAIN-SUFFIX, lido.fi
 
@@ -1477,6 +1510,10 @@ payload:
    # ma.ne
     DOMAIN-SUFFIX, hu.ma.ne
 
+   # magic
+    DOMAIN-SUFFIX, wizards.com
+    DOMAIN-SUFFIX, mtgarena.com
+
    # makedreamwebsite
     DOMAIN-SUFFIX, makedreamwebsite.com
     DOMAIN-SUFFIX, makedreamwebsite.gumroad.com
@@ -1514,6 +1551,9 @@ payload:
    # mgmplus
     DOMAIN-SUFFIX, assets.epix.com
     DOMAIN-SUFFIX, mgmplus.com
+
+   # mgstage
+    DOMAIN-SUFFIX, mgstage.com
 
    # microsoft
     # (close at 2026-12-31)
@@ -1601,6 +1641,7 @@ payload:
     DOMAIN-SUFFIX, moltbook.com
 
    # monarch
+    DOMAIN-SUFFIX, app.monarch.com
     DOMAIN-SUFFIX, monarch.com
     DOMAIN-SUFFIX, monarchmoney.com
 
@@ -1710,6 +1751,9 @@ payload:
    # northwest
     DOMAIN-SUFFIX, onlinebanking.northwest.bank
 
+   # note
+    DOMAIN-SUFFIX, note.com
+
    # notepad++
     DOMAIN-SUFFIX, notepad-plus-plus.org
 
@@ -1755,6 +1799,9 @@ payload:
 
    # omny.fm
     DOMAIN-SUFFIX, omny.fm
+
+   # ondo
+    DOMAIN-SUFFIX, ondo.finance
 
    # onedrive
     # onedrive rules originates from this yaml file
@@ -2002,6 +2049,9 @@ payload:
    # remove.bg
     DOMAIN-SUFFIX, remove.bg
 
+   # rexresearch1
+    DOMAIN-SUFFIX, rexresearch1.com
+
    # rm
     DOMAIN-SUFFIX, Ib.assessor.rm.com
 
@@ -2161,6 +2211,9 @@ payload:
     DOMAIN, auth.starz.com
     DOMAIN, playdata.starz.com
 
+   # stocktwits
+    DOMAIN-SUFFIX, stocktwits.com
+
    # stremio
     DOMAIN-SUFFIX, api.strem.io
     DOMAIN-SUFFIX, blog.stremio.com
@@ -2191,6 +2244,9 @@ payload:
 
    # svc.ms
     # DOMAIN-SUFFIX, centralus1.mediap.svc.ms
+
+   # svvoice
+    DOMAIN-SUFFIX, svvoice.com
 
    # swarovski
     DOMAIN-SUFFIX, swarovski.com
@@ -2247,6 +2303,9 @@ payload:
    # terafab
     DOMAIN-SUFFIX, terafab.ai
 
+   # texstyle
+    DOMAIN-SUFFIX, texstyle.dk
+
    # theartofeducation.edu (@!cn)
     DOMAIN-SUFFIX, theartofeducation.edu
 
@@ -2267,6 +2326,9 @@ payload:
 
    # thegreatcourses
     DOMAIN-SUFFIX, thegreatcourses.com
+
+   # thenaf
+    DOMAIN-SUFFIX, thenaf.net
 
    # thepennyhoarder
     DOMAIN-SUFFIX, thepennyhoarder.com
@@ -2293,6 +2355,9 @@ payload:
 
    # thingiverse.com (@!cn)
     DOMAIN-SUFFIX, thingiverse.com
+
+   # thirdiron
+    DOMAIN-SUFFIX, thirdiron.com
 
    # threads
     DOMAIN-SUFFIX, threads.net
@@ -2404,6 +2469,9 @@ payload:
    # trimirror
     DOMAIN-SUFFIX, trimirror.com
 
+   # tron.network
+    DOMAIN-SUFFIX, developers.tron.network
+
    # trustwallet
     DOMAIN-SUFFIX, trustwallet.com
 
@@ -2444,6 +2512,9 @@ payload:
     DOMAIN-SUFFIX, tymedigital.co.za
 
   # u
+   # uaf
+    DOMAIN-SUFFIX, uaf.cl
+
    # ultramobile (@!cn)
     DOMAIN-SUFFIX, ultramobile.com
 
@@ -2552,6 +2623,9 @@ payload:
    # webassign.net
     DOMAIN-SUFFIX, webassign.net
 
+   # wenxuecity
+    DOMAIN-SUFFIX, wenxuecity.com
+
    # wes.org
     DOMAIN-SUFFIX, applications.wes.org
 
@@ -2582,6 +2656,9 @@ payload:
    # workspace(@!cn)
     DOMAIN-SUFFIX, workspace.com
 
+   # worldcat
+    DOMAIN-SUFFIX, worldcat.org
+
    # world-monitor (@test)
     DOMAIN-SUFFIX, world-monitor.com
 
@@ -2606,6 +2683,9 @@ payload:
     DOMAIN-SUFFIX, xboxab.net
     DOMAIN-SUFFIX, xboxservice.com
     DOMAIN-SUFFIX, gamepass.com
+
+   # xhpro
+    DOMAIN-SUFFIX, xhpro.live
 
    # xiaoyakankan
     DOMAIN-SUFFIX, xiaoyakankan.com
@@ -2691,3 +2771,9 @@ payload:
 
    # zoominfo
     DOMAIN-SUFFIX, zoominfo.com
+
+   # zrr
+    DOMAIN-SUFFIX, zrr.kr
+
+   # zz9
+    DOMAIN-SUFFIX, zz9.org

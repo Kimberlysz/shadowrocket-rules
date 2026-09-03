@@ -36,6 +36,9 @@ payload:
    # abeka
     .abeka.com
 
+   # soton.ac.uk
+    .student-selfservice.soton.ac.uk
+
    # acast
     .acast.com
 
@@ -69,6 +72,9 @@ payload:
    # aicoin
     .aicoin.com
 
+   # airalo
+    .airalo.com
+
    # airasia
     .airasia.ck123.io
     .airasia.com
@@ -87,6 +93,9 @@ payload:
 
    # alchemer
     .alchemer.com
+
+   # allegroningers
+    .allegroningers.nl
 
    # allsetlearning (@!cn)
     .allsetlearning.com
@@ -167,6 +176,9 @@ payload:
 
    # asinsight (@test)
     .asinsight.com
+
+   # asterdex
+    .asterdex.com
 
    # astrill
     .astrill.com
@@ -288,6 +300,9 @@ payload:
     .bulbagarden.net
     .bulbapedia.bulbagarden.net
 
+   # buly
+    .buly.kr
+
    # bun (@test)
     .bun.com
 
@@ -398,6 +413,9 @@ payload:
 
     # cloudflare IP-CIDR
     # AS13335 - Cloudflare, Inc.
+
+   # cmtassociation
+    .cmtassociation.org
 
    # cnbeta
     .cnbeta.com
@@ -543,6 +561,9 @@ payload:
     # alphafold
     .alphafoldserver.com
 
+   # dexscreener
+    .dexscreener.com
+
    # dfas.mil
     .dfas.mil
     .mypay.dfas.mil
@@ -593,6 +614,9 @@ payload:
    # echostar
     .echostar
 
+   # ecologyandsociety
+    .ecologyandsociety.org
+
    # edwardjones
     .edwardjones.com
 
@@ -633,6 +657,9 @@ payload:
 
    # equifax
     .equifax.com
+
+   # eslite
+    .eslite.com
 
    # etsy
     .etsy.com
@@ -685,6 +712,9 @@ payload:
     .faithlife.com
     .logos.com
     .logoscdn.com
+
+   # fakejournal
+    .fakejournal.org
 
    # farmers
     .farmers.com
@@ -1101,9 +1131,6 @@ payload:
    # gptstore.ai
     .gptstore.ai
 
-   # grokipedia
-    .grokipedia.com
-
    # ground.news (!cn)
     .ground.news
 
@@ -1149,6 +1176,9 @@ payload:
 
    # hhdcb3office
     .hhdcb3office.org
+
+   # higgsfield
+    .higgsfield.ai
 
    # hindustantimes
     .hindustantimes.com
@@ -1416,6 +1446,9 @@ payload:
    # libgen.rs
     .libgen.rs
 
+   # libkey
+    .libkey.io
+
    # lido
     .lido.fi
 
@@ -1477,6 +1510,10 @@ payload:
    # ma.ne
     .hu.ma.ne
 
+   # magic
+    .wizards.com
+    .mtgarena.com
+
    # makedreamwebsite
     .makedreamwebsite.com
     .makedreamwebsite.gumroad.com
@@ -1514,6 +1551,9 @@ payload:
    # mgmplus
     .assets.epix.com
     .mgmplus.com
+
+   # mgstage
+    .mgstage.com
 
    # microsoft
     # (close at 2026-12-31)
@@ -1601,6 +1641,7 @@ payload:
     .moltbook.com
 
    # monarch
+    .app.monarch.com
     .monarch.com
     .monarchmoney.com
 
@@ -1710,6 +1751,9 @@ payload:
    # northwest
     .onlinebanking.northwest.bank
 
+   # note
+    .note.com
+
    # notepad++
     .notepad-plus-plus.org
 
@@ -1755,6 +1799,9 @@ payload:
 
    # omny.fm
     .omny.fm
+
+   # ondo
+    .ondo.finance
 
    # onedrive
     # onedrive rules originates from this yaml file
@@ -2002,6 +2049,9 @@ payload:
    # remove.bg
     .remove.bg
 
+   # rexresearch1
+    .rexresearch1.com
+
    # rm
     .Ib.assessor.rm.com
 
@@ -2161,6 +2211,9 @@ payload:
     .auth.starz.com
     .playdata.starz.com
 
+   # stocktwits
+    .stocktwits.com
+
    # stremio
     .api.strem.io
     .blog.stremio.com
@@ -2191,6 +2244,9 @@ payload:
 
    # svc.ms
     # .centralus1.mediap.svc.ms
+
+   # svvoice
+    .svvoice.com
 
    # swarovski
     .swarovski.com
@@ -2247,6 +2303,9 @@ payload:
    # terafab
     .terafab.ai
 
+   # texstyle
+    .texstyle.dk
+
    # theartofeducation.edu (@!cn)
     .theartofeducation.edu
 
@@ -2267,6 +2326,9 @@ payload:
 
    # thegreatcourses
     .thegreatcourses.com
+
+   # thenaf
+    .thenaf.net
 
    # thepennyhoarder
     .thepennyhoarder.com
@@ -2293,6 +2355,9 @@ payload:
 
    # thingiverse.com (@!cn)
     .thingiverse.com
+
+   # thirdiron
+    .thirdiron.com
 
    # threads
     .threads.net
@@ -2404,6 +2469,9 @@ payload:
    # trimirror
     .trimirror.com
 
+   # tron.network
+    .developers.tron.network
+
    # trustwallet
     .trustwallet.com
 
@@ -2444,6 +2512,9 @@ payload:
     .tymedigital.co.za
 
   # u
+   # uaf
+    .uaf.cl
+
    # ultramobile (@!cn)
     .ultramobile.com
 
@@ -2552,6 +2623,9 @@ payload:
    # webassign.net
     .webassign.net
 
+   # wenxuecity
+    .wenxuecity.com
+
    # wes.org
     .applications.wes.org
 
@@ -2582,6 +2656,9 @@ payload:
    # workspace(@!cn)
     .workspace.com
 
+   # worldcat
+    .worldcat.org
+
    # world-monitor (@test)
     .world-monitor.com
 
@@ -2606,6 +2683,9 @@ payload:
     .xboxab.net
     .xboxservice.com
     .gamepass.com
+
+   # xhpro
+    .xhpro.live
 
    # xiaoyakankan
     .xiaoyakankan.com
@@ -2691,3 +2771,9 @@ payload:
 
    # zoominfo
     .zoominfo.com
+
+   # zrr
+    .zrr.kr
+
+   # zz9
+    .zz9.org
