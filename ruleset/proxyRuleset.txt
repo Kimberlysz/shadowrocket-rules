@@ -106,6 +106,9 @@ payload:
    # alpineschools.org
     DOMAIN-SUFFIX, alpineschools.org
 
+   # amagi
+    DOMAIN-SUFFIX, amagi.tv
+
    # amc
     DOMAIN-SUFFIX, amc.com
     DOMAIN-SUFFIX, amcn.com
@@ -261,6 +264,9 @@ payload:
    # bisepinnovations
     DOMAIN-SUFFIX, bisepinnovations.com
 
+   # bitcointalk
+    DOMAIN-SUFFIX, bitcointalk.org
+
    # bitmain
     DOMAIN-SUFFIX, bitmain.com
 
@@ -299,6 +305,9 @@ payload:
    # bulbagarden.net
     DOMAIN-SUFFIX, bulbagarden.net
     DOMAIN-SUFFIX, bulbapedia.bulbagarden.net
+
+   # bullish
+    DOMAIN-SUFFIX, bullish.com
 
    # buly
     DOMAIN-SUFFIX, buly.kr
@@ -747,6 +756,9 @@ payload:
    # findladders
     DOMAIN-SUFFIX, findladders.com
 
+   # finet
+    DOMAIN-SUFFIX, finet.hk
+
    # firebase
     DOMAIN, firebase-settings.crashlytics.com
 
@@ -793,6 +805,9 @@ payload:
 
    # fotor
     DOMAIN-SUFFIX, fotor.com
+
+   # four.meme
+    DOMAIN-SUFFIX, four.meme
 
    # freedesktop.timedate1
     DOMAIN-SUFFIX, org.freedesktop.timedate1
@@ -1507,9 +1522,6 @@ payload:
     DOMAIN-SUFFIX, luxor.tech
 
   # m
-   # ma.ne
-    DOMAIN-SUFFIX, hu.ma.ne
-
    # magic
     DOMAIN-SUFFIX, wizards.com
     DOMAIN-SUFFIX, mtgarena.com
@@ -1544,6 +1556,9 @@ payload:
      # url: memberpress.com
 
     DOMAIN-SUFFIX, memberpress.com
+
+   # meshy
+    DOMAIN-SUFFIX, meshy.ai
 
    # metacareers
     DOMAIN-SUFFIX, metacareers.com
@@ -1709,6 +1724,10 @@ payload:
     DOMAIN, dm-assets.navyfederal.org
     DOMAIN, liveengage.navyfederal.org
     DOMAIN, navyfederalcu.tt.omtrdc.net
+
+   # ne
+    # ma.ne
+    DOMAIN-SUFFIX, hu.ma.ne
 
    # nelnet
     DOMAIN, secure.nelnet.com
@@ -1886,6 +1905,9 @@ payload:
     DOMAIN, c15.patreon.com
     DOMAIN, c5.patreon.com
 
+   # paxos
+    DOMAIN-SUFFIX, paxos.com
+
    # pay1040
     DOMAIN-SUFFIX, pay1040.com
 
@@ -1941,6 +1963,9 @@ payload:
     DOMAIN-SUFFIX, analytics.placer.ai
     DOMAIN-SUFFIX, placer.ai
 
+   # pluto tv
+    DOMAIN-SUFFIX, plutostatic.tv
+
    # pmpmanage
     DOMAIN-SUFFIX, pmpmanage.com
     DOMAIN-SUFFIX, pmprollc.com
@@ -1973,6 +1998,9 @@ payload:
 
    # previred
     DOMAIN-SUFFIX, previred.com
+
+   # printables
+    DOMAIN-SUFFIX, printables.com
 
    # printmailsystems (deprecated)
     DOMAIN-SUFFIX, printmailsystems.com
@@ -2498,6 +2526,10 @@ payload:
    # tvlicensing.co.uk
     DOMAIN-SUFFIX, tvlicensing.co.uk
 
+   # tw
+    # fbs.com.tw
+    DOMAIN-SUFFIX, fbs.com.tw
+
    # tw.tomonews.ne
     DOMAIN-SUFFIX, tw.tomonews.net
 
@@ -2506,6 +2538,9 @@ payload:
 
    # twitonmsn
     DOMAIN-SUFFIX, twitonmsn.com
+
+   # twstalker
+    DOMAIN-SUFFIX, w.twstalker.com
 
    # tymebank.co.za
     DOMAIN-SUFFIX, tymebank.co.za
@@ -2532,6 +2567,10 @@ payload:
 
    # updraftplus
     DOMAIN-SUFFIX, updraftplus.com
+
+   # us
+    # ma
+    DOMAIN-SUFFIX, ma.us
 
    # userbenchmark
     DOMAIN-SUFFIX, userbenchmark.com
@@ -2601,6 +2640,9 @@ payload:
    # wallmama
     DOMAIN-SUFFIX, wallmama.com
 
+   # warframe
+    DOMAIN-SUFFIX, warframe.com
+
    # washoecountylibrary.us
     DOMAIN-SUFFIX, washoecountylibrary.us
 
@@ -2622,6 +2664,9 @@ payload:
 
    # webassign.net
     DOMAIN-SUFFIX, webassign.net
+
+   # weebly
+    DOMAIN-SUFFIX, weebly.com
 
    # wenxuecity
     DOMAIN-SUFFIX, wenxuecity.com
@@ -2652,6 +2697,9 @@ payload:
 
    # wisconsinregisteredagent.net
     DOMAIN-SUFFIX, wisconsinregisteredagent.net
+
+   # workos
+    DOMAIN-SUFFIX, workos.com
 
    # workspace(@!cn)
     DOMAIN-SUFFIX, workspace.com
@@ -2757,8 +2805,8 @@ payload:
     DOMAIN-SUFFIX, yts.mx
 
   # z
-   # z-lib.io
-    DOMAIN-SUFFIX, z-lib.io
+   # z-lib
+    DOMAIN-SUFFIX, z-lib.co
 
    # zillow (@!cn)
     DOMAIN-SUFFIX, zillow.com
