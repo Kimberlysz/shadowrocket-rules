@@ -106,9 +106,12 @@ payload:
    # alpineschools.org
     DOMAIN-SUFFIX, alpineschools.org
 
+<<<<<<< HEAD
    # amagi
     DOMAIN-SUFFIX, amagi.tv
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # amc
     DOMAIN-SUFFIX, amc.com
     DOMAIN-SUFFIX, amcn.com
@@ -264,9 +267,12 @@ payload:
    # bisepinnovations
     DOMAIN-SUFFIX, bisepinnovations.com
 
+<<<<<<< HEAD
    # bitcointalk
     DOMAIN-SUFFIX, bitcointalk.org
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # bitmain
     DOMAIN-SUFFIX, bitmain.com
 
@@ -306,9 +312,12 @@ payload:
     DOMAIN-SUFFIX, bulbagarden.net
     DOMAIN-SUFFIX, bulbapedia.bulbagarden.net
 
+<<<<<<< HEAD
    # bullish
     DOMAIN-SUFFIX, bullish.com
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # buly
     DOMAIN-SUFFIX, buly.kr
 
@@ -756,9 +765,12 @@ payload:
    # findladders
     DOMAIN-SUFFIX, findladders.com
 
+<<<<<<< HEAD
    # finet
     DOMAIN-SUFFIX, finet.hk
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # firebase
     DOMAIN, firebase-settings.crashlytics.com
 
@@ -806,9 +818,12 @@ payload:
    # fotor
     DOMAIN-SUFFIX, fotor.com
 
+<<<<<<< HEAD
    # four.meme
     DOMAIN-SUFFIX, four.meme
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # freedesktop.timedate1
     DOMAIN-SUFFIX, org.freedesktop.timedate1
 
@@ -1522,6 +1537,12 @@ payload:
     DOMAIN-SUFFIX, luxor.tech
 
   # m
+<<<<<<< HEAD
+=======
+   # ma.ne
+    DOMAIN-SUFFIX, hu.ma.ne
+
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # magic
     DOMAIN-SUFFIX, wizards.com
     DOMAIN-SUFFIX, mtgarena.com
@@ -1557,9 +1578,12 @@ payload:
 
     DOMAIN-SUFFIX, memberpress.com
 
+<<<<<<< HEAD
    # meshy
     DOMAIN-SUFFIX, meshy.ai
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # metacareers
     DOMAIN-SUFFIX, metacareers.com
 
@@ -1725,10 +1749,13 @@ payload:
     DOMAIN, liveengage.navyfederal.org
     DOMAIN, navyfederalcu.tt.omtrdc.net
 
+<<<<<<< HEAD
    # ne
     # ma.ne
     DOMAIN-SUFFIX, hu.ma.ne
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # nelnet
     DOMAIN, secure.nelnet.com
     DOMAIN, extsvc.nelnet.net
@@ -1905,9 +1932,12 @@ payload:
     DOMAIN, c15.patreon.com
     DOMAIN, c5.patreon.com
 
+<<<<<<< HEAD
    # paxos
     DOMAIN-SUFFIX, paxos.com
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # pay1040
     DOMAIN-SUFFIX, pay1040.com
 
@@ -1963,9 +1993,12 @@ payload:
     DOMAIN-SUFFIX, analytics.placer.ai
     DOMAIN-SUFFIX, placer.ai
 
+<<<<<<< HEAD
    # pluto tv
     DOMAIN-SUFFIX, plutostatic.tv
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # pmpmanage
     DOMAIN-SUFFIX, pmpmanage.com
     DOMAIN-SUFFIX, pmprollc.com
@@ -1999,9 +2032,12 @@ payload:
    # previred
     DOMAIN-SUFFIX, previred.com
 
+<<<<<<< HEAD
    # printables
     DOMAIN-SUFFIX, printables.com
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # printmailsystems (deprecated)
     DOMAIN-SUFFIX, printmailsystems.com
 
@@ -2526,10 +2562,13 @@ payload:
    # tvlicensing.co.uk
     DOMAIN-SUFFIX, tvlicensing.co.uk
 
+<<<<<<< HEAD
    # tw
     # fbs.com.tw
     DOMAIN-SUFFIX, fbs.com.tw
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # tw.tomonews.ne
     DOMAIN-SUFFIX, tw.tomonews.net
 
@@ -2539,9 +2578,12 @@ payload:
    # twitonmsn
     DOMAIN-SUFFIX, twitonmsn.com
 
+<<<<<<< HEAD
    # twstalker
     DOMAIN-SUFFIX, w.twstalker.com
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # tymebank.co.za
     DOMAIN-SUFFIX, tymebank.co.za
     DOMAIN-SUFFIX, tymedigital.co.za
@@ -2568,10 +2610,13 @@ payload:
    # updraftplus
     DOMAIN-SUFFIX, updraftplus.com
 
+<<<<<<< HEAD
    # us
     # ma
     DOMAIN-SUFFIX, ma.us
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # userbenchmark
     DOMAIN-SUFFIX, userbenchmark.com
 
@@ -2640,9 +2685,12 @@ payload:
    # wallmama
     DOMAIN-SUFFIX, wallmama.com
 
+<<<<<<< HEAD
    # warframe
     DOMAIN-SUFFIX, warframe.com
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # washoecountylibrary.us
     DOMAIN-SUFFIX, washoecountylibrary.us
 
@@ -2665,9 +2713,12 @@ payload:
    # webassign.net
     DOMAIN-SUFFIX, webassign.net
 
+<<<<<<< HEAD
    # weebly
     DOMAIN-SUFFIX, weebly.com
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # wenxuecity
     DOMAIN-SUFFIX, wenxuecity.com
 
@@ -2698,9 +2749,12 @@ payload:
    # wisconsinregisteredagent.net
     DOMAIN-SUFFIX, wisconsinregisteredagent.net
 
+<<<<<<< HEAD
    # workos
     DOMAIN-SUFFIX, workos.com
 
+=======
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # workspace(@!cn)
     DOMAIN-SUFFIX, workspace.com
 
@@ -2805,8 +2859,13 @@ payload:
     DOMAIN-SUFFIX, yts.mx
 
   # z
+<<<<<<< HEAD
    # z-lib
     DOMAIN-SUFFIX, z-lib.co
+=======
+   # z-lib.io
+    DOMAIN-SUFFIX, z-lib.io
+>>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
 
    # zillow (@!cn)
     DOMAIN-SUFFIX, zillow.com
