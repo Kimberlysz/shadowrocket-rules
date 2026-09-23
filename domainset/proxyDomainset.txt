@@ -106,6 +106,9 @@ payload:
    # alpineschools.org
     .alpineschools.org
 
+   # amagi
+    .amagi.tv
+
    # amc
     .amc.com
     .amcn.com
@@ -261,6 +264,9 @@ payload:
    # bisepinnovations
     .bisepinnovations.com
 
+   # bitcointalk
+    .bitcointalk.org
+
    # bitmain
     .bitmain.com
 
@@ -299,6 +305,9 @@ payload:
    # bulbagarden.net
     .bulbagarden.net
     .bulbapedia.bulbagarden.net
+
+   # bullish
+    .bullish.com
 
    # buly
     .buly.kr
@@ -747,6 +756,9 @@ payload:
    # findladders
     .findladders.com
 
+   # finet
+    .finet.hk
+
    # firebase
     .firebase-settings.crashlytics.com
 
@@ -793,6 +805,9 @@ payload:
 
    # fotor
     .fotor.com
+
+   # four.meme
+    .four.meme
 
    # freedesktop.timedate1
     .org.freedesktop.timedate1
@@ -1507,9 +1522,6 @@ payload:
     .luxor.tech
 
   # m
-   # ma.ne
-    .hu.ma.ne
-
    # magic
     .wizards.com
     .mtgarena.com
@@ -1544,6 +1556,9 @@ payload:
      # url: memberpress.com
 
     .memberpress.com
+
+   # meshy
+    .meshy.ai
 
    # metacareers
     .metacareers.com
@@ -1709,6 +1724,10 @@ payload:
     .dm-assets.navyfederal.org
     .liveengage.navyfederal.org
     .navyfederalcu.tt.omtrdc.net
+
+   # ne
+    # ma.ne
+    .hu.ma.ne
 
    # nelnet
     .secure.nelnet.com
@@ -1886,6 +1905,9 @@ payload:
     .c15.patreon.com
     .c5.patreon.com
 
+   # paxos
+    .paxos.com
+
    # pay1040
     .pay1040.com
 
@@ -1941,6 +1963,9 @@ payload:
     .analytics.placer.ai
     .placer.ai
 
+   # pluto tv
+    .plutostatic.tv
+
    # pmpmanage
     .pmpmanage.com
     .pmprollc.com
@@ -1973,6 +1998,9 @@ payload:
 
    # previred
     .previred.com
+
+   # printables
+    .printables.com
 
    # printmailsystems (deprecated)
     .printmailsystems.com
@@ -2498,6 +2526,10 @@ payload:
    # tvlicensing.co.uk
     .tvlicensing.co.uk
 
+   # tw
+    # fbs.com.tw
+    .fbs.com.tw
+
    # tw.tomonews.ne
     .tw.tomonews.net
 
@@ -2506,6 +2538,9 @@ payload:
 
    # twitonmsn
     .twitonmsn.com
+
+   # twstalker
+    .w.twstalker.com
 
    # tymebank.co.za
     .tymebank.co.za
@@ -2532,6 +2567,10 @@ payload:
 
    # updraftplus
     .updraftplus.com
+
+   # us
+    # ma
+    .ma.us
 
    # userbenchmark
     .userbenchmark.com
@@ -2601,6 +2640,9 @@ payload:
    # wallmama
     .wallmama.com
 
+   # warframe
+    .warframe.com
+
    # washoecountylibrary.us
     .washoecountylibrary.us
 
@@ -2622,6 +2664,9 @@ payload:
 
    # webassign.net
     .webassign.net
+
+   # weebly
+    .weebly.com
 
    # wenxuecity
     .wenxuecity.com
@@ -2652,6 +2697,9 @@ payload:
 
    # wisconsinregisteredagent.net
     .wisconsinregisteredagent.net
+
+   # workos
+    .workos.com
 
    # workspace(@!cn)
     .workspace.com
@@ -2757,8 +2805,8 @@ payload:
     .yts.mx
 
   # z
-   # z-lib.io
-    .z-lib.io
+   # z-lib
+    .z-lib.co
 
    # zillow (@!cn)
     .zillow.com

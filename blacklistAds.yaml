@@ -73,6 +73,15 @@ always-real-ip = adguardteam.github.io, adrules.top, anti-ad.net, local.adguard.
 # dns-fallback-system = false
 # icmp-auto-reply = true
 
+# QUIC协议屏蔽策略。支持使用 all-proxy、all、always-allow 对 QUIC 传输层协议进行设置。其中 all-proxy 表示只对“走代理的连接”阻断 QUIC，直连连接（DIRECT）不会被干预；all 表示对所有连接（包括直连与代理）都屏蔽 QUIC，这会完全禁止系统中一切 UDP/443 流量；always-allow 表示始终允许 QUIC，不做任何屏蔽，等同于“关闭 QUIC 屏蔽”。
+# block-quic = all-proxy
+
+# DNS 劫持。有些设备或软件总是使用硬编码的 DNS 服务器，例如 Netflix 通过 Google DNS(8.8.8.8或8.8.4.4)发送请求，您可以使用此选项来劫持查询。
+# hijack-dns = 8.8.8.8:53,8.8.4.4:53
+
+# TUN 包含路由。默认情况下，Shadowrocket 接口会声明自己为默认路由，但由于 Wi-Fi 接口的路由较小，有些流量可能不会通过 Shadowrocket 接口。使用此选项可以添加一个较小的路由表。
+# tun-included-routes =
+
 [Host]
 localhost = 127.0.0.1
 
