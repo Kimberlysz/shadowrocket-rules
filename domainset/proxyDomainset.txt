@@ -106,12 +106,9 @@ payload:
    # alpineschools.org
     .alpineschools.org
 
-<<<<<<< HEAD
    # amagi
     .amagi.tv
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # amc
     .amc.com
     .amcn.com
@@ -267,12 +264,9 @@ payload:
    # bisepinnovations
     .bisepinnovations.com
 
-<<<<<<< HEAD
    # bitcointalk
     .bitcointalk.org
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # bitmain
     .bitmain.com
 
@@ -312,12 +306,9 @@ payload:
     .bulbagarden.net
     .bulbapedia.bulbagarden.net
 
-<<<<<<< HEAD
    # bullish
     .bullish.com
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # buly
     .buly.kr
 
@@ -765,12 +756,9 @@ payload:
    # findladders
     .findladders.com
 
-<<<<<<< HEAD
    # finet
     .finet.hk
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # firebase
     .firebase-settings.crashlytics.com
 
@@ -818,12 +806,9 @@ payload:
    # fotor
     .fotor.com
 
-<<<<<<< HEAD
    # four.meme
     .four.meme
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # freedesktop.timedate1
     .org.freedesktop.timedate1
 
@@ -1537,12 +1522,6 @@ payload:
     .luxor.tech
 
   # m
-<<<<<<< HEAD
-=======
-   # ma.ne
-    .hu.ma.ne
-
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # magic
     .wizards.com
     .mtgarena.com
@@ -1578,12 +1557,9 @@ payload:
 
     .memberpress.com
 
-<<<<<<< HEAD
    # meshy
     .meshy.ai
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # metacareers
     .metacareers.com
 
@@ -1749,13 +1725,10 @@ payload:
     .liveengage.navyfederal.org
     .navyfederalcu.tt.omtrdc.net
 
-<<<<<<< HEAD
    # ne
     # ma.ne
     .hu.ma.ne
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # nelnet
     .secure.nelnet.com
     .extsvc.nelnet.net
@@ -1932,12 +1905,9 @@ payload:
     .c15.patreon.com
     .c5.patreon.com
 
-<<<<<<< HEAD
    # paxos
     .paxos.com
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # pay1040
     .pay1040.com
 
@@ -1993,12 +1963,9 @@ payload:
     .analytics.placer.ai
     .placer.ai
 
-<<<<<<< HEAD
    # pluto tv
     .plutostatic.tv
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # pmpmanage
     .pmpmanage.com
     .pmprollc.com
@@ -2032,12 +1999,9 @@ payload:
    # previred
     .previred.com
 
-<<<<<<< HEAD
    # printables
     .printables.com
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # printmailsystems (deprecated)
     .printmailsystems.com
 
@@ -2562,13 +2526,10 @@ payload:
    # tvlicensing.co.uk
     .tvlicensing.co.uk
 
-<<<<<<< HEAD
    # tw
     # fbs.com.tw
     .fbs.com.tw
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # tw.tomonews.ne
     .tw.tomonews.net
 
@@ -2578,12 +2539,9 @@ payload:
    # twitonmsn
     .twitonmsn.com
 
-<<<<<<< HEAD
    # twstalker
     .w.twstalker.com
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # tymebank.co.za
     .tymebank.co.za
     .tymedigital.co.za
@@ -2610,13 +2568,10 @@ payload:
    # updraftplus
     .updraftplus.com
 
-<<<<<<< HEAD
    # us
     # ma
     .ma.us
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # userbenchmark
     .userbenchmark.com
 
@@ -2685,12 +2640,9 @@ payload:
    # wallmama
     .wallmama.com
 
-<<<<<<< HEAD
    # warframe
     .warframe.com
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # washoecountylibrary.us
     .washoecountylibrary.us
 
@@ -2713,12 +2665,9 @@ payload:
    # webassign.net
     .webassign.net
 
-<<<<<<< HEAD
    # weebly
     .weebly.com
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # wenxuecity
     .wenxuecity.com
 
@@ -2749,12 +2698,9 @@ payload:
    # wisconsinregisteredagent.net
     .wisconsinregisteredagent.net
 
-<<<<<<< HEAD
    # workos
     .workos.com
 
-=======
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
    # workspace(@!cn)
     .workspace.com
 
@@ -2859,13 +2805,8 @@ payload:
     .yts.mx
 
   # z
-<<<<<<< HEAD
    # z-lib
     .z-lib.co
-=======
-   # z-lib.io
-    .z-lib.io
->>>>>>> 621979cca724ff2e9bf192e3cbe1ec236bd65b63
 
    # zillow (@!cn)
     .zillow.com
